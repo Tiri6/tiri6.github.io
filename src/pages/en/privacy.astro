@@ -1,0 +1,61 @@
+---
+import Base from '../../layouts/Base.astro';
+import ads from '../../../data/ads.json';
+---
+
+<Base
+  title="Privacy Policy — Italian Next Gen"
+  description="Italian Next Gen privacy policy."
+  lang="en"
+  altPath="/privacy/"
+>
+  <article class="article">
+    <h1>Privacy Policy</h1>
+    <div class="body">
+      <p><em>Last updated: July 2026</em></p>
+      <p>
+        Italian Next Gen is an independent, non-profit website. We process as little data as
+        possible — this page explains what and why, in plain words.
+      </p>
+      <p>
+        <strong>Data we do NOT collect.</strong> No registration, no sign-up forms, no names or
+        emails, no profiling analytics.
+      </p>
+      <p>
+        <strong>Favourites.</strong> When you star a player, the choice is stored only in your
+        browser (localStorage). It never leaves your device and is not visible to us or third
+        parties. Clear your browser data to remove it.
+      </p>
+      <p>
+        <strong>Fonts.</strong> All fonts are self-hosted: no request is sent to Google Fonts or
+        other external services to render pages.
+      </p>
+      <p>
+        <strong>Donations.</strong> Contributions via the "Support" page happen on external
+        platforms (e.g. PayPal) under their own policies. We only receive the optional message
+        you attach and never see your payment details.
+      </p>
+      <p>
+        <strong>External links.</strong> Articles always link to their original sources and
+        player pages link to Transfermarkt; those sites have their own policies.
+      </p>
+      {ads.enabled ? (
+        <p>
+          <strong>Advertising.</strong> The site hosts Google AdSense banners, which may use
+          cookies to personalise ads after your acceptance via the consent banner. Details in
+          the <a href="/en/cookies/">Cookie Policy</a>.
+        </p>
+      ) : (
+        <p>
+          <strong>Advertising.</strong> The site currently hosts no ads and no third-party
+          cookies. If ad banners are introduced, this page and the
+          <a href="/en/cookies/"> Cookie Policy</a> will be updated and consent will be requested.
+        </p>
+      )}
+      <p>
+        <strong>Your rights.</strong> For any question about this notice or to exercise your
+        GDPR rights (arts. 15-22), contact the site owner via the <a href="/en/about/">About</a> page.
+      </p>
+    </div>
+  </article>
+</Base>

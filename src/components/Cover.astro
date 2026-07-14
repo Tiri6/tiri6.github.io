@@ -1,0 +1,114 @@
+---
+// Copertina generativa per gli articoli: campo da calcio stilizzato in blu/oro,
+// con le iniziali del giocatore principale (o della categoria).
+// Se l'articolo ha un campo `image` nel frontmatter, viene usato al suo posto.
+interface Props {
+  seed: string;
+  players?: string[];
+  category: string;
+  image?: string;
+  alt?: string;
+  compact?: boolean;
+}
+const { seed, players = [], category, image, alt = '', compact = false } = Astro.props;
+
+function hash(s: string): number {
+  let h = 0;
+  for (let i = 0; i < s.length; i++) h = (Math.imul(31, h) + s.charCodeAt(i)) | 0;
+  return Math.abs(h);
+}
+
+const h = hash(seed);
+const initials = category === 'taccuino'
+  ? '☰'
+  : players.length
+    ? players[0].split(' ').map((w) => w[0]).slice(0, 2).join('')
+    : { news: 'ING', performance: '90’', mercato: '€', editoriale: '✎' }[category] ?? 'ING';
+
+const catLabel = { news: 'NEWS', performance: 'MATCH REPORT', mercato: 'TRANSFER', editoriale: 'EDITORIALE', taccuino: 'TACCUINO' }[category] ?? 'NEWS';
+
+// Variazioni deterministiche dal seed
+const cx = 180 + (h % 340);
+const cy = 60 + (h % 130);
+const rot = (h % 30) - 15;
+const dash = 6 + (h % 9);
+---
+
+{image ? (
+  <img class={`cover ${compact ? 'compact' : ''}`} src={image} alt={alt} loading="lazy" />
+) : (
+  <svg
+    class={`cover ${compact ? 'compact' : ''}`}
+    viewBox="0 0 700 260"
+    xmlns="http://www.w3.org/2000/svg"
+    role="img"
+    aria-label={alt || catLabel}
+  >
+    <defs>
+      <linearGradient id={`bg-${h}`} x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#0d2c50" />
+        <stop offset=".55" stop-color="#12437a" />
+        <stop offset="1" stop-color="#1a5da5" />
+      </linearGradient>
+      <radialGradient id={`glow-${h}`} cx=".5" cy=".5" r=".5">
+        <stop offset="0" stop-color="#f0c94a" stop-opacity=".55" />
+        <stop offset="1" stop-color="#f0c94a" stop-opacity="0" />
+      </radialGradient>
+    </defs>
+
+    <rect width="700" height="260" fill={`url(#bg-${h})`} />
+
+    <!-- griglia futuristica -->
+    <g stroke="#7cc4f0" stroke-opacity=".18" stroke-width="1">
+      {Array.from({ length: 13 }, (_, i) => <line x1={i * 58} y1="0" x2={i * 58} y2="260" />)}
+      {Array.from({ length: 5 }, (_, i) => <line x1="0" y1={i * 62} x2="700" y2={i * 62} />)}
+    </g>
+
+    <!-- linee campo -->
+    <g stroke="#7cc0ea" stroke-opacity=".35" stroke-width="2" fill="none" transform={`rotate(${rot} 350 130)`}>
+      <circle cx={cx} cy={cy + 60} r="72" />
+      <circle cx={cx} cy={cy + 60} r="4" fill="#7cc0ea" fill-opacity=".5" />
+      <line x1={cx - 190} y1={cy - 90} x2={cx - 190} y2={cy + 220} />
+    </g>
+
+    <!-- bagliore e arco oro -->
+    <circle cx={cx} cy={cy + 60} r="120" fill={`url(#glow-${h})`} />
+    <g stroke="#f0c94a" stroke-width="3" fill="none">
+      <path d={`M ${cx - 90} ${cy + 130} A 95 95 0 0 1 ${cx + 90} ${cy + 120}`} stroke-dasharray={`${dash * 4} ${dash}`} stroke-linecap="round" opacity=".9" />
+    </g>
+
+    <!-- iniziali -->
+    <text
+      x="58" y="185"
+      font-family="'Space Grotesk', system-ui, sans-serif"
+      font-size="120" font-weight="700"
+      fill="none" stroke="#f0c94a" stroke-width="2.5"
+      opacity=".95" letter-spacing="-4"
+    >{initials}</text>
+
+    <!-- etichetta categoria -->
+    <g font-family="'Space Grotesk', monospace" font-size="13" letter-spacing="3">
+      <rect x="56" y="212" width={catLabel.length * 11 + 26} height="26" rx="3" fill="#f0c94a" />
+      <text x="70" y="230" fill="#0a1430" font-weight="700">{catLabel}</text>
+    </g>
+
+    <!-- tricolore -->
+    <g transform="translate(614 22)">
+      <rect width="10" height="22" fill="#009246" />
+      <rect x="10" width="10" height="22" fill="#f4f6fa" />
+      <rect x="20" width="10" height="22" fill="#ce2b37" />
+    </g>
+  </svg>
+)}
+
+<style>
+  .cover {
+    display: block;
+    width: 100%;
+    aspect-ratio: 700 / 260;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid rgba(240, 201, 74, 0.18);
+  }
+  .cover.compact { aspect-ratio: 700 / 220; }
+</style>

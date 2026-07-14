@@ -1,0 +1,155 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import { formatDate } from '../lib/utils';
+import compData from '../../data/competitions.json';
+
+const posts = await getCollection('news');
+const today = new Date().toISOString().slice(0, 10);
+
+function newsCount(comp) {
+  return posts.filter((p) => {
+    if (p.data.competitions.includes(comp.id)) return true;
+    const text = `${p.data.title} ${p.data.excerpt}`.toLowerCase();
+    if (comp.newsKeywords.some((k) => text.includes(k.toLowerCase()))) return true;
+    return p.data.players.some((name) => comp.squad.includes(name));
+  }).length;
+}
+
+function nextUp(comp) {
+  return [
+    ...comp.matches.map((m) => ({ date: m.date, text: `${m.home} – ${m.away}` })),
+    ...comp.events.map((e) => ({ date: e.date, text: e.label })),
+  ]
+    .filter((i) => i.date >= today)
+    .sort((a, b) => a.date.localeCompare(b.date))[0];
+}
+
+function lastResult(comp) {
+  return [...comp.matches].filter((m) => m.result).sort((a, b) => b.date.localeCompare(a.date))[0];
+}
+
+const PHASES = [
+  { id: 'in-corso', label: 'In corso', icon: '🟢' },
+  { id: 'futura', label: 'In arrivo', icon: '📅' },
+  { id: 'conclusa', label: 'Concluse (ultimi 2 anni)', icon: '🏁' },
+];
+---
+
+<Base
+  title="Nazionali giovanili — Italian Next Gen"
+  description="Tutte le competizioni delle nazionali italiane, dalla A all'Under 15: in corso, in arrivo e concluse, con albo d'oro, risultati e news."
+  lang="it"
+  altPath="/en/national-teams/"
+>
+  <div class="hero">
+    <div class="kicker">Il percorso azzurro · U15 → 2030</div>
+    <h1>Le <span class="gold">Nazionali</span>, una per una</h1>
+    <p>
+      Scegli la nazionale che vuoi approfondire: per ognuna trovi tutte le competizioni —
+      in corso, in arrivo e appena concluse — comprese quelle minori che nessuno racconta.
+      Albo d'oro, risultati dell'Italia e tutte le news, in un posto solo.
+    </p>
+    <div class="wc-countdown" data-target="2030-06-08T18:00:00Z">
+      <div class="wc-label">− Mondiale 2030 (8 giugno, Spagna·Portogallo·Marocco)</div>
+      <div class="wc-digits">
+        <span><b class="d-days">—</b><i>giorni</i></span>
+        <span><b class="d-hours">—</b><i>ore</i></span>
+        <span><b class="d-mins">—</b><i>min</i></span>
+        <span><b class="d-secs">—</b><i>sec</i></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="team-tabs" id="team-tabs">
+    {compData.teams.map((t, i) => (
+      <button class={`team-tab ${i === 0 ? 'active' : ''}`} data-team={t.id}>{t.label}</button>
+    ))}
+  </div>
+
+  {compData.teams.map((t, i) => {
+    const comps = compData.competitions.filter((c) => c.teamId === t.id);
+    return (
+      <section class="team-section" data-team={t.id} style={i === 0 ? '' : 'display:none'}>
+        {PHASES.map((phase) => {
+          const group = comps.filter((c) => c.phase === phase.id);
+          if (!group.length) return null;
+          return (
+            <>
+              <div class="section-title">{phase.icon} {phase.label}</div>
+              <div class="grid">
+                {group.map((c) => {
+                  const next = nextUp(c);
+                  const last = lastResult(c);
+                  const n = newsCount(c);
+                  return (
+                    <a class="card comp-card" href={`/nazionali/${c.id}/`}>
+                      <div class="comp-top">
+                        <span class="comp-team">{c.team}</span>
+                        <span class="comp-period">{c.period}</span>
+                      </div>
+                      <h3>{c.name}</h3>
+                      <p class="excerpt">{c.italy}</p>
+                      {last && (
+                        <div class="comp-line"><span class="k">Ultimo risultato</span>{last.home} <b class="gold-txt">{last.result}</b> {last.away}</div>
+                      )}
+                      {next && (
+                        <div class="comp-line"><span class="k">Prossimo evento</span>{formatDate(new Date(next.date), 'it')} · {next.text}</div>
+                      )}
+                      <div class="comp-line"><span class="k">News collegate</span>{n} {n === 1 ? 'articolo' : 'articoli'}</div>
+                      <span class="more">Albo d'oro, calendario e news →</span>
+                    </a>
+                  );
+                })}
+              </div>
+            </>
+          );
+        })}
+      </section>
+    );
+  })}
+
+  <script is:inline>
+    (function () {
+      const tabs = document.querySelectorAll('.team-tab');
+      tabs.forEach((tab) => {
+        tab.addEventListener('click', () => {
+          tabs.forEach((x) => x.classList.toggle('active', x === tab));
+          document.querySelectorAll('.team-section').forEach((s) => {
+            s.style.display = s.dataset.team === tab.dataset.team ? '' : 'none';
+          });
+        });
+      });
+    })();
+  </script>
+
+  <style>
+    .team-tabs { display: flex; gap: .6rem; flex-wrap: wrap; margin-bottom: .6rem; }
+    .team-tab {
+      font-family: var(--font-display); font-size: .82rem; font-weight: 700; letter-spacing: .08em;
+      text-transform: uppercase; color: var(--muted); background: var(--panel);
+      border: 1px solid var(--border); border-radius: 99px; padding: .55rem 1.2rem; cursor: pointer;
+      transition: all .15s ease;
+    }
+    .team-tab:hover { color: var(--ink); border-color: var(--border-gold); }
+    .team-tab.active {
+      color: var(--bg); background: var(--gold); border-color: var(--gold);
+      box-shadow: 0 0 18px rgba(240,201,74,.35);
+    }
+    .comp-card { text-decoration: none; }
+    .comp-top { display: flex; justify-content: space-between; align-items: baseline; gap: .6rem; flex-wrap: wrap; }
+    .comp-team {
+      font-family: var(--font-display); font-size: .66rem; font-weight: 700;
+      letter-spacing: .18em; text-transform: uppercase; color: var(--bg);
+      background: var(--gold); border-radius: 3px; padding: .22rem .55rem;
+    }
+    .comp-period { font-family: var(--font-display); font-size: .68rem; color: var(--muted); letter-spacing: .05em; }
+    .comp-line { font-size: .82rem; color: #cfe2f4; display: flex; gap: .6rem; align-items: baseline; flex-wrap: wrap; }
+    .comp-line .k {
+      font-family: var(--font-display); font-size: .6rem; letter-spacing: .14em;
+      text-transform: uppercase; color: var(--muted); min-width: 8.2rem;
+    }
+    .gold-txt { color: var(--gold); font-family: var(--font-display); }
+    .more { font-family: var(--font-display); font-size: .74rem; letter-spacing: .06em; color: var(--gold); margin-top: .3rem; }
+  </style>
+</Base>

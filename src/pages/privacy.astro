@@ -1,0 +1,67 @@
+---
+import Base from '../layouts/Base.astro';
+import ads from '../../data/ads.json';
+---
+
+<Base
+  title="Privacy Policy — Italian Next Gen"
+  description="Informativa sulla privacy di Italian Next Gen."
+  lang="it"
+  altPath="/en/privacy/"
+>
+  <article class="article">
+    <h1>Privacy Policy</h1>
+    <div class="body">
+      <p><em>Ultimo aggiornamento: luglio 2026</em></p>
+      <p>
+        Italian Next Gen è un sito indipendente e senza scopo di lucro. Trattiamo meno dati
+        possibile, e questa pagina spiega in modo semplice quali e perché.
+      </p>
+      <p>
+        <strong>Dati che NON raccogliamo.</strong> Il sito non richiede registrazione, non ha
+        moduli di iscrizione e non raccoglie nomi, email o altri dati identificativi dei
+        visitatori. Non usiamo strumenti di analisi del traffico che profilano gli utenti.
+      </p>
+      <p>
+        <strong>Preferiti.</strong> Quando aggiungi un giocatore ai preferiti con la ★, la scelta
+        viene salvata esclusivamente nel tuo browser (localStorage). Questo dato non lascia mai
+        il tuo dispositivo e non è visibile a noi né a terzi. Puoi cancellarlo in qualsiasi
+        momento svuotando i dati di navigazione del browser.
+      </p>
+      <p>
+        <strong>Caratteri tipografici.</strong> I font del sito sono ospitati direttamente sui
+        nostri server: nessuna richiesta viene inviata a Google Fonts o ad altri servizi esterni
+        per la visualizzazione delle pagine.
+      </p>
+      <p>
+        <strong>Donazioni.</strong> I contributi tramite la pagina "Sostieni" avvengono su
+        piattaforme esterne (es. PayPal), che trattano i dati di pagamento secondo le proprie
+        informative. Noi riceviamo solo l'eventuale messaggio che scegli di allegare e non
+        vediamo mai i tuoi dati di pagamento.
+      </p>
+      <p>
+        <strong>Link esterni.</strong> Gli articoli linkano sempre le fonti originali e le schede
+        giocatore linkano Transfermarkt: quei siti hanno le proprie policy, che ti invitiamo a
+        consultare.
+      </p>
+      {ads.enabled ? (
+        <p>
+          <strong>Pubblicità.</strong> Il sito ospita banner pubblicitari di Google AdSense, che
+          possono utilizzare cookie per personalizzare gli annunci previa tua accettazione tramite
+          il banner di consenso. Dettagli nella <a href="/cookie/">Cookie Policy</a>.
+        </p>
+      ) : (
+        <p>
+          <strong>Pubblicità.</strong> Al momento il sito non ospita pubblicità né cookie di
+          terze parti. Se in futuro verranno introdotti banner pubblicitari, questa pagina e la
+          <a href="/cookie/"> Cookie Policy</a> verranno aggiornate e verrà richiesto il consenso.
+        </p>
+      )}
+      <p>
+        <strong>Diritti e contatti.</strong> Per qualsiasi domanda su questa informativa o per
+        esercitare i diritti previsti dal GDPR (artt. 15-22), scrivi al titolare del sito
+        tramite la pagina <a href="/chi-siamo/">Chi siamo</a>.
+      </p>
+    </div>
+  </article>
+</Base>

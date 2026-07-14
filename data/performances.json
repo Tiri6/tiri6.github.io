@@ -1,0 +1,69 @@
+{
+  "_note": "REGOLA: solo prestazioni verificate, ogni voce deve avere una fonte. Campi opzionali: minutes, rating, goals, assists (ometti ciò che non è verificato). Aggiorna dopo ogni giornata.",
+  "performances": [
+    {
+      "date": "2026-06-29",
+      "player": "Mattia Liberali",
+      "club": "Italia U19",
+      "opponent": "Serbia",
+      "competition": "Europeo U19 · Gruppo B",
+      "result": "2-0",
+      "goals": 1,
+      "rating": 7.0,
+      "note": "Sblocca la partita con freddezza dal dischetto all'11'.",
+      "noteEn": "Coolly opened the scoring from the spot on 11 minutes.",
+      "source": "Virgilio Sport",
+      "sourceUrl": "https://sport.virgilio.it/europei-u19-pagelle-italia-serbia-961601"
+    },
+    {
+      "date": "2026-06-29",
+      "player": "Jamal Iddrissou",
+      "club": "Italia U19",
+      "opponent": "Serbia",
+      "competition": "Europeo U19 · Gruppo B",
+      "result": "2-0",
+      "goals": 1,
+      "rating": 7.0,
+      "note": "Cresce alla distanza e firma il 2-0 nella ripresa su assist di Idele.",
+      "noteEn": "Grew into the game and sealed the 2-0 in the second half from Idele's assist.",
+      "source": "Virgilio Sport",
+      "sourceUrl": "https://sport.virgilio.it/europei-u19-pagelle-italia-serbia-961601"
+    },
+    {
+      "date": "2026-06-29",
+      "player": "Destiny Elimoghale",
+      "club": "Italia U19",
+      "opponent": "Serbia",
+      "competition": "Europeo U19 · Gruppo B",
+      "result": "2-0",
+      "note": "Minuti nel finale all'esordio europeo, sotto età di due anni.",
+      "noteEn": "Late minutes on his Euro debut, playing two years up.",
+      "source": "Zazoom",
+      "sourceUrl": "https://www.zazoom.it/2026-06-29/buona-la-prima-per-litalia-alleuropeo-u19-a-segno-lobiettivo-di-mercato-bianconero-liberali-nel-2-0-alla-serbia-minuti-anche-per-elimoghale/19403435/"
+    },
+    {
+      "date": "2026-07-02",
+      "player": "Jamal Iddrissou",
+      "club": "Italia U19",
+      "opponent": "Croazia",
+      "competition": "Europeo U19 · Gruppo B",
+      "result": "0-0",
+      "note": "Tra i migliori degli azzurrini nel pari senza reti di Caernarfon.",
+      "noteEn": "Among Italy's best in the goalless draw at Caernarfon.",
+      "source": "Virgilio Sport",
+      "sourceUrl": "https://sport.virgilio.it/europei-u19-top-e-flop-di-croazia-italia-liberali-flop-962095"
+    },
+    {
+      "date": "2026-07-02",
+      "player": "Mattia Liberali",
+      "club": "Italia U19",
+      "opponent": "Croazia",
+      "competition": "Europeo U19 · Gruppo B",
+      "result": "0-0",
+      "note": "Serata opaca dopo la grande prova con la Serbia: succede, a 19 anni.",
+      "noteEn": "A quiet night after his big Serbia display: it happens at 19.",
+      "source": "Virgilio Sport",
+      "sourceUrl": "https://sport.virgilio.it/europei-u19-top-e-flop-di-croazia-italia-liberali-flop-962095"
+    }
+  ]
+}

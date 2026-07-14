@@ -1,0 +1,6 @@
+{
+  "_note": "Configurazione donazioni. Crea TU l'account (io non posso farlo per te): opzione consigliata PayPal.Me (paypal.me → crea il tuo link) perché supporta importi preimpostati e il messaggio del donatore. In alternativa Buy Me a Coffee o Ko-fi (link unico, senza importi). Incolla il link qui sotto e il sito si aggiorna da solo.",
+  "paypalMe": "https://paypal.me/tiri6",
+  "buyMeACoffee": "",
+  "amounts": [5, 10, 20]
+}

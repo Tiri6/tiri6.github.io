@@ -1,0 +1,76 @@
+---
+import Base from '../../layouts/Base.astro';
+import support from '../../../data/support.json';
+
+const configured = Boolean(support.paypalMe || support.buyMeACoffee);
+const paypal = support.paypalMe?.replace(/\/$/, '');
+---
+
+<Base
+  title="Buy me a coffee — Italian Next Gen"
+  description="Support Italian Next Gen: the project tracking every young Italian talent on the road to the 2030 World Cup."
+  lang="en"
+  altPath="/sostieni/"
+>
+  <div class="hero">
+    <div class="kicker">Support the project</div>
+    <h1>☕ Buy me a <span class="gold">coffee</span></h1>
+    <p>
+      Italian Next Gen is an independent project: no intrusive ads, no paywall — just the
+      mission of tracking every young Azzurro to the 2030 World Cup. If you enjoy the site
+      and want to help with the costs (servers, tools, plenty of coffee for Youth League
+      nights), buy me a coffee. Every contribution truly helps.
+    </p>
+  </div>
+
+  {configured ? (
+    <div class="donate-grid">
+      {paypal &&
+        support.amounts.map((n) => (
+          <a class="donate-card" href={`${paypal}/${n}EUR`} target="_blank" rel="noopener">
+            <span class="donate-emoji">{n === 5 ? '☕' : n === 10 ? '☕☕' : '🏆'}</span>
+            <span class="donate-amount">€{n}</span>
+            <span class="donate-label">{n === 5 ? 'One coffee' : n === 10 ? 'Coffee & pastry' : 'True fan'}</span>
+          </a>
+        ))}
+      {paypal && (
+        <a class="donate-card free" href={paypal} target="_blank" rel="noopener">
+          <span class="donate-emoji">💙</span>
+          <span class="donate-amount">Custom</span>
+          <span class="donate-label">You choose</span>
+        </a>
+      )}
+      {!paypal && support.buyMeACoffee && (
+        <a class="donate-card" href={support.buyMeACoffee} target="_blank" rel="noopener">
+          <span class="donate-emoji">☕</span>
+          <span class="donate-amount">Buy me a coffee</span>
+          <span class="donate-label">On Buy Me a Coffee</span>
+        </a>
+      )}
+    </div>
+  ) : (
+    <p class="meta" style="text-align:center; padding:2rem 0">
+      Donations will be live soon — thanks for your interest! 💙
+    </p>
+  )}
+
+  <p class="meta" style="max-width:46rem; margin:1.5rem auto 0; text-align:center">
+    💬 You can leave me a message with your payment: I read them all, and the best ones
+    will end up on a thank-you page. Forza Azzurri!
+  </p>
+
+  <style>
+    .donate-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 1.1rem; max-width: 800px; margin: 0 auto; }
+    .donate-card {
+      display: flex; flex-direction: column; align-items: center; gap: .35rem;
+      background: var(--panel); border: 1px solid var(--border-gold); border-radius: 14px;
+      padding: 1.6rem 1rem; text-decoration: none;
+      transition: transform .15s ease, box-shadow .15s ease;
+    }
+    .donate-card:hover { transform: translateY(-4px); box-shadow: 0 10px 30px rgba(240,201,74,.15); }
+    .donate-card.free { border-color: var(--border); }
+    .donate-emoji { font-size: 1.6rem; }
+    .donate-amount { font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; color: var(--gold); }
+    .donate-label { font-family: var(--font-display); font-size: .72rem; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+  </style>
+</Base>

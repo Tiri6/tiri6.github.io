@@ -1,0 +1,131 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Cover from '../../components/Cover.astro';
+import { CATEGORY_LABELS, STATUS_LABELS, CAP_LABELS, formatDate, slugify, tmLink, sparkline } from '../../lib/utils';
+import playersData from '../../../data/players.json';
+import perfData from '../../../data/performances.json';
+
+export async function getStaticPaths() {
+  return playersData.players.map((player) => ({
+    params: { slug: slugify(player.name) },
+    props: { player },
+  }));
+}
+
+const { player } = Astro.props;
+const slug = slugify(player.name);
+const age = new Date().getFullYear() - player.born;
+
+const news = (await getCollection('news'))
+  .filter((p) => p.data.players.includes(player.name))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+const perfs = perfData.performances
+  .filter((p) => p.player === player.name)
+  .sort((a, b) => b.date.localeCompare(a.date));
+
+const history = player.valueHistory ?? [];
+const spark = history.length >= 2 ? sparkline(history) : null;
+const capsEntries = Object.entries(player.caps ?? {});
+---
+
+<Base
+  title={`${player.name} — Italian Next Gen`}
+  description={`Scheda di ${player.name}: ${player.role}, ${player.club}, classe ${player.born}. News e prestazioni.`}
+  lang="it"
+  altPath={`/en/players/${slug}/`}
+>
+  <div class="player-head">
+    <Cover seed={slug} players={[player.name]} category="performance" alt={player.name} />
+    <div class="player-id">
+      <div class="player-title">
+        <h1>{player.name}</h1>
+        <button class="fav-btn" data-slug={slug} aria-label="Aggiungi ai preferiti" title="Aggiungi ai preferiti">★</button>
+      </div>
+      <div class="player-facts">
+        <div class="fact"><span class="k">Club</span><span class="v">{player.club}</span></div>
+        <div class="fact"><span class="k">Ruolo</span><span class="v">{player.role}</span></div>
+        <div class="fact"><span class="k">Classe</span><span class="v">{player.born} · {age} anni</span></div>
+        <div class="fact"><span class="k">Dove</span><span class="v"><span class={`pill ${player.status}`}>{STATUS_LABELS[player.status].it}</span></span></div>
+        <div class="fact"><span class="k">Nel 2030</span><span class="v gold">{2030 - player.born} anni</span></div>
+        {player.value != null && (
+          <div class="fact"><span class="k">Valore (Transfermarkt, lug 2026)</span><span class="v gold">€{player.value}M</span></div>
+        )}
+      </div>
+
+      {spark && (
+        <div class="spark-box">
+          <div class="spark-title">Trend valore di mercato (M€)</div>
+          <svg viewBox={`0 0 ${spark.W} ${spark.H}`} class="spark" role="img" aria-label="Andamento del valore di mercato">
+            <polyline points={spark.line} fill="none" stroke="#f0c94a" stroke-width="2.5" stroke-linecap="round" />
+            {spark.pts.map((p) => (
+              <g>
+                <circle cx={p.x} cy={p.y} r="3.5" fill="#f0c94a" />
+                <text x={p.x} y={p.y - 8} text-anchor="middle" font-size="10" fill="#e8eef8" font-family="Space Grotesk, sans-serif" font-weight="700">€{p.value}M</text>
+              </g>
+            ))}
+          </svg>
+          <div class="spark-dates">
+            {spark.pts.map((p) => <span>{p.date}</span>)}
+          </div>
+        </div>
+      )}
+
+      {capsEntries.length > 0 && (
+        <div class="caps-box">
+          <div class="spark-title">Presenze in nazionale</div>
+          {capsEntries.map(([level, val]) => (
+            <div class="cap-row"><span class="k">{CAP_LABELS[level]?.it ?? level}</span><span class="v">{val}</span></div>
+          ))}
+          {player.capsSource && <div class="meta" style="margin-top:.3rem">Fonte: {player.capsSource}</div>}
+        </div>
+      )}
+
+      <a class="tm-link" href={tmLink(player)} target="_blank" rel="noopener">
+        Profilo su Transfermarkt ↗
+      </a>
+    </div>
+  </div>
+
+  <div class="section-title">◉ Ultime prestazioni</div>
+  {perfs.length === 0 && <p class="meta">Nessuna prestazione registrata di recente — il radar è acceso.</p>}
+  <div class="perf-strip">
+    {perfs.map((p) => (
+      <div class="perf-card">
+        <div class="perf-date">{formatDate(new Date(p.date), 'it')}</div>
+        <div class="perf-top">
+          <span class="perf-player">{p.club} — {p.opponent}</span>
+          {p.rating != null && <span class="perf-rating">{p.rating.toFixed(1)}</span>}
+        </div>
+        <div class="perf-match">{p.result} · {p.competition}</div>
+        <div class="perf-stats">
+          {p.minutes != null && <span class="stat">{p.minutes}′</span>}
+          {(p.goals ?? 0) > 0 && <span class="stat hot">⚽ {p.goals} gol</span>}
+          {(p.assists ?? 0) > 0 && <span class="stat hot">🅰 {p.assists} assist</span>}
+        </div>
+        <p class="perf-note">{p.note}</p>
+        {p.sourceUrl && (
+          <a class="perf-src" href={p.sourceUrl} target="_blank" rel="noopener">fonte: {p.source ?? 'link'}</a>
+        )}
+      </div>
+    ))}
+  </div>
+
+  <div class="section-title">◉ News su {player.name.split(' ').pop()}</div>
+  {news.length === 0 && <p class="meta">Ancora nessuna news pubblicata su questo giocatore.</p>}
+  <div class="grid">
+    {news.map((post) => (
+      <article class="card">
+        <div>
+          <span class="badge" style={`background:${CATEGORY_LABELS[post.data.category].color}`}>
+            {CATEGORY_LABELS[post.data.category].it}
+          </span>
+          <span class="meta" style="margin-left:.6rem">{formatDate(post.data.date, 'it')}</span>
+        </div>
+        <h3><a href={`/news/${post.id}/`}>{post.data.title}</a></h3>
+        <p class="excerpt">{post.data.excerpt}</p>
+      </article>
+    ))}
+  </div>
+</Base>

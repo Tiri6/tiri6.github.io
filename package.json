@@ -1,0 +1,24 @@
+{
+  "name": "italian-next-gen",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Italian Next Gen — news quotidiane sui giovani calciatori italiani. Obiettivo: Mondiali 2030.",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "collect": "node pipeline/run.mjs",
+    "write": "node pipeline/write.mjs",
+    "prune": "node pipeline/prune.mjs",
+    "digest": "node pipeline/digest.mjs",
+    "publish": "node pipeline/publish.mjs",
+    "results": "node pipeline/results.mjs",
+    "coverage": "node pipeline/coverage.mjs",
+    "review": "node review/server.mjs"
+  },
+  "dependencies": {
+    "@fontsource/inter": "^5.1.0",
+    "@fontsource/space-grotesk": "^5.1.0",
+    "astro": "^7.0.9"
+  }
+}

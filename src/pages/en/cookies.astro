@@ -1,0 +1,48 @@
+---
+import Base from '../../layouts/Base.astro';
+import ads from '../../../data/ads.json';
+---
+
+<Base
+  title="Cookie Policy — Italian Next Gen"
+  description="Italian Next Gen cookie policy."
+  lang="en"
+  altPath="/cookie/"
+>
+  <article class="article">
+    <h1>Cookie Policy</h1>
+    <div class="body">
+      <p><em>Last updated: July 2026</em></p>
+      <p>
+        <strong>Technical cookies: none.</strong> This is a static site and sets no browsing,
+        session or analytics cookies.
+      </p>
+      <p>
+        <strong>Browser local storage.</strong> We use your browser's local storage only for
+        features you request: your favourite players and, when the ad banner is present, your
+        consent choice. This data stays on your device, is not transmitted to us and does not
+        track you — so it requires no prior consent.
+      </p>
+      {ads.enabled ? (
+        <p>
+          <strong>Advertising cookies (Google AdSense).</strong> If you accept via the consent
+          banner, Google may set cookies to personalise ads. You can decline (the site works
+          fine without personalised ads) and change your mind anytime by clearing the site data
+          in your browser. Google's details:
+          <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">policies.google.com/technologies/ads</a>.
+        </p>
+      ) : (
+        <p>
+          <strong>Third-party cookies: none, for now.</strong> If ad banners are introduced in
+          the future, a consent banner will appear before any activation and this page will be
+          updated with full details.
+        </p>
+      )}
+      <p>
+        <strong>Managing cookies.</strong> You can block or delete cookies and local storage
+        anytime from your browser settings; the site will keep working (you'll just lose your
+        saved favourites).
+      </p>
+    </div>
+  </article>
+</Base>

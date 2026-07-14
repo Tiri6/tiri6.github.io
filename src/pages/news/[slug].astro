@@ -1,0 +1,84 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Cover from '../../components/Cover.astro';
+import { CATEGORY_LABELS, formatDate, splitBody, renderParagraphs } from '../../lib/utils';
+import compData from '../../../data/competitions.json';
+
+const compShort = Object.fromEntries(compData.competitions.map((c) => [c.id, c.short]));
+
+export async function getStaticPaths() {
+  const posts = await getCollection('news');
+  return posts.map((post) => ({ params: { slug: post.id }, props: { post } }));
+}
+
+const { post } = Astro.props;
+const body = splitBody(post.body ?? '');
+const cat = CATEGORY_LABELS[post.data.category];
+---
+
+<Base
+  title={`${post.data.title} — Italian Next Gen`}
+  description={post.data.excerpt}
+  lang="it"
+  altPath={`/en/news/${post.id}/`}
+>
+  <article class="article">
+    <div class="article-cover">
+      <Cover
+        seed={post.id}
+        players={post.data.players}
+        category={post.data.category}
+        image={post.data.image}
+        alt={post.data.title}
+      />
+    </div>
+    <div>
+      <span class="badge" style={`background:${cat.color}`}>{cat.it}</span>
+      <span class="meta" style="margin-left:.6rem">{formatDate(post.data.date, 'it')}</span>
+    </div>
+    <h1>{post.data.title}</h1>
+    <p class="lead">{post.data.excerpt}</p>
+    <div class="body" set:html={renderParagraphs(body.it)} />
+    {post.data.players.length > 0 && (
+      <div class="meta" style="margin-top:1.4rem">⚽ {post.data.players.join(' · ')}</div>
+    )}
+    {post.data.competitions.length > 0 && (
+      <div style="margin-top:.7rem">
+        {post.data.competitions.map((id) => compShort[id] && <a class="comp-tag" href={`/nazionali/${id}/`}>{compShort[id]}</a>)}
+      </div>
+    )}
+    {post.data.sourceUrl && (
+      <p class="source meta">
+        Fonte: <a href={post.data.sourceUrl} target="_blank" rel="noopener">{post.data.source ?? post.data.sourceUrl}</a>
+      </p>
+    )}
+
+    <div class="share-bar" data-title={post.data.title}>
+      <a class="share-btn wa" data-wa href="#" target="_blank" rel="noopener">🟢 WhatsApp</a>
+      <button class="share-btn" data-share>📤 Condividi</button>
+      <button class="share-btn" data-copy>🔗 Copia link</button>
+    </div>
+    <script is:inline>
+      (function () {
+        var bar = document.querySelector('.share-bar');
+        var title = bar.dataset.title;
+        var url = location.href;
+        bar.querySelector('[data-wa]').href =
+          'https://wa.me/?text=' + encodeURIComponent(title + ' — ' + url);
+        var shareBtn = bar.querySelector('[data-share]');
+        if (navigator.share) {
+          shareBtn.onclick = function () { navigator.share({ title: title, url: url }); };
+        } else {
+          shareBtn.style.display = 'none';
+        }
+        bar.querySelector('[data-copy]').onclick = function (e) {
+          navigator.clipboard.writeText(url).then(function () {
+            e.target.textContent = '✅ Copiato!';
+            setTimeout(function () { e.target.textContent = '🔗 Copia link'; }, 2000);
+          });
+        };
+      })();
+    </script>
+  </article>
+</Base>

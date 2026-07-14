@@ -1,0 +1,7 @@
+node_modules/
+.env
+dist/
+.astro/
+pipeline/state/
+pipeline/rejected/
+pipeline/approved/

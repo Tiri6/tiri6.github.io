@@ -1,0 +1,177 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import Cover from '../components/Cover.astro';
+import { CATEGORY_LABELS, formatDate, slugify } from '../lib/utils';
+import playersData from '../../data/players.json';
+import perfData from '../../data/performances.json';
+import compData from '../../data/competitions.json';
+
+const compShort = Object.fromEntries(compData.competitions.map((c) => [c.id, c.short]));
+
+const posts = (await getCollection('news')).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+);
+
+// In evidenza: l'ultimo editoriale (settimanale) e l'ultimo Taccuino del giorno
+const editoriale = posts.find((p) => p.data.category === 'editoriale');
+const taccuino = posts.find((p) => p.data.category === 'taccuino');
+const featuredIds = new Set([editoriale?.id, taccuino?.id].filter(Boolean));
+const rest = posts.filter((p) => !featuredIds.has(p.id));
+
+const performances = perfData.performances
+  .sort((a, b) => b.date.localeCompare(a.date))
+  .slice(0, 8);
+
+const nPlayers = playersData.players.length;
+const nAbroad = playersData.players.filter((p) => p.status === 'estero').length;
+const totGoals = perfData.performances.reduce((s, p) => s + (p.goals ?? 0), 0);
+const totAssists = perfData.performances.reduce((s, p) => s + (p.assists ?? 0), 0);
+---
+
+<Base
+  title="Italian Next Gen — I giovani azzurri, ogni giorno"
+  description="Notizie quotidiane su tutti i giovani calciatori italiani: prestazioni, mercato, nazionali giovanili. Obiettivo Mondiali 2030."
+  lang="it"
+  altPath="/en/"
+>
+  <div class="hero">
+    <div class="kicker">Talent Intelligence · Calcio Italiano</div>
+    <h1>La strada per il <span class="gold">2030</span> comincia oggi.</h1>
+    <p>
+      Dopo tre Mondiali mancati, non possiamo più permetterci di perdere di vista un solo talento.
+      Il nostro radar copre ogni giorno Serie A, B e C, Primavera, squadre Next Gen,
+      campionati giovanili e tutti i campi d'Europa dove gioca un ragazzo italiano.
+    </p>
+    <div class="wc-countdown" data-target="2030-06-08T18:00:00Z">
+      <div class="wc-label">− Mondiale 2030 · Spagna·Portogallo·Marocco</div>
+      <div class="wc-digits">
+        <span><b class="d-days">—</b><i>giorni</i></span>
+        <span><b class="d-hours">—</b><i>ore</i></span>
+        <span><b class="d-mins">—</b><i>min</i></span>
+        <span><b class="d-secs">—</b><i>sec</i></span>
+      </div>
+    </div>
+  </div>
+
+  {(editoriale || taccuino) && (
+    <>
+      <div class="section-title">✦ In evidenza</div>
+      <div class="featured-duo">
+        {[editoriale, taccuino].filter(Boolean).map((post) => (
+          <article class="card">
+            <a href={`/news/${post.id}/`}>
+              <Cover
+                seed={post.id}
+                players={post.data.players}
+                category={post.data.category}
+                image={post.data.image}
+                alt={post.data.title}
+                compact
+              />
+            </a>
+            <div>
+              <span class="badge" style={`background:${CATEGORY_LABELS[post.data.category].color}`}>
+                {post.data.category === 'editoriale' ? "L'editoriale della settimana" : 'Il taccuino del giorno'}
+              </span>
+              <span class="meta" style="margin-left:.6rem">{formatDate(post.data.date, 'it')}</span>
+            </div>
+            <h2><a href={`/news/${post.id}/`}>{post.data.title}</a></h2>
+            <p class="excerpt">{post.data.excerpt}</p>
+          </article>
+        ))}
+      </div>
+    </>
+  )}
+
+  <div class="fav-strip" id="fav-strip">
+    <div class="section-title">★ I tuoi preferiti</div>
+    <div class="fav-chips" id="fav-chips"></div>
+  </div>
+  <script
+    type="application/json"
+    id="players-data"
+    set:html={JSON.stringify(
+      playersData.players.map((p) => ({ s: slugify(p.name), n: p.name, c: p.club }))
+    )}
+  />
+  <script is:inline>
+    (function () {
+      const players = JSON.parse(document.getElementById('players-data').textContent);
+      const strip = document.getElementById('fav-strip');
+      const chips = document.getElementById('fav-chips');
+      const render = () => {
+        let favs = [];
+        try { favs = JSON.parse(localStorage.getItem('ing-favs') || '[]'); } catch {}
+        const mine = players.filter((p) => favs.includes(p.s));
+        strip.classList.toggle('has-favs', mine.length > 0);
+        chips.innerHTML = mine
+          .map((p) => `<a class="fav-chip" href="/giocatori/${p.s}/"><span class="star">★</span>${p.n}<span class="c">${p.c}</span></a>`)
+          .join('');
+      };
+      document.addEventListener('ing-favs-changed', render);
+      render();
+    })();
+  </script>
+
+  <div class="section-title">◉ Il radar azzurro</div>
+  <div class="stats-bar">
+    <div class="stat-block"><div class="n">{nPlayers}</div><div class="l">Talenti seguiti</div></div>
+    <div class="stat-block"><div class="n">{nAbroad}</div><div class="l">All'estero</div></div>
+    <div class="stat-block"><div class="n">{totGoals}</div><div class="l">Gol nelle ultime settimane</div></div>
+    <div class="stat-block"><div class="n">{totAssists}</div><div class="l">Assist nelle ultime settimane</div></div>
+  </div>
+  <div class="perf-strip">
+    {performances.map((p) => (
+      <div class="perf-card">
+        <div class="perf-date">{formatDate(new Date(p.date), 'it')}</div>
+        <div class="perf-top">
+          <span class="perf-player">{p.player}</span>
+          {p.rating != null && <span class="perf-rating">{p.rating.toFixed(1)}</span>}
+        </div>
+        <div class="perf-match">{p.club} — {p.opponent} · {p.result} · {p.competition}</div>
+        <div class="perf-stats">
+          {p.minutes != null && <span class="stat">{p.minutes}′</span>}
+          {(p.goals ?? 0) > 0 && <span class="stat hot">⚽ {p.goals} gol</span>}
+          {(p.assists ?? 0) > 0 && <span class="stat hot">🅰 {p.assists} assist</span>}
+        </div>
+        <p class="perf-note">{p.note}</p>
+        {p.sourceUrl && (
+          <a class="perf-src" href={p.sourceUrl} target="_blank" rel="noopener">fonte: {p.source ?? 'link'}</a>
+        )}
+      </div>
+    ))}
+  </div>
+
+  <div class="section-title">◉ Ultime notizie</div>
+  <div class="grid">
+    {rest.map((post) => (
+      <article class="card">
+        <a href={`/news/${post.id}/`}>
+          <Cover
+            seed={post.id}
+            players={post.data.players}
+            category={post.data.category}
+            image={post.data.image}
+            alt={post.data.title}
+            compact
+          />
+        </a>
+        <div>
+          <span class="badge" style={`background:${CATEGORY_LABELS[post.data.category].color}`}>
+            {CATEGORY_LABELS[post.data.category].it}
+          </span>
+          <span class="meta" style="margin-left:.6rem">{formatDate(post.data.date, 'it')}</span>
+        </div>
+        <h3><a href={`/news/${post.id}/`}>{post.data.title}</a></h3>
+        <p class="excerpt">{post.data.excerpt}</p>
+        {post.data.players.length > 0 && (
+          <div class="players">⚽ {post.data.players.join(' · ')}</div>
+        )}
+        {post.data.competitions.length > 0 && (
+          <div>{post.data.competitions.map((id) => compShort[id] && <a class="comp-tag" href={`/nazionali/${id}/`}>{compShort[id]}</a>)}</div>
+        )}
+      </article>
+    ))}
+  </div>
+</Base>

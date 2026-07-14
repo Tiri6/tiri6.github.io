@@ -1,0 +1,50 @@
+---
+import Base from '../layouts/Base.astro';
+import ads from '../../data/ads.json';
+---
+
+<Base
+  title="Cookie Policy — Italian Next Gen"
+  description="Informativa sui cookie di Italian Next Gen."
+  lang="it"
+  altPath="/en/cookies/"
+>
+  <article class="article">
+    <h1>Cookie Policy</h1>
+    <div class="body">
+      <p><em>Ultimo aggiornamento: luglio 2026</em></p>
+      <p>
+        <strong>Cookie tecnici: nessuno.</strong> Questo sito è statico e non installa cookie di
+        navigazione, di sessione o di analisi.
+      </p>
+      <p>
+        <strong>Memoria locale del browser (localStorage).</strong> Usiamo la memoria locale del
+        tuo browser esclusivamente per funzioni richieste da te: la lista dei giocatori preferiti
+        e, se presente il banner pubblicitario, la tua scelta sul consenso. Sono dati che restano
+        sul tuo dispositivo, non ci vengono trasmessi e non tracciano la tua navigazione: per
+        questo, secondo le Linee guida del Garante, non richiedono consenso preventivo.
+      </p>
+      {ads.enabled ? (
+        <p>
+          <strong>Cookie pubblicitari (Google AdSense).</strong> Il sito ospita banner di Google
+          AdSense: se accetti tramite il banner di consenso, Google può installare cookie per
+          la personalizzazione degli annunci. Puoi rifiutare (vedrai comunque il sito, senza
+          annunci personalizzati) e cambiare idea in ogni momento cancellando i dati del sito
+          dal browser. Per i dettagli sul trattamento di Google:
+          <a href="https://policies.google.com/technologies/ads?hl=it" target="_blank" rel="noopener">policies.google.com/technologies/ads</a>.
+        </p>
+      ) : (
+        <p>
+          <strong>Cookie di terze parti: nessuno, per ora.</strong> Se in futuro il sito ospiterà
+          banner pubblicitari, prima della loro attivazione comparirà un banner di consenso e
+          questa pagina sarà aggiornata con tutti i dettagli.
+        </p>
+      )}
+      <p>
+        <strong>Come gestire i cookie.</strong> Dalle impostazioni del tuo browser puoi bloccare
+        o cancellare cookie e memoria locale in qualsiasi momento; il sito continuerà a
+        funzionare (perderai solo i preferiti salvati).
+      </p>
+    </div>
+  </article>
+</Base>

@@ -1,0 +1,29 @@
+# Raccolta automatica quotidiana delle notizie.
+# Le candidate vengono committate nel repo: le approvi in locale con `npm run review`.
+name: Raccolta notizie quotidiana
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # ogni giorno alle 06:00 UTC (08:00 in Italia d'estate)
+  workflow_dispatch: {}     # lancio manuale dal tab Actions
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node pipeline/run.mjs
+      - run: node pipeline/results.mjs
+      - name: Commit di candidate e risultati
+        run: |
+          git config user.name "ing-pipeline"
+          git config user.email "pipeline@italiannextgen"
+          git add pipeline/candidates pipeline/state data/competitions.json || true
+          git diff --cached --quiet || git commit -m "pipeline: candidate e risultati del $(date +%F)"
+          git push

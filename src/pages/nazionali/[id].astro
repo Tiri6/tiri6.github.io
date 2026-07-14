@@ -1,0 +1,171 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Cover from '../../components/Cover.astro';
+import { CATEGORY_LABELS, formatDate, slugify } from '../../lib/utils';
+import compData from '../../../data/competitions.json';
+
+export async function getStaticPaths() {
+  return compData.competitions.map((comp) => ({ params: { id: comp.id }, props: { comp } }));
+}
+
+const { comp } = Astro.props;
+const today = new Date().toISOString().slice(0, 10);
+
+const posts = (await getCollection('news')).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+);
+
+// News collegate: tag esplicito, parola chiave nel titolo/sommario, o giocatore della rosa
+const news = posts.filter((p) => {
+  if (p.data.competitions.includes(comp.id)) return true;
+  const text = `${p.data.title} ${p.data.excerpt}`.toLowerCase();
+  if (comp.newsKeywords.some((k) => text.includes(k.toLowerCase()))) return true;
+  return p.data.players.some((name) => comp.squad.includes(name));
+});
+
+// Calendario unico: partite + tappe, in ordine cronologico
+const timeline = [
+  ...comp.matches.map((m) => ({ date: m.date, match: m })),
+  ...comp.events.map((e) => ({ date: e.date, label: e.label })),
+].sort((a, b) => a.date.localeCompare(b.date));
+---
+
+<Base
+  title={`${comp.name} — Italian Next Gen`}
+  description={`${comp.name}: calendario completo con risultati, formula, albo d'oro e tutte le news azzurre.`}
+  lang="it"
+  altPath={`/en/national-teams/${comp.id}/`}
+>
+  <p class="meta"><a href="/nazionali/" style="color:var(--muted); text-decoration:none">← Tutte le competizioni</a></p>
+  <div class="comp-head">
+    <span class="comp-team">{comp.team}</span>
+    <h1>{comp.name}</h1>
+    <span class="comp-period">{comp.period}</span>
+  </div>
+
+  <div class="comp-grid">
+    <div class="comp-info">
+      <h3 class="comp-sub">Come funziona</h3>
+      <p>{comp.format}</p>
+      {comp.honours5?.length > 0 && (
+        <>
+          <h3 class="comp-sub">Albo d'oro · ultime edizioni</h3>
+          <table class="honours-table">
+            <tbody>
+              {comp.honours5.map((h) => (
+                <tr class={/ITALIA/.test(h.winner) ? 'ita' : ''}>
+                  <td class="ed">{h.edition}</td>
+                  <td>{h.winner}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </>
+      )}
+      <h3 class="comp-sub">L'Italia</h3>
+      <p>{comp.italy}</p>
+      {comp.squad.length > 0 && (
+        <>
+          <h3 class="comp-sub">I nostri osservati</h3>
+          <div class="squad-chips">
+            {comp.squad.map((name) => (
+              <a class="fav-chip" href={`/giocatori/${slugify(name)}/`}>{name}</a>
+            ))}
+          </div>
+        </>
+      )}
+    </div>
+
+    <div class="comp-cal">
+      <h3 class="comp-sub">📅 Calendario e risultati</h3>
+      <ul class="cal-list">
+        {timeline.map((t) => (
+          <li class={t.date < today ? 'past' : 'future'}>
+            <span class="cal-date">{formatDate(new Date(t.date), 'it')}</span>
+            {t.match ? (
+              <span class="cal-label">
+                <span class="cal-stage">{t.match.stage}</span><br />
+                {t.match.home} <b class="cal-result">{t.match.result || (t.date < today ? '–' : 'vs')}</b> {t.match.away}
+              </span>
+            ) : (
+              <span class="cal-label">{t.label}</span>
+            )}
+          </li>
+        ))}
+      </ul>
+      <p class="meta" style="margin:.8rem 0 0">
+        Risultati e calendario in aggiornamento continuo.
+      </p>
+    </div>
+  </div>
+
+  <div class="section-title">◉ Tutte le news · {comp.short}</div>
+  {news.length === 0 && <p class="meta">Ancora nessuna news collegata a questa competizione.</p>}
+  <div class="grid">
+    {news.map((post) => (
+      <article class="card">
+        <a href={`/news/${post.id}/`}>
+          <Cover seed={post.id} players={post.data.players} category={post.data.category} image={post.data.image} alt={post.data.title} compact />
+        </a>
+        <div>
+          <span class="badge" style={`background:${CATEGORY_LABELS[post.data.category].color}`}>
+            {CATEGORY_LABELS[post.data.category].it}
+          </span>
+          <span class="meta" style="margin-left:.6rem">{formatDate(post.data.date, 'it')}</span>
+        </div>
+        <h3><a href={`/news/${post.id}/`}>{post.data.title}</a></h3>
+        <p class="excerpt">{post.data.excerpt}</p>
+        {post.data.players.length > 0 && <div class="players">⚽ {post.data.players.join(' · ')}</div>}
+      </article>
+    ))}
+  </div>
+
+  <style>
+    .comp-head { display: flex; align-items: center; gap: .9rem; margin: .4rem 0 1.3rem; flex-wrap: wrap; }
+    .comp-team {
+      font-family: var(--font-display); font-size: .68rem; font-weight: 700;
+      letter-spacing: .18em; text-transform: uppercase; color: var(--bg);
+      background: var(--gold); border-radius: 3px; padding: .25rem .6rem; white-space: nowrap;
+    }
+    .comp-head h1 { margin: 0; font-family: var(--font-display); font-size: clamp(1.3rem, 3vw, 1.8rem); letter-spacing: -.01em; }
+    .comp-period { font-family: var(--font-display); font-size: .7rem; color: var(--muted); letter-spacing: .06em; width: 100%; }
+    .honours-table { width: 100%; border-collapse: collapse; font-size: .88rem; margin-top: .2rem; }
+    .honours-table td { padding: .35rem .5rem; border-bottom: 1px dashed var(--border); color: #cfe2f4; }
+    .honours-table .ed { font-family: var(--font-display); color: var(--gold); font-weight: 700; width: 4.2rem; }
+    .honours-table tr.ita td { background: rgba(240,201,74,.08); font-weight: 700; color: var(--ink); }
+    .comp-grid { display: grid; grid-template-columns: 1.15fr 1fr; gap: 1.3rem; }
+    @media (max-width: 760px) { .comp-grid { grid-template-columns: 1fr; } }
+    .comp-info, .comp-cal {
+      background: var(--panel); border: 1px solid var(--border); border-radius: 12px;
+      padding: 1.2rem 1.4rem; backdrop-filter: blur(6px);
+    }
+    .comp-sub {
+      font-family: var(--font-display); font-size: .68rem; font-weight: 700;
+      letter-spacing: .18em; text-transform: uppercase; color: var(--gold);
+      margin: 1.1rem 0 .35rem;
+    }
+    .comp-sub:first-child { margin-top: 0; }
+    .comp-info p { margin: 0; font-size: .9rem; color: #c3d0e6; }
+    .squad-chips { display: flex; gap: .5rem; flex-wrap: wrap; margin-top: .4rem; }
+    .cal-list { list-style: none; margin: 0; padding: 0; }
+    .cal-list li {
+      display: flex; gap: .8rem; padding: .5rem 0; align-items: baseline;
+      border-bottom: 1px dashed var(--border); font-size: .88rem;
+    }
+    .cal-list li:last-child { border-bottom: 0; }
+    .cal-date {
+      font-family: var(--font-display); font-size: .74rem; letter-spacing: .04em;
+      color: var(--gold); white-space: nowrap; min-width: 7.2rem; font-weight: 600;
+    }
+    .cal-list li.past { opacity: .55; }
+    .cal-list li.past .cal-date { color: var(--muted); }
+    .cal-label { color: #c3d0e6; }
+    .cal-stage { font-family: var(--font-display); font-size: .64rem; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+    .cal-result {
+      font-family: var(--font-display); color: var(--gold); font-weight: 700;
+      padding: 0 .25rem; text-shadow: 0 0 10px rgba(240,201,74,.35);
+    }
+    code { background: rgba(240,201,74,.1); border-radius: 4px; padding: .05rem .35rem; color: var(--gold); font-size: .78rem; }
+  </style>
+</Base>

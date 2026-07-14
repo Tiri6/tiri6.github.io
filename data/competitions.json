@@ -1,0 +1,367 @@
+{
+  "_note": "Hub Nazionali. teams = selettore in pagina. Ogni competizione: teamId, phase (in-corso | futura | conclusa — le concluse restano max 2 anni), period (testo), honours5 (albo ultime 5 edizioni), matches con risultati Italia, newsKeywords per collegare gli articoli.",
+  "teams": [
+    { "id": "a", "label": "Nazionale A", "labelEn": "Senior team" },
+    { "id": "u21", "label": "Under 21", "labelEn": "Under 21" },
+    { "id": "u20", "label": "Under 20", "labelEn": "Under 20" },
+    { "id": "u19", "label": "Under 19", "labelEn": "Under 19" },
+    { "id": "u17", "label": "Under 17", "labelEn": "Under 17" },
+    { "id": "u15", "label": "Under 15/16", "labelEn": "Under 15/16" }
+  ],
+  "competitions": [
+    {
+      "id": "road-to-2030",
+      "teamId": "a", "team": "Nazionale A", "phase": "futura",
+      "period": "Qualificazioni dal 2028 · Mondiale 8 giu – 21 lug 2030",
+      "periodEn": "Qualifiers from 2028 · World Cup 8 Jun – 21 Jul 2030",
+      "short": "Road to 2030", "shortEn": "Road to 2030",
+      "name": "Mondiale 2030 — Spagna·Portogallo·Marocco", "nameEn": "2030 World Cup — Spain·Portugal·Morocco",
+      "format": "Il Mondiale del centenario: 48 squadre in Spagna, Portogallo e Marocco, con tre partite celebrative in Sudamerica per i 100 anni dalla prima edizione. Qualificazioni europee dal 2028: 16 posti.",
+      "formatEn": "The centenary World Cup: 48 teams across Spain, Portugal and Morocco, plus three celebration matches in South America. European qualifying starts in 2028: 16 spots.",
+      "honours5": [
+        { "edition": "2010", "winner": "Spagna", "winnerEn": "Spain" },
+        { "edition": "2014", "winner": "Germania", "winnerEn": "Germany" },
+        { "edition": "2018", "winner": "Francia", "winnerEn": "France" },
+        { "edition": "2022", "winner": "Argentina", "winnerEn": "Argentina" },
+        { "edition": "2026", "winner": "in corso in Nord America", "winnerEn": "ongoing in North America" }
+      ],
+      "italy": "L'obiettivo di tutto questo sito: tornarci dopo tre assenze. Nel giugno 2030 Camarda avrà 22 anni, Pio Esposito 25, Leoni 23.",
+      "italyEn": "The goal behind this whole site: returning after three absences. In June 2030 Camarda will be 22, Pio Esposito 25, Leoni 23.",
+      "teams": ["Italia"], "squad": ["Giovanni Leoni", "Francesco Pio Esposito", "Francesco Camarda", "Pietro Comuzzo", "Honest Ahanor", "Davide Bartesaghi"],
+      "matches": [],
+      "events": [
+        { "date": "2028-03-01", "label": "Inizio qualificazioni europee (data indicativa)", "labelEn": "European qualifiers begin (indicative)" },
+        { "date": "2030-06-08", "label": "🏆 Calcio d'inizio del Mondiale", "labelEn": "🏆 World Cup kick-off" }
+      ],
+      "newsKeywords": ["2030", "Mondiale", "Mondiali"]
+    },
+    {
+      "id": "nations-league-2026-27",
+      "teamId": "a", "team": "Nazionale A", "phase": "futura",
+      "period": "Set 2026 – giu 2027", "periodEn": "Sep 2026 – Jun 2027",
+      "short": "Nations League", "shortEn": "Nations League",
+      "name": "UEFA Nations League 2026/27", "nameEn": "UEFA Nations League 2026/27",
+      "format": "Lega A: quattro gironi da quattro, sei partite tra settembre e novembre 2026. Le prime DUE di ogni girone volano ai quarti di finale (marzo 2027); final four a giugno 2027. Sorteggio del 12 febbraio 2026: l'Italia è nel Gruppo 1 con Francia, Belgio e Turchia.",
+      "formatEn": "League A: four groups of four, six matches between September and November 2026. The top TWO of each group reach the quarter-finals (March 2027); final four in June 2027. February 2026 draw: Italy landed in Group 1 with France, Belgium and Türkiye.",
+      "honours5": [
+        { "edition": "2019", "winner": "Portogallo", "winnerEn": "Portugal" },
+        { "edition": "2021", "winner": "Francia", "winnerEn": "France" },
+        { "edition": "2023", "winner": "Spagna", "winnerEn": "Spain" },
+        { "edition": "2025", "winner": "Portogallo (2-2, 5-3 dcr con la Spagna)", "winnerEn": "Portugal (2-2, 5-3 pens vs Spain)" }
+      ],
+      "italy": "Girone di ferro con Francia, Belgio e Turchia: il primo banco di prova della ricostruzione post-Zenica, con i giovani chiamati a prendersi la maglia.",
+      "italyEn": "A group of iron with France, Belgium and Türkiye: the first test of the post-Zenica rebuild, with the kids expected to claim the shirt.",
+      "teams": ["Italia", "Francia", "Belgio", "Turchia"],
+      "squad": ["Francesco Pio Esposito", "Giovanni Leoni", "Pietro Comuzzo", "Davide Bartesaghi", "Honest Ahanor", "Cher Ndour"],
+      "matches": [
+        { "date": "2026-09-04", "stage": "Lega A · Gruppo 1 (finestra di settembre, calendario ufficiale su uefa.com)", "stageEn": "League A · Group 1 (September window)", "home": "Italia", "away": "Da definire", "result": "" }
+      ],
+      "events": [
+        { "date": "2027-03-25", "label": "Quarti di finale (per le prime due del girone)", "labelEn": "Quarter-finals (top two of the group)" }
+      ],
+      "newsKeywords": ["Nations League"]
+    },
+    {
+      "id": "qual-mondiali-2026",
+      "teamId": "a", "team": "Nazionale A", "phase": "conclusa",
+      "period": "Set 2025 – mar 2026", "periodEn": "Sep 2025 – Mar 2026",
+      "short": "Qual. Mondiali 2026", "shortEn": "2026 WC Qualifiers",
+      "name": "Qualificazioni Mondiali 2026 — l'eliminazione", "nameEn": "2026 World Cup Qualifiers — the elimination",
+      "format": "Girone di qualificazione più spareggi: l'Italia, seconda nel girone dietro la Norvegia, è passata dai playoff di marzo — semifinale vinta con l'Irlanda del Nord, finale persa ai rigori a Zenica.",
+      "formatEn": "Qualifying group plus play-offs: Italy finished second behind Norway and went through the March play-offs — semi-final won against Northern Ireland, final lost on penalties in Zenica.",
+      "honours5": [],
+      "italy": "Terza mancata qualificazione consecutiva, la più crudele: 1-1 dopo 120 minuti in Bosnia e rigori fatali (4-1). Da quella notte è iniziato tutto: la linea verde di Gattuso e questo sito.",
+      "italyEn": "A third straight missed World Cup, the cruellest one: 1-1 after 120 minutes in Bosnia and a fatal shootout (4-1). Everything started that night: Gattuso's youth movement and this site.",
+      "teams": ["Italia", "Norvegia", "Bosnia ed Erzegovina", "Irlanda del Nord", "Estonia", "Israele", "Moldavia"],
+      "squad": ["Francesco Pio Esposito", "Giovanni Leoni"],
+      "matches": [
+        { "date": "2025-09-05", "stage": "Girone I", "stageEn": "Group I", "home": "Italia", "away": "Estonia", "result": "5-0" },
+        { "date": "2025-10-11", "stage": "Girone I", "stageEn": "Group I", "home": "Estonia", "away": "Italia", "result": "1-3" },
+        { "date": "2025-10-14", "stage": "Girone I", "stageEn": "Group I", "home": "Italia", "away": "Israele", "result": "3-0" },
+        { "date": "2025-11-13", "stage": "Girone I", "stageEn": "Group I", "home": "Moldavia", "away": "Italia", "result": "0-2" },
+        { "date": "2025-11-16", "stage": "Girone I", "stageEn": "Group I", "home": "Italia", "away": "Norvegia", "result": "1-4" },
+        { "date": "2026-03-26", "stage": "Playoff · Semifinale", "stageEn": "Play-off · Semi-final", "home": "Italia", "away": "Irlanda del Nord", "result": "2-0" },
+        { "date": "2026-03-31", "stage": "Playoff · Finale · Zenica", "stageEn": "Play-off · Final · Zenica", "home": "Bosnia ed Erzegovina", "away": "Italia", "result": "1-1 (4-1 dcr)" }
+      ],
+      "events": [],
+      "newsKeywords": ["Zenica", "Bosnia", "playoff", "nazionale maggiore"]
+    },
+    {
+      "id": "euro-u21-2027",
+      "teamId": "u21", "team": "Under 21", "phase": "in-corso",
+      "period": "Qualificazioni fino a ott 2026 · Fase finale estate 2027", "periodEn": "Qualifiers until Oct 2026 · Finals summer 2027",
+      "short": "Euro U21 2027", "shortEn": "U21 Euro 2027",
+      "name": "Europeo Under 21 — Albania/Serbia 2027", "nameEn": "UEFA Under 21 Euro — Albania/Serbia 2027",
+      "format": "Nove gironi di qualificazione fino a ottobre 2026: passano le prime e la migliore seconda, le altre seconde agli spareggi di novembre. Fase finale a 16 nell'estate 2027. L'Italia è nel Gruppo E con Polonia, Svezia, Macedonia del Nord, Montenegro e Armenia.",
+      "formatEn": "Nine qualifying groups until October 2026: winners and the best runner-up go through, the other runners-up enter November play-offs. A 16-team finals follows in summer 2027. Italy are in Group E with Poland, Sweden, North Macedonia, Montenegro and Armenia.",
+      "honours5": [
+        { "edition": "2017", "winner": "Germania", "winnerEn": "Germany" },
+        { "edition": "2019", "winner": "Spagna", "winnerEn": "Spain" },
+        { "edition": "2021", "winner": "Germania", "winnerEn": "Germany" },
+        { "edition": "2023", "winner": "Inghilterra", "winnerEn": "England" },
+        { "edition": "2025", "winner": "Inghilterra (3-2 dts alla Germania)", "winnerEn": "England (3-2 aet vs Germany)" }
+      ],
+      "italy": "Italia e Spagna restano le più titolate di sempre con 5 trofei. Il cammino verso il 2027 è iniziato a La Spezia nel settembre 2025; ultima finestra di qualificazione a settembre/ottobre 2026.",
+      "italyEn": "Italy and Spain remain the joint record-holders with 5 titles. The road to 2027 began in La Spezia in September 2025; the last qualifying window is September/October 2026.",
+      "teams": ["Italia", "Polonia", "Svezia", "Macedonia del Nord", "Montenegro", "Armenia"],
+      "squad": ["Simone Pafundi", "Kevin Zeroli", "Marco Palestra", "Pietro Comuzzo", "Niccolò Pisilli", "Davide Bartesaghi", "Cher Ndour", "Niccolò Fortini"],
+      "matches": [
+        { "date": "2025-09-05", "stage": "Qualificazioni · Gruppo E", "stageEn": "Qualifiers · Group E", "home": "Italia", "away": "Montenegro", "result": "" },
+        { "date": "2026-09-25", "stage": "Qualificazioni · Gruppo E (data indicativa)", "stageEn": "Qualifiers · Group E (indicative)", "home": "Italia", "away": "Da definire", "result": "" },
+        { "date": "2026-10-06", "stage": "Qualificazioni · ultima giornata (data indicativa)", "stageEn": "Qualifiers · final matchday (indicative)", "home": "Da definire", "away": "Italia", "result": "" }
+      ],
+      "events": [
+        { "date": "2026-11-10", "label": "Eventuali spareggi", "labelEn": "Possible play-offs" },
+        { "date": "2027-06-15", "label": "Fase finale in Albania e Serbia (data indicativa)", "labelEn": "Finals in Albania and Serbia (indicative)" }
+      ],
+      "newsKeywords": ["Under 21", "U21", "Europeo 2027"]
+    },
+    {
+      "id": "euro-u21-2025",
+      "teamId": "u21", "team": "Under 21", "phase": "conclusa",
+      "period": "Giu 2025 · Slovacchia", "periodEn": "Jun 2025 · Slovakia",
+      "short": "Euro U21 2025", "shortEn": "U21 Euro 2025",
+      "name": "Europeo Under 21 — Slovacchia 2025", "nameEn": "UEFA Under 21 Euro — Slovakia 2025",
+      "format": "Fase finale a 16 squadre in Slovacchia, giugno 2025: quattro gironi, poi eliminazione diretta dai quarti.",
+      "formatEn": "16-team finals in Slovakia, June 2025: four groups, then knockouts from the quarter-finals.",
+      "honours5": [
+        { "edition": "2025", "winner": "Inghilterra — 3-2 dts alla Germania nella finale di Bratislava (bis dopo il 2023)", "winnerEn": "England — 3-2 aet vs Germany in the Bratislava final (back-to-back after 2023)" }
+      ],
+      "italy": "Azzurrini presenti alla fase finale; il titolo è andato all'Inghilterra di Carsley, capace di difendere la corona come nessuno dal 1984. Da quel gruppo azzurro arrivano diversi protagonisti dell'attuale ciclo.",
+      "italyEn": "The Azzurrini featured at the finals; the title went to Carsley's England, the first back-to-back champions since 1984. Several players from that Italy group lead the current cycle.",
+      "teams": ["Italia", "Inghilterra", "Germania"], "squad": ["Francesco Pio Esposito", "Cesare Casadei", "Tommaso Baldanzi"],
+      "matches": [
+        { "date": "2025-06-28", "stage": "Finale · Bratislava", "stageEn": "Final · Bratislava", "home": "Inghilterra", "away": "Germania", "result": "3-2 dts" }
+      ],
+      "events": [],
+      "newsKeywords": ["Under 21", "Slovacchia 2025"]
+    },
+    {
+      "id": "maurice-revello",
+      "teamId": "u20", "team": "Under 20", "phase": "in-corso",
+      "period": "Ogni giugno · Francia", "periodEn": "Every June · France",
+      "short": "Torneo M. Revello", "shortEn": "M. Revello Tournament",
+      "name": "Torneo Maurice Revello (ex Torneo di Tolone)", "nameEn": "Maurice Revello Tournament (formerly Toulon)",
+      "format": "Il torneo giovanile per nazionali più prestigioso al mondo, dal 1967 nel sud della Francia ogni giugno: selezioni U20/U21 da tutti i continenti, vetrina storica per i futuri campioni (da Maradona a Mbappé). Una delle competizioni 'minori' che seguiamo con più attenzione.",
+      "formatEn": "The world's most prestigious youth national-team tournament, held every June in southern France since 1967: U20/U21 sides from every continent, a historic showcase for future stars (from Maradona to Mbappé). One of the 'minor' competitions we watch most closely.",
+      "honours5": [],
+      "italy": "L'Italia vi partecipa a cicli con le selezioni U20/U21 sperimentali: minuti pesanti per chi è fuori dai riflettori. Calendario e convocazioni si aggiornano ogni primavera.",
+      "italyEn": "Italy takes part in cycles with experimental U20/U21 squads: heavy minutes for those outside the spotlight. Schedule and call-ups are updated every spring.",
+      "teams": ["Italia"], "squad": [],
+      "matches": [],
+      "events": [
+        { "date": "2027-06-01", "label": "Prossima edizione (giugno 2027, partecipanti da confermare)", "labelEn": "Next edition (June 2027, entrants TBC)" }
+      ],
+      "newsKeywords": ["Maurice Revello", "Tolone", "Toulon"]
+    },
+    {
+      "id": "mondiale-u20-2025",
+      "teamId": "u20", "team": "Under 20", "phase": "conclusa",
+      "period": "27 set – 19 ott 2025 · Cile", "periodEn": "27 Sep – 19 Oct 2025 · Chile",
+      "short": "Mondiale U20 2025", "shortEn": "U20 WC 2025",
+      "name": "Mondiale Under 20 — Cile 2025", "nameEn": "FIFA U20 World Cup — Chile 2025",
+      "format": "24 squadre in Cile. Finale a Santiago davanti a 40.000 spettatori.",
+      "formatEn": "24 teams in Chile. Final in Santiago in front of 40,000 fans.",
+      "honours5": [
+        { "edition": "2015", "winner": "Serbia", "winnerEn": "Serbia" },
+        { "edition": "2017", "winner": "Inghilterra", "winnerEn": "England" },
+        { "edition": "2019", "winner": "Ucraina", "winnerEn": "Ukraine" },
+        { "edition": "2023", "winner": "Uruguay", "winnerEn": "Uruguay" },
+        { "edition": "2025", "winner": "Marocco (2-0 all'Argentina, primo titolo)", "winnerEn": "Morocco (2-0 vs Argentina, first title)" }
+      ],
+      "italy": "Azzurrini in Cile con Nunziata dopo l'argento del 2023. Il torneo l'ha vinto il Marocco, secondo trionfo africano di sempre dopo il Ghana 2009: il calcio giovanile è sempre più globale.",
+      "italyEn": "The Azzurrini went to Chile with Nunziata after the 2023 silver. Morocco won it — only the second African triumph ever after Ghana 2009: youth football keeps getting more global.",
+      "teams": ["Italia", "Marocco", "Argentina"], "squad": [],
+      "matches": [
+        { "date": "2025-10-19", "stage": "Finale · Santiago", "stageEn": "Final · Santiago", "home": "Marocco", "away": "Argentina", "result": "2-0" }
+      ],
+      "events": [],
+      "newsKeywords": ["Under 20", "U20", "Cile"]
+    },
+    {
+      "id": "mondiale-u20-2027",
+      "teamId": "u20", "team": "Under 20", "phase": "futura",
+      "period": "2027 · Sede da confermare", "periodEn": "2027 · Host TBC",
+      "short": "Mondiale U20 2027", "shortEn": "U20 WC 2027",
+      "name": "Mondiale Under 20 — 2027", "nameEn": "FIFA U20 World Cup — 2027",
+      "format": "Torneo biennale a 24 squadre. L'Europa qualifica le sue rappresentanti tramite l'Europeo U19 dell'anno prima: per questo il torneo in Galles vale doppio. Sede 2027 da confermare.",
+      "formatEn": "Biennial 24-team tournament. Europe qualifies via the previous year's U19 Euro — which makes the Wales tournament count double. 2027 host TBC.",
+      "honours5": [
+        { "edition": "2015", "winner": "Serbia", "winnerEn": "Serbia" },
+        { "edition": "2017", "winner": "Inghilterra", "winnerEn": "England" },
+        { "edition": "2019", "winner": "Ucraina", "winnerEn": "Ukraine" },
+        { "edition": "2023", "winner": "Uruguay", "winnerEn": "Uruguay" },
+        { "edition": "2025", "winner": "Marocco", "winnerEn": "Morocco" }
+      ],
+      "italy": "Mai vinto: il miglior risultato è la finale del 2023 persa 1-0 con l'Uruguay. La generazione 2007-2008 (Coletta, Inacio, Natali) può prendersi la rivincita.",
+      "italyEn": "Never won: Italy's best is the 2023 final, lost 1-0 to Uruguay. The 2007-2008 generation (Coletta, Inacio, Natali) can seek revenge.",
+      "teams": ["Italia"], "squad": ["Federico Coletta", "Samuele Inacio", "Andrea Natali", "Mattia Liberali", "Jamal Iddrissou"],
+      "matches": [],
+      "events": [
+        { "date": "2027-05-01", "label": "Mondiale U20 2027 (periodo e sede da confermare)", "labelEn": "2027 U20 World Cup (dates and host TBC)" }
+      ],
+      "newsKeywords": ["Under 20", "U20"]
+    },
+    {
+      "id": "elite-league-u20",
+      "teamId": "u20", "team": "Under 20", "phase": "in-corso",
+      "period": "Ott – mar, ogni stagione", "periodEn": "Oct – Mar, every season",
+      "short": "8 Nazioni U20", "shortEn": "U20 Elite League",
+      "name": "U20 Elite League (Torneo 8 Nazioni)", "nameEn": "U20 Elite League (8 Nations)",
+      "format": "Il campionato 'nascosto' degli Under 20 europei: otto grandi scuole calcistiche (tra cui Italia, Inghilterra, Germania, Portogallo, Polonia, Turchia) si sfidano da ottobre a marzo in gare amichevoli ufficiali. Poco raccontato, preziosissimo: è qui che i CT testano chi è pronto per il salto.",
+      "formatEn": "European U20 football's 'hidden' championship: eight big football schools (including Italy, England, Germany, Portugal, Poland, Türkiye) face off from October to March. Rarely covered, hugely valuable: this is where coaches test who's ready for the step up.",
+      "honours5": [],
+      "italy": "L'Italia è tra le protagoniste abituali del torneo. Calendario della prossima stagione in uscita a fine estate: lo seguiremo partita per partita.",
+      "italyEn": "Italy is one of the tournament's regulars. Next season's schedule lands in late summer: we'll follow it match by match.",
+      "teams": ["Italia", "Inghilterra", "Germania", "Portogallo", "Polonia", "Turchia", "Repubblica Ceca", "Romania"],
+      "squad": [],
+      "matches": [],
+      "events": [
+        { "date": "2026-10-01", "label": "Inizio edizione 2026/27 (calendario FIGC in arrivo)", "labelEn": "2026/27 edition begins (FIGC schedule due)" }
+      ],
+      "newsKeywords": ["8 Nazioni", "Elite League"]
+    },
+    {
+      "id": "euro-u19-2026",
+      "teamId": "u19", "team": "Under 19", "phase": "in-corso",
+      "period": "28 giu – 11 lug 2026 · Galles", "periodEn": "28 Jun – 11 Jul 2026 · Wales",
+      "short": "Euro U19 2026", "shortEn": "U19 Euro 2026",
+      "name": "Europeo Under 19 — Galles 2026", "nameEn": "UEFA Under 19 Euro — Wales 2026",
+      "format": "Fase finale a 8 in Galles: due gironi da quattro, le prime due in semifinale. Qualifica le migliori europee al Mondiale U20 2027. Partite su RaiSport e RaiPlay.",
+      "formatEn": "8-team finals in Wales: two groups of four, top two reach the semis. Doubles as European qualification for the 2027 U20 World Cup. Matches on RaiSport and RaiPlay.",
+      "honours5": [
+        { "edition": "2022", "winner": "Inghilterra", "winnerEn": "England" },
+        { "edition": "2023", "winner": "ITALIA 🇮🇹", "winnerEn": "ITALY 🇮🇹" },
+        { "edition": "2024", "winner": "Spagna", "winnerEn": "Spain" },
+        { "edition": "2025", "winner": "Paesi Bassi (1-0 alla Spagna)", "winnerEn": "Netherlands (1-0 vs Spain)" },
+        { "edition": "2026", "winner": "in corso in Galles", "winnerEn": "ongoing in Wales" }
+      ],
+      "italy": "Eliminazione beffa: dopo il 2-0 alla Serbia (Liberali e Iddrissou) e lo 0-0 con la Croazia, gli azzurrini cadono 1-0 con l'Ucraina (perla di Olychenko) e vengono scavalcati dalla Croazia, 3-0 alla Serbia, per differenza reti. Traversa di Marello sul punteggio di 0-0: a centimetri dalla semifinale e dal pass per il Mondiale U20.",
+      "italyEn": "A cruel exit: after beating Serbia 2-0 (Liberali, Iddrissou) and drawing 0-0 with Croatia, the Azzurrini fell 1-0 to Ukraine (an Olychenko gem) and were overtaken on goal difference by Croatia, 3-0 winners over Serbia. Marello hit the bar at 0-0: centimetres from the semis and a U20 World Cup ticket.",
+      "teams": ["Italia", "Serbia", "Ucraina", "Croazia", "Galles"],
+      "squad": ["Federico Coletta", "Samuele Inacio", "Andrea Natali", "Mattia Liberali", "Jamal Iddrissou", "Mattia Mosconi", "Matteo Cocchi"],
+      "matches": [
+        { "date": "2026-06-29", "stage": "Gruppo B · 1ª giornata", "stageEn": "Group B · MD1", "home": "Italia", "away": "Serbia", "result": "2-0" },
+        { "date": "2026-06-29", "stage": "Gruppo B · 1ª giornata", "stageEn": "Group B · MD1", "home": "Ucraina", "away": "Croazia", "result": "3-1" },
+        { "date": "2026-07-02", "stage": "Gruppo B · 2ª giornata", "stageEn": "Group B · MD2", "home": "Croazia", "away": "Italia", "result": "0-0" },
+        { "date": "2026-07-02", "stage": "Gruppo B · 2ª giornata", "stageEn": "Group B · MD2", "home": "Serbia", "away": "Ucraina", "result": "1-2" },
+        { "date": "2026-07-05", "stage": "Gruppo B · 3ª giornata", "stageEn": "Group B · MD3", "home": "Ucraina", "away": "Italia", "result": "1-0" },
+        { "date": "2026-07-05", "stage": "Gruppo B · 3ª giornata", "stageEn": "Group B · MD3", "home": "Croazia", "away": "Serbia", "result": "3-0" },
+        { "date": "2026-07-08", "stage": "Semifinali", "stageEn": "Semi-finals", "home": "Da definire", "away": "Da definire", "result": "" },
+        { "date": "2026-07-11", "stage": "Finale", "stageEn": "Final", "home": "Da definire", "away": "Da definire", "result": "" }
+      ],
+      "events": [],
+      "newsKeywords": ["Under 19", "U19"]
+    },
+    {
+      "id": "euro-u19-2025",
+      "teamId": "u19", "team": "Under 19", "phase": "conclusa",
+      "period": "13 – 26 giu 2025 · Romania", "periodEn": "13 – 26 Jun 2025 · Romania",
+      "short": "Euro U19 2025", "shortEn": "U19 Euro 2025",
+      "name": "Europeo Under 19 — Romania 2025", "nameEn": "UEFA Under 19 Euro — Romania 2025",
+      "format": "Fase finale a 8 squadre in Romania, giugno 2025.",
+      "formatEn": "8-team finals in Romania, June 2025.",
+      "honours5": [
+        { "edition": "2025", "winner": "Paesi Bassi — 1-0 alla Spagna in finale, primo titolo della loro storia", "winnerEn": "Netherlands — 1-0 vs Spain in the final, their first ever title" }
+      ],
+      "italy": "L'edizione che ha incoronato i Paesi Bassi e qualificato le migliori europee al Mondiale U20 del Cile. Il ciclo azzurro è poi ripartito con il gruppo oggi impegnato in Galles.",
+      "italyEn": "The edition that crowned the Netherlands and sent Europe's best to the U20 World Cup in Chile. The Azzurri cycle then restarted with the group now competing in Wales.",
+      "teams": ["Paesi Bassi", "Spagna", "Italia"], "squad": [],
+      "matches": [
+        { "date": "2025-06-26", "stage": "Finale", "stageEn": "Final", "home": "Paesi Bassi", "away": "Spagna", "result": "1-0" }
+      ],
+      "events": [],
+      "newsKeywords": ["Under 19", "Romania 2025"]
+    },
+    {
+      "id": "euro-u17",
+      "teamId": "u17", "team": "Under 17", "phase": "conclusa",
+      "period": "25 mag – 7 giu 2026 · Estonia", "periodEn": "25 May – 7 Jun 2026 · Estonia",
+      "short": "Euro U17", "shortEn": "U17 Euro",
+      "name": "Europeo Under 17 2026 — CAMPIONI! 🏆", "nameEn": "UEFA Under 17 Euro 2026 — CHAMPIONS! 🏆",
+      "format": "Fase finale a 16 squadre ogni anno: quattro gironi, poi eliminazione diretta dai quarti. Nel 2026 in Estonia.",
+      "formatEn": "16-team finals every year: four groups, then knockouts from the quarters. 2026 edition in Estonia.",
+      "honours5": [
+        { "edition": "2022", "winner": "Francia", "winnerEn": "France" },
+        { "edition": "2023", "winner": "Germania", "winnerEn": "Germany" },
+        { "edition": "2024", "winner": "ITALIA 🇮🇹", "winnerEn": "ITALY 🇮🇹" },
+        { "edition": "2025", "winner": "Portogallo (3-0 alla Francia)", "winnerEn": "Portugal (3-0 vs France)" },
+        { "edition": "2026", "winner": "ITALIA 🇮🇹 (Belgio battuto ai rigori a Tallinn)", "winnerEn": "ITALY 🇮🇹 (Belgium beaten on pens in Tallinn)" }
+      ],
+      "italy": "Due titoli in tre anni: la semifinale vinta ai rigori con la Spagna, poi la finale di Tallinn — sotto all'85', pari di Fugazzola al 91' e trionfo dal dischetto. La generazione 2009 è oro puro.",
+      "italyEn": "Two titles in three years: a shootout semi-final win over Spain, then the Tallinn final — trailing in the 85th, Fugazzola's 91st-minute equaliser and glory from the spot. The 2009 generation is pure gold.",
+      "teams": ["Italia", "Belgio", "Spagna"],
+      "squad": ["Destiny Elimoghale", "Antonio Arena", "Luca Reggiani"],
+      "matches": [
+        { "date": "2026-06-04", "stage": "Semifinale", "stageEn": "Semi-final", "home": "Italia", "away": "Spagna", "result": "5-3 dcr" },
+        { "date": "2026-06-07", "stage": "Finale · Tallinn", "stageEn": "Final · Tallinn", "home": "Belgio", "away": "Italia", "result": "1-1 (4-5 dcr)" }
+      ],
+      "events": [],
+      "newsKeywords": ["Under 17", "U17"]
+    },
+    {
+      "id": "mondiale-u17-2026",
+      "teamId": "u17", "team": "Under 17", "phase": "futura",
+      "period": "19 nov – 13 dic 2026 · Qatar", "periodEn": "19 Nov – 13 Dec 2026 · Qatar",
+      "short": "Mondiale U17", "shortEn": "U17 World Cup",
+      "name": "Mondiale Under 17 — Qatar 2026", "nameEn": "FIFA U17 World Cup — Qatar 2026",
+      "format": "Dal 2025 si gioca ogni anno in Qatar con 48 squadre: 12 gironi da 4, poi eliminazione diretta dai sedicesimi. L'Italia è tra le qualificate europee.",
+      "formatEn": "Since 2025, played every year in Qatar with 48 teams: 12 groups of 4, then knockouts from the round of 32. Italy are among the European qualifiers.",
+      "honours5": [
+        { "edition": "2015", "winner": "Nigeria", "winnerEn": "Nigeria" },
+        { "edition": "2017", "winner": "Inghilterra", "winnerEn": "England" },
+        { "edition": "2019", "winner": "Brasile", "winnerEn": "Brazil" },
+        { "edition": "2023", "winner": "Germania", "winnerEn": "Germany" },
+        { "edition": "2025", "winner": "Portogallo (1-0 all'Austria)", "winnerEn": "Portugal (1-0 vs Austria)" }
+      ],
+      "italy": "Mai vinto — e mai arrivati da campioni d'Europa in carica come stavolta. Il gruppo di Tallinn può giocarsi davvero il titolo mondiale.",
+      "italyEn": "Never won it — and never arrived as reigning European champions before. The Tallinn group can genuinely go for the world title.",
+      "teams": ["Italia", "Belgio", "Croazia", "Francia", "Spagna", "Portogallo"],
+      "squad": ["Destiny Elimoghale", "Antonio Arena", "Luca Reggiani"],
+      "matches": [
+        { "date": "2026-11-19", "stage": "Fase a gironi (sorteggio da effettuare)", "stageEn": "Group stage (draw TBC)", "home": "Italia", "away": "Da definire", "result": "" }
+      ],
+      "events": [
+        { "date": "2026-12-13", "label": "Finale a Doha", "labelEn": "Final in Doha" }
+      ],
+      "newsKeywords": ["Mondiale Under 17", "Mondiale U17", "Qatar"]
+    },
+    {
+      "id": "qual-euro-u17-2027",
+      "teamId": "u17", "team": "Under 17", "phase": "futura",
+      "period": "Autunno 2026 – primavera 2027", "periodEn": "Autumn 2026 – Spring 2027",
+      "short": "Qual. Euro U17 2027", "shortEn": "U17 Euro 2027 Qual.",
+      "name": "Qualificazioni Europeo Under 17 — 2027", "nameEn": "UEFA Under 17 Euro 2027 — Qualifiers",
+      "format": "Due round di mini-gironi (autunno e primavera) ospitati da una delle squadre; le migliori alla fase finale 2027. La nuova classe 2010-2011 azzurra debutta qui.",
+      "formatEn": "Two rounds of single-host mini-groups (autumn and spring); the best reach the 2027 finals. Italy's new 2010-2011 class debuts here.",
+      "honours5": [],
+      "italy": "Da campioni in carica (e bicampioni), gli azzurrini partono col bersaglio sulla schiena: il primo round d'autunno dirà chi è la prossima ondata.",
+      "italyEn": "As reigning (double) champions, the Azzurrini start with a target on their back: the autumn round will reveal the next wave.",
+      "teams": ["Italia"], "squad": [],
+      "matches": [],
+      "events": [
+        { "date": "2026-10-15", "label": "Primo round (finestra autunnale, data indicativa)", "labelEn": "First round (autumn window, indicative)" },
+        { "date": "2027-03-20", "label": "Round élite (data indicativa)", "labelEn": "Elite round (indicative)" }
+      ],
+      "newsKeywords": ["Under 17", "U17", "qualificazioni"]
+    },
+    {
+      "id": "under-15-16",
+      "teamId": "u15", "team": "Under 15/16", "phase": "in-corso",
+      "period": "Tutto l'anno", "periodEn": "Year-round",
+      "short": "U15/16", "shortEn": "U15/16",
+      "name": "Under 15 e Under 16 — Tornei di sviluppo", "nameEn": "Under 15 and Under 16 — Development tournaments",
+      "format": "Per U15 e U16 non esistono campionati UEFA/FIFA ufficiali: si giocano tornei di sviluppo e amichevoli internazionali (Torneo delle Nazioni, tornei UEFA development). È il primo gradino del percorso azzurro — e la palestra dei ragazzi che ritroveremo agli Europei U17.",
+      "formatEn": "No official UEFA/FIFA competitions exist at U15/U16 level: development tournaments and international friendlies (Torneo delle Nazioni, UEFA development events). It's the first step of the Azzurri pathway — the training ground of the kids we'll meet again at the U17 Euros.",
+      "honours5": [],
+      "italy": "Nelle ultime convocazioni U15 spiccano i baby all'estero: Muzzi (Benfica), Gerace e Lenate (Stoccarda). Occhi ovunque, da subito.",
+      "italyEn": "Recent U15 call-ups include the kids abroad: Muzzi (Benfica), Gerace and Lenate (Stuttgart). Eyes everywhere, from day one.",
+      "teams": ["Italia"], "squad": ["Luca Muzzi", "Daniele Gerace"],
+      "matches": [],
+      "events": [
+        { "date": "2026-09-10", "label": "Raduni e amichevoli di inizio stagione (calendario FIGC in aggiornamento)", "labelEn": "Season-opening camps and friendlies (FIGC schedule pending)" }
+      ],
+      "newsKeywords": ["Under 15", "Under 16", "U15", "U16", "Giovanissimi"]
+    }
+  ]
+}

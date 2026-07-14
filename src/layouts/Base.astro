@@ -1,0 +1,620 @@
+---
+import '@fontsource/inter/400.css';
+import '@fontsource/inter/600.css';
+import '@fontsource/inter/800.css';
+import '@fontsource/space-grotesk/400.css';
+import '@fontsource/space-grotesk/500.css';
+import '@fontsource/space-grotesk/700.css';
+import ads from '../../data/ads.json';
+
+interface Props {
+  title: string;
+  description: string;
+  lang: 'it' | 'en';
+  /** Percorso equivalente nell'altra lingua, per lo switcher */
+  altPath: string;
+}
+const { title, description, lang, altPath } = Astro.props;
+const adsOn = ads.enabled && ads.adsenseClient;
+const t = (it: string, en: string) => (lang === 'it' ? it : en);
+const home = lang === 'it' ? '/' : '/en/';
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🇮🇹</text></svg>" />
+  </head>
+  <body>
+    <div class="bg-mesh" aria-hidden="true"></div>
+
+    <a class="support-banner" href={lang === 'it' ? '/sostieni/' : '/en/support/'}>
+      ☕ {t('Ti piace il progetto? Offrimi un caffè', 'Enjoying the project? Buy me a coffee')} →
+    </a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href={home}>
+          <span class="brand-flag"><i class="g"></i><i class="w"></i><i class="r"></i></span>
+          <span class="brand-name">ITALIAN<em>NEXTGEN</em></span>
+        </a>
+        <nav class="nav">
+          <a href={home}>{t('Home', 'Home')}</a>
+          <a href={lang === 'it' ? '/giocatori/' : '/en/players/'}>{t('Giocatori', 'Players')}</a>
+          <a href={lang === 'it' ? '/nazionali/' : '/en/national-teams/'}>{t('Nazionali', 'Nat. Teams')}</a>
+          <a href={lang === 'it' ? '/missione/' : '/en/mission/'}>{t('Missione 2030', 'Mission 2030')}</a>
+          <a class="lang-switch" href={altPath}>{lang === 'it' ? 'EN' : 'IT'}</a>
+        </nav>
+      </div>
+      <div class="ticker-bar">
+        <div class="container ticker-inner">
+          <span class="live-dot"></span>
+          {t(
+            'OCCHI OVUNQUE — SERIE A · SERIE B · SERIE C · PRIMAVERA · NEXT GEN · UNDER · ESTERO',
+            'EYES EVERYWHERE — SERIE A · SERIE B · SERIE C · PRIMAVERA · NEXT GEN · YOUTH · ABROAD'
+          )}
+          <span class="countdown">⏳ {t('MONDIALE 2030', 'WORLD CUP 2030')} · <b class="ticker-days" data-target-days="2030-06-08T18:00:00Z">—</b> {t('GIORNI', 'DAYS')}</span>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <slot />
+    </main>
+
+    {adsOn && (
+      <>
+        <aside class="ad-rail left" aria-label="Pubblicità">
+          <ins class="adsbygoogle" style="display:block; width:160px; height:600px" data-ad-client={ads.adsenseClient} data-ad-format="vertical"></ins>
+        </aside>
+        <aside class="ad-rail right" aria-label="Pubblicità">
+          <ins class="adsbygoogle" style="display:block; width:160px; height:600px" data-ad-client={ads.adsenseClient} data-ad-format="vertical"></ins>
+        </aside>
+        <div class="consent-banner" id="consent-banner" style="display:none">
+          <p>
+            {lang === 'it'
+              ? 'Questo sito usa banner pubblicitari di Google che impiegano cookie. Accetti?'
+              : 'This site shows Google ad banners that use cookies. Do you accept?'}
+            <a href={lang === 'it' ? '/cookie/' : '/en/cookies/'}>{lang === 'it' ? 'Dettagli' : 'Details'}</a>
+          </p>
+          <div>
+            <button id="consent-yes">{lang === 'it' ? 'Accetta' : 'Accept'}</button>
+            <button id="consent-no" class="no">{lang === 'it' ? 'Rifiuta' : 'Decline'}</button>
+          </div>
+        </div>
+        <script is:inline define:vars={{ client: ads.adsenseClient }}>
+          (function () {
+            var KEY = 'ing-ads-consent';
+            function loadAds() {
+              var s = document.createElement('script');
+              s.async = true;
+              s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + client;
+              s.crossOrigin = 'anonymous';
+              document.head.appendChild(s);
+              document.querySelectorAll('.adsbygoogle').forEach(function () {
+                (window.adsbygoogle = window.adsbygoogle || []).push({});
+              });
+            }
+            function hideRails() {
+              document.querySelectorAll('.ad-rail').forEach(function (r) { r.style.display = 'none'; });
+            }
+            var c = localStorage.getItem(KEY);
+            if (c === 'yes') loadAds();
+            else if (c === 'no') hideRails();
+            else {
+              document.getElementById('consent-banner').style.display = '';
+              document.getElementById('consent-yes').onclick = function () {
+                localStorage.setItem(KEY, 'yes');
+                document.getElementById('consent-banner').style.display = 'none';
+                loadAds();
+              };
+              document.getElementById('consent-no').onclick = function () {
+                localStorage.setItem(KEY, 'no');
+                document.getElementById('consent-banner').style.display = 'none';
+                hideRails();
+              };
+            }
+          })();
+        </script>
+      </>
+    )}
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>
+          <strong>ITALIAN<span class="gold">NEXTGEN</span></strong> —
+          {t(
+            'Notizie quotidiane su prestazioni, mercato e nazionali giovanili dei talenti italiani, in Italia e all’estero.',
+            'Daily coverage of Italian talents’ performances, transfer news and youth national teams, in Italy and abroad.'
+          )}
+        </p>
+        <p class="muted">
+          {t(
+            'Ogni notizia è selezionata e verificata dalla redazione, con il link alla fonte originale sempre in evidenza.',
+            'Every story is selected and verified by our editorial team, always with a link to the original source.'
+          )}
+        </p>
+        <p class="footer-links">
+          <a href={lang === 'it' ? '/chi-siamo/' : '/en/about/'}>{t('Chi siamo', 'About')}</a> ·
+          <a href={lang === 'it' ? '/privacy/' : '/en/privacy/'}>Privacy</a> ·
+          <a href={lang === 'it' ? '/cookie/' : '/en/cookies/'}>Cookie</a> ·
+          <a href={lang === 'it' ? '/sostieni/' : '/en/support/'}>{t('Sostienici', 'Support us')}</a>
+        </p>
+        <p class="muted">© 2026 Italian Next Gen — {t('Sito indipendente senza scopo di lucro. Tutti i diritti riservati.', 'Independent non-profit website. All rights reserved.')}</p>
+      </div>
+    </footer>
+
+    <style is:global>
+      :root {
+        --bg: #0b2440;
+        --bg-2: #0e2e52;
+        --panel: rgba(23, 58, 102, 0.6);
+        --panel-solid: #14395f;
+        --border: rgba(140, 190, 240, 0.2);
+        --border-gold: rgba(240, 201, 74, 0.4);
+        --ink: #eef5fc;
+        --muted: #9fc2e0;
+        --azzurro: #3fa9e8;
+        --azzurro-light: #8fd2f7;
+        --gold: #f0c94a;
+        --gold-deep: #d4a72c;
+        --green: #2dd48f;
+        --red: #ff5d73;
+        --max: 1120px;
+        --font-display: 'Space Grotesk', system-ui, sans-serif;
+        --font-body: 'Inter', system-ui, sans-serif;
+      }
+      * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+      body {
+        margin: 0;
+        font-family: var(--font-body);
+        background: var(--bg);
+        color: var(--ink);
+        line-height: 1.65;
+        min-height: 100vh;
+      }
+      .bg-mesh {
+        position: fixed; inset: 0; z-index: -1; pointer-events: none;
+        background:
+          radial-gradient(700px 400px at 85% -5%, rgba(240, 201, 74, 0.08), transparent 60%),
+          radial-gradient(900px 500px at 10% 10%, rgba(63, 169, 232, 0.18), transparent 60%),
+          radial-gradient(800px 600px at 50% 110%, rgba(21, 82, 143, 0.45), transparent 65%),
+          linear-gradient(180deg, var(--bg-2) 0%, var(--bg) 40%);
+      }
+      .container { max-width: var(--max); margin: 0 auto; padding: 0 1.25rem; }
+      a { color: var(--azzurro-light); }
+
+      /* ── banner sostieni ────────────────────── */
+      .support-banner {
+        display: block; text-align: center; text-decoration: none;
+        background: linear-gradient(90deg, var(--gold-deep), var(--gold), var(--gold-deep));
+        color: #0a1430; font-family: var(--font-display); font-weight: 700;
+        font-size: .78rem; letter-spacing: .08em; padding: .45rem 1rem;
+      }
+      .support-banner:hover { filter: brightness(1.08); }
+
+      /* ── header ─────────────────────────────── */
+      .site-header {
+        position: sticky; top: 0; z-index: 50;
+        background: rgba(11, 36, 64, 0.85);
+        backdrop-filter: blur(14px);
+        border-bottom: 1px solid var(--border);
+      }
+      .header-inner {
+        display: flex; align-items: center; justify-content: space-between;
+        padding-top: .95rem; padding-bottom: .95rem; gap: 1rem; flex-wrap: wrap;
+      }
+      .brand { display: flex; align-items: center; gap: .7rem; text-decoration: none; color: var(--ink); }
+      .brand-flag { display: inline-flex; width: 30px; height: 20px; border-radius: 3px; overflow: hidden; box-shadow: 0 0 14px rgba(240,201,74,.25); }
+      .brand-flag i { flex: 1; }
+      .brand-flag .g { background: #009246; } .brand-flag .w { background: #f4f6fa; } .brand-flag .r { background: #ce2b37; }
+      .brand-name { font-family: var(--font-display); font-size: 1.3rem; font-weight: 700; letter-spacing: .04em; }
+      .brand-name em { color: var(--gold); font-style: normal; }
+      .nav { display: flex; gap: 1.5rem; align-items: center; font-family: var(--font-display); font-size: .9rem; letter-spacing: .04em; }
+      .nav a { color: var(--muted); text-decoration: none; text-transform: uppercase; font-size: .8rem; font-weight: 500; }
+      .nav a:hover { color: var(--gold); }
+      .nav .lang-switch {
+        border: 1px solid var(--border-gold); color: var(--gold); border-radius: 4px;
+        padding: .18rem .6rem; font-weight: 700;
+      }
+      .ticker-bar {
+        border-top: 1px solid var(--border);
+        background: linear-gradient(90deg, rgba(240,201,74,.08), transparent 40%);
+        font-family: var(--font-display); font-size: .68rem; letter-spacing: .18em;
+        color: var(--azzurro-light); padding: .4rem 0;
+        text-transform: uppercase;
+      }
+      .ticker-inner { display: flex; align-items: center; gap: .7rem; flex-wrap: wrap; }
+      .live-dot {
+        width: 7px; height: 7px; border-radius: 50%; background: var(--green);
+        box-shadow: 0 0 8px var(--green); animation: pulse 1.6s infinite;
+      }
+      .countdown { margin-left: auto; color: var(--gold); }
+      @keyframes pulse { 50% { opacity: .35; } }
+
+      main { padding: 2.4rem 1.25rem 3rem; }
+
+      /* ── componenti ─────────────────────────── */
+      .badge {
+        display: inline-block; font-family: var(--font-display); font-size: .66rem;
+        font-weight: 700; text-transform: uppercase; letter-spacing: .14em;
+        color: var(--bg); border-radius: 3px; padding: .2rem .55rem;
+      }
+      .meta { font-family: var(--font-display); font-size: .74rem; color: var(--muted); letter-spacing: .06em; }
+
+      .hero {
+        position: relative; overflow: hidden;
+        background: linear-gradient(135deg, rgba(18,62,110,.85) 0%, rgba(12,40,72,.95) 100%);
+        border: 1px solid var(--border); border-radius: 14px;
+        padding: 2.6rem 2.4rem; margin-bottom: 2.4rem;
+      }
+      .hero::after {
+        content: ''; position: absolute; inset: 0; pointer-events: none;
+        background:
+          radial-gradient(340px 200px at 88% 20%, rgba(240,201,74,.14), transparent 70%),
+          repeating-linear-gradient(90deg, transparent 0 79px, rgba(124,158,226,.05) 79px 80px);
+      }
+      .hero .kicker {
+        font-family: var(--font-display); font-size: .72rem; letter-spacing: .3em;
+        text-transform: uppercase; color: var(--gold); margin-bottom: .8rem;
+      }
+      .hero h1 {
+        margin: 0 0 .7rem; font-family: var(--font-display);
+        font-size: clamp(1.7rem, 4vw, 2.6rem); line-height: 1.15; font-weight: 700; letter-spacing: -.01em;
+      }
+      .hero p { margin: 0; color: #b9c9e4; max-width: 48rem; font-size: 1rem; }
+      .hero .gold { color: var(--gold); text-shadow: 0 0 24px rgba(240,201,74,.45); }
+
+      .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(310px, 1fr)); gap: 1.3rem; }
+      .card {
+        background: var(--panel); border: 1px solid var(--border); border-radius: 12px;
+        padding: 1.1rem; display: flex; flex-direction: column; gap: .6rem;
+        backdrop-filter: blur(6px);
+        transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease;
+      }
+      .card:hover {
+        transform: translateY(-3px);
+        border-color: var(--border-gold);
+        box-shadow: 0 10px 34px rgba(0,0,0,.45), 0 0 0 1px rgba(240,201,74,.12);
+      }
+      .card h2, .card h3 { margin: 0; font-family: var(--font-display); font-size: 1.12rem; line-height: 1.35; font-weight: 700; }
+      .card h2 a, .card h3 a { color: var(--ink); text-decoration: none; }
+      .card h2 a:hover, .card h3 a:hover { color: var(--gold); }
+      .card .excerpt { margin: 0; font-size: .9rem; color: #aebdd8; }
+      .card .players { font-family: var(--font-display); font-size: .72rem; color: var(--muted); letter-spacing: .05em; }
+
+      .featured { display: grid; grid-template-columns: 1.15fr 1fr; gap: 1.6rem; align-items: center; margin-bottom: 2.2rem; }
+      .featured .card { padding: 1.4rem 1.6rem; }
+      .featured h2 { font-size: 1.5rem; }
+      @media (max-width: 760px) { .featured { grid-template-columns: 1fr; } }
+
+      /* ── ultime prestazioni ─────────────────── */
+      .perf-strip { display: grid; grid-template-columns: repeat(auto-fill, minmax(255px, 1fr)); gap: 1rem; }
+      .perf-card {
+        background: linear-gradient(160deg, rgba(18,44,99,.55), rgba(10,20,48,.75));
+        border: 1px solid var(--border); border-radius: 12px; padding: 1rem 1.1rem;
+        position: relative; overflow: hidden;
+      }
+      .perf-card::before {
+        content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 3px;
+        background: linear-gradient(180deg, var(--gold), transparent);
+      }
+      .perf-top { display: flex; justify-content: space-between; align-items: baseline; gap: .5rem; }
+      .perf-player { font-family: var(--font-display); font-weight: 700; font-size: 1rem; color: var(--ink); }
+      .perf-rating {
+        font-family: var(--font-display); font-weight: 700; font-size: 1.05rem;
+        color: var(--gold); text-shadow: 0 0 12px rgba(240,201,74,.5);
+      }
+      .perf-match { font-size: .8rem; color: var(--azzurro-light); font-family: var(--font-display); letter-spacing: .03em; margin: .15rem 0 .5rem; }
+      .perf-stats { display: flex; gap: .45rem; flex-wrap: wrap; }
+      .stat {
+        font-family: var(--font-display); font-size: .68rem; letter-spacing: .08em;
+        border: 1px solid var(--border); border-radius: 99px; padding: .12rem .55rem; color: var(--muted);
+      }
+      .stat.hot { border-color: var(--border-gold); color: var(--gold); }
+      .perf-note { font-size: .8rem; color: #aebdd8; margin: .55rem 0 0; }
+      .perf-date { font-family: var(--font-display); font-size: .66rem; color: var(--muted); letter-spacing: .12em; text-transform: uppercase; }
+      .perf-src {
+        display: inline-block; margin-top: .45rem; font-family: var(--font-display);
+        font-size: .64rem; letter-spacing: .08em; color: var(--muted); text-decoration: none;
+        border-bottom: 1px dotted var(--muted);
+      }
+      .perf-src:hover { color: var(--azzurro-light); }
+
+      /* ── stats bar ──────────────────────────── */
+      .stats-bar {
+        display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem;
+        margin: 0 0 2.4rem;
+      }
+      .stat-block {
+        background: var(--panel); border: 1px solid var(--border); border-radius: 12px;
+        padding: 1rem 1.2rem; text-align: center;
+      }
+      .stat-block .n {
+        font-family: var(--font-display); font-size: 1.9rem; font-weight: 700; color: var(--gold);
+        text-shadow: 0 0 18px rgba(240,201,74,.35); line-height: 1.1;
+      }
+      .stat-block .l { font-family: var(--font-display); font-size: .66rem; letter-spacing: .16em; text-transform: uppercase; color: var(--muted); }
+
+      /* ── articolo ───────────────────────────── */
+      .article {
+        max-width: 50rem; margin: 0 auto;
+        background: var(--panel); border: 1px solid var(--border); border-radius: 14px;
+        padding: 2rem 2.4rem 2.4rem; backdrop-filter: blur(6px);
+      }
+      .article h1 { font-family: var(--font-display); font-size: clamp(1.4rem, 3vw, 1.9rem); line-height: 1.25; margin: .8rem 0 .4rem; letter-spacing: -.01em; }
+      .article .lead { font-size: 1.05rem; color: #aebdd8; font-style: italic; margin-top: 0; }
+      .article .body p { margin: 1rem 0; color: #d5dff0; font-size: .98rem; }
+      .article .body strong { color: var(--gold); }
+      .article .source { border-top: 1px solid var(--border); margin-top: 1.8rem; padding-top: 1rem; }
+      .article-cover { margin: 0 0 1.4rem; }
+
+      /* ── tabella giocatori ──────────────────── */
+      .players-table {
+        width: 100%; border-collapse: collapse; overflow: hidden;
+        background: var(--panel); border: 1px solid var(--border); border-radius: 12px;
+        font-family: var(--font-body); font-size: .9rem;
+      }
+      .players-table th {
+        background: rgba(240,201,74,.08); color: var(--gold); text-align: left;
+        padding: .7rem .95rem; font-family: var(--font-display); font-weight: 700;
+        font-size: .7rem; letter-spacing: .14em; text-transform: uppercase;
+        border-bottom: 1px solid var(--border-gold);
+      }
+      .players-table td { padding: .62rem .95rem; border-top: 1px solid var(--border); color: #cbd7ec; }
+      .players-table tr:hover td { background: rgba(240,201,74,.04); }
+      .pill { font-size: .68rem; font-weight: 700; border-radius: 99px; padding: .14rem .6rem; font-family: var(--font-display); letter-spacing: .06em; }
+      .pill.serie-a { background: rgba(45,212,143,.12); color: var(--green); border: 1px solid rgba(45,212,143,.35); }
+      .pill.serie-b, .pill.serie-c { background: rgba(74,163,224,.12); color: var(--azzurro-light); border: 1px solid rgba(74,163,224,.35); }
+      .pill.estero { background: rgba(240,201,74,.12); color: var(--gold); border: 1px solid var(--border-gold); }
+      .pill.primavera, .pill.giovanili { background: rgba(206,43,55,.14); color: #ff9daa; border: 1px solid rgba(255,93,115,.4); }
+
+      .section-title {
+        display: flex; align-items: center; gap: .8rem;
+        font-family: var(--font-display); font-size: .78rem; font-weight: 700;
+        text-transform: uppercase; letter-spacing: .24em; color: var(--gold);
+        margin: 2.6rem 0 1.2rem;
+      }
+      .section-title::after { content: ''; flex: 1; height: 1px; background: linear-gradient(90deg, var(--border-gold), transparent); }
+
+      h1 { font-family: var(--font-display); }
+
+      /* ── tag competizione ───────────────────── */
+      .comp-tag {
+        display: inline-block; font-family: var(--font-display); font-size: .64rem;
+        font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
+        color: var(--gold); border: 1px solid var(--border-gold); border-radius: 99px;
+        padding: .12rem .55rem; text-decoration: none; margin-right: .35rem;
+        transition: background .15s ease;
+      }
+      .comp-tag:hover { background: rgba(240,201,74,.12); }
+
+      /* ── countdown mondiale 2030 ────────────── */
+      .ticker-days { color: var(--gold); font-weight: 700; }
+      .wc-countdown {
+        position: relative; z-index: 1;
+        margin-top: 1.4rem; display: inline-block;
+        background: rgba(7,13,31,.55); border: 1px solid var(--border-gold);
+        border-radius: 12px; padding: .9rem 1.3rem;
+        box-shadow: 0 0 30px rgba(240,201,74,.12);
+      }
+      .wc-label {
+        font-family: var(--font-display); font-size: .64rem; letter-spacing: .22em;
+        text-transform: uppercase; color: var(--gold); margin-bottom: .45rem;
+      }
+      .wc-digits { display: flex; gap: 1.1rem; }
+      .wc-digits span { display: flex; flex-direction: column; align-items: center; min-width: 3.2rem; }
+      .wc-digits b {
+        font-family: var(--font-display); font-size: 1.7rem; font-weight: 700;
+        color: var(--ink); line-height: 1.1; font-variant-numeric: tabular-nums;
+        text-shadow: 0 0 18px rgba(240,201,74,.35);
+      }
+      .wc-digits i {
+        font-style: normal; font-family: var(--font-display); font-size: .6rem;
+        letter-spacing: .2em; text-transform: uppercase; color: var(--muted);
+      }
+
+      /* ── scheda giocatore ───────────────────── */
+      .player-head { display: grid; grid-template-columns: 1.05fr 1fr; gap: 1.6rem; align-items: center; margin-bottom: 1.4rem; }
+      @media (max-width: 760px) { .player-head { grid-template-columns: 1fr; } }
+      .player-title { display: flex; align-items: center; gap: .9rem; }
+      .player-title h1 { margin: 0; font-size: clamp(1.6rem, 4vw, 2.3rem); letter-spacing: -.01em; }
+      .player-facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: .7rem; margin-top: 1.1rem; }
+      .fact {
+        background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
+        padding: .6rem .8rem; display: flex; flex-direction: column; gap: .15rem;
+      }
+      .fact .k { font-family: var(--font-display); font-size: .62rem; letter-spacing: .16em; text-transform: uppercase; color: var(--muted); }
+      .fact .v { font-family: var(--font-display); font-weight: 700; font-size: .95rem; }
+      .fact .v.gold { color: var(--gold); }
+
+      /* ── sparkline, presenze e link TM ──────── */
+      .spark-box, .caps-box {
+        background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
+        padding: .8rem 1rem; margin-top: .8rem;
+      }
+      .spark-title {
+        font-family: var(--font-display); font-size: .62rem; letter-spacing: .16em;
+        text-transform: uppercase; color: var(--gold); margin-bottom: .4rem;
+      }
+      .spark { width: 100%; max-width: 280px; height: auto; overflow: visible; }
+      .spark-dates {
+        display: flex; justify-content: space-between; max-width: 280px;
+        font-family: var(--font-display); font-size: .62rem; color: var(--muted); letter-spacing: .08em;
+      }
+      .cap-row {
+        display: flex; justify-content: space-between; gap: 1rem; padding: .3rem 0;
+        border-bottom: 1px dashed var(--border); font-size: .88rem;
+      }
+      .cap-row:last-of-type { border-bottom: 0; }
+      .cap-row .k { font-family: var(--font-display); font-size: .74rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+      .cap-row .v { color: var(--ink); font-weight: 600; }
+      .tm-link {
+        display: inline-block; margin-top: .9rem;
+        font-family: var(--font-display); font-size: .78rem; font-weight: 700; letter-spacing: .08em;
+        color: var(--gold); text-decoration: none;
+        border: 1px solid var(--border-gold); border-radius: 8px; padding: .5rem 1rem;
+        transition: background .15s ease;
+      }
+      .tm-link:hover { background: rgba(240,201,74,.12); }
+
+      /* ── preferiti ──────────────────────────── */
+      .fav-btn {
+        background: none; border: 1px solid var(--border); border-radius: 8px;
+        color: var(--muted); font-size: 1.15rem; line-height: 1; cursor: pointer;
+        padding: .35rem .55rem; transition: all .15s ease;
+      }
+      .fav-btn:hover { border-color: var(--border-gold); color: var(--gold); }
+      .fav-btn.active {
+        color: var(--gold); border-color: var(--border-gold);
+        background: rgba(240,201,74,.1); text-shadow: 0 0 12px rgba(240,201,74,.6);
+      }
+      .fav-btn.small { font-size: .95rem; padding: .2rem .45rem; }
+      .fav-strip { display: none; }
+      .fav-strip.has-favs { display: block; }
+      .fav-chips { display: flex; gap: .6rem; flex-wrap: wrap; }
+      .fav-chip {
+        display: inline-flex; align-items: center; gap: .45rem;
+        background: var(--panel); border: 1px solid var(--border-gold); border-radius: 99px;
+        padding: .35rem .85rem; text-decoration: none; color: var(--ink);
+        font-family: var(--font-display); font-size: .82rem; font-weight: 600;
+        transition: transform .15s ease;
+      }
+      .fav-chip:hover { transform: translateY(-2px); }
+      .fav-chip .c { color: var(--muted); font-weight: 400; font-size: .72rem; }
+      .fav-chip .star { color: var(--gold); }
+
+      .site-footer {
+        border-top: 1px solid var(--border);
+        background: rgba(9,28,50,.92); color: var(--muted);
+        margin-top: 3rem; padding: 1.9rem 0; font-size: .85rem;
+      }
+      .site-footer strong { color: var(--ink); font-family: var(--font-display); letter-spacing: .04em; }
+      .site-footer .gold { color: var(--gold); }
+      .site-footer .muted { color: #5f7396; font-size: .76rem; }
+
+      /* ── in evidenza (editoriale + taccuino) ── */
+      .featured-duo { display: grid; grid-template-columns: 1fr 1fr; gap: 1.3rem; margin-bottom: .6rem; }
+      .featured-duo h2 { margin: 0; font-family: var(--font-display); font-size: 1.25rem; line-height: 1.3; }
+      .featured-duo h2 a { color: var(--ink); text-decoration: none; }
+      .featured-duo h2 a:hover { color: var(--gold); }
+      @media (max-width: 760px) { .featured-duo { grid-template-columns: 1fr; } }
+
+      /* ── condivisione articoli ──────────────── */
+      .share-bar { display: flex; gap: .6rem; flex-wrap: wrap; margin-top: 1.4rem; padding-top: 1rem; border-top: 1px solid var(--border); }
+      .share-btn {
+        display: inline-flex; align-items: center; gap: .4rem;
+        font-family: var(--font-display); font-size: .74rem; font-weight: 700; letter-spacing: .06em;
+        color: var(--ink); background: var(--panel); border: 1px solid var(--border);
+        border-radius: 99px; padding: .45rem .95rem; text-decoration: none; cursor: pointer;
+        transition: all .15s ease;
+      }
+      .share-btn:hover { border-color: var(--border-gold); color: var(--gold); }
+      .share-btn.wa { border-color: rgba(37,211,102,.45); }
+      .share-btn.wa:hover { color: #25d366; }
+
+      /* ── pubblicità ─────────────────────────── */
+      .ad-rail {
+        position: fixed; top: 140px; width: 160px; z-index: 10;
+        display: none;
+      }
+      .ad-rail.left { left: max(8px, calc(50% - var(--max)/2 - 176px)); }
+      .ad-rail.right { right: max(8px, calc(50% - var(--max)/2 - 176px)); }
+      @media (min-width: 1480px) { .ad-rail { display: block; } }
+      .consent-banner {
+        position: fixed; bottom: 0; left: 0; right: 0; z-index: 100;
+        background: var(--panel-solid); border-top: 1px solid var(--border-gold);
+        padding: .9rem 1.2rem; display: flex; gap: 1rem; align-items: center; justify-content: center; flex-wrap: wrap;
+        font-size: .88rem;
+      }
+      .consent-banner p { margin: 0; }
+      .consent-banner a { color: var(--azzurro-light); }
+      .consent-banner button {
+        font-family: var(--font-display); font-weight: 700; border: 0; border-radius: 6px;
+        padding: .5rem 1.1rem; cursor: pointer; background: var(--gold); color: var(--bg); margin-left: .5rem;
+      }
+      .consent-banner button.no { background: transparent; color: var(--muted); border: 1px solid var(--border); }
+
+      /* ── footer links ───────────────────────── */
+      .footer-links { font-size: .8rem; }
+      .footer-links a { color: var(--muted); text-decoration: none; }
+      .footer-links a:hover { color: var(--gold); }
+
+      /* ── mobile ─────────────────────────────── */
+      @media (max-width: 640px) {
+        .article { padding: 1.4rem 1.2rem; }
+        .hero { padding: 1.7rem 1.3rem; }
+        .header-inner { justify-content: center; }
+        .nav { gap: .9rem; font-size: .74rem; justify-content: center; flex-wrap: wrap; }
+        .brand-name { font-size: 1.15rem; }
+        .ticker-inner { font-size: .6rem; }
+        .wc-digits { gap: .7rem; }
+        .wc-digits b { font-size: 1.3rem; }
+        .players-table { display: block; overflow-x: auto; }
+        .stats-bar { grid-template-columns: repeat(2, 1fr); }
+      }
+    </style>
+
+    <script is:inline>
+      // Preferiti — salvati nel browser dell'utente (localStorage)
+      (function () {
+        const KEY = 'ing-favs';
+        const getFavs = () => {
+          try { return JSON.parse(localStorage.getItem(KEY) || '[]'); }
+          catch { return []; }
+        };
+        const sync = () => {
+          const favs = getFavs();
+          document.querySelectorAll('.fav-btn').forEach((b) => {
+            b.classList.toggle('active', favs.includes(b.dataset.slug));
+          });
+        };
+        document.addEventListener('click', (e) => {
+          const btn = e.target.closest('.fav-btn');
+          if (!btn) return;
+          e.preventDefault();
+          const slug = btn.dataset.slug;
+          let favs = getFavs();
+          favs = favs.includes(slug) ? favs.filter((s) => s !== slug) : [...favs, slug];
+          localStorage.setItem(KEY, JSON.stringify(favs));
+          sync();
+          document.dispatchEvent(new CustomEvent('ing-favs-changed'));
+        });
+        sync();
+      })();
+
+      // Countdown al Mondiale 2030
+      (function () {
+        const boxes = document.querySelectorAll('.wc-countdown[data-target]');
+        const tickers = document.querySelectorAll('[data-target-days]');
+        if (!boxes.length && !tickers.length) return;
+        const pad = (n) => String(n).padStart(2, '0');
+        const update = () => {
+          tickers.forEach((el) => {
+            const diff = new Date(el.dataset.targetDays) - Date.now();
+            el.textContent = Math.max(0, Math.floor(diff / 86400000));
+          });
+          boxes.forEach((box) => {
+            let diff = new Date(box.dataset.target) - Date.now();
+            if (diff < 0) diff = 0;
+            const d = Math.floor(diff / 86400000);
+            const h = Math.floor(diff / 3600000) % 24;
+            const m = Math.floor(diff / 60000) % 60;
+            const s = Math.floor(diff / 1000) % 60;
+            box.querySelector('.d-days').textContent = d;
+            box.querySelector('.d-hours').textContent = pad(h);
+            box.querySelector('.d-mins').textContent = pad(m);
+            box.querySelector('.d-secs').textContent = pad(s);
+          });
+        };
+        update();
+        setInterval(update, 1000);
+      })();
+    </script>
+  </body>
+</html>

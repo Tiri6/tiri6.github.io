@@ -1,0 +1,44 @@
+---
+import Base from '../../layouts/Base.astro';
+import { STATUS_LABELS, slugify } from '../../lib/utils';
+import playersData from '../../../data/players.json';
+
+const players = [...playersData.players].sort(
+  (a, b) => (b.value ?? -1) - (a.value ?? -1) || b.born - a.born
+);
+const fmtValue = (v: number | undefined) => (v == null ? '—' : `€${v}M`);
+---
+
+<Base
+  title="Watchlist — Italian Next Gen"
+  description="The watchlist of young Italian talents tracked daily by Italian Next Gen."
+  lang="en"
+  altPath="/giocatori/"
+>
+  <h1>The watchlist <span style="color:var(--gold)">({players.length})</span></h1>
+  <p style="max-width:46rem; color:#aebdd8">
+    The young Azzurri we follow every day, from Serie A to the U15 leagues, from Italy
+    to all of Europe. Click a name for the full profile, or the ★ to add him to your favourites.
+  </p>
+  <table class="players-table">
+    <thead>
+      <tr><th></th><th>Player</th><th>Club</th><th>Position</th><th>Born</th><th>Value</th><th>Where</th></tr>
+    </thead>
+    <tbody>
+      {players.map((p) => (
+        <tr>
+          <td><button class="fav-btn small" data-slug={slugify(p.name)} aria-label={`Add ${p.name} to favourites`}>★</button></td>
+          <td><a href={`/en/players/${slugify(p.name)}/`} style="color:var(--ink); text-decoration:none; font-weight:600">{p.name}</a></td>
+          <td>{p.club}</td>
+          <td>{p.role}</td>
+          <td>{p.born}</td>
+          <td style="color:var(--gold); font-weight:600; white-space:nowrap">{fmtValue(p.value)}</td>
+          <td><span class={`pill ${p.status}`}>{STATUS_LABELS[p.status].en}</span></td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+  <p class="meta" style="margin-top:.8rem">
+    Market values: Transfermarkt, July 2026. Players without a value are below the ranking threshold or not yet rated.
+  </p>
+</Base>
