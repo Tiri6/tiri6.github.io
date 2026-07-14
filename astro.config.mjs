@@ -1,6 +1,6 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  // Aggiorna con il tuo dominio quando fai il deploy (es. https://italiannextgen.it)
-  site: 'https://example.com',
+  // Indirizzo pubblico del sito (aggiorna se colleghi un dominio personalizzato)
+  site: 'https://tiri6.github.io',
 });
