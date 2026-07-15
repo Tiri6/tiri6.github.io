@@ -1,5 +1,5 @@
 # Deploy automatico su GitHub Pages a ogni push su main.
-# Prerequisito: nel repo, Settings → Pages → Source: "GitHub Actions".
+# Prerequisito: Settings → Pages → Source: "GitHub Actions".
 name: Deploy su GitHub Pages
 
 on:
@@ -17,7 +17,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: withastro/action@v3
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Installa dipendenze
+        run: npm ci
+      - name: Build del sito
+        run: npm run build
+      - name: Carica il sito per Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
   deploy:
     needs: build
     runs-on: ubuntu-latest
