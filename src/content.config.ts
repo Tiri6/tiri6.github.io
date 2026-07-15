@@ -17,6 +17,8 @@ const news = defineCollection({
     sourceUrl: z.string().optional(),
     /** URL o percorso (in /public) di una foto per l'articolo. Se assente, viene generata una copertina. */
     image: z.string().optional(),
+    /** true = il corpo è HTML puro e viene mostrato così com'è (per editoriali con grafici ecc.) */
+    html: z.boolean().default(false),
   }),
 });
 

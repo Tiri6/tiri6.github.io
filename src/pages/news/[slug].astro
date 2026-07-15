@@ -39,7 +39,7 @@ const cat = CATEGORY_LABELS[post.data.category];
     </div>
     <h1>{post.data.title}</h1>
     <p class="lead">{post.data.excerpt}</p>
-    <div class="body" set:html={renderParagraphs(body.it)} />
+    <div class="body" set:html={post.data.html ? body.it : renderParagraphs(body.it)} />
     {post.data.players.length > 0 && (
       <div class="meta" style="margin-top:1.4rem">⚽ {post.data.players.join(' · ')}</div>
     )}

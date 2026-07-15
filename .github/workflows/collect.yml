@@ -1,29 +1,49 @@
-# Raccolta automatica quotidiana delle notizie.
-# Le candidate vengono committate nel repo: le approvi in locale con `npm run review`.
-name: Raccolta notizie quotidiana
+# Redazione automatica del mattino: raccolta notizie, risultati partite,
+# bozze dell'agente redattore e Taccuino del giorno. Le candidate pronte
+# restano in coda finché non le pubblichi (workflow "Pubblica" o dal Mac).
+#
+# Prerequisito per write/digest: secret ANTHROPIC_API_KEY nel repository
+# (Settings → Secrets and variables → Actions → New repository secret).
+name: Redazione del mattino
 
 on:
   schedule:
-    - cron: '0 6 * * *'   # ogni giorno alle 06:00 UTC (08:00 in Italia d'estate)
+    - cron: '0 6 * * *'   # ogni giorno alle 06:00 UTC (08:00 italiane d'estate)
   workflow_dispatch: {}     # lancio manuale dal tab Actions
 
 permissions:
   contents: write
 
 jobs:
-  collect:
+  redazione:
     runs-on: ubuntu-latest
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: node pipeline/run.mjs
-      - run: node pipeline/results.mjs
-      - name: Commit di candidate e risultati
+      - name: Raccolta notizie
+        run: node pipeline/run.mjs
+      - name: Risultati partite
+        run: node pipeline/results.mjs
+        continue-on-error: true
+      - name: Selezione candidate (caporedattore)
+        run: node pipeline/prune.mjs
+        continue-on-error: true
+      - name: Bozze articoli (redattore)
+        if: env.ANTHROPIC_API_KEY != ''
+        run: node pipeline/write.mjs --max=20
+        continue-on-error: true
+      - name: Taccuino del giorno
+        if: env.ANTHROPIC_API_KEY != ''
+        run: node pipeline/digest.mjs
+        continue-on-error: true
+      - name: Commit del lavoro di redazione
         run: |
-          git config user.name "ing-pipeline"
-          git config user.email "pipeline@italiannextgen"
-          git add pipeline/candidates pipeline/state data/competitions.json || true
-          git diff --cached --quiet || git commit -m "pipeline: candidate e risultati del $(date +%F)"
+          git config user.name "ing-redazione"
+          git config user.email "redazione@italiannextgen"
+          git add pipeline/candidates pipeline/state pipeline/rejected pipeline/digested data/competitions.json || true
+          git diff --cached --quiet || git commit -m "redazione: candidate e bozze del $(date +%F)"
           git push

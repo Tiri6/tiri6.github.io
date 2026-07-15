@@ -1,0 +1,34 @@
+# PUBBLICA — il tuo bottone da cellulare.
+# Vai su github.com/Tiri6/tiri6.github.io/actions/workflows/publish.yml
+# → "Run workflow" → scegli quanti articoli → il sito si aggiorna da solo.
+# Pubblica SOLO bozze di qualità (scritte leggendo la fonte) e il Taccuino.
+name: 📣 Pubblica articoli
+
+on:
+  workflow_dispatch:
+    inputs:
+      quanti:
+        description: 'Quanti articoli pubblicare al massimo'
+        required: false
+        default: '10'
+
+permissions:
+  contents: write
+
+jobs:
+  pubblica:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Pubblicazione bozze di qualità
+        run: node pipeline/publish.mjs --max=${{ github.event.inputs.quanti || '10' }}
+      - name: Commit degli articoli
+        run: |
+          git config user.name "ing-redazione"
+          git config user.email "redazione@italiannextgen"
+          git add src/content/news pipeline/approved pipeline/candidates || true
+          git diff --cached --quiet || git commit -m "pubblicati nuovi articoli ($(date +%F))"
+          git push
