@@ -1,6 +1,8 @@
 ---
 import Base from '../layouts/Base.astro';
 import ads from '../../data/ads.json';
+import analytics from '../../data/analytics.json';
+const gaOn = Boolean(analytics.measurementId);
 ---
 
 <Base
@@ -24,6 +26,16 @@ import ads from '../../data/ads.json';
         sul tuo dispositivo, non ci vengono trasmessi e non tracciano la tua navigazione: per
         questo, secondo le Linee guida del Garante, non richiedono consenso preventivo.
       </p>
+      {gaOn && (
+        <p>
+          <strong>Cookie statistici (Google Analytics).</strong> Se accetti tramite il banner di
+          consenso, il sito usa Google Analytics 4 con IP anonimizzato per misurare le visite
+          (pagine più lette, provenienza geografica aggregata, tipo di dispositivo). I dati sono
+          statistiche aggregate e non consentono di identificarti. Puoi rifiutare e il sito
+          funzionerà normalmente senza alcuna misurazione. Dettagli:
+          <a href="https://policies.google.com/technologies/cookies?hl=it" target="_blank" rel="noopener">policies.google.com/technologies/cookies</a>.
+        </p>
+      )}
       {ads.enabled ? (
         <p>
           <strong>Cookie pubblicitari (Google AdSense).</strong> Il sito ospita banner di Google

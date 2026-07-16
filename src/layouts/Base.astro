@@ -6,6 +6,7 @@ import '@fontsource/space-grotesk/400.css';
 import '@fontsource/space-grotesk/500.css';
 import '@fontsource/space-grotesk/700.css';
 import ads from '../../data/ads.json';
+import analytics from '../../data/analytics.json';
 
 interface Props {
   title: string;
@@ -16,6 +17,7 @@ interface Props {
 }
 const { title, description, lang, altPath } = Astro.props;
 const adsOn = ads.enabled && ads.adsenseClient;
+const gaOn = Boolean(analytics.measurementId);
 const t = (it: string, en: string) => (lang === 'it' ? it : en);
 const home = lang === 'it' ? '/' : '/en/';
 ---
@@ -75,11 +77,16 @@ const home = lang === 'it' ? '/' : '/en/';
         <aside class="ad-rail right" aria-label="Pubblicità">
           <ins class="adsbygoogle" style="display:block; width:160px; height:600px" data-ad-client={ads.adsenseClient} data-ad-format="vertical"></ins>
         </aside>
+      </>
+    )}
+
+    {(adsOn || gaOn) && (
+      <>
         <div class="consent-banner" id="consent-banner" style="display:none">
           <p>
             {lang === 'it'
-              ? 'Questo sito usa banner pubblicitari di Google che impiegano cookie. Accetti?'
-              : 'This site shows Google ad banners that use cookies. Do you accept?'}
+              ? 'Questo sito usa cookie di Google per statistiche di traffico anonime e banner pubblicitari. Accetti?'
+              : 'This site uses Google cookies for anonymous traffic statistics and ad banners. Do you accept?'}
             <a href={lang === 'it' ? '/cookie/' : '/en/cookies/'}>{lang === 'it' ? 'Dettagli' : 'Details'}</a>
           </p>
           <div>
@@ -87,10 +94,12 @@ const home = lang === 'it' ? '/' : '/en/';
             <button id="consent-no" class="no">{lang === 'it' ? 'Rifiuta' : 'Decline'}</button>
           </div>
         </div>
-        <script is:inline define:vars={{ client: ads.adsenseClient }}>
+        <script is:inline define:vars={{ client: ads.adsenseClient, adsOn, gaId: analytics.measurementId }}>
           (function () {
-            var KEY = 'ing-ads-consent';
+            var KEY = 'ing-consent';
+            var OLD_KEY = 'ing-ads-consent'; // compatibilità con la scelta salvata in precedenza
             function loadAds() {
+              if (!adsOn) return;
               var s = document.createElement('script');
               s.async = true;
               s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + client;
@@ -100,18 +109,30 @@ const home = lang === 'it' ? '/' : '/en/';
                 (window.adsbygoogle = window.adsbygoogle || []).push({});
               });
             }
+            function loadGA() {
+              if (!gaId) return;
+              var s = document.createElement('script');
+              s.async = true;
+              s.src = 'https://www.googletagmanager.com/gtag/js?id=' + gaId;
+              document.head.appendChild(s);
+              window.dataLayer = window.dataLayer || [];
+              window.gtag = function () { window.dataLayer.push(arguments); };
+              window.gtag('js', new Date());
+              window.gtag('config', gaId, { anonymize_ip: true });
+            }
+            function acceptAll() { loadAds(); loadGA(); }
             function hideRails() {
               document.querySelectorAll('.ad-rail').forEach(function (r) { r.style.display = 'none'; });
             }
-            var c = localStorage.getItem(KEY);
-            if (c === 'yes') loadAds();
+            var c = localStorage.getItem(KEY) || localStorage.getItem(OLD_KEY);
+            if (c === 'yes') acceptAll();
             else if (c === 'no') hideRails();
             else {
               document.getElementById('consent-banner').style.display = '';
               document.getElementById('consent-yes').onclick = function () {
                 localStorage.setItem(KEY, 'yes');
                 document.getElementById('consent-banner').style.display = 'none';
-                loadAds();
+                acceptAll();
               };
               document.getElementById('consent-no').onclick = function () {
                 localStorage.setItem(KEY, 'no');

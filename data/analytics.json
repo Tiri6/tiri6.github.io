@@ -1,0 +1,4 @@
+{
+  "_note": "Google Analytics 4. Per attivarlo: 1) crea una proprietà su analytics.google.com; 2) copia il Measurement ID (inizia con G-) e incollalo qui sotto; 3) fai il push. Con measurementId vuoto il sito non carica nulla di Google. Il tracciamento parte SOLO dopo il consenso cookie dell'utente.",
+  "measurementId": "G-TXE1HC5DQ4"
+}

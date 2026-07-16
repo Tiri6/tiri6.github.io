@@ -1,6 +1,8 @@
 ---
 import Base from '../../layouts/Base.astro';
 import ads from '../../../data/ads.json';
+import analytics from '../../../data/analytics.json';
+const gaOn = Boolean(analytics.measurementId);
 ---
 
 <Base
@@ -23,6 +25,15 @@ import ads from '../../../data/ads.json';
         consent choice. This data stays on your device, is not transmitted to us and does not
         track you — so it requires no prior consent.
       </p>
+      {gaOn && (
+        <p>
+          <strong>Statistics cookies (Google Analytics).</strong> If you accept via the consent
+          banner, the site uses Google Analytics 4 with anonymised IP to measure traffic (most
+          read pages, aggregate geography, device type). Data is aggregated and cannot identify
+          you. You can decline and the site works normally with no measurement. Details:
+          <a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener">policies.google.com/technologies/cookies</a>.
+        </p>
+      )}
       {ads.enabled ? (
         <p>
           <strong>Advertising cookies (Google AdSense).</strong> If you accept via the consent
