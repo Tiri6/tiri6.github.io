@@ -2,84 +2,1096 @@
   "_note": "Watchlist dei giovani italiani ad alto potenziale. value = valore di mercato in M€ (Transfermarkt, luglio 2026); valueHistory = punti storici per il grafico trend; tmUrl = profilo Transfermarkt diretto (se assente il sito linka la ricerca TM); caps = presenze per nazionale con fonte in capsSource. Per i giocatori importati da TM l'anno di nascita è calcolato dall'età (possibile scarto di 1). status: serie-a | serie-b | serie-c | estero | primavera | giovanili",
   "valueSource": "Transfermarkt, luglio 2026",
   "players": [
-    { "name": "Francesco Pio Esposito", "club": "Inter", "role": "Punta centrale", "born": 2005, "status": "serie-a", "value": 45, "valueHistory": [{ "date": "2026-04", "value": 45 }, { "date": "2026-07", "value": 45 }], "caps": { "u17": "4 (1 gol)", "u18": "6 (2 gol)", "u19": "8 (2 gol)", "u20": "6 (1 gol)", "u21": "11 (7 gol)", "a": "9 (5 gol)" }, "capsSource": "Wikipedia, giu 2026", "queries": ["Pio Esposito Inter"] },
-    { "name": "Michael Kayode", "club": "Brentford", "role": "Terzino destro", "born": 2004, "status": "estero", "value": 40, "valueHistory": [{ "date": "2026-04", "value": 35 }, { "date": "2026-07", "value": 40 }], "caps": { "u19": "12 (1 gol)", "u21": "10" }, "capsSource": "Wikipedia, giu 2026", "queries": ["Kayode Brentford"] },
-    { "name": "Giorgio Scalvini", "club": "Atalanta", "role": "Difensore centrale", "born": 2003, "status": "serie-a", "value": 38, "caps": { "u15": "2", "u16": "3", "u17": "4", "u19": "8", "u21": "6", "a": "8" }, "capsSource": "Wikipedia, giu 2026", "queries": ["Scalvini Atalanta"] },
-    { "name": "Marco Palestra", "club": "Cagliari (prestito Atalanta)", "role": "Terzino destro", "born": 2005, "status": "serie-a", "value": 35, "valueHistory": [{ "date": "2026-04", "value": 30 }, { "date": "2026-07", "value": 35 }], "queries": ["Palestra Cagliari"] },
-    { "name": "Niccolò Pisilli", "club": "Roma", "role": "Centrocampista", "born": 2004, "status": "serie-a", "value": 30, "valueHistory": [{ "date": "2026-04", "value": 20 }, { "date": "2026-07", "value": 30 }], "caps": { "u18": "5", "u19": "10 (3 gol)", "u20": "8", "u21": "19 (5 gol)", "a": "4" }, "capsSource": "Wikipedia, giu 2026", "queries": ["Pisilli Roma"] },
-    { "name": "Honest Ahanor", "club": "Atalanta", "role": "Difensore centrale", "born": 2008, "status": "serie-a", "value": 30, "valueHistory": [{ "date": "2026-04", "value": 25 }, { "date": "2026-07", "value": 30 }], "caps": { "u21": "1", "a": "2" }, "capsSource": "Wikipedia, giu 2026", "queries": ["Ahanor Atalanta"] },
-    { "name": "Giovanni Leoni", "club": "Liverpool", "role": "Difensore centrale", "born": 2006, "status": "estero", "value": 25, "valueHistory": [{ "date": "2026-04", "value": 25 }, { "date": "2026-07", "value": 25 }], "queries": ["Leoni Liverpool"] },
-    { "name": "Davide Bartesaghi", "club": "Milan", "role": "Terzino sinistro", "born": 2005, "status": "serie-a", "value": 22, "valueHistory": [{ "date": "2026-04", "value": 23 }, { "date": "2026-07", "value": 22 }], "caps": { "u18": "3", "u19": "14", "u20": "5", "u21": "6", "a": "2" }, "capsSource": "Wikipedia, giu 2026", "queries": ["Bartesaghi Milan"] },
-    { "name": "Cher Ndour", "club": "Fiorentina", "role": "Centrocampista", "born": 2004, "status": "serie-a", "value": 20, "valueHistory": [{ "date": "2026-04", "value": 10 }, { "date": "2026-07", "value": 20 }], "caps": { "u15": "9 (1 gol)", "u16": "5", "u18": "7", "u19": "4 (1 gol)", "u20": "6 (1 gol)", "u21": "26 (4 gol)", "a": "2" }, "capsSource": "Wikipedia, giu 2026", "queries": ["Ndour"] },
-    { "name": "Pietro Comuzzo", "club": "Fiorentina", "role": "Difensore centrale", "born": 2005, "status": "serie-a", "value": 18, "valueHistory": [{ "date": "2026-04", "value": 23 }, { "date": "2026-07", "value": 18 }], "caps": { "u17": "2", "u18": "3", "u20": "4", "u21": "4", "a": "2" }, "capsSource": "Wikipedia, giu 2026", "queries": ["Comuzzo Fiorentina"] },
-    { "name": "Jeff Ekhator", "club": "Genoa", "role": "Punta centrale", "born": 2006, "status": "serie-a", "value": 18, "valueHistory": [{ "date": "2026-04", "value": 13 }, { "date": "2026-07", "value": 18 }], "queries": ["Ekhator Genoa"] },
-    { "name": "Samuele Inacio", "club": "Borussia Dortmund", "role": "Seconda punta", "born": 2008, "status": "estero", "value": 15, "queries": ["Samuele Inacio", "Inacio Dortmund"] },
-    { "name": "Francesco Camarda", "club": "Milan (rientro dal prestito al Lecce)", "role": "Punta centrale", "born": 2008, "status": "serie-a", "value": 15, "tmUrl": "https://www.transfermarkt.it/francesco-camarda/profil/spieler/1058368", "valueHistory": [{ "date": "2026-04", "value": 15 }, { "date": "2026-07", "value": 15 }], "caps": { "u15": "9 (6 gol)", "u16": "7 (3 gol)", "u17": "17 (11 gol)", "u19": "10 (6 gol)", "u21": "4 (4 gol)", "a": "2" }, "capsSource": "Wikipedia, giu 2026", "queries": ["Camarda Milan"] },
-    { "name": "Cesare Casadei", "club": "Torino", "role": "Centrocampista", "born": 2003, "status": "serie-a", "value": 15, "caps": { "u16": "10 (2 gol)", "u17": "2 (1 gol)", "u18": "1", "u19": "12 (3 gol)", "u20": "9 (8 gol)", "u21": "16 (4 gol)" }, "capsSource": "Wikipedia, giu 2026", "queries": ["Casadei Torino"] },
-    { "name": "Giovanni Fabbian", "club": "Bologna", "role": "Trequartista", "born": 2003, "status": "serie-a", "value": 10, "queries": ["Fabbian Bologna"] },
-    { "name": "Luca Reggiani", "club": "Borussia Dortmund", "role": "Difensore centrale", "born": 2008, "status": "estero", "value": 10, "valueHistory": [{ "date": "2026-04", "value": 5 }, { "date": "2026-07", "value": 10 }], "queries": ["Reggiani Borussia Dortmund", "Luca Reggiani"] },
-    { "name": "Niccolò Fortini", "club": "Fiorentina", "role": "Terzino sinistro", "born": 2006, "status": "serie-a", "value": 10, "queries": ["Fortini Fiorentina"] },
-    { "name": "Tommaso Baldanzi", "club": "Roma", "role": "Trequartista", "born": 2003, "status": "serie-a", "value": 8.5, "caps": { "u17": "2 (1 gol)", "u18": "1 (2 gol)", "u19": "9 (1 gol)", "u20": "7 (2 gol)", "u21": "8 (5 gol)" }, "capsSource": "Wikipedia, giu 2026", "queries": ["Baldanzi Roma"] },
-    { "name": "Mattia Liberali", "club": "Catanzaro", "role": "Trequartista", "born": 2007, "status": "serie-b", "value": 8.5, "valueHistory": [{ "date": "2026-04", "value": 7 }, { "date": "2026-07", "value": 8.5 }], "queries": ["Mattia Liberali"] },
-    { "name": "Luca Lipani", "club": "Sassuolo", "role": "Mediano", "born": 2005, "status": "serie-a", "value": 7.5, "queries": ["Lipani Sassuolo"] },
-    { "name": "Luca Marianucci", "club": "Torino (prestito Napoli)", "role": "Difensore centrale", "born": 2004, "status": "serie-a", "value": 7, "queries": ["Marianucci"] },
-    { "name": "Alphadjo Cissè", "club": "Catanzaro (prestito Milan)", "role": "Trequartista", "born": 2006, "status": "serie-b", "value": 7, "queries": ["Alphadjo Cisse"] },
-    { "name": "Luca Koleosho", "club": "Burnley", "role": "Ala destra", "born": 2004, "status": "estero", "value": 6, "queries": ["Koleosho Burnley"] },
-    { "name": "Emanuele Rao", "club": "SPAL", "role": "Ala sinistra", "born": 2006, "status": "serie-c", "value": 6, "queries": ["Emanuele Rao"] },
-    { "name": "Raphael Kofler", "club": "Südtirol", "role": "Difensore centrale", "born": 2005, "status": "serie-b", "value": 5.5, "queries": ["Raphael Kofler"] },
-    { "name": "Lorenzo Venturino", "club": "Genoa", "role": "Ala destra", "born": 2008, "status": "serie-a", "value": 5, "queries": ["Venturino Genoa"] },
-    { "name": "Matteo Cichella", "club": "Frosinone", "role": "Mediano", "born": 2006, "status": "serie-b", "value": 5, "queries": ["Cichella Frosinone"] },
-    { "name": "Tommaso Martinelli", "club": "Fiorentina", "role": "Portiere", "born": 2006, "status": "serie-a", "value": 5, "queries": ["Martinelli Fiorentina portiere"] },
-    { "name": "Christian Comotto", "club": "Milan", "role": "Centrocampista", "born": 2008, "status": "primavera", "value": 5, "queries": ["Christian Comotto"] },
-    { "name": "Giacomo Faticanti", "club": "Lecce", "role": "Mediano", "born": 2004, "status": "serie-a", "value": 4.5, "queries": ["Faticanti"] },
-    { "name": "Simone Pafundi", "club": "Sampdoria (prestito Udinese)", "role": "Trequartista", "born": 2006, "status": "serie-b", "value": 4.5, "valueHistory": [{ "date": "2026-04", "value": 5 }, { "date": "2026-07", "value": 4.5 }], "caps": { "u16": "1", "u17": "5 (4 gol)", "u19": "13 (7 gol)", "u20": "7 (1 gol)", "u21": "5", "a": "1" }, "capsSource": "Wikipedia, giu 2026", "queries": ["Pafundi"] },
-    { "name": "Alessio Cacciamani", "club": "Torino", "role": "Ala sinistra", "born": 2007, "status": "serie-a", "value": 4.5, "queries": ["Alessio Cacciamani"] },
-    { "name": "Fabio Rispoli", "club": "Como", "role": "Centrocampista", "born": 2007, "status": "serie-a", "value": 4.5, "queries": ["Fabio Rispoli"] },
-    { "name": "Antonio Arena", "club": "Roma", "role": "Punta centrale", "born": 2009, "status": "primavera", "value": 4, "queries": ["Antonio Arena Roma"] },
-    { "name": "Riyad Idrissi", "club": "Cagliari", "role": "Terzino sinistro", "born": 2005, "status": "serie-a", "value": 4, "queries": ["Riyad Idrissi"] },
-    { "name": "Leonardo Colombo", "club": "Monza", "role": "Mediano", "born": 2005, "status": "serie-b", "value": 4, "queries": ["Leonardo Colombo Monza"] },
-    { "name": "Giovanni Daffara", "club": "Parma", "role": "Portiere", "born": 2005, "status": "serie-a", "value": 3.5, "queries": ["Daffara Parma"] },
-    { "name": "Francesco Coppola", "club": "Pisa", "role": "Difensore centrale", "born": 2005, "status": "serie-a", "value": 3.5, "queries": ["Francesco Coppola Pisa"] },
-    { "name": "Massimo Pessina", "club": "Bologna", "role": "Portiere", "born": 2008, "status": "primavera", "value": 3.5, "queries": ["Massimo Pessina portiere"] },
-    { "name": "Dominic Vavassori", "club": "Atalanta U23", "role": "Seconda punta", "born": 2006, "status": "serie-c", "value": 3.5, "queries": ["Dominic Vavassori"] },
-    { "name": "Kevin Zeroli", "club": "Milan Futuro", "role": "Centrocampista", "born": 2005, "status": "serie-c", "value": 3.3, "queries": ["Zeroli"] },
-    { "name": "Fabio Chiarodia", "club": "Borussia Mönchengladbach", "role": "Difensore centrale", "born": 2005, "status": "estero", "value": 3, "queries": ["Chiarodia"] },
-    { "name": "Seydou Fini", "club": "Genoa", "role": "Ala destra", "born": 2006, "status": "serie-a", "value": 2.5, "queries": ["Seydou Fini"] },
-    { "name": "Filippo Mané", "club": "Borussia Dortmund", "role": "Difensore centrale", "born": 2005, "status": "estero", "value": 2.5, "queries": ["Filippo Mane Dortmund"] },
-    { "name": "Matteo Cocchi", "club": "Inter", "role": "Terzino sinistro", "born": 2007, "status": "serie-a", "value": 2.5, "queries": ["Cocchi Inter"] },
-    { "name": "Tommaso Rubino", "club": "Fiorentina", "role": "Trequartista", "born": 2007, "status": "serie-a", "value": 2.5, "queries": ["Tommaso Rubino"] },
-    { "name": "Eddy Kouadio", "club": "Fiorentina", "role": "Difensore centrale", "born": 2006, "status": "serie-a", "value": 2.5, "queries": ["Eddy Kouadio"] },
-    { "name": "Fellipe Jack", "club": "Como", "role": "Difensore centrale", "born": 2006, "status": "serie-a", "value": 2.5, "queries": ["Fellipe Jack"] },
-    { "name": "Samuel Wiafe", "club": "Genoa", "role": "Centrocampista", "born": 2008, "status": "primavera", "value": 2.5, "queries": ["Samuel Wiafe"] },
-    { "name": "Stefano Di Mario", "club": "Virtus Entella", "role": "Esterno sinistro", "born": 2005, "status": "serie-b", "value": 2, "queries": ["Di Mario Entella"] },
-    { "name": "Nicolò Calabrese", "club": "Hellas Verona", "role": "Difensore centrale", "born": 2005, "status": "serie-a", "value": 2, "queries": ["Nicolò Calabrese"] },
-    { "name": "Alvin Okoro", "club": "Venezia", "role": "Punta centrale", "born": 2005, "status": "serie-b", "value": 2, "queries": ["Alvin Okoro"] },
-    { "name": "Federico Steffanoni", "club": "Atalanta U23", "role": "Centrocampista", "born": 2009, "status": "serie-c", "value": 2, "queries": ["Federico Steffanoni"] },
-    { "name": "Alessandro Nunziante", "club": "Udinese", "role": "Portiere", "born": 2007, "status": "serie-a", "value": 1.8, "queries": ["Nunziante portiere"] },
-    { "name": "Mattia Mosconi", "club": "Inter", "role": "Ala destra", "born": 2007, "status": "primavera", "value": 1.5, "queries": ["Mosconi Inter"] },
-    { "name": "Guido Della Rovere", "club": "Bayern Monaco", "role": "Trequartista", "born": 2007, "status": "estero", "value": 1.5, "queries": ["Della Rovere Bayern"] },
-    { "name": "Diego Mascardi", "club": "Spezia", "role": "Portiere", "born": 2007, "status": "serie-b", "value": 1.3, "queries": ["Mascardi Spezia"] },
-    { "name": "Jamal Iddrissou", "club": "Inter U23", "role": "Punta centrale", "born": 2007, "status": "serie-c", "value": 0.9, "queries": ["Iddrissou Inter"] },
-    { "name": "Wisdom Amey", "club": "Bologna", "role": "Difensore centrale", "born": 2005, "status": "serie-a", "value": 0.8, "queries": ["Wisdom Amey"] },
-    { "name": "Leonardo Mendicino", "club": "Atalanta", "role": "Mediano", "born": 2006, "status": "serie-c", "value": 0.7, "queries": ["Mendicino Atalanta"] },
-    { "name": "Aaron Ciammaglichella", "club": "Torino", "role": "Centrocampista", "born": 2005, "status": "serie-a", "value": 0.5, "queries": ["Ciammaglichella"] },
-    { "name": "Filippo Terracciano", "club": "Milan", "role": "Difensore centrale", "born": 2003, "status": "serie-a", "value": 4.5, "queries": ["Filippo Terracciano"] },
-    { "name": "Federico Coletta", "club": "Benfica", "role": "Centrocampista", "born": 2007, "status": "estero", "caps": { "u17": "Campione d'Europa 2024", "u19": "16 (2 gol), capitano" }, "capsSource": "Mondo Primavera", "queries": ["Coletta Benfica", "Federico Coletta"] },
-    { "name": "Andrea Natali", "club": "Bayer Leverkusen", "role": "Difensore centrale", "born": 2008, "status": "estero", "queries": ["Natali Leverkusen", "Andrea Natali"] },
-    { "name": "Mattia Marello", "club": "Inter", "role": "Difensore centrale", "born": 2008, "status": "primavera", "queries": ["Marello Inter"] },
-    { "name": "Destiny Elimoghale", "club": "Juventus", "role": "Ala", "born": 2009, "status": "primavera", "queries": ["Elimoghale Juventus"] },
-    { "name": "Matteo Mantini", "club": "Grasshopper", "role": "Centrocampista", "born": 2007, "status": "estero", "queries": ["Mantini Grasshopper"] },
-    { "name": "Luca Muzzi", "club": "Benfica", "role": "Attaccante", "born": 2011, "status": "estero", "queries": ["Luca Muzzi Benfica"] },
-    { "name": "Daniele Gerace", "club": "Stoccarda", "role": "Centrocampista", "born": 2011, "status": "estero", "queries": ["Gerace Stuttgart"] },
-    { "name": "Diego Sia", "club": "Milan", "role": "Ala", "born": 2006, "status": "primavera", "queries": ["Diego Sia Milan"] },
-    { "name": "Sebastiano Desplanches", "club": "Palermo", "role": "Portiere", "born": 2003, "status": "serie-b", "queries": ["Desplanches"] },
-    { "name": "Tommaso Vannucchi", "club": "Fiorentina", "role": "Portiere", "born": 2007, "status": "primavera", "queries": ["Vannucchi Fiorentina"] },
-    { "name": "Renato Marin", "club": "PSG", "role": "Portiere", "born": 2006, "status": "estero", "queries": ["Renato Marin PSG"] },
-    { "name": "Giuseppe Ambrosino", "club": "Napoli", "role": "Attaccante", "born": 2003, "status": "serie-a", "queries": ["Ambrosino"] },
-    { "name": "Alessandro Dellavalle", "club": "Torino", "role": "Difensore centrale", "born": 2004, "status": "serie-b", "queries": ["Dellavalle Torino"] },
-    { "name": "Federico Ciucci", "club": "Lazio", "role": "Difensore centrale", "born": 2009, "status": "primavera", "queries": ["Federico Ciucci Lazio"] },
-    { "name": "Davide Pavesi", "club": "Cremonese", "role": "Difensore centrale", "born": 2008, "status": "primavera", "queries": ["Davide Pavesi Cremonese"] },
-    { "name": "Edoardo Motta", "club": "Lazio", "role": "Portiere", "born": 2005, "status": "serie-a", "value": 8, "queries": ["Edoardo Motta Lazio"] }
+    {
+      "name": "Francesco Pio Esposito",
+      "club": "Inter",
+      "role": "Punta centrale",
+      "born": 2005,
+      "status": "serie-a",
+      "value": 45,
+      "valueHistory": [
+        {
+          "date": "2026-04",
+          "value": 45
+        },
+        {
+          "date": "2026-07",
+          "value": 45
+        }
+      ],
+      "caps": {
+        "u17": "4 (1 gol)",
+        "u18": "6 (2 gol)",
+        "u19": "8 (2 gol)",
+        "u20": "6 (1 gol)",
+        "u21": "11 (7 gol)",
+        "a": "9 (5 gol)"
+      },
+      "capsSource": "Wikipedia, giu 2026",
+      "queries": [
+        "Pio Esposito Inter"
+      ]
+    },
+    {
+      "name": "Michael Kayode",
+      "club": "Brentford",
+      "role": "Terzino destro",
+      "born": 2004,
+      "status": "estero",
+      "value": 40,
+      "valueHistory": [
+        {
+          "date": "2026-04",
+          "value": 35
+        },
+        {
+          "date": "2026-07",
+          "value": 40
+        }
+      ],
+      "caps": {
+        "u19": "12 (1 gol)",
+        "u21": "10"
+      },
+      "capsSource": "Wikipedia, giu 2026",
+      "queries": [
+        "Kayode Brentford"
+      ]
+    },
+    {
+      "name": "Giorgio Scalvini",
+      "club": "Atalanta",
+      "role": "Difensore centrale",
+      "born": 2003,
+      "status": "serie-a",
+      "value": 38,
+      "caps": {
+        "u15": "2",
+        "u16": "3",
+        "u17": "4",
+        "u19": "8",
+        "u21": "6",
+        "a": "8"
+      },
+      "capsSource": "Wikipedia, giu 2026",
+      "queries": [
+        "Scalvini Atalanta"
+      ]
+    },
+    {
+      "name": "Marco Palestra",
+      "club": "Chelsea",
+      "role": "Terzino destro",
+      "born": 2005,
+      "status": "estero",
+      "value": 35,
+      "valueHistory": [
+        {
+          "date": "2026-04",
+          "value": 30
+        },
+        {
+          "date": "2026-07",
+          "value": 35
+        }
+      ],
+      "queries": [
+        "Palestra Chelsea"
+      ]
+    },
+    {
+      "name": "Niccolò Pisilli",
+      "club": "Roma",
+      "role": "Centrocampista",
+      "born": 2004,
+      "status": "serie-a",
+      "value": 30,
+      "valueHistory": [
+        {
+          "date": "2026-04",
+          "value": 20
+        },
+        {
+          "date": "2026-07",
+          "value": 30
+        }
+      ],
+      "caps": {
+        "u18": "5",
+        "u19": "10 (3 gol)",
+        "u20": "8",
+        "u21": "19 (5 gol)",
+        "a": "4"
+      },
+      "capsSource": "Wikipedia, giu 2026",
+      "queries": [
+        "Pisilli Roma"
+      ]
+    },
+    {
+      "name": "Honest Ahanor",
+      "club": "Atalanta",
+      "role": "Difensore centrale",
+      "born": 2008,
+      "status": "serie-a",
+      "value": 30,
+      "valueHistory": [
+        {
+          "date": "2026-04",
+          "value": 25
+        },
+        {
+          "date": "2026-07",
+          "value": 30
+        }
+      ],
+      "caps": {
+        "u21": "1",
+        "a": "2"
+      },
+      "capsSource": "Wikipedia, giu 2026",
+      "queries": [
+        "Ahanor Atalanta"
+      ]
+    },
+    {
+      "name": "Giovanni Leoni",
+      "club": "Liverpool",
+      "role": "Difensore centrale",
+      "born": 2006,
+      "status": "estero",
+      "value": 25,
+      "valueHistory": [
+        {
+          "date": "2026-04",
+          "value": 25
+        },
+        {
+          "date": "2026-07",
+          "value": 25
+        }
+      ],
+      "queries": [
+        "Leoni Liverpool"
+      ]
+    },
+    {
+      "name": "Davide Bartesaghi",
+      "club": "Milan",
+      "role": "Terzino sinistro",
+      "born": 2005,
+      "status": "serie-a",
+      "value": 22,
+      "valueHistory": [
+        {
+          "date": "2026-04",
+          "value": 23
+        },
+        {
+          "date": "2026-07",
+          "value": 22
+        }
+      ],
+      "caps": {
+        "u18": "3",
+        "u19": "14",
+        "u20": "5",
+        "u21": "6",
+        "a": "2"
+      },
+      "capsSource": "Wikipedia, giu 2026",
+      "queries": [
+        "Bartesaghi Milan"
+      ]
+    },
+    {
+      "name": "Cher Ndour",
+      "club": "Fiorentina",
+      "role": "Centrocampista",
+      "born": 2004,
+      "status": "serie-a",
+      "value": 20,
+      "valueHistory": [
+        {
+          "date": "2026-04",
+          "value": 10
+        },
+        {
+          "date": "2026-07",
+          "value": 20
+        }
+      ],
+      "caps": {
+        "u15": "9 (1 gol)",
+        "u16": "5",
+        "u18": "7",
+        "u19": "4 (1 gol)",
+        "u20": "6 (1 gol)",
+        "u21": "26 (4 gol)",
+        "a": "2"
+      },
+      "capsSource": "Wikipedia, giu 2026",
+      "queries": [
+        "Ndour"
+      ]
+    },
+    {
+      "name": "Pietro Comuzzo",
+      "club": "Fiorentina",
+      "role": "Difensore centrale",
+      "born": 2005,
+      "status": "serie-a",
+      "value": 18,
+      "valueHistory": [
+        {
+          "date": "2026-04",
+          "value": 23
+        },
+        {
+          "date": "2026-07",
+          "value": 18
+        }
+      ],
+      "caps": {
+        "u17": "2",
+        "u18": "3",
+        "u20": "4",
+        "u21": "4",
+        "a": "2"
+      },
+      "capsSource": "Wikipedia, giu 2026",
+      "queries": [
+        "Comuzzo Fiorentina"
+      ]
+    },
+    {
+      "name": "Jeff Ekhator",
+      "club": "Genoa",
+      "role": "Punta centrale",
+      "born": 2006,
+      "status": "serie-a",
+      "value": 18,
+      "valueHistory": [
+        {
+          "date": "2026-04",
+          "value": 13
+        },
+        {
+          "date": "2026-07",
+          "value": 18
+        }
+      ],
+      "queries": [
+        "Ekhator Genoa"
+      ]
+    },
+    {
+      "name": "Samuele Inacio",
+      "club": "Borussia Dortmund",
+      "role": "Seconda punta",
+      "born": 2008,
+      "status": "estero",
+      "value": 15,
+      "queries": [
+        "Samuele Inacio",
+        "Inacio Dortmund"
+      ]
+    },
+    {
+      "name": "Francesco Camarda",
+      "club": "Milan (rientro dal prestito al Lecce)",
+      "role": "Punta centrale",
+      "born": 2008,
+      "status": "serie-a",
+      "value": 15,
+      "tmUrl": "https://www.transfermarkt.it/francesco-camarda/profil/spieler/1058368",
+      "valueHistory": [
+        {
+          "date": "2026-04",
+          "value": 15
+        },
+        {
+          "date": "2026-07",
+          "value": 15
+        }
+      ],
+      "caps": {
+        "u15": "9 (6 gol)",
+        "u16": "7 (3 gol)",
+        "u17": "17 (11 gol)",
+        "u19": "10 (6 gol)",
+        "u21": "4 (4 gol)",
+        "a": "2"
+      },
+      "capsSource": "Wikipedia, giu 2026",
+      "queries": [
+        "Camarda Milan"
+      ]
+    },
+    {
+      "name": "Cesare Casadei",
+      "club": "Torino",
+      "role": "Centrocampista",
+      "born": 2003,
+      "status": "serie-a",
+      "value": 15,
+      "caps": {
+        "u16": "10 (2 gol)",
+        "u17": "2 (1 gol)",
+        "u18": "1",
+        "u19": "12 (3 gol)",
+        "u20": "9 (8 gol)",
+        "u21": "16 (4 gol)"
+      },
+      "capsSource": "Wikipedia, giu 2026",
+      "queries": [
+        "Casadei Torino"
+      ]
+    },
+    {
+      "name": "Giovanni Fabbian",
+      "club": "Bologna",
+      "role": "Trequartista",
+      "born": 2003,
+      "status": "serie-a",
+      "value": 10,
+      "queries": [
+        "Fabbian Bologna"
+      ]
+    },
+    {
+      "name": "Luca Reggiani",
+      "club": "Borussia Dortmund",
+      "role": "Difensore centrale",
+      "born": 2008,
+      "status": "estero",
+      "value": 10,
+      "valueHistory": [
+        {
+          "date": "2026-04",
+          "value": 5
+        },
+        {
+          "date": "2026-07",
+          "value": 10
+        }
+      ],
+      "queries": [
+        "Reggiani Borussia Dortmund",
+        "Luca Reggiani"
+      ]
+    },
+    {
+      "name": "Niccolò Fortini",
+      "club": "Fiorentina",
+      "role": "Terzino sinistro",
+      "born": 2006,
+      "status": "serie-a",
+      "value": 10,
+      "queries": [
+        "Fortini Fiorentina"
+      ]
+    },
+    {
+      "name": "Tommaso Baldanzi",
+      "club": "Roma",
+      "role": "Trequartista",
+      "born": 2003,
+      "status": "serie-a",
+      "value": 8.5,
+      "caps": {
+        "u17": "2 (1 gol)",
+        "u18": "1 (2 gol)",
+        "u19": "9 (1 gol)",
+        "u20": "7 (2 gol)",
+        "u21": "8 (5 gol)"
+      },
+      "capsSource": "Wikipedia, giu 2026",
+      "queries": [
+        "Baldanzi Roma"
+      ]
+    },
+    {
+      "name": "Mattia Liberali",
+      "club": "Catanzaro",
+      "role": "Trequartista",
+      "born": 2007,
+      "status": "serie-b",
+      "value": 8.5,
+      "valueHistory": [
+        {
+          "date": "2026-04",
+          "value": 7
+        },
+        {
+          "date": "2026-07",
+          "value": 8.5
+        }
+      ],
+      "queries": [
+        "Mattia Liberali"
+      ]
+    },
+    {
+      "name": "Luca Lipani",
+      "club": "Sassuolo",
+      "role": "Mediano",
+      "born": 2005,
+      "status": "serie-a",
+      "value": 7.5,
+      "queries": [
+        "Lipani Sassuolo"
+      ]
+    },
+    {
+      "name": "Luca Marianucci",
+      "club": "Torino (prestito Napoli)",
+      "role": "Difensore centrale",
+      "born": 2004,
+      "status": "serie-a",
+      "value": 7,
+      "queries": [
+        "Marianucci"
+      ]
+    },
+    {
+      "name": "Alphadjo Cissè",
+      "club": "Catanzaro (prestito Milan)",
+      "role": "Trequartista",
+      "born": 2006,
+      "status": "serie-b",
+      "value": 7,
+      "queries": [
+        "Alphadjo Cisse"
+      ]
+    },
+    {
+      "name": "Luca Koleosho",
+      "club": "Burnley",
+      "role": "Ala destra",
+      "born": 2004,
+      "status": "estero",
+      "value": 6,
+      "queries": [
+        "Koleosho Burnley"
+      ]
+    },
+    {
+      "name": "Emanuele Rao",
+      "club": "SPAL",
+      "role": "Ala sinistra",
+      "born": 2006,
+      "status": "serie-c",
+      "value": 6,
+      "queries": [
+        "Emanuele Rao"
+      ]
+    },
+    {
+      "name": "Raphael Kofler",
+      "club": "Südtirol",
+      "role": "Difensore centrale",
+      "born": 2005,
+      "status": "serie-b",
+      "value": 5.5,
+      "queries": [
+        "Raphael Kofler"
+      ]
+    },
+    {
+      "name": "Lorenzo Venturino",
+      "club": "Genoa",
+      "role": "Ala destra",
+      "born": 2008,
+      "status": "serie-a",
+      "value": 5,
+      "queries": [
+        "Venturino Genoa"
+      ]
+    },
+    {
+      "name": "Matteo Cichella",
+      "club": "Frosinone",
+      "role": "Mediano",
+      "born": 2006,
+      "status": "serie-b",
+      "value": 5,
+      "queries": [
+        "Cichella Frosinone"
+      ]
+    },
+    {
+      "name": "Tommaso Martinelli",
+      "club": "Fiorentina",
+      "role": "Portiere",
+      "born": 2006,
+      "status": "serie-a",
+      "value": 5,
+      "queries": [
+        "Martinelli Fiorentina portiere"
+      ]
+    },
+    {
+      "name": "Christian Comotto",
+      "club": "Milan",
+      "role": "Centrocampista",
+      "born": 2008,
+      "status": "primavera",
+      "value": 5,
+      "queries": [
+        "Christian Comotto"
+      ]
+    },
+    {
+      "name": "Giacomo Faticanti",
+      "club": "Lecce",
+      "role": "Mediano",
+      "born": 2004,
+      "status": "serie-a",
+      "value": 4.5,
+      "queries": [
+        "Faticanti"
+      ]
+    },
+    {
+      "name": "Simone Pafundi",
+      "club": "Sampdoria (prestito Udinese)",
+      "role": "Trequartista",
+      "born": 2006,
+      "status": "serie-b",
+      "value": 4.5,
+      "valueHistory": [
+        {
+          "date": "2026-04",
+          "value": 5
+        },
+        {
+          "date": "2026-07",
+          "value": 4.5
+        }
+      ],
+      "caps": {
+        "u16": "1",
+        "u17": "5 (4 gol)",
+        "u19": "13 (7 gol)",
+        "u20": "7 (1 gol)",
+        "u21": "5",
+        "a": "1"
+      },
+      "capsSource": "Wikipedia, giu 2026",
+      "queries": [
+        "Pafundi"
+      ]
+    },
+    {
+      "name": "Alessio Cacciamani",
+      "club": "Torino",
+      "role": "Ala sinistra",
+      "born": 2007,
+      "status": "serie-a",
+      "value": 4.5,
+      "queries": [
+        "Alessio Cacciamani"
+      ]
+    },
+    {
+      "name": "Fabio Rispoli",
+      "club": "Como",
+      "role": "Centrocampista",
+      "born": 2007,
+      "status": "serie-a",
+      "value": 4.5,
+      "queries": [
+        "Fabio Rispoli"
+      ]
+    },
+    {
+      "name": "Antonio Arena",
+      "club": "Roma",
+      "role": "Punta centrale",
+      "born": 2009,
+      "status": "primavera",
+      "value": 4,
+      "queries": [
+        "Antonio Arena Roma"
+      ]
+    },
+    {
+      "name": "Riyad Idrissi",
+      "club": "Cagliari",
+      "role": "Terzino sinistro",
+      "born": 2005,
+      "status": "serie-a",
+      "value": 4,
+      "queries": [
+        "Riyad Idrissi"
+      ]
+    },
+    {
+      "name": "Leonardo Colombo",
+      "club": "Monza",
+      "role": "Mediano",
+      "born": 2005,
+      "status": "serie-b",
+      "value": 4,
+      "queries": [
+        "Leonardo Colombo Monza"
+      ]
+    },
+    {
+      "name": "Giovanni Daffara",
+      "club": "Parma",
+      "role": "Portiere",
+      "born": 2005,
+      "status": "serie-a",
+      "value": 3.5,
+      "queries": [
+        "Daffara Parma"
+      ]
+    },
+    {
+      "name": "Francesco Coppola",
+      "club": "Pisa",
+      "role": "Difensore centrale",
+      "born": 2005,
+      "status": "serie-a",
+      "value": 3.5,
+      "queries": [
+        "Francesco Coppola Pisa"
+      ]
+    },
+    {
+      "name": "Massimo Pessina",
+      "club": "Bologna",
+      "role": "Portiere",
+      "born": 2008,
+      "status": "primavera",
+      "value": 3.5,
+      "queries": [
+        "Massimo Pessina portiere"
+      ]
+    },
+    {
+      "name": "Dominic Vavassori",
+      "club": "Atalanta U23",
+      "role": "Seconda punta",
+      "born": 2006,
+      "status": "serie-c",
+      "value": 3.5,
+      "queries": [
+        "Dominic Vavassori"
+      ]
+    },
+    {
+      "name": "Kevin Zeroli",
+      "club": "Milan Futuro",
+      "role": "Centrocampista",
+      "born": 2005,
+      "status": "serie-c",
+      "value": 3.3,
+      "queries": [
+        "Zeroli"
+      ]
+    },
+    {
+      "name": "Fabio Chiarodia",
+      "club": "Borussia Mönchengladbach",
+      "role": "Difensore centrale",
+      "born": 2005,
+      "status": "estero",
+      "value": 3,
+      "queries": [
+        "Chiarodia"
+      ]
+    },
+    {
+      "name": "Seydou Fini",
+      "club": "Genoa",
+      "role": "Ala destra",
+      "born": 2006,
+      "status": "serie-a",
+      "value": 2.5,
+      "queries": [
+        "Seydou Fini"
+      ]
+    },
+    {
+      "name": "Filippo Mané",
+      "club": "Borussia Dortmund",
+      "role": "Difensore centrale",
+      "born": 2005,
+      "status": "estero",
+      "value": 2.5,
+      "queries": [
+        "Filippo Mane Dortmund"
+      ]
+    },
+    {
+      "name": "Matteo Cocchi",
+      "club": "Inter",
+      "role": "Terzino sinistro",
+      "born": 2007,
+      "status": "serie-a",
+      "value": 2.5,
+      "queries": [
+        "Cocchi Inter"
+      ]
+    },
+    {
+      "name": "Tommaso Rubino",
+      "club": "Fiorentina",
+      "role": "Trequartista",
+      "born": 2007,
+      "status": "serie-a",
+      "value": 2.5,
+      "queries": [
+        "Tommaso Rubino"
+      ]
+    },
+    {
+      "name": "Eddy Kouadio",
+      "club": "Fiorentina",
+      "role": "Difensore centrale",
+      "born": 2006,
+      "status": "serie-a",
+      "value": 2.5,
+      "queries": [
+        "Eddy Kouadio"
+      ]
+    },
+    {
+      "name": "Fellipe Jack",
+      "club": "Como",
+      "role": "Difensore centrale",
+      "born": 2006,
+      "status": "serie-a",
+      "value": 2.5,
+      "queries": [
+        "Fellipe Jack"
+      ]
+    },
+    {
+      "name": "Samuel Wiafe",
+      "club": "Genoa",
+      "role": "Centrocampista",
+      "born": 2008,
+      "status": "primavera",
+      "value": 2.5,
+      "queries": [
+        "Samuel Wiafe"
+      ]
+    },
+    {
+      "name": "Stefano Di Mario",
+      "club": "Virtus Entella",
+      "role": "Esterno sinistro",
+      "born": 2005,
+      "status": "serie-b",
+      "value": 2,
+      "queries": [
+        "Di Mario Entella"
+      ]
+    },
+    {
+      "name": "Nicolò Calabrese",
+      "club": "Hellas Verona",
+      "role": "Difensore centrale",
+      "born": 2005,
+      "status": "serie-a",
+      "value": 2,
+      "queries": [
+        "Nicolò Calabrese"
+      ]
+    },
+    {
+      "name": "Alvin Okoro",
+      "club": "Venezia",
+      "role": "Punta centrale",
+      "born": 2005,
+      "status": "serie-b",
+      "value": 2,
+      "queries": [
+        "Alvin Okoro"
+      ]
+    },
+    {
+      "name": "Federico Steffanoni",
+      "club": "Atalanta U23",
+      "role": "Centrocampista",
+      "born": 2009,
+      "status": "serie-c",
+      "value": 2,
+      "queries": [
+        "Federico Steffanoni"
+      ]
+    },
+    {
+      "name": "Alessandro Nunziante",
+      "club": "Udinese",
+      "role": "Portiere",
+      "born": 2007,
+      "status": "serie-a",
+      "value": 1.8,
+      "queries": [
+        "Nunziante portiere"
+      ]
+    },
+    {
+      "name": "Mattia Mosconi",
+      "club": "Inter",
+      "role": "Ala destra",
+      "born": 2007,
+      "status": "primavera",
+      "value": 1.5,
+      "queries": [
+        "Mosconi Inter"
+      ]
+    },
+    {
+      "name": "Guido Della Rovere",
+      "club": "Bayern Monaco",
+      "role": "Trequartista",
+      "born": 2007,
+      "status": "estero",
+      "value": 1.5,
+      "queries": [
+        "Della Rovere Bayern"
+      ]
+    },
+    {
+      "name": "Diego Mascardi",
+      "club": "Spezia",
+      "role": "Portiere",
+      "born": 2007,
+      "status": "serie-b",
+      "value": 1.3,
+      "queries": [
+        "Mascardi Spezia"
+      ]
+    },
+    {
+      "name": "Jamal Iddrissou",
+      "club": "Inter U23",
+      "role": "Punta centrale",
+      "born": 2007,
+      "status": "serie-c",
+      "value": 0.9,
+      "queries": [
+        "Iddrissou Inter"
+      ]
+    },
+    {
+      "name": "Wisdom Amey",
+      "club": "Bologna",
+      "role": "Difensore centrale",
+      "born": 2005,
+      "status": "serie-a",
+      "value": 0.8,
+      "queries": [
+        "Wisdom Amey"
+      ]
+    },
+    {
+      "name": "Leonardo Mendicino",
+      "club": "Atalanta",
+      "role": "Mediano",
+      "born": 2006,
+      "status": "serie-c",
+      "value": 0.7,
+      "queries": [
+        "Mendicino Atalanta"
+      ]
+    },
+    {
+      "name": "Aaron Ciammaglichella",
+      "club": "Torino",
+      "role": "Centrocampista",
+      "born": 2005,
+      "status": "serie-a",
+      "value": 0.5,
+      "queries": [
+        "Ciammaglichella"
+      ]
+    },
+    {
+      "name": "Filippo Terracciano",
+      "club": "Milan",
+      "role": "Difensore centrale",
+      "born": 2003,
+      "status": "serie-a",
+      "value": 4.5,
+      "queries": [
+        "Filippo Terracciano"
+      ]
+    },
+    {
+      "name": "Federico Coletta",
+      "club": "Benfica",
+      "role": "Centrocampista",
+      "born": 2007,
+      "status": "estero",
+      "caps": {
+        "u17": "Campione d'Europa 2024",
+        "u19": "16 (2 gol), capitano"
+      },
+      "capsSource": "Mondo Primavera",
+      "queries": [
+        "Coletta Benfica",
+        "Federico Coletta"
+      ]
+    },
+    {
+      "name": "Andrea Natali",
+      "club": "Bayer Leverkusen",
+      "role": "Difensore centrale",
+      "born": 2008,
+      "status": "estero",
+      "queries": [
+        "Natali Leverkusen",
+        "Andrea Natali"
+      ]
+    },
+    {
+      "name": "Mattia Marello",
+      "club": "Inter",
+      "role": "Difensore centrale",
+      "born": 2008,
+      "status": "primavera",
+      "queries": [
+        "Marello Inter"
+      ]
+    },
+    {
+      "name": "Destiny Elimoghale",
+      "club": "Juventus",
+      "role": "Ala",
+      "born": 2009,
+      "status": "primavera",
+      "queries": [
+        "Elimoghale Juventus"
+      ]
+    },
+    {
+      "name": "Matteo Mantini",
+      "club": "Grasshopper",
+      "role": "Centrocampista",
+      "born": 2007,
+      "status": "estero",
+      "queries": [
+        "Mantini Grasshopper"
+      ]
+    },
+    {
+      "name": "Luca Muzzi",
+      "club": "Benfica",
+      "role": "Attaccante",
+      "born": 2011,
+      "status": "estero",
+      "queries": [
+        "Luca Muzzi Benfica"
+      ]
+    },
+    {
+      "name": "Daniele Gerace",
+      "club": "Stoccarda",
+      "role": "Centrocampista",
+      "born": 2011,
+      "status": "estero",
+      "queries": [
+        "Gerace Stuttgart"
+      ]
+    },
+    {
+      "name": "Diego Sia",
+      "club": "Milan",
+      "role": "Ala",
+      "born": 2006,
+      "status": "primavera",
+      "queries": [
+        "Diego Sia Milan"
+      ]
+    },
+    {
+      "name": "Sebastiano Desplanches",
+      "club": "Palermo",
+      "role": "Portiere",
+      "born": 2003,
+      "status": "serie-b",
+      "queries": [
+        "Desplanches"
+      ]
+    },
+    {
+      "name": "Tommaso Vannucchi",
+      "club": "Fiorentina",
+      "role": "Portiere",
+      "born": 2007,
+      "status": "primavera",
+      "queries": [
+        "Vannucchi Fiorentina"
+      ]
+    },
+    {
+      "name": "Renato Marin",
+      "club": "PSG",
+      "role": "Portiere",
+      "born": 2006,
+      "status": "estero",
+      "queries": [
+        "Renato Marin PSG"
+      ]
+    },
+    {
+      "name": "Giuseppe Ambrosino",
+      "club": "Napoli",
+      "role": "Attaccante",
+      "born": 2003,
+      "status": "serie-a",
+      "queries": [
+        "Ambrosino"
+      ]
+    },
+    {
+      "name": "Alessandro Dellavalle",
+      "club": "Torino",
+      "role": "Difensore centrale",
+      "born": 2004,
+      "status": "serie-b",
+      "queries": [
+        "Dellavalle Torino"
+      ]
+    },
+    {
+      "name": "Federico Ciucci",
+      "club": "Lazio",
+      "role": "Difensore centrale",
+      "born": 2009,
+      "status": "primavera",
+      "queries": [
+        "Federico Ciucci Lazio"
+      ]
+    },
+    {
+      "name": "Davide Pavesi",
+      "club": "Cremonese",
+      "role": "Difensore centrale",
+      "born": 2008,
+      "status": "primavera",
+      "queries": [
+        "Davide Pavesi Cremonese"
+      ]
+    },
+    {
+      "name": "Edoardo Motta",
+      "club": "Lazio",
+      "role": "Portiere",
+      "born": 2005,
+      "status": "serie-a",
+      "value": 8,
+      "queries": [
+        "Edoardo Motta Lazio"
+      ]
+    }
   ],
   "extraQueries": [
     "giovani talenti italiani Serie A",
