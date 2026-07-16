@@ -3,15 +3,14 @@ import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import Cover from '../../components/Cover.astro';
 import { CATEGORY_LABELS, formatDate, slugify } from '../../lib/utils';
+import { filterPublished, sortByPublished } from '../../lib/articles';
 import playersData from '../../../data/players.json';
 import perfData from '../../../data/performances.json';
 import compData from '../../../data/competitions.json';
 
 const compShort = Object.fromEntries(compData.competitions.map((c) => [c.id, c.shortEn]));
 
-const posts = (await getCollection('news')).sort(
-  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
-);
+const posts = sortByPublished(filterPublished(await getCollection('news')));
 
 const editoriale = posts.find((p) => p.data.category === 'editoriale');
 const taccuino = posts.find((p) => p.data.category === 'taccuino');

@@ -25,6 +25,9 @@ jobs:
           node-version: 22
       - name: Pubblicazione bozze di qualità
         run: node pipeline/publish.mjs --max=${{ github.event.inputs.quanti || '10' }}
+      - name: Scaglionamento orari (1 ogni 20 min, 9-21)
+        run: node pipeline/scheduler.mjs
+        continue-on-error: true
       - name: Commit degli articoli
         run: |
           git config user.name "ing-redazione"

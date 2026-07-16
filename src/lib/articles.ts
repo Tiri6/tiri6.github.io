@@ -1,17 +1,17 @@
 import type { CollectionEntry } from 'astro:content';
 
 /**
- * Filtra gli articoli mostrando solo quelli già pubblicati (publishedAt <= ora attuale)
- * Se publishedAt non è presente, l'articolo è nascosto
+ * Filtra gli articoli mostrando solo quelli già pubblicati (publishedAt <= ora attuale).
+ * Se publishedAt non è presente (articoli storici), l'articolo è considerato GIÀ pubblicato.
  */
 export function filterPublished(articles: CollectionEntry<'news'>[]): CollectionEntry<'news'>[] {
   const now = new Date();
   return articles.filter(article => {
-    // Se publishedAt non esiste, nascondi l'articolo
+    // Articoli senza publishedAt (storici) = già pubblicati, sempre visibili
     if (!article.data.publishedAt) {
-      return false;
+      return true;
     }
-    // Mostra solo se publishedAt <= ora attuale
+    // Con publishedAt: visibili solo quando arriva il loro orario
     return new Date(article.data.publishedAt) <= now;
   });
 }
@@ -23,8 +23,8 @@ export function sortByPublished(
   articles: CollectionEntry<'news'>[]
 ): CollectionEntry<'news'>[] {
   return articles.sort((a, b) => {
-    const dateA = a.data.publishedAt ? new Date(a.data.publishedAt).getTime() : 0;
-    const dateB = b.data.publishedAt ? new Date(b.data.publishedAt).getTime() : 0;
+    const dateA = new Date(a.data.publishedAt ?? a.data.date).getTime();
+    const dateB = new Date(b.data.publishedAt ?? b.data.date).getTime();
     return dateB - dateA; // Discendente
   });
 }

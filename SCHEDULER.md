@@ -8,7 +8,7 @@ Il sito pubblica articoli automaticamente ogni **20 minuti dalle 9:00 alle 21:00
 - **Slot 0 (9:00)**: Taccuino (sticky, visibile tutto il giorno) 📋
 - **Slot 1-38 (9:20, 9:40, 10:00...)**: Articoli normali 📰
 
-**Totale: 39 post al giorno**
+**Totale: 37 post al giorno**
 
 ---
 
@@ -44,7 +44,7 @@ Questo comando:
 ```
 📅 Scheduler: Wednesday, July 16, 2026
 🕐 Orari: 9:00 - 21:00 (intervallo 20 min)
-📍 Slot disponibili: 39 (1 taccuino + 38 articoli)
+📍 Slot disponibili: 37 (1 taccuino + 36 articoli)
 📄 Articoli non schedulati: 15
 
 ✅ Schedulati 15 articoli:
