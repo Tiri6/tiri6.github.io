@@ -148,15 +148,12 @@ function main() {
   console.log(`📅 Scheduler → ${targetDate} (${TZ})`);
   console.log(`📍 Slot disponibili: ${slots.length} · Articoli da schedulare: ${queue.length}`);
 
-  // Distribuzione uniforme: se gli articoli sono meno degli slot, si spalmano
-  // sull'intera finestra 9-21 invece di ammassarsi al mattino.
-  // Es. 10 articoli → circa uno all'ora; 37 articoli → uno ogni 20 minuti.
+  // Un articolo ogni 20 minuti, slot consecutivi a partire dal primo disponibile.
   const n = Math.min(queue.length, slots.length);
   let scheduled = 0;
   for (let i = 0; i < n; i++) {
     const article = queue[i];
-    const slotIndex = n === 1 ? 0 : Math.round((i * (slots.length - 1)) / (n - 1));
-    const slot = slots[slotIndex];
+    const slot = slots[i];
     const featured = article.category === 'taccuino';
     stampArticle(article, slot.iso, { featured });
     const hhmm = slot.iso.slice(11, 16);

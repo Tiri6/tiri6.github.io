@@ -1,0 +1,23 @@
+---
+title: "Ndour: \"No alla Juventus a 13 anni? Non mi pento, l'ho battuta in semifinale di Youth League e le ho segnato allo Stadium, la gioia più grande\" - Calciomercato"
+titleEn: "Ndour: 'Rejecting Juventus at 13 Was the Right Call'"
+excerpt: "Cher Ndour non si rammarica della scelta di rifiutare la Juventus da giovane: il talento italiano ha battuto i bianconeri in semifinale di Youth League e ha segnato anche allo Stadium, un momento che considera la sua gioia più grande."
+excerptEn: "Cher Ndour has no regrets about turning down Juventus as a teenager: the Italian talent eliminated the Bianconeri in the Youth League semi-finals and scored against them at the Stadium, a moment he considers his greatest joy."
+date: 2026-07-15
+publishedAt: 2026-07-15T09:40:00+02:00
+category: mercato
+players: ["Cher Ndour"]
+competitions: []
+source: "Calciomercato"
+sourceUrl: "https://news.google.com/rss/articles/CBMingJBVV95cUxNZ1JqYWtRZ0k2YWY4TWFjcjFQU05IZ3p3NTJ1WDQ3Yzl6S3hBT3Nib1V2aGVnOVVmTXhOSjJCY0xMOFRlWG5WQWR6c1RwLXRhTnFxWHVHd1BNLW94cjlaUWRXSmRGMU9qM3FKSXNxb016RXduQWJKN2ZFZUNZUXpSUGVvUzJtVm81c0NzRUxzU1p4V1pvb1Ywai03elptYWlucEZNdmRBUlBvMHM3WEhUYzJnYmMwR2wtejhwc1N5bFF5d0tyeVplRk95TTJLUF9zYjNIVFFxaVRKVHhIRVJQdFdfRHdOR3JmNlpYQlJfMVl0T3hjSmdhc2ZmSGg1dTA1VENERjlvOHhwdkFZcmg0MWVXUlFlOVFLRkxQbEtR?oc=5"
+---
+
+Cher Ndour ribadisce la convinzione che la sua decisione di declinare l'offerta della Juventus a soli 13 anni sia stata corretta. Il giovane attaccante italiano ha trasformato quel rifiuto in motivazione: prima battendo i bianconeri in una semifinale di Youth League, poi realizzando un gol allo Stadium, momenti che rimangono impressi nella sua memoria come i più significativi della sua carriera giovanile.
+
+Una scelta che rappresenta il carattere e l'autonomia decisionale di un prospetto che vuole costruirsi il percorso sulla base delle proprie convinzioni, non su quelle altrui. Per un talento che punta ai grandi palcoscenici del 2030, la capacità di mantenere la rotta senza rimpianti rimane una qualità preziosa.
+
+<!--EN-->
+
+Cher Ndour reaffirms his conviction that declining Juventus's offer at just 13 years old was the right decision. The young Italian forward has turned that rejection into motivation: first by eliminating the Bianconeri in a Youth League semi-final, then by scoring at the Stadium, moments that remain etched in his memory as the most meaningful of his youth career.
+
+A choice that reflects the character and decisiveness of a prospect who wants to build his path based on his own convictions, not those of others. For a talent aiming at the biggest stages by 2030, the ability to stay true to one's course without regrets remains a valuable quality.

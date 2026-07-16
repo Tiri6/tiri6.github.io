@@ -1,0 +1,27 @@
+---
+title: "💥 PUNTO CALCIOMERCATO FIORENTINA NDOUR KOLEOSHO JUVE MILAN SALTA KRÖSCHE SARRI ATALANTA JURIC MONZA! Monaco Vs Losc (THJdDg2vpa) - Mshale"
+titleEn: "Ndour and Koleosho in the Spotlight: Serie A Clubs Circle Young Talents"
+excerpt: "Cher Ndour e Luca Koleosho continuano ad attirare l'attenzione dei maggiori club italiani. La Fiorentina segue con interesse i due prospetti, mentre anche Juventus e Milan monitorano la situazione nel mercato dei giovani talenti."
+excerptEn: "Cher Ndour and Luca Koleosho remain in the sights of Italy's top clubs. Fiorentina is actively tracking both prospects as Juventus and Milan also monitor developments in the young talent market."
+date: 2026-07-09
+publishedAt: 2026-07-09T09:20:00+02:00
+category: mercato
+players: ["Cher Ndour", "Luca Koleosho"]
+competitions: []
+source: "Mshale"
+sourceUrl: "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9JUEpHRjJPdXpOdWd6OW9nNmd6bHdaRFFUWk9aUFVlY2lVOGo2OWh1eEhkSTg3bkR5VzJ6RjlWQmxENkFxVmk4UlVwX0trTVY3aGJZbTU3cC1jS2NiX3dJbw?oc=5"
+---
+
+Le due giovani promesse italiane Cher Ndour e Luca Koleosho continuano a rappresentare oggetto di interesse concreto per i principali club della Serie A. La Fiorentina ha manifestato particolare attenzione nei loro confronti, mentre Juventus e Milan non perdono di vista i due talenti nel loro lavoro di scouting.
+
+Le manovre di mercato intorno ai due prospetti confermano come le grandi squadre stiano già proiettando lo sguardo verso il progetto azzurro dei prossimi anni. Investire in giovani di qualità rappresenta la strada maestra per costruire una base solida in vista degli impegni internazionali futuri, inclusa la prospettiva dei Mondiali 2030.
+
+I club monitorano con attenzione l'evoluzione di questi profili, consapevoli che valorizzare le risorse interne del calcio italiano rimane cruciale per il rilancio competitivo della nazionale.
+
+<!--EN-->
+
+Young Italian prospects Cher Ndour and Luca Koleosho continue to attract concrete interest from Serie A's elite. Fiorentina has shown particular attention to both talents, while Juventus and Milan maintain active monitoring through their scouting operations.
+
+Market activity surrounding the two prospects underscores how major clubs are already positioning themselves toward Italy's next generation project. Investing in quality young players represents the essential strategy for building a solid foundation ahead of future international commitments, including the 2030 World Cup horizon.
+
+Clubs are closely tracking the development of these profiles, aware that nurturing Italy's domestic talent pool remains critical for restoring the national team's competitive standing.

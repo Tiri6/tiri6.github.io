@@ -1,0 +1,27 @@
+---
+title: "Repubblica - De Gea fuori dal mercato: lo spagnolo resta il titolare. Martinelli per il futuro - LaViola.it"
+titleEn: "Martinelli Eyes Future as De Gea Locked Down"
+excerpt: "Mentre De Gea rimane saldamente al suo posto tra i pali, Tommaso Martinelli si profila come prospettiva interessante per il futuro. Un segnale chiaro della strategia dei club nel ripensare le gerarchie portieri."
+excerptEn: "While De Gea stays firmly entrenched as the first-choice goalkeeper, Tommaso Martinelli emerges as an intriguing prospect for what lies ahead. A clear indication of how clubs are rethinking their goalkeeper hierarchies."
+date: 2026-07-14
+publishedAt: 2026-07-14T10:40:00+02:00
+category: mercato
+players: ["Tommaso Martinelli"]
+competitions: []
+source: "LaViola.it"
+sourceUrl: "https://news.google.com/rss/articles/CBMiswFBVV95cUxQa1otY0VzMElrQ0ZGbndtNEt6MEh4d3RXN3c4LW94ZTEtaUp4Z0dnWVlNNjVUWUt4R2JlR2RqTzVvcUtvVEo1ZFZaTW9VS2dqdFU0RWFRNWdDQ3ktQVRKMTJucjMtbmY3VTQwQUFvVUJ4Q1QyZnlIeFo4cnMwNENWU21wN3RfcnFTTHItQTRzelBsX3o5Q0JOMFhDV21BcmZOUmI5cy1pZVItVk1kaEJZVXRBaw?oc=5"
+---
+
+De Gea non si muove dal suo ruolo di titolare indiscusso. Lo spagnolo mantiene saldamente la fiducia del progetto, confermando la continuità nella gestione del reparto arretrato. Un'affermazione forte di stabilità tra i pali per la prossima stagione.
+
+Nel frattempo, lo sguardo si rivolge al domani con Martinelli, giovane estremo difensore italiano che rappresenta una risorsa per il futuro. La Fiorentina guarda già oltre, identificando le pedine su cui investire nei prossimi anni in vista di sfide europee e obiettivi ambiziosi.
+
+Un doppio binario che rispecchia la filosofia moderna: solidità presente e costruzione paziente del domani. Elementi cruciali anche nella prospettiva di un vivaio italiano che coltiva talenti per il 2030.
+
+<!--EN-->
+
+De Gea remains firmly rooted as the undisputed number one. The Spaniard continues to enjoy the club's trust, underlining continuity in the goalkeeping department. A strong statement of stability between the sticks for the season ahead.
+
+Meanwhile, attention turns toward the future with Martinelli, a young Italian goalkeeper who represents a valuable asset in the years to come. Fiorentina is already planning ahead, identifying prospects to invest in as they pursue European ambitions and major objectives.
+
+A dual-track approach reflecting modern philosophy: present-day solidity coupled with patient long-term building. Key elements also within the context of an Italian academy system nurturing talent toward 2030.
