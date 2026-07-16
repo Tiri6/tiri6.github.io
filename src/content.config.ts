@@ -9,6 +9,8 @@ const news = defineCollection({
     excerpt: z.string(),
     excerptEn: z.string(),
     date: z.coerce.date(),
+    /** Data e ora di pubblicazione (UTC). Se assente, l'articolo è nascosto finché non viene schedulato. */
+    publishedAt: z.coerce.date().optional(),
     category: z.enum(['news', 'performance', 'mercato', 'editoriale', 'taccuino']),
     players: z.array(z.string()).default([]),
     /** ID delle competizioni collegate (vedi data/competitions.json), es. ["euro-u19-2026"] */
@@ -19,6 +21,8 @@ const news = defineCollection({
     image: z.string().optional(),
     /** true = il corpo è HTML puro e viene mostrato così com'è (per editoriali con grafici ecc.) */
     html: z.boolean().default(false),
+    /** true = articolo rimane in primo piano fino al giorno dopo (sticky post). Usato per il taccuino mattutino. */
+    featured: z.boolean().default(false),
   }),
 });
 

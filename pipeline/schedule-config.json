@@ -1,0 +1,36 @@
+{
+  "schedule": {
+    "startHour": 9,
+    "endHour": 21,
+    "intervalMinutes": 20,
+    "articlesPerHour": 3,
+    "timezone": "Europe/Rome",
+    "description": "Pubblicazione dalle 9:00 alle 21:00, 1 articolo ogni 20 minuti"
+  },
+  "slots": {
+    "totalPerDay": 39,
+    "digestSlot": 1,
+    "articleSlots": 38,
+    "digestTime": "09:00",
+    "digestSticky": true,
+    "digestCategory": "taccuino"
+  },
+  "agents": {
+    "write": {
+      "maxDaily": 38,
+      "maxBatch": 20,
+      "description": "Genera fino a 38 articoli al giorno (sufficienti per tutti gli slot normali)"
+    },
+    "digest": {
+      "maxDaily": 1,
+      "maxNormalize": 12,
+      "description": "1 taccuino al giorno alle 9:00, impacchetta fino a 12 notizie non elaborate"
+    }
+  },
+  "hints": [
+    "🎯 Se approvi meno di 38 articoli, gli slot rimasti restano vuoti — questo è ok",
+    "📋 Il taccuino alle 9:00 rimane sticky per tutta la giornata",
+    "⏰ Rebuilds avvengono ogni 20 minuti via GitHub Actions",
+    "✅ Gli articoli compaiono non appena raggiungono il loro publishedAt (visibilità istantanea)"
+  ]
+}

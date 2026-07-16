@@ -3,21 +3,21 @@ import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import Cover from '../components/Cover.astro';
 import { CATEGORY_LABELS, formatDate, slugify } from '../lib/utils';
+import { filterPublished, sortByPublished } from '../lib/articles';
 import playersData from '../../data/players.json';
 import perfData from '../../data/performances.json';
 import compData from '../../data/competitions.json';
 
 const compShort = Object.fromEntries(compData.competitions.map((c) => [c.id, c.short]));
 
-const posts = (await getCollection('news')).sort(
-  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
-);
+// Filtra solo gli articoli pubblicati (publishedAt <= ora attuale)
+const allPosts = await getCollection('news');
+const publishedPosts = filterPublished(allPosts);
+const posts = sortByPublished(publishedPosts);
 
-// In evidenza: l'ultimo editoriale (settimanale) e l'ultimo Taccuino del giorno
-const editoriale = posts.find((p) => p.data.category === 'editoriale');
-const taccuino = posts.find((p) => p.data.category === 'taccuino');
-const featuredIds = new Set([editoriale?.id, taccuino?.id].filter(Boolean));
-const rest = posts.filter((p) => !featuredIds.has(p.id));
+// In evidenza: taccuino con featured:true come primo post della giornata
+const taccuino = posts.find((p) => p.data.featured === true);
+const rest = posts.filter((p) => p.id !== taccuino?.id);
 
 const performances = perfData.performances
   .sort((a, b) => b.date.localeCompare(a.date))
@@ -54,32 +54,30 @@ const totAssists = perfData.performances.reduce((s, p) => s + (p.assists ?? 0), 
     </div>
   </div>
 
-  {(editoriale || taccuino) && (
+  {taccuino && (
     <>
-      <div class="section-title">✦ In evidenza</div>
-      <div class="featured-duo">
-        {[editoriale, taccuino].filter(Boolean).map((post) => (
-          <article class="card">
-            <a href={`/news/${post.id}/`}>
-              <Cover
-                seed={post.id}
-                players={post.data.players}
-                category={post.data.category}
-                image={post.data.image}
-                alt={post.data.title}
-                compact
-              />
-            </a>
-            <div>
-              <span class="badge" style={`background:${CATEGORY_LABELS[post.data.category].color}`}>
-                {post.data.category === 'editoriale' ? "L'editoriale della settimana" : 'Il taccuino del giorno'}
-              </span>
-              <span class="meta" style="margin-left:.6rem">{formatDate(post.data.date, 'it')}</span>
-            </div>
-            <h2><a href={`/news/${post.id}/`}>{post.data.title}</a></h2>
-            <p class="excerpt">{post.data.excerpt}</p>
-          </article>
-        ))}
+      <div class="section-title">✦ Il taccuino del giorno</div>
+      <div class="featured-solo">
+        <article class="card">
+          <a href={`/news/${taccuino.id}/`}>
+            <Cover
+              seed={taccuino.id}
+              players={taccuino.data.players}
+              category={taccuino.data.category}
+              image={taccuino.data.image}
+              alt={taccuino.data.title}
+              compact
+            />
+          </a>
+          <div>
+            <span class="badge" style={`background:${CATEGORY_LABELS[taccuino.data.category].color}`}>
+              Il taccuino · Aggiornato alle 9:00
+            </span>
+            <span class="meta" style="margin-left:.6rem">{formatDate(taccuino.data.publishedAt || taccuino.data.date, 'it')}</span>
+          </div>
+          <h2><a href={`/news/${taccuino.id}/`}>{taccuino.data.title}</a></h2>
+          <p class="excerpt">{taccuino.data.excerpt}</p>
+        </article>
       </div>
     </>
   )}

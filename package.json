@@ -12,6 +12,7 @@
     "prune": "node pipeline/prune.mjs",
     "digest": "node pipeline/digest.mjs",
     "publish": "node pipeline/publish.mjs",
+    "schedule": "node pipeline/scheduler.mjs",
     "results": "node pipeline/results.mjs",
     "coverage": "node pipeline/coverage.mjs",
     "review": "node review/server.mjs"

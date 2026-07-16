@@ -1,0 +1,58 @@
+# Rebuild ogni 20 minuti dalle 9:00 alle 21:00 (ora servertime UTC+1 Italia)
+# per far comparire gli articoli schedulati quando arriva il loro publishedAt
+#
+# Cron format: minute hour day month day-of-week (tutti in UTC)
+# Italia è UTC+1 (ora solare) o UTC+2 (ora legale)
+#
+# Per pubblicare dalle 9:00 alle 21:00 ora Italia (UTC+2 est):
+# - 7:00-19:00 UTC (ora legale, estate)
+# - 8:00-20:00 UTC (ora solare, inverno)
+#
+# Rebuildiamo ogni 20 minuti: 0, 20, 40 di ogni ora
+name: Rebuild ogni 20 minuti
+
+on:
+  schedule:
+    # Ora legale (fine marzo - fine ottobre)
+    # 7:00-19:00 UTC = 9:00-21:00 Italia (UTC+2)
+    - cron: '0,20,40 7-18 * * *'
+    # Ora solare (fine ottobre - fine marzo)
+    # 8:00-20:00 UTC = 9:00-21:00 Italia (UTC+1)
+    - cron: '0,20,40 8-19 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Installa dipendenze
+        run: npm ci
+
+      - name: Build del sito
+        run: npm run build
+
+      - name: Carica il sito per Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: rebuild
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
