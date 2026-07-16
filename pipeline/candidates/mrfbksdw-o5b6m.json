@@ -13,5 +13,13 @@
   ],
   "category": "mercato",
   "score": 8,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "titleEn": "Abate's Torino Project: Vlasic Impact and the Young Talents on the Radar",
+    "excerpt": "Paolo Abate illustra il progetto del suo Torino, con entusiasmo per l'arrivo di Vlasic e attenzione ai giovani talenti italiani come Casadei e Cacciamani.",
+    "excerptEn": "Paolo Abate outlines his Torino vision, with excitement about Vlasic's arrival and focus on young Italian prospects including Casadei and Cacciamani.",
+    "bodyIt": "Il tecnico granata Paolo Abate ha delineato le ambizioni della sua squadra, sottolineando come l'ingaggio di Vlasic abbia portato una spinta motivazionale all'intero progetto. L'allenatore guarda con interesse ai talenti emergenti del calcio italiano, con particolare attenzione a profili come Cesare Casadei, Alessio Cacciamani e il difensore Zapata.\n\nAbate ha accennato alle strategie di mercato che animeranno il prossimo periodo, evidenziando come l'identità del Torino passi anche dalla valorizzazione di giovani promesse nazionali. Una visione che si inserisce nel contesto più ampio della costruzione di una base generazionale solida, in ottica anche degli impegni internazionali dell'Italia nei prossimi anni.",
+    "bodyEn": "Coach Paolo Abate has outlined his Torino ambitions, highlighting how Vlasic's arrival has energized the squad's overall project. The manager is keeping close watch on emerging Italian talents, with particular regard to prospects like Cesare Casadei, Alessio Cacciamani, and defender Zapata.\n\nAbate referenced upcoming transfer plans that will shape the club's near future, emphasizing how Torino's identity will also depend on developing promising Italian youngsters. This vision fits into the broader context of building a solid generational foundation, with an eye toward Italy's international commitments in the coming years.",
+    "_fromSource": true
+  }
 }

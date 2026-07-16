@@ -12,5 +12,13 @@
   ],
   "category": "mercato",
   "score": 9,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "titleEn": "Milan Futuro, Navarro Makes Debut: Balentien and Zeroli in the Spotlight",
+    "excerpt": "Il Milan Futuro accoglie Navarro nel suo progetto di sviluppo dei giovani talenti. Nel frattempo, Balentien e Zeroli continuano ad attirare l'attenzione del mercato.",
+    "excerptEn": "Milan Futuro welcomes Navarro into its youth development project. Meanwhile, Balentien and Zeroli continue to attract market interest.",
+    "bodyIt": "Il Milan Futuro prosegue nel suo percorso di valorizzazione dei prospetti rossoneri con l'ingresso di Navarro, che muove i primi passi nel settore giovanile del club meneghino. La squadra dedita allo sviluppo dei talenti under continua a rappresentare un trampolino strategico per la crescita dei migliori giovani dell'orbita milanista.\n\nIn parallelo, rimangono sotto osservazione attenta i nomi di Balentien e Kevin Zeroli, entrambi monitorati con interesse da diverse realtà del mercato. Per il progetto nazionale, la capacità del Milan di coltivare e lanciare questi profili rappresenta un elemento rilevante in ottica dei prossimi impegni internazionali dell'Italia.",
+    "bodyEn": "Milan Futuro continues its commitment to developing young Rossoneri prospects with Navarro's arrival, who takes his first steps within the Milan youth system. The squad dedicated to nurturing under-age talent remains a strategic springboard for fostering the best prospects in the Milanello pipeline.\n\nMeanwhile, Balentien and Kevin Zeroli remain under close watch, with both names generating interest from various market suitors. For Italy's broader development objectives, Milan's ability to cultivate and promote these profiles holds significance as the Azzurri prepare for upcoming international commitments on the road to 2030.",
+    "_fromSource": true
+  }
 }

@@ -14,5 +14,13 @@
   ],
   "category": "news",
   "score": 11,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "titleEn": "Milan Pursuing Renewals for Camarda and Comotto: Future Still Uncertain",
+    "excerpt": "Il Milan continua a lavorare sui rinnovi contrattuali di Francesco Camarda e Christian Comotto, sebbene il loro futuro nel club rimanga ancora da definire.",
+    "excerptEn": "AC Milan is working on contract extensions for Francesco Camarda and Christian Comotto, though their long-term future at the club remains to be determined.",
+    "bodyIt": "La dirigenza rossonera mantiene vivi i discorsi legati al prolungamento degli accordi con due elementi della sua cantera. Per entrambi i giocatori, però, la situazione rimane in una fase di valutazione, senza ancora sbocchi definitivi sulla loro permanenza in via Porting.\n\nI rinnovi rappresentano un segnale dell'interesse del Milan nel trattenere il talento giovane, ma le trattative non hanno ancora raggiunto conclusioni concrete. Il club dovrà conciliare gli obiettivi di sviluppo dei propri prospetti con le esigenze tecniche della prima squadra.",
+    "bodyEn": "Milan's management continues to engage in discussions regarding contract extensions for two academy products. For both players, however, the situation remains in an evaluation phase, with no definitive outcomes yet on their future at the club.\n\nThe renewal talks represent the Rossoneri's commitment to retaining young talent, though negotiations have not yet reached concrete conclusions. The club must balance its ambitions in developing promising prospects with the technical demands of the senior squad.",
+    "_fromSource": true
+  }
 }
