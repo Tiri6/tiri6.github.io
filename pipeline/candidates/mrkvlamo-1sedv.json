@@ -13,5 +13,13 @@
   ],
   "category": "mercato",
   "score": 8,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "titleEn": "Roma Settles Buyout Terms for Romano and Baldanzi",
+    "excerpt": "La Roma ha definito le modalità e i tempi per l'esercizio dei diritti di riscatto sui giovani talenti Tommaso Baldanzi e Seydou Fini, un passaggio cruciale nella pianificazione giallorossa.",
+    "excerptEn": "Roma has clarified the timeline and procedures for exercising buyout options on young prospects Tommaso Baldanzi and Seydou Fini, a key step in the Giallorossi's strategic planning.",
+    "bodyIt": "La Roma ha chiarito gli aspetti amministrativi e temporali relativi ai riscatti di Baldanzi e Fini, due elementi di prospettiva nel progetto tecnico del club capitolino. La definizione di questi dettagli contrattuali consente ai giallorossi di operare con certezza sulla propria programmazione futura.\n\nPer Baldanzi in particolare, le tempistiche stabilite rappresentano un segnale dell'importanza che il classe 2003 riveste nelle valutazioni della società. Questi chiarimenti organizzativi costituiscono premessa necessaria per valutare con precisione le scelte di mercato che coinvolgeranno i giovani talenti italiani in orbita giallorossa.",
+    "bodyEn": "Roma has clarified the administrative and temporal aspects regarding the buyout options for Baldanzi and Fini, two prospects integrated into the club's technical project. The definition of these contractual details allows the Giallorossi to operate with certainty in their future planning.\n\nFor Baldanzi in particular, the established timelines signal the significance the 2003-born prospect holds in the club's evaluations. These organizational clarifications provide the necessary foundation for assessing with precision the market decisions involving young Italian talents within Roma's orbit.",
+    "_fromSource": true
+  }
 }

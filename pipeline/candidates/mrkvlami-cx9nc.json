@@ -13,5 +13,13 @@
   ],
   "category": "mercato",
   "score": 8,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "titleEn": "Juventus Secures Ekhator, Daffara Joins Parma",
+    "excerpt": "La Juventus conclude l'acquisto di Jeff Ekhator per 18 milioni di euro. Nel medesimo affare, il portiere Giovanni Daffara passa al Parma.",
+    "excerptEn": "Juventus completes the signing of Jeff Ekhator for 18 million euros. Goalkeeper Giovanni Daffara moves to Parma as part of the operation.",
+    "bodyIt": "Doppio movimento in casa Juventus: il club bianconero assicura le prestazioni di Jeff Ekhator versando 18 milioni di euro. Un investimento significativo per il talento offensivo, che si inserisce nel progetto della Vecchia Signora in vista dei prossimi cicli agonistici.\n\nCon la medesima operazione, il portiere Giovanni Daffara approda al Parma, trovando una nuova sistemazione dopo il percorso torinese. Una transazione che testimonia i continui movimenti di mercato volti a rinnovare gli organici e cogliere opportunità competitive.\n\nEkhator rappresenta un tassello interessante per il panorama calcistico italiano dei giovani talenti, con la speranza che possa consolidarsi al vertice della categoria in vista degli obiettivi nazionali a medio termine.",
+    "bodyEn": "Juventus has completed the acquisition of Jeff Ekhator for a fee of 18 million euros. The investment underscores the club's commitment to strengthening its offensive arsenal as part of its ongoing project development.\n\nSimultaneously, goalkeeper Giovanni Daffara has transferred to Parma, marking a new chapter after his time with the Turin side. The move highlights the ongoing market activity aimed at refreshing squad compositions and seizing competitive opportunities.\n\nEkhator adds an intriguing element to Italy's emerging talent pool, with expectations that he can establish himself at the highest level as the Azzurri continue building toward future national team objectives.",
+    "_fromSource": true
+  }
 }
