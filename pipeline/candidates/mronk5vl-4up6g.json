@@ -13,5 +13,13 @@
   ],
   "category": "mercato",
   "score": 8,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "titleEn": "Martinelli's Journey Continues: Fiorentina Prospect Heads to Avellino on Loan",
+    "excerpt": "Tommaso Martinelli lascia la Fiorentina e riparte dall'Avellino in prestito. Tramonta definitivamente l'ipotesi Sampdoria per il giovane talento italiano.",
+    "excerptEn": "Tommaso Martinelli leaves Fiorentina and restarts his journey at Avellino on loan. The Sampdoria option is now completely off the table for the young Italian prospect.",
+    "bodyIt": "Dopo settimane di valutazioni, la strada verso Genova si chiude definitivamente. Martinelli continuerà la sua crescita nel campionato cadetto, vestendo la maglia dell'Avellino in via temporanea. Un trasferimento in prestito dalla Fiorentina che rappresenta una nuova opportunità per il giovane calciatore di mettersi in mostra e accumulare esperienza nei professionisti.\n\nLa scelta del club campano rispecchia la volontà della Viola di affidare il prospetto a un contesto dove possa trovare continuità di gioco. Per Martinelli si tratta di un momento cruciale della carriera, in cui consolidare le fondamenta di quella che potrebbe diventare una candidatura per i piani futuri della nazionale azzurra.",
+    "bodyEn": "After weeks of evaluations, the road to Genoa has definitively closed. Martinelli will continue his development in the second division, wearing Avellino's shirt on a temporary basis. The loan move from Fiorentina represents a fresh opportunity for the young footballer to prove himself and gain crucial experience at senior level.\n\nThe choice of the Campania-based club reflects Fiorentina's intention to place the prospect in an environment where he can secure consistent playing time. For Martinelli, this is a critical moment in his career to build solid foundations for what could become a candidacy for Italy's future national team plans.",
+    "_fromSource": true
+  }
 }

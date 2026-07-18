@@ -13,5 +13,13 @@
   ],
   "category": "mercato",
   "score": 8,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "titleEn": "Torino's Young Talent Exodus: Marianucci and Folorunsho Next to Leave?",
+    "excerpt": "Il Torino potrebbe perdere altri giovani talenti dopo le partenze di Oristanio e Mascardi. Nel mirino della società granata anche Marianucci e Folorunsho, con dinamiche di mercato ancora da decifrare.",
+    "excerptEn": "Torino faces the prospect of losing more young prospects following Oristanio and Mascardi's departures. Marianucci and Folorunsho are now under scrutiny, with transfer dynamics still unclear.",
+    "bodyIt": "La stagione del Torino continua a registrare movimenti in uscita tra le file dei prospetti più interessanti. Dopo aver già salutato Oristanio e Mascardi, il club piemontese potrebbe vedere partire anche Luca Marianucci e Folorunsho, due profili seguiti con attenzione dall'ambiente granata.\n\nLe motivazioni di questi possibili addii rimangono ancora da approfondire, ma il trend di cessioni tra i giovani talenti rappresenta un elemento da monitorare con attenzione. Per una squadra che guarda al progetto tecnico dei prossimi anni, le scelte di mercato in questa direzione assumono importanza strategica.",
+    "bodyEn": "Torino's season continues to be marked by departures among its most promising prospects. Following the exits of Oristanio and Mascardi, the Piedmont club could now see Luca Marianucci and Folorunsho leave the fold—two players who have attracted considerable attention within the club's ranks.\n\nThe reasoning behind these potential transfers remains to be clarified, but the pattern of departures among young talent warrants careful consideration. For a club focused on its technical project for the coming years, such market decisions carry strategic significance for the path toward 2030.",
+    "_fromSource": true
+  }
 }
