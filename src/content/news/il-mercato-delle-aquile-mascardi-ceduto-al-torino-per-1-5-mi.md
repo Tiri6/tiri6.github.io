@@ -1,23 +1,27 @@
 ---
-title: "Il mercato delle Aquile Mascardi ceduto al Torino per 1,5 milioni I gol di Mazzocchi la fantasia di Florenzi - Zazoom Social News"
-titleEn: "Mascardi Joins Torino: Young Talent Moves to Serie A"
-excerpt: "Le Aquile Mascardi si trasferiscono al Torino per 1,5 milioni di euro. Un passaggio che rappresenta un'opportunità importante per la crescita del giovane talento in Serie A."
-excerptEn: "Mascardi completes move to Torino for €1.5 million. A significant step in the development of the young prospect in Italy's top division."
-date: 2026-07-18
-publishedAt: 2026-07-18T11:00:00+02:00
+title: "Il mercato delle Aquile, Mascardi ceduto al Torino per 1,5 milioni. I gol di Mazzocchi, la fantasia di Florenzi - Quotidiano Sportivo"
+titleEn: "Mascardi Joins Torino: Young Talents on the Move in Italian Football Market"
+excerpt: "Diego Mascardi passa al Torino per 1,5 milioni di euro. Nel mercato delle giovani promesse italiane, continuano a muoversi i pezzi in vista della costruzione della squadra del futuro."
+excerptEn: "Diego Mascardi moves to Torino for €1.5 million. Italy's young talent market remains active as clubs build for the future."
+date: 2026-07-19
+publishedAt: 2026-07-19T19:40:00+02:00
 category: mercato
 players: ["Diego Mascardi", "Diego Sia"]
 competitions: []
-source: "Zazoom Social News"
-sourceUrl: "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNd0hRSXFlSXpqa0ZwZVZyZTBoR1ljdVRXNWlJbzFSdkxpZEVTb1ZTVkQ4eFJENk1SSFY4M2NSZE85OWhhbGoxOEtQQUp5SUI2ZXY3YWtCVlBjbzNPRWIyaUV2YTQ5US15S2p4TC1Ia19EdXFuRjZ2dHEyRHlGWUxCM0oxZFgzYURpaHhXQmN3WHU0eGx2QWh5M0lkX2hlUU1WajBvLW9GMTgtOGo4N3N1cnRUb1Utby14TFlpaGcxcVB0RVJOVlcxVUhwVGlvTW8wSXpQb2YyY2k3aTJ4ZTNOWEhfRDM?oc=5"
+source: "Quotidiano Sportivo"
+sourceUrl: "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbE1LRkpScUY0Z1ZSV2hCaEprNlpXMHhwOFhpM0tCa0N4R3lvRGR3cnFNZFRVR3NmbFBVRHRDajBpeUJrY0I4SmlhVlBJQ05PbUN5cks5WnN6cDdnOV83dzc0TktFdEdoLTlGNGpkMmItaUlEM0RNTTlyR2FVd01QXzZUNVpPTFU1X3NSeg?oc=5"
 ---
 
-Diego Mascardi passa al Torino sulla base di un accordo economico da 1,5 milioni di euro. Si tratta di una cessione che segna una tappa cruciale nella carriera del giovane calciatore, il quale approda in un ambiente di Serie A dove avrà modo di mettersi alla prova a un livello superiore.
+Il mercato delle giovani promesse italiane registra un nuovo trasferimento significativo: Diego Mascardi è stato ceduto al Torino per una cifra pari a 1,5 milioni di euro. Un movimento che riflette la circolazione costante dei talenti emergenti nel nostro calcio, con le società che continuano a investire in prospettiva.
 
-Il trasferimento alle Aquile piemontesi rappresenta una chance concreta di crescita agonistica. L'approdo in massima serie costituisce un'occasione privilegiata per sviluppare le proprie qualità tecniche e tattiche, con l'orizzonte dei Mondiali 2030 che rimane una meta ambiziosa per i prospetti italiani della sua generazione.
+Nel panorama delle Aquile, attenzione particolare merita anche il contributo offensivo di Mazzocchi e la qualità tecnica dispiegata da Florenzi, elementi che confermano come il vivaio italiano continui a produrre profili interessanti. Ogni trasferimento rappresenta un'opportunità di crescita per i ragazzi chiamati a confrontarsi con contesti competitivi sempre più esigenti.
+
+Gestioni di mercato come questa si iscrivono in un percorso più ampio: la costruzione di una generazione solida che avrà nei Mondiali 2030 un appuntamento cruciale per affermare il talento italiano sul palcoscenico internazionale.
 
 <!--EN-->
 
-Diego Mascardi has completed his transfer to Torino in a deal valued at €1.5 million. The move marks a decisive moment in the young player's career as he steps up to compete in Serie A with serious ambitions.
+Italy's young talent market has recorded another significant transfer: Diego Mascardi has been sold to Torino for €1.5 million. This move reflects the ongoing circulation of emerging talents in Italian football, with clubs continuing to invest for the future.
 
-Joining the Turin-based club provides Mascardi with a genuine opportunity to develop his craft at the highest Italian level. This transfer represents the kind of pathway that could prove instrumental for emerging talents eyeing the 2030 World Cup, where Italy will be looking to build on its next generation of prospects.
+Within the competitive landscape, the offensive contribution of Mazzocchi and Florenzi's technical quality deserve particular attention, confirming that Italian youth development continues to produce interesting profiles. Each transfer represents an opportunity for young players to test themselves in increasingly demanding competitive environments.
+
+Market movements like this form part of a broader picture: the construction of a solid generation that will have the 2030 World Cup as a crucial appointment to assert Italian talent on the international stage.
