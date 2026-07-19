@@ -12,5 +12,13 @@
   ],
   "category": "mercato",
   "score": 7,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "titleEn": "Ekhator's Juventus debut: from Spalletti's words to starting XI",
+    "excerpt": "Jeff Ekhator ha esordito da titolare in bianconero. Le indicazioni di Spalletti hanno tracciato il percorso del giovane talento italiano verso la Vecchia Signora.",
+    "excerptEn": "Jeff Ekhator made his Juventus debut as a starter. Spalletti's guidance paved the way for the young Italian talent to the Bianconeri.",
+    "bodyIt": "Un momento significativo per Jeff Ekhator, che ha mosso i primi passi in maglia Juventus da protagonista. Il passaggio alla Vecchia Signora rappresenta un traguardo importante nella carriera del giovane calciatore italiano, con alle spalle le considerazioni del ct della Nazionale Luciano Spalletti.\n\nL'esordio da titolare in bianconero segna una nuova fase nel percorso di crescita di Ekhator, chiamato sin da subito a misurarsi con i ritmi e le responsabilità del calcio di alto livello. Una scelta che riflette la fiducia riposta nei suoi confronti e le aspettative su cui costruire il progetto futuro.\n\nI prossimi mesi saranno cruciali per consolidare questa opportunità e continuare a sviluppare le qualità che lo contraddistinguono, con un occhio sempre rivolto agli obiettivi della Nazionale in vista del 2030.",
+    "bodyEn": "A significant milestone for Jeff Ekhator, who took his first steps in Juventus colors as a starter. The move to the Bianconeri represents an important achievement in the young Italian player's career, backed by the considerations of national team coach Luciano Spalletti.\n\nHis debut as a starter in white and black marks a new phase in Ekhator's development, immediately called upon to match the pace and demands of top-level football. A choice that reflects the confidence placed in him and the expectations supporting his future project.\n\nThe coming months will be crucial to consolidate this opportunity and continue developing the qualities that distinguish him, with an eye always turned toward the national team's objectives for 2030.",
+    "_fromSource": true
+  }
 }

@@ -13,5 +13,13 @@
   ],
   "category": "news",
   "score": 7,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "titleEn": "Italian Clubs Keep Close Watch on Dortmund's Reggiani",
+    "excerpt": "Luca Reggiani, difensore del Borussia Dortmund, è nel mirino di diversi club italiani. Il giovane talento rappresenta un profilo di interesse per la programmazione del calcio italiano verso il 2030.",
+    "excerptEn": "Luca Reggiani, Borussia Dortmund's defender, is attracting attention from Italian clubs. The young talent represents a profile of interest in Italy's planning toward 2030.",
+    "bodyIt": "Prosegue l'attività di monitoraggio dei club italiani su profili di difensori in forza a squadre estere di rilievo. Nel mirino è finito Luca Reggiani, centrale di proprietà del Borussia Dortmund, che rappresenta un prospetto giovane nel ruolo della difesa.\n\nL'interesse del nostro calcio per il giocatore si inquadra nella ricerca costante di elementi in grado di rafforzare il bacino di talenti azzurri. Per la prospettiva dei Mondiali 2030, il monitoraggio di profili internazionali resta strategico nel progetto di costruzione della Nazionale del futuro.",
+    "bodyEn": "Italian clubs continue their scouting activity on defensive talents operating at prominent foreign clubs. In their sights is Luca Reggiani, center-back at Borussia Dortmund, representing a young prospect in the defensive line.\n\nItalian football's interest in the player fits into the constant search for elements capable of strengthening the pool of Italian talent. With an eye on the 2030 World Cup, monitoring international profiles remains strategic in building the national team of the future.",
+    "_fromSource": true
+  }
 }
