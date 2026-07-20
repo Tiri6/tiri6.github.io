@@ -1,0 +1,23 @@
+---
+title: "Calciomercato Toro, dopo Oristanio e Mascardi anche Marianucci e Folorunsho? C'è un motivo - gazzettaGranata"
+titleEn: "Torino's Young Talent Exodus: Marianucci and Folorunsho Next to Leave?"
+excerpt: "Il Torino potrebbe perdere altri giovani talenti dopo le partenze di Oristanio e Mascardi. Nel mirino della società granata anche Marianucci e Folorunsho, con dinamiche di mercato ancora da decifrare."
+excerptEn: "Torino faces the prospect of losing more young prospects following Oristanio and Mascardi's departures. Marianucci and Folorunsho are now under scrutiny, with transfer dynamics still unclear."
+date: 2026-07-20
+publishedAt: 2026-07-20T10:40:00+02:00
+category: mercato
+players: ["Luca Marianucci", "Diego Mascardi"]
+competitions: []
+source: "gazzettaGranata"
+sourceUrl: "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZ3ZNNkY5T2t0RlJVZlhsVFZ3MGdxOHUwQ1ZxN056YUU1WWtRTEJXZkp3UWJTWFRiZHJ0SjdtdzlvdnNzdENJeWNxZjRGck94SjNVM2V5M3o0M3dMMldnSkxQN2RrRGJpWGxzYV9yTHVJZkhMSHpDRHdoMGtrUFZueWdaS0paR2dfZXltODZIVVpkTERtYzRHTmlPSTA4NHU0NGNrY0NlZmVUdUV4SjlCM3RIcVluQWtfbThv?oc=5"
+---
+
+La stagione del Torino continua a registrare movimenti in uscita tra le file dei prospetti più interessanti. Dopo aver già salutato Oristanio e Mascardi, il club piemontese potrebbe vedere partire anche Luca Marianucci e Folorunsho, due profili seguiti con attenzione dall'ambiente granata.
+
+Le motivazioni di questi possibili addii rimangono ancora da approfondire, ma il trend di cessioni tra i giovani talenti rappresenta un elemento da monitorare con attenzione. Per una squadra che guarda al progetto tecnico dei prossimi anni, le scelte di mercato in questa direzione assumono importanza strategica.
+
+<!--EN-->
+
+Torino's season continues to be marked by departures among its most promising prospects. Following the exits of Oristanio and Mascardi, the Piedmont club could now see Luca Marianucci and Folorunsho leave the fold—two players who have attracted considerable attention within the club's ranks.
+
+The reasoning behind these potential transfers remains to be clarified, but the pattern of departures among young talent warrants careful consideration. For a club focused on its technical project for the coming years, such market decisions carry strategic significance for the path toward 2030.
