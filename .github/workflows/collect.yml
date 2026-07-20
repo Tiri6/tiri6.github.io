@@ -40,10 +40,13 @@ jobs:
         if: env.ANTHROPIC_API_KEY != ''
         run: node pipeline/digest.mjs
         continue-on-error: true
+      - name: Scaglionamento articoli rimasti senza orario
+        run: node pipeline/scheduler.mjs
+        continue-on-error: true
       - name: Commit del lavoro di redazione
         run: |
           git config user.name "ing-redazione"
           git config user.email "redazione@italiannextgen"
-          git add pipeline/candidates pipeline/state pipeline/rejected pipeline/digested data/competitions.json || true
+          git add pipeline/candidates pipeline/state pipeline/rejected pipeline/digested data/competitions.json src/content/news || true
           git diff --cached --quiet || git commit -m "redazione: candidate e bozze del $(date +%F)"
           git push

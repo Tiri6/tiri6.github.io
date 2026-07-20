@@ -1,0 +1,41 @@
+# 🧹 PULIZIA DUPLICATI — bottone da cellulare/ufficio.
+# Actions → "🧹 Rimuovi duplicati" → Run workflow.
+# Prima esegui con "solo anteprima" = true per vedere la lista nel log,
+# poi rilancia con false per rimuoverli davvero (finiscono in
+# pipeline/removed-duplicates/, recuperabili).
+name: 🧹 Rimuovi duplicati
+
+on:
+  workflow_dispatch:
+    inputs:
+      anteprima:
+        description: 'Solo anteprima (true = mostra la lista senza rimuovere)'
+        required: false
+        default: 'true'
+
+permissions:
+  contents: write
+
+jobs:
+  pulizia:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Ricerca duplicati
+        run: |
+          if [ "${{ github.event.inputs.anteprima }}" = "false" ]; then
+            node pipeline/dedupe.mjs --apply
+          else
+            node pipeline/dedupe.mjs
+          fi
+      - name: Commit della pulizia
+        if: github.event.inputs.anteprima == 'false'
+        run: |
+          git config user.name "ing-redazione"
+          git config user.email "redazione@italiannextgen"
+          git add src/content/news pipeline/removed-duplicates || true
+          git diff --cached --quiet || git commit -m "pulizia duplicati ($(date +%F))"
+          git push

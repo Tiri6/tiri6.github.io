@@ -6,6 +6,11 @@ on:
   push:
     branches: [main]
   workflow_dispatch: {}
+  schedule:
+    # Ricostruzione ogni 30 min nella fascia 9-21 italiana: fa "apparire" gli
+    # articoli programmati dallo scheduler man mano che il loro orario arriva.
+    # (cron in UTC: 7-19 UTC ≈ 9-21 in Italia con l'ora legale)
+    - cron: '5,35 7-19 * * *'
 
 permissions:
   contents: read
