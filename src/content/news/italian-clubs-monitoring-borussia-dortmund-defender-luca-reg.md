@@ -1,10 +1,10 @@
 ---
 title: "Italian clubs ‘monitoring’ Borussia Dortmund defender Luca Reggiani - OneFootball"
-titleEn: "Italian Clubs Keep Close Watch on Dortmund's Reggiani"
-excerpt: "Luca Reggiani, difensore del Borussia Dortmund, è nel mirino di diversi club italiani. Il giovane talento rappresenta un profilo di interesse per la programmazione del calcio italiano verso il 2030."
-excerptEn: "Luca Reggiani, Borussia Dortmund's defender, is attracting attention from Italian clubs. The young talent represents a profile of interest in Italy's planning toward 2030."
-date: 2026-07-20
-publishedAt: 2026-07-20T12:40:00+02:00
+titleEn: "Italian Clubs Eye Borussia Dortmund Defender Reggiani"
+excerpt: "Diversi club italiani stanno seguendo con attenzione Luca Reggiani, difensore in forza al Borussia Dortmund. Un segnale dell'interesse della Serie A verso i giovani talenti all'estero."
+excerptEn: "Several Italian clubs are monitoring Luca Reggiani, defender at Borussia Dortmund. A sign of Serie A's interest in young talents playing abroad."
+date: 2026-07-21
+publishedAt: 2026-07-21T14:20:00+02:00
 category: news
 players: ["Luca Reggiani", "Diego Sia"]
 competitions: []
@@ -12,12 +12,12 @@ source: "OneFootball"
 sourceUrl: "https://news.google.com/rss/articles/CBMirgFBVV95cUxPT3RlU1BkenNUR2tFMW50NzhaR0xoQ3k1YmJxM1dCWmRMbS1NcjhzWGlQX0lyTXZzeS1MLTQ5Ui0xajF6SmtfdF9FTkhpQkpYbWVOLWQ3RHNZZWhfeEJsdjhSQzBDYS1jZW10MTVKSm1jVXoyMDNZSzI5UTZqVHNtV29ONXVwUXczb2hXaE1oNFZ6MTA1ZjRGWi00d1A1NG5HV3pOcExsbzBnNklvMVE?oc=5"
 ---
 
-Prosegue l'attività di monitoraggio dei club italiani su profili di difensori in forza a squadre estere di rilievo. Nel mirino è finito Luca Reggiani, centrale di proprietà del Borussia Dortmund, che rappresenta un prospetto giovane nel ruolo della difesa.
+Le principali società italiane hanno messo nel mirino Luca Reggiani, difensore che milita nelle fila del Borussia Dortmund. Si tratta di un'operazione di scouting che rientra nella strategia di ricerca dei migliori giovani talenti nazionali, anche quelli che hanno scelto di proseguire la loro formazione in campionati esteri di prestigio.
 
-L'interesse del nostro calcio per il giocatore si inquadra nella ricerca costante di elementi in grado di rafforzare il bacino di talenti azzurri. Per la prospettiva dei Mondiali 2030, il monitoraggio di profili internazionali resta strategico nel progetto di costruzione della Nazionale del futuro.
+L'interesse dimostrato dai club del massimo campionato italiano nei confronti di Reggiani evidenzia come la ricerca dei prospetti per il progetto 2030 si estenda oltre i confini nazionali. Una pratica consolidata per intercettare difensori di qualità internazionale che potranno rappresentare il futuro della Nazionale.
 
 <!--EN-->
 
-Italian clubs continue their scouting activity on defensive talents operating at prominent foreign clubs. In their sights is Luca Reggiani, center-back at Borussia Dortmund, representing a young prospect in the defensive line.
+Several Italian clubs are keeping close tabs on Luca Reggiani, a defender currently playing for Borussia Dortmund. This represents part of a broader scouting strategy aimed at identifying promising young Italian talents, including those who have chosen to develop their careers in prestigious foreign leagues.
 
-Italian football's interest in the player fits into the constant search for elements capable of strengthening the pool of Italian talent. With an eye on the 2030 World Cup, monitoring international profiles remains strategic in building the national team of the future.
+The attention from Serie A's top clubs toward Reggiani underscores how the search for 2030 World Cup prospects extends beyond Italy's borders. It's a proven approach to identifying quality defenders with international experience who could become key figures in the national team's future.
