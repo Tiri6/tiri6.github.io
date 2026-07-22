@@ -39,4 +39,9 @@ jobs:
           git config user.email "redazione@italiannextgen"
           git add src/content/news pipeline/approved pipeline/candidates public/social || true
           git diff --cached --quiet || git commit -m "pubblicati nuovi articoli ($(date +%F))"
-          git push
+          # Push con riallineamento: se un altro workflow ha appena committato, riprova
+          for i in 1 2 3; do
+            git push && break
+            git pull --rebase origin main
+            sleep 5
+          done

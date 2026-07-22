@@ -54,4 +54,8 @@ jobs:
           git config user.email "redazione@italiannextgen"
           git add pipeline/candidates pipeline/state pipeline/rejected pipeline/digested data/competitions.json src/content/news public/social || true
           git diff --cached --quiet || git commit -m "redazione: candidate e bozze del $(date +%F)"
-          git push
+          for i in 1 2 3; do
+            git push && break
+            git pull --rebase origin main
+            sleep 5
+          done

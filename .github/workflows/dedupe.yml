@@ -38,4 +38,8 @@ jobs:
           git config user.email "redazione@italiannextgen"
           git add src/content/news pipeline/removed-duplicates || true
           git diff --cached --quiet || git commit -m "pulizia duplicati ($(date +%F))"
-          git push
+          for i in 1 2 3; do
+            git push && break
+            git pull --rebase origin main
+            sleep 5
+          done
