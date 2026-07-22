@@ -28,10 +28,15 @@ jobs:
       - name: Scaglionamento orari (1 ogni 20 min, 9-21)
         run: node pipeline/scheduler.mjs
         continue-on-error: true
+      - name: Immagini social (Instagram/WhatsApp)
+        run: |
+          npm install sharp --no-fund --no-audit
+          node pipeline/social.mjs
+        continue-on-error: true
       - name: Commit degli articoli
         run: |
           git config user.name "ing-redazione"
           git config user.email "redazione@italiannextgen"
-          git add src/content/news pipeline/approved pipeline/candidates || true
+          git add src/content/news pipeline/approved pipeline/candidates public/social || true
           git diff --cached --quiet || git commit -m "pubblicati nuovi articoli ($(date +%F))"
           git push

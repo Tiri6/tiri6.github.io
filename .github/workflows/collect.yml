@@ -43,10 +43,15 @@ jobs:
       - name: Scaglionamento articoli rimasti senza orario
         run: node pipeline/scheduler.mjs
         continue-on-error: true
+      - name: Immagini social mancanti
+        run: |
+          npm install sharp --no-fund --no-audit
+          node pipeline/social.mjs
+        continue-on-error: true
       - name: Commit del lavoro di redazione
         run: |
           git config user.name "ing-redazione"
           git config user.email "redazione@italiannextgen"
-          git add pipeline/candidates pipeline/state pipeline/rejected pipeline/digested data/competitions.json src/content/news || true
+          git add pipeline/candidates pipeline/state pipeline/rejected pipeline/digested data/competitions.json src/content/news public/social || true
           git diff --cached --quiet || git commit -m "redazione: candidate e bozze del $(date +%F)"
           git push

@@ -14,8 +14,10 @@ interface Props {
   lang: 'it' | 'en';
   /** Percorso equivalente nell'altra lingua, per lo switcher */
   altPath: string;
+  /** URL assoluto dell'immagine per le anteprime social (og:image) */
+  ogImage?: string;
 }
-const { title, description, lang, altPath } = Astro.props;
+const { title, description, lang, altPath, ogImage } = Astro.props;
 const adsOn = ads.enabled && ads.adsenseClient;
 const gaOn = Boolean(analytics.measurementId);
 const t = (it: string, en: string) => (lang === 'it' ? it : en);
@@ -30,6 +32,12 @@ const home = lang === 'it' ? '/' : '/en/';
     <title>{title}</title>
     <meta name="description" content={description} />
     {ads.adsenseClient && <meta name="google-adsense-account" content={ads.adsenseClient} />}
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    {ogImage && <meta property="og:image" content={ogImage} />}
+    {ogImage && <meta name="twitter:card" content="summary_large_image" />}
+    {ogImage && <meta name="twitter:image" content={ogImage} />}
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🇮🇹</text></svg>" />
   </head>
   <body>

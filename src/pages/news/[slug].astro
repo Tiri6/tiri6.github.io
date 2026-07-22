@@ -15,6 +15,12 @@ export async function getStaticPaths() {
 const { post } = Astro.props;
 const body = splitBody(post.body ?? '');
 const cat = CATEGORY_LABELS[post.data.category];
+
+// Immagine social per le anteprime (og:image), se generata
+import fs from 'node:fs';
+const ogImage = fs.existsSync(`public/social/${post.id}.jpg`)
+  ? `https://italiannextgen.it/social/${post.id}.jpg`
+  : undefined;
 ---
 
 <Base
@@ -22,6 +28,7 @@ const cat = CATEGORY_LABELS[post.data.category];
   description={post.data.excerpt}
   lang="it"
   altPath={`/en/news/${post.id}/`}
+  ogImage={ogImage}
 >
   <article class="article">
     <div class="article-cover">
