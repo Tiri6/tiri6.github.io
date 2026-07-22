@@ -1,10 +1,10 @@
 ---
 title: "Camarda, Comotto e Zeroli nel mirino dell’Udinese: il Milan dice di no per i primi due! - MSN"
-titleEn: "Udine Eyes Milan Trio: Rossoneri Block Camarda and Comotto"
-excerpt: "L'Udinese ha manifestato interesse per tre giovani talenti milanisti, ma il club rossonero ha già chiuso le porte a due di loro. Resta da valutare la posizione su Zeroli."
-excerptEn: "Udinese has shown interest in three young Milan prospects, but the Rossoneri have already blocked two potential departures. Zeroli's situation remains under evaluation."
-date: 2026-07-19
-publishedAt: 2026-07-19T19:00:00+02:00
+titleEn: "Udinese Targets Milan Youngsters: Rossoneri Reject Camarda and Comotto"
+excerpt: "L'Udinese ha messo nel mirino tre talenti rossoneri, ma il Milan oppone resistenza per i primi due nomi sulla lista."
+excerptEn: "Udinese sets sights on three Milan prospects, but the Rossoneri block moves for the first two targets."
+date: 2026-07-21
+publishedAt: 2026-07-21T11:00:00+02:00
 category: news
 players: ["Francesco Camarda", "Christian Comotto", "Kevin Zeroli"]
 competitions: []
@@ -12,12 +12,12 @@ source: "MSN"
 sourceUrl: "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTE1ROEQ5Vi1TVU83UWRqRlFLdmxfczNIbVZ6emlRcGZqQzhMTEY4NWNpcHc0dFlVcFBqM1NtdHE3NVU5eTRSTXRaeTZpamVLSkg0ZnhDQ3o2ZENFUTRqdzcxdDk2ZC1oTGNKVmd5X0hUU1RYNUFpN3JTcUpOM0ZQOUhYdGNvMnNYV0c5UWpxbDJhRW1fUDMzTGNabVNyZFZaYjhRbXFHUElHX0lYMGRBNEVIUE5RSmdsTkcyVEtMNlo1S0U2ZnV5eDF0azc2SEVi?oc=5"
 ---
 
-Il mercato dei talenti italiani si muove verso una nuova direzione. L'Udinese ha puntato gli occhi su tre giovani calciatori della cantera milanista, cercando di rafforzare il proprio settore giovanile e la squadra in prospettiva. Tuttavia, i vertici rossoneri hanno già deciso di fare muro: sia Francesco Camarda che Christian Comotto rimangono bloccati e non lasceranno Milanello, almeno per ora.
+La società friulana ha intensificato i propri sforzi nel mercato dei giovani italiani, rivolgendo l'attenzione verso tre calciatori della cantera rossonera. Tuttavia, il progetto Milan, con uno sguardo rivolto agli obiettivi di lungo termine, ha risposto negativamente alle avances per Francesco Camarda e Christian Comotto, bloccando sul nascere le possibili trattative.
 
-La situazione relativa a Kevin Zeroli, invece, appare ancora aperta alle valutazioni del Milan. La società rossonera valuta con attenzione il progetto friulano e l'opportunità offerta al centrocampista, senza per ora confermare né smentire una possibile trattativa. Per i rossoneri, la gestione di questi giovani talenti rimane cruciale negli obiettivi di crescita verso il 2030.
+Diversa la situazione per Kevin Zeroli, per il quale l'Udinese potrebbe trovare spazi di negoziazione. La mossa del Milan evidenzia una chiara volontà di preservare le risorse migliori della propria cantera, elemento fondamentale nella costruzione di un progetto che guardi oltre il presente, verso le sfide internazionali che attendono il calcio italiano.
 
 <!--EN-->
 
-The market for Italian young talents is shifting. Udinese has set their sights on three prospects from Milan's youth academy, looking to strengthen their development program and future squad. However, the Rossoneri leadership has already decided to stand firm: both Francesco Camarda and Christian Comotto are off limits and will not leave Milanello, at least for now.
+Udinese has intensified its pursuit of Italian talent by targeting three prospects from Milan's youth academy. However, the Rossoneri have adopted a protective stance, rejecting approaches for Francesco Camarda and Christian Comotto in their initial stages of negotiation.
 
-Kevin Zeroli's situation, meanwhile, remains open to Milan's assessment. The Rossoneri are carefully evaluating the Friuli club's project and the opportunity it could represent for the midfielder, without yet confirming or denying a potential transfer. For the red-and-black club, managing these young talents remains crucial in their development goals toward 2030.
+The situation differs for Kevin Zeroli, where Udinese may find more room for dialogue. Milan's firm stance underscores a deliberate strategy to safeguard its most promising academy products, a crucial element in building a long-term project aimed at strengthening Italy's competitive edge in future international competitions.
