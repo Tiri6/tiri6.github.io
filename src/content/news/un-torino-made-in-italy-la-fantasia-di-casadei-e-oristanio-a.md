@@ -1,23 +1,23 @@
 ---
-title: "Un Torino made in Italy | la fantasia di Casadei e Oristanio al servizio del calcio di Abate - Zazoom Social News"
-titleEn: "Torino's Homegrown Project: Casadei and Oristanio fuel Abate's Vision"
-excerpt: "Il Torino punta su giovani talenti italiani per costruire il suo futuro. Casadei e Oristanio rappresentano la fantasia offensiva al servizio del progetto tecnico di Paolo Abate."
-excerptEn: "Torino relies on young Italian talents to build its future. Casadei and Oristanio embody the attacking creativity behind Paolo Abate's technical project."
-date: 2026-07-21
-publishedAt: 2026-07-21T17:40:00+02:00
+title: "Un Torino made in Italy: la fantasia di Casadei e Oristanio al servizio del calcio di Abate - La Gazzetta dello Sport"
+titleEn: "Torino's Italian Blueprint: Casadei and Oristanio Fuel Abate's Vision"
+excerpt: "Il Torino di Abate si costruisce attorno alla creatività dei giovani talenti italiani. Casadei e Oristanio rappresentano il progetto di rinascita granata in chiave azzurra."
+excerptEn: "Abate's Torino is being built around the creativity of young Italian talents. Casadei and Oristanio embody the Granata project's renaissance with an eye on the Azzurri."
+date: 2026-07-22
+publishedAt: 2026-07-22T15:00:00+02:00
 category: news
 players: ["Cesare Casadei", "Diego Sia"]
 competitions: []
-source: "Zazoom Social News"
-sourceUrl: "https://news.google.com/rss/articles/CBMizgFBVV95cUxPMTE2a2UwcXFrbkNNRU5uSkFlRkhYSVNjUVY3elJFN19kalU1Nm1OWlZ6a2N0cTk4a0czTGVRMThveGFNWEhndWRXeWdIWG9rSGlxeUpGd0drZjc3aFhud002aFhJNlJVWkxONXRrZFc1amVjLTh5d0tqeHd6RVA4NlozNTFNNjFzYjY0N09iY0h3T3p0TGd2NjhQUXdEZGZRWEtuaDBRdVVyb0VNNEEyejlYLUE3NVZ4UnA1MF9RdWNtLXhtX3BRS1BJdXZOQQ?oc=5"
+source: "La Gazzetta dello Sport"
+sourceUrl: "https://news.google.com/rss/articles/CBMizwFBVV95cUxNa3hxb0dJNlpRdjNETFY5UnRSenotand3bWxWYU4yUVZDTWxSNjdDd0ZfamxCdWZLQkw5MERIcm1mVWlJS1FKdnYwSUotX2g4N0dXR3UtN2VWNHhqNG9NbHAtaDFJdzhoVmFhQXdGRXM4TmprQ3pMTDlZeldiNXVITHdaN2xfcWFBaFhlc1o2SFhfX2tqb0c0OU1iWWwxQThIZXRaREFwMGI3cjdrMzVVU3ZrRnBWdE9WQ1Q5RWdpS2g0MlFnMlpCaTRCYWJUQVHSAdQBQVVfeXFMTm94RUszV1ZwS08xeEphWVMySXlZd2ZQVVZ1VmhKS2M4VmdrTlZnVDNhRVR4amJXQndYdEJvdkNQNWF4dHJaNkpDSnNxR3E5aWI5N1VUekdoVE84bTMybWlodkhRY0V2TWpSdklnRkRyRmNBeGwwTUNITzE0R3R5NUJEa3ZYRnphaU13QW9QMnNxeGc5cnRVNlBCVGgyNmRCXzdDaGlGOUd1ZWQ5S0tiYWNtbHJ4M3JLOV9hOURtUFZJZkQwWlhuVFpzM09zWHpfaXhzbng?oc=5"
 ---
 
-Il Torino traccia una strada sempre più orientata verso la valorizzazione dei giovani calciatori italiani. La scelta di puntare su Cesare Casadei e su elementi della stessa generazione risponde a una precisa filosofia calcistica: costruire dal basso una squadra competitiva, affidando le fasi di sviluppo offensivo a giocatori capaci di fare differenza attraverso la fantasia.
+L'allenatore granata punta su una base di prospettive tricolori per costruire il proprio Torino. La fantasia di Casadei e la duttilità di Oristanio diventano elementi centrali nel disegno tattico della squadra, capace di combinare qualità tecnica e dinamismo giovanile.
 
-Nella visione tattica di Paolo Abate, questi profili rappresentano l'elemento creativo necessario per animare il gioco. La strada intrapresa dai piemontesi guarda anche ai Mondiali 2030, con l'ambizione di poter contare su una generazione di talenti italiani nel pieno della loro maturità calcistica.
+Un approccio che guarda oltre il presente: investire nei giovani azzurri significa tracciare una strada coerente verso gli appuntamenti internazionali del prossimo decennio, con il Mondiale 2030 ormai nel mirino delle ambizioni italiane.
 
 <!--EN-->
 
-Torino is charting a course increasingly focused on developing young Italian players. The choice to rely on Cesare Casadei and talents from the same generation reflects a clear football philosophy: building a competitive squad from within, entrusting creative attacking phases to players capable of making a difference through innovation.
+Abate's granata squad is being shaped around a foundation of Italian prospects. Casadei's creative abilities and Oristanio's versatility have become central to the team's tactical framework, blending technical quality with youthful dynamism.
 
-In Paolo Abate's tactical vision, these profiles represent the creative element necessary to animate the team's play. The path pursued by the Piedmont club also looks toward the 2030 World Cup, with the ambition to count on a generation of Italian talents at the peak of their competitive maturity.
+An approach that extends beyond immediate results: backing young Azzurri players represents a coherent strategy toward international tournaments in the coming decade, with the 2030 World Cup now firmly in sight for Italian football ambitions.
