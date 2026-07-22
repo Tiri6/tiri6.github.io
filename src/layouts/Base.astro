@@ -72,10 +72,10 @@ const home = lang === 'it' ? '/' : '/en/';
     {adsOn && (
       <>
         <aside class="ad-rail left" aria-label="Pubblicità">
-          <ins class="adsbygoogle" style="display:block; width:160px; height:600px" data-ad-client={ads.adsenseClient} data-ad-format="vertical"></ins>
+          <ins class="adsbygoogle" style="display:block; width:160px; height:600px" data-ad-client={ads.adsenseClient} data-ad-slot={ads.adSlot || undefined} data-ad-format="vertical" data-full-width-responsive="false"></ins>
         </aside>
         <aside class="ad-rail right" aria-label="Pubblicità">
-          <ins class="adsbygoogle" style="display:block; width:160px; height:600px" data-ad-client={ads.adsenseClient} data-ad-format="vertical"></ins>
+          <ins class="adsbygoogle" style="display:block; width:160px; height:600px" data-ad-client={ads.adsenseClient} data-ad-slot={ads.adSlot || undefined} data-ad-format="vertical" data-full-width-responsive="false"></ins>
         </aside>
       </>
     )}

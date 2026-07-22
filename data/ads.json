@@ -1,5 +1,7 @@
 {
   "_note": "Banner pubblicitari (Google AdSense). Per attivarli: 1) pubblica il sito; 2) crea un account su adsense.google.com e registra il dominio; 3) incolla qui il tuo client ID (ca-pub-XXXX) e metti enabled: true; 4) in AdSense attiva 'Privacy e messaggi' per il consenso GDPR. Con enabled: false il sito non carica nulla di Google.",
   "enabled": true,
-  "adsenseClient": "ca-pub-7665643197358760"
+  "adsenseClient": "ca-pub-7665643197358760",
+  "_noteSlot": "adSlot = ID dell'unità pubblicitaria Display (10 cifre, da AdSense → Annunci → Per unità pubblicitaria → Display). Senza slot i riquadri restano vuoti.",
+  "adSlot": ""
 }
