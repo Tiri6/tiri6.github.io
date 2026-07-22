@@ -43,8 +43,8 @@ for (const f of files) {
     if (!c.draft && !c.isDigest) pool.push({ f, c });
   } catch {}
 }
-if (pool.length < 3) {
-  console.log(`Servono almeno 3 candidate senza bozza (trovate: ${pool.length}).`);
+if (pool.length < 2) {
+  console.log(`Servono almeno 2 candidate senza bozza (trovate: ${pool.length}): oggi niente Taccuino.`);
   process.exit(0);
 }
 

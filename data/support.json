@@ -1,6 +1,9 @@
 {
-  "_note": "Configurazione donazioni. Crea TU l'account (io non posso farlo per te): opzione consigliata PayPal.Me (paypal.me → crea il tuo link) perché supporta importi preimpostati e il messaggio del donatore. In alternativa Buy Me a Coffee o Ko-fi (link unico, senza importi). Incolla il link qui sotto e il sito si aggiorna da solo.",
+  "_note": "Donazioni. paypalMe e revolut sono i link personali; amounts definisce le card (n = euro; 'altro' = importo libero, sempre presente).",
   "paypalMe": "https://paypal.me/tiri6",
-  "buyMeACoffee": "",
-  "amounts": [5, 10, 20]
+  "revolut": "https://revolut.me/marcotiri6",
+  "amounts": [
+    { "n": 2, "emoji": "☕", "label": "Un caffè", "labelEn": "One coffee" },
+    { "n": 5, "emoji": "☕🥐", "label": "Caffè e cappuccino", "labelEn": "Coffee & cappuccino" }
+  ]
 }

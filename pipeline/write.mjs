@@ -37,6 +37,11 @@ if (!apiKey) {
 const maxArg = process.argv.find((a) => a.startsWith('--max='));
 const MAX = Math.max(1, Number(maxArg?.split('=')[1]) || 40);
 
+// Riserva per il Taccuino: lascia sempre almeno N notizie senza bozza,
+// così il digest ha materia prima ogni giorno (--reserve=0 per disattivare).
+const resArg = process.argv.find((a) => a.startsWith('--reserve='));
+const RESERVE = Math.max(0, Number(resArg?.split('=')[1] ?? 5));
+
 let files = [];
 try { files = (await readdir(CANDIDATES)).filter((f) => f.endsWith('.json')); } catch {}
 if (!files.length) {
@@ -52,7 +57,9 @@ for (const f of files) {
 queue.sort((a, b) => b.c.score - a.c.score);
 
 const pending = queue.filter((q) => !q.c.draft).length;
-console.log(`🖋  Agente redattore — ${pending} candidate senza bozza (ne scrivo al massimo ${MAX}; cambia con --max=N)`);
+// Non scrivere mai le ultime RESERVE candidate: sono la dispensa del Taccuino
+const budget = Math.min(MAX, Math.max(0, pending - RESERVE));
+console.log(`🖋  Agente redattore — ${pending} candidate senza bozza (ne scrivo ${budget}; riservo ${Math.min(RESERVE, pending)} al Taccuino)`);
 if (pending > 100) {
   console.log(`   ⚠️  Coda molto lunga: valuta prima "npm run prune" per tenere solo le migliori.\n`);
 } else {
@@ -61,7 +68,7 @@ if (pending > 100) {
 let done = 0, skipped = 0, failed = 0;
 
 for (const { f, c } of queue) {
-  if (done >= MAX) break;
+  if (done >= budget) break;
   const file = path.join(CANDIDATES, f);
   if (c.draft) { skipped++; continue; }
 

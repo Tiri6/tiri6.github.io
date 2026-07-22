@@ -2,8 +2,8 @@
 import Base from '../layouts/Base.astro';
 import support from '../../data/support.json';
 
-const configured = Boolean(support.paypalMe || support.buyMeACoffee);
 const paypal = support.paypalMe?.replace(/\/$/, '');
+const revolut = support.revolut?.replace(/\/$/, '');
 ---
 
 <Base
@@ -16,61 +16,72 @@ const paypal = support.paypalMe?.replace(/\/$/, '');
     <div class="kicker">Sostieni il progetto</div>
     <h1>☕ Offrimi un <span class="gold">caffè</span></h1>
     <p>
-      Italian Next Gen è un progetto indipendente: niente pubblicità invadente, niente
-      paywall — solo la missione di seguire ogni giovane azzurro fino al Mondiale 2030.
-      Se il sito ti piace e vuoi dare una mano con i costi (server, strumenti, tanto caffè
-      per le notti di Youth League), puoi offrirmi un caffè. Ogni contributo aiuta davvero.
+      Italian Next Gen è un progetto indipendente: niente paywall, solo la missione di seguire
+      ogni giovane azzurro fino al Mondiale 2030. Se il sito ti piace e vuoi dare una mano con
+      i costi, offrimi un caffè: scegli l'importo e poi paga come preferisci, con PayPal o Revolut.
     </p>
   </div>
 
-  {configured ? (
-    <div class="donate-grid">
-      {paypal &&
-        support.amounts.map((n) => (
-          <a class="donate-card" href={`${paypal}/${n}EUR`} target="_blank" rel="noopener">
-            <span class="donate-emoji">{n === 5 ? '☕' : n === 10 ? '☕☕' : '🏆'}</span>
-            <span class="donate-amount">{n} €</span>
-            <span class="donate-label">{n === 5 ? 'Un caffè' : n === 10 ? 'Caffè e brioche' : 'Da vero tifoso'}</span>
-          </a>
-        ))}
-      {paypal && (
-        <a class="donate-card free" href={paypal} target="_blank" rel="noopener">
-          <span class="donate-emoji">💙</span>
-          <span class="donate-amount">Libero</span>
-          <span class="donate-label">Scegli tu l'importo</span>
-        </a>
-      )}
-      {!paypal && support.buyMeACoffee && (
-        <a class="donate-card" href={support.buyMeACoffee} target="_blank" rel="noopener">
-          <span class="donate-emoji">☕</span>
-          <span class="donate-amount">Offri un caffè</span>
-          <span class="donate-label">Su Buy Me a Coffee</span>
-        </a>
-      )}
+  <div class="donate-grid">
+    {support.amounts.map((a) => (
+      <div class="donate-card" data-amount={a.n}>
+        <span class="donate-emoji">{a.emoji}</span>
+        <span class="donate-amount">{a.n} €</span>
+        <span class="donate-label">{a.label}</span>
+        <div class="pay-choices">
+          <a class="pay-btn pp" href={`${paypal}/${a.n}EUR`} target="_blank" rel="noopener">PayPal</a>
+          <a class="pay-btn rv" href={`${revolut}/${a.n}`} target="_blank" rel="noopener">Revolut</a>
+        </div>
+      </div>
+    ))}
+    <div class="donate-card" data-amount="0">
+      <span class="donate-emoji">💙</span>
+      <span class="donate-amount">Altro</span>
+      <span class="donate-label">Scegli tu l'importo</span>
+      <div class="pay-choices">
+        <a class="pay-btn pp" href={paypal} target="_blank" rel="noopener">PayPal</a>
+        <a class="pay-btn rv" href={revolut} target="_blank" rel="noopener">Revolut</a>
+      </div>
     </div>
-  ) : (
-    <p class="meta" style="text-align:center; padding:2rem 0">
-      Le donazioni saranno attive a breve — grazie per l'interesse! 💙
-    </p>
-  )}
+  </div>
 
   <p class="meta" style="max-width:46rem; margin:1.5rem auto 0; text-align:center">
-    💬 Durante il pagamento puoi lasciarmi un messaggio: li leggo tutti, e i più belli
-    finiranno in una pagina dei ringraziamenti. Forza Azzurri!
+    💬 Con PayPal puoi anche lasciarmi un messaggio insieme al contributo: li leggo tutti.
+    Forza Azzurri!
   </p>
 
+  <script is:inline>
+    document.querySelectorAll('.donate-card').forEach((card) => {
+      card.addEventListener('click', (e) => {
+        if (e.target.closest('.pay-btn')) return; // click sul metodo: lascia navigare
+        document.querySelectorAll('.donate-card').forEach((c) => {
+          c.classList.toggle('open', c === card && !c.classList.contains('open'));
+        });
+      });
+    });
+  </script>
+
   <style>
-    .donate-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 1.1rem; max-width: 800px; margin: 0 auto; }
+    .donate-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1.1rem; max-width: 720px; margin: 0 auto; }
     .donate-card {
       display: flex; flex-direction: column; align-items: center; gap: .35rem;
       background: var(--panel); border: 1px solid var(--border-gold); border-radius: 14px;
-      padding: 1.6rem 1rem; text-decoration: none;
+      padding: 1.6rem 1rem 1.2rem; cursor: pointer; user-select: none;
       transition: transform .15s ease, box-shadow .15s ease;
     }
     .donate-card:hover { transform: translateY(-4px); box-shadow: 0 10px 30px rgba(240,201,74,.15); }
-    .donate-card.free { border-color: var(--border); }
     .donate-emoji { font-size: 1.6rem; }
     .donate-amount { font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; color: var(--gold); }
-    .donate-label { font-family: var(--font-display); font-size: .72rem; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+    .donate-label { font-family: var(--font-display); font-size: .72rem; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); text-align: center; }
+    .pay-choices { display: none; gap: .6rem; margin-top: .7rem; width: 100%; }
+    .donate-card.open .pay-choices { display: flex; }
+    .pay-btn {
+      flex: 1; text-align: center; text-decoration: none; border-radius: 8px;
+      font-family: var(--font-display); font-weight: 700; font-size: .82rem;
+      padding: .5rem 0; color: #fff;
+    }
+    .pay-btn.pp { background: #0070ba; }
+    .pay-btn.rv { background: #191c1f; border: 1px solid #444; }
+    .pay-btn:hover { filter: brightness(1.15); }
   </style>
 </Base>
