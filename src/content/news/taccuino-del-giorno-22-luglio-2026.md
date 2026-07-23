@@ -1,0 +1,36 @@
+---
+title: "Taccuino del giorno · 22 luglio 2026"
+titleEn: "Daily Notebook · July 22, 2026"
+excerpt: "Movimenti di mercato per i talenti azzurri: dalla corsa a Koleosho al futuro di Fortini, passando per i giovani portieri e le strategie Inter per il 2030."
+excerptEn: "Market movements for Italian talents: from the race for Koleosho to Fortini's future, through young goalkeepers and Inter's strategies toward 2030."
+date: 2026-07-23
+publishedAt: 2026-07-23T10:20:00+02:00
+featured: true
+category: taccuino
+players: ["Luca Koleosho", "Niccolò Fortini", "Stefano Di Mario", "Tommaso Martinelli", "Giovanni Daffara", "Marco Palestra", "Matteo Cocchi"]
+competitions: []
+source: "Taccuino da 5 fonti"
+sourceUrl: ""
+---
+
+**Luca Koleosho** — La Fiorentina tiene alta la guardia sul suo giovane ala: il Burnley non è l'unico club interessato, visto che il Paris FC ha presentato un'offerta concreta. Uno dei prospetti azzurri più seguiti sul mercato europeo. [fonte](https://news.google.com/rss/articles/CBMipwFBVV95cUxQTXllRGFqdkZxQ25nSHZFQmxXd0hGa1ZxSUZmWDN6YkxuRDkyQzNRN1V2WTQzQmJ6MnFoZnJjTWF0RjFVdFVTZHB1RkJzQnNSRUxSbXBJLXpNa24ydVlqR0xVM2dvMWw3d2lRTVBGcUdRb0dJTlR4VGxYTnZFTEJ4SnJNaHVXT3J5bjh4UUIxbUVmVnhJNHZhN1RpUkQ1b1hrektKVDRRVQ?oc=5)
+
+**Niccolò Fortini** — Il Torino segue con attenzione il talento della Fiorentina: Paratici ha le idee chiare su cosa serve per rinforzare la difesa in ottica futura. Un giovane italiano destinato a far parte dei progetti ambizioni verso 2030. [fonte](https://news.google.com/rss/articles/CBMirAFBVV95cUxOb2g2cUFrd1kxeXB3alhYUnRjaDZYSUVKVlpmUVFfNjgtQ3hyUzJQUEd3blN0ZVhrZ0M0VDYteGRsdER3ZnA4TmYwSWo1dTdQVm5IT19MMGRKWC1aRTdCbHBCY0xzMXgzeDdfUGlHdktQazVNQ3RnS3BXOGVLNjFzZXE0TDBHWWFFY3Jyelp4M2YzUEg1U3hZcUZyNDRKckZBMUJIMUxyTTQ3Y19G?oc=5)
+
+**Giovanni Daffara** — L'Avellino è una vera fucina di giovani portieri: Martinelli confida in Daffara, che ha intrapreso la sua strada al Parma. Un percorso classico per formare i custodi della porta azzurra del prossimo decennio. [fonte](https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcEpBZUE4NVhxeGI3VmdpWnVjWHJ3TGJmWFcyMU1sVzc3cXc2YmswY0drRVhuUnhhOHFOSTFYOTpZcDNXU1V2V3hBZEhhUF9jYmhHSG5WbEVqSExlb0JmSDFkaW9NVUR4dGVrZEszZEZLRDMxd3pYUXQ2akxYdGp6UzlvbDBsWG93eFgwZzlXQjQtZ2xFUV9BRDYyRjhqT1RqenVRSTJYUE5rQXc?oc=5)
+
+**Atalanta Under 23** — La nuova stagione parte con una vittoria convincente contro il primo team orobico: il settore giovanile bergamasco continua a sfornare profili interessanti per il calcio italiano futuro. [fonte](https://news.google.com/rss/articles/CBMinwFBVV95cUxOR3djVlJQNnZtZXRQaE03S1ptWEVpSlZyUFp5T1FCa0hDenQyV1hqaGROSTdEQ2Etbl83b1NQcjJuSkJyMlFoM1BiUldXY0lQNG1pbzRSeG9HdDVjTzFaRXRMOXVDbW41ZE5WU29kakFKTVItRFdGQ1I2X1oxQmJZNXBGclVlMlJjOFhzRG5IZUJQX2hic3diR2k3cWM0cVE?oc=5)
+
+**Marco Palestra** — L'Inter lavora sui profili giovani per gli schemi futuri: Giuntoli risponde sulle strategie per Cocchi e compagni, tracciando la rotta verso una generazione pronta al 2030. [fonte](https://news.google.com/rss/articles/CBMikANBVV95cUxPbE1HY1loa2NJUkVwSjhKUFUxMkFpZmZjY2xLaE15WDVYNEZtLURleXVCcndvMHE1dUF1LWwwSllmWDd3WFdVeEpEamZ6eGd1WGU5Y29BVjloVWc2ekVLMUEtVGFsWHRBbmFVdWZHclVNbGY4VjhLUEk3V0tFaGVRMS1Ca0x2S3J6eVdjeUlrZmZ2MUV4UG96WnFucUdVVHltOGRicmZydjc5VzZjV1hzd01OMGZjOHNsXzloOTgyMUo5OWhORkFUV0hObm9JVkFfNV93VEs1N1pGalJ1NGFIUWV4UTMwWmFfVTRwZHcxdjJsUUNYeU5YSUpfMlFrTFZSTlhPT3hmcS15LTBzZFR5SUNYdXh0RV94akEzUVZHdHU4ZnYzMC02ZmJMM0w0UW5QdnFHUTVUbmFZaVZKUFBRY212YVVZNGl4M29wYy13VXp6eW0tU1pIbXBxeFljcHRzdnJlZjFObE9NaGlfX0RZTWhYOUxjX0o4QV9EUmEtczBaLUZtNDhXbUhROW9LOVQz?oc=5)
+
+<!--EN-->
+
+**Luca Koleosho** — Fiorentina is keeping a close watch on its young winger: Burnley isn't the only club interested, as Paris FC has tabled a concrete offer. One of Italy's most sought-after prospects on the European market. [source](https://news.google.com/rss/articles/CBMipwFBVV95cUxQTXllRGFqdkZxQ25nSHZFQmxXd0hGa1ZxSUZmWDN6YkxuRDkyQzNRN1V2WTQzQmJ6MnFoZnJjTWF0RjFVdFVTZHB1RkJzQnNSRUxSbXBJLXpNa24ydVlqR0xVM2dvMWw3d2lRTVBGcUdRb0dJTlR4VGxYTnZFTEJ4SnJNaHVXT3J5bjh4UUIxbUVmVnhJNHZhN1RpUkQ1b1hrektKVDRRVQ?oc=5)
+
+**Niccolò Fortini** — Torino is closely monitoring the Fiorentina talent: Paratici has clear ideas on what's needed to strengthen defence for future ambitions. A young Italian destined to be part of major projects toward 2030. [source](https://news.google.com/rss/articles/CBMirAFBVV95cUxOb2g2cUFrd1kxeXB3alhYUnRjaDZYSUVKVlpmUVFfNjgtQ3hyUzJQUEd3blN0ZVhrZ0M0VDYteGRsdER3ZnA4TmYwSWo1dTdQVm5IT19MMGRKWC1aRTdCbHBCY0xzMXgzeDdfUGlHdktQazVNQ3RnS3BXOGVLNjFzZXE0TDBHWWFFY3Jyelp4M2YzUEg1U3hZcUZyNDRKckZBMUJIMUxyTTQ3Y19G?oc=5)
+
+**Giovanni Daffara** — Avellino is a genuine breeding ground for young goalkeepers: Martinelli trusts in Daffara, who has begun his journey at Parma. A classic pathway for developing Italy's next generation of shot-stoppers. [source](https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcEpBZUE4NVhxeGI3VmdpWnVjWHJ3TGJmWFcyMU1sVzc3cXc2YmswY0drRVhuUnhhOHFOSTFYOTpZcDNXU1V2V3hBZEhhUF9jYmhHSG5WbEVqSExlb0JmSDFkaW9NVUR4dGVrZEszZEZLRDMxd3pYUXQ2akxYdGp6UzlvbDBsWG93eFgwZzlXQjQtZ2xFUV9BRDYyRjhqT1RqenVRSTJYUE5rQXc?oc=5)
+
+**Atalanta Under 23** — The new season kicks off with a convincing victory against the senior team: Bergamo's youth sector continues to produce interesting profiles for Italy's future football. [source](https://news.google.com/rss/articles/CBMinwFBVV95cUxOR3djVlJQNnZtZXRQaE03S1ptWEVpSlZyUFp5T1FCa0hDenQyV1hqaGROSTdEQ2Etbl83b1NQcjJuSkJyMlFoM1BiUldXY0lQNG1pbzRSeG9HdDVjTzFaRXRMOXVDbW41ZE5WU29kakFKTVItRFdGQ1I2X1oxQmJZNXBGclVlMlJjOFhzRG5IZUJQX2hic3diR2k3cWM0cVE?oc=5)
+
+**Marco Palestra** — Inter is working on young profiles for future tactical setups: Giuntoli responds on strategies for Cocchi and teammates, charting the course toward a generation ready for 2030. [source](https://news.google.com/rss/articles/CBMikANBVV95cUxPbE1HY1loa2NJUkVwSjhKUFUxMkFpZmZjY2xLaE15WDVYNEZtLURleXVCcndvMHE1dUF1LWwwSllmWDd3WFdVeEpEamZ6eGd1WGU5Y29BVjloVWc2ekVLMUEtVGFsWHRBbmFVdWZHclVNbGY4VjhLUEk3V0tFaGVRMS1Ca0x2S3J6eVdjeUlrZmZ2MUV4UG96WnFucUdVVHltOGRicmZydjc5VzZjV1hzd01OMGZjOHNsXzloOTgyMUo5OWhORkFUV0hObm9JVkFfNV93VEs1N1pGalJ1NGFIUWV4UTMwWmFfVTRwZHcxdjJsUUNYeU5YSUpfMlFrTFZSTlhPT3hmcS15LTBzZFR5SUNYdXh0RV94akEzUVZHdHU4ZnYzMC02ZmJMM0w0UW5QdnFHUTVUbmFZaVZKUFBRY212YVVZNGl4M29wYy13VXp6eW0tU1pIbXBxeFljcHRzdnJlZjFObE9NaGlfX0RZTWhYOUxjX0o4QV9EUmEtczBaLUZtNDhXbUhROW9LOVQz?oc=5)
