@@ -74,13 +74,14 @@ GIOCATORI SEGUITI CITATI: ${(candidate.players ?? []).join(', ') || 'nessuno in 
 ${context}
 
 REGOLE FERREE:
+- Scrivi un TITOLO ITALIANO nuovo, pulito e giornalistico (max 90 caratteri): NON copiare il titolo della fonte, NON includere codici, maiuscole urlate, emoji, nomi di testate o riferimenti a video/dirette. Solo il fatto sportivo.
 - Riscrivi TUTTO con parole tue: mai copiare frasi dalla fonte.
 - Solo fatti presenti nella fonte o nel titolo. VIETATO inventare dettagli.
 - 2-3 paragrafi brevi per lingua, separati da riga vuota.
 - Se pertinente, chiudi collegando alla prospettiva 2030.
 
 Rispondi SOLO con JSON valido:
-{"titleEn":"titolo inglese","excerpt":"sommario italiano di 1-2 frasi","excerptEn":"sommario inglese","bodyIt":"articolo italiano","bodyEn":"articolo inglese"}`;
+{"title":"titolo italiano pulito","titleEn":"titolo inglese pulito","excerpt":"sommario italiano di 1-2 frasi","excerptEn":"sommario inglese","bodyIt":"articolo italiano","bodyEn":"articolo inglese"}`;
 
   const res = await fetch('https://api.anthropic.com/v1/messages', {
     method: 'POST',

@@ -57,10 +57,12 @@ let done = 0;
 
 for (const { f, c } of eligible) {
   const d = c.draft;
-  const slug = slugify(c.title);
+  // Titolo pulito scritto dal redattore; il titolo grezzo della fonte è solo un ripiego
+  const cleanTitle = (d.title && d.title.trim().length > 5) ? d.title.trim() : c.title;
+  const slug = slugify(cleanTitle);
   const md = `---
-title: ${y(c.title)}
-titleEn: ${y(d.titleEn || c.title)}
+title: ${y(cleanTitle)}
+titleEn: ${y(d.titleEn || cleanTitle)}
 excerpt: ${y(d.excerpt)}
 excerptEn: ${y(d.excerptEn || d.excerpt)}
 date: ${date}

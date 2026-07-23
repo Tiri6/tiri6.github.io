@@ -223,7 +223,7 @@
     },
     {
       "id": "euro-u19-2026",
-      "teamId": "u19", "team": "Under 19", "phase": "in-corso",
+      "teamId": "u19", "team": "Under 19", "phase": "conclusa",
       "period": "28 giu – 11 lug 2026 · Galles", "periodEn": "28 Jun – 11 Jul 2026 · Wales",
       "short": "Euro U19 2026", "shortEn": "U19 Euro 2026",
       "name": "Europeo Under 19 — Galles 2026", "nameEn": "UEFA Under 19 Euro — Wales 2026",
@@ -234,7 +234,7 @@
         { "edition": "2023", "winner": "ITALIA 🇮🇹", "winnerEn": "ITALY 🇮🇹" },
         { "edition": "2024", "winner": "Spagna", "winnerEn": "Spain" },
         { "edition": "2025", "winner": "Paesi Bassi (1-0 alla Spagna)", "winnerEn": "Netherlands (1-0 vs Spain)" },
-        { "edition": "2026", "winner": "in corso in Galles", "winnerEn": "ongoing in Wales" }
+        { "edition": "2026", "winner": "Spagna", "winnerEn": "Spain" }
       ],
       "italy": "Eliminazione beffa: dopo il 2-0 alla Serbia (Liberali e Iddrissou) e lo 0-0 con la Croazia, gli azzurrini cadono 1-0 con l'Ucraina (perla di Olychenko) e vengono scavalcati dalla Croazia, 3-0 alla Serbia, per differenza reti. Traversa di Marello sul punteggio di 0-0: a centimetri dalla semifinale e dal pass per il Mondiale U20.",
       "italyEn": "A cruel exit: after beating Serbia 2-0 (Liberali, Iddrissou) and drawing 0-0 with Croatia, the Azzurrini fell 1-0 to Ukraine (an Olychenko gem) and were overtaken on goal difference by Croatia, 3-0 winners over Serbia. Marello hit the bar at 0-0: centimetres from the semis and a U20 World Cup ticket.",

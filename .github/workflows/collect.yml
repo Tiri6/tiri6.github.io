@@ -29,6 +29,10 @@ jobs:
       - name: Risultati partite
         run: node pipeline/results.mjs
         continue-on-error: true
+      - name: Prestazioni dai match report
+        if: env.ANTHROPIC_API_KEY != ''
+        run: node pipeline/performances.mjs
+        continue-on-error: true
       - name: Selezione candidate (caporedattore)
         run: node pipeline/prune.mjs
         continue-on-error: true
