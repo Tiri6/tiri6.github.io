@@ -1,0 +1,36 @@
+# ⚽ AGGIORNA PRESTAZIONI — bottone da cellulare/ufficio.
+# Actions → "⚽ Aggiorna prestazioni" → Run workflow.
+# Estrae le prestazioni dai match report pubblicati di recente e aggiorna
+# i tabellini in homepage. Gira comunque ogni mattina dentro "Redazione del
+# mattino": questo bottone serve solo per farlo subito dopo una giornata.
+name: ⚽ Aggiorna prestazioni
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  prestazioni:
+    runs-on: ubuntu-latest
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Estrai prestazioni dai match report
+        run: node pipeline/performances.mjs
+      - name: Commit delle prestazioni
+        run: |
+          git config user.name "ing-redazione"
+          git config user.email "redazione@italiannextgen"
+          git add data/performances.json || true
+          git diff --cached --quiet || git commit -m "aggiornate prestazioni ($(date +%F))"
+          for i in 1 2 3; do
+            git push && break
+            git pull --rebase origin main
+            sleep 5
+          done
