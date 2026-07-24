@@ -1,10 +1,9 @@
 ---
 title: "TRIBUNA.COM * SERIE B: «FLASH - COCCHI DALL'INTER AL PADOVA, CI SIAMO! FISSATE LE VISITE MEDICHE: TUTTI I DETTAGLI DELL'ACCORDO - agenziagiornalisticaopinione.it"
-titleEn: "Cocchi Leaves Inter for Padova: Medical Tests Scheduled"
-excerpt: "Matteo Cocchi si trasferisce dall'Inter al Padova in Serie B. Le visite mediche sono state fissate e l'accordo tra i club è stato definito."
-excerptEn: "Matteo Cocchi moves from Inter to Padova in Serie B. Medical examinations have been scheduled and the agreement between clubs has been finalized."
-date: 2026-07-23
-publishedAt: 2026-07-23T17:00:00+02:00
+titleEn: "Cocchi Heads to Padova: Inter Youngster's Serie B Move Takes Shape"
+excerpt: "Matteo Cocchi lascia l'Inter per trasferirsi al Padova in Serie B. Le visite mediche sono state fissate e l'accordo è in via di definizione."
+excerptEn: "Matteo Cocchi leaves Inter for a move to Padova in Serie B. Medical examinations have been scheduled as the deal takes shape."
+date: 2026-07-24
 category: news
 players: ["Matteo Cocchi", "Diego Sia"]
 competitions: []
@@ -12,12 +11,12 @@ source: "agenziagiornalisticaopinione.it"
 sourceUrl: "https://news.google.com/rss/articles/CBMiggJBVV95cUxPLUdxT0ZQMlZqZWEtem8tSkdCdlJhS0tTXzJDSTltS0JiaGI4aVdibnF3UE9wWTRVSUxWVkV3cDhWUVBhSXVIbkFVTGg4ODJCX2RJN1hQUmRDT1NvNnhyWUZrbGlRdDBoaUZuaFRQQXVHdWlpWjQyTmtQVzZhRGFMaEtPSXVfTDJ0SXdBcC1EQS1BNlpaUVdHRE9LV1lTT1ZUdy1RX2lnbW9MdlZpZmYzMU9LMm5hWVgteWg3SC15UjBtdXhyTnY1b3NTR1NObXIxc2FMMm5HU05lZElFYUF2VlJQUGlwbGppWUpzZEFsUWpTWkpZTFV5MWFCVC1ReTNLZXc?oc=5"
 ---
 
-Matteo Cocchi è pronto a iniziare una nuova esperienza in Serie B. Il giovane calciatore nerazzurro si trasferisce al Padova, con le visite mediche ormai programmate secondo quanto riportano le fonti ufficiali. L'operazione tra Inter e il club patavino è stata conclusa, segnando un passo importante nella carriera del talento italiano.
+Accelerata decisiva per il passaggio di Matteo Cocchi dall'Inter al Padova. Il giovane talento nerazzurro sta per intraprendere un'esperienza importante nel campionato cadetto italiano, con le visite mediche ormai in programma. L'operazione è in fase conclusiva, con i dettagli dell'accordo che trovano definitiva sistemazione.
 
-La scelta della Serie B rappresenta un'occasione di crescita per Cocchi, che potrà accumulate esperienza nel campionato cadetto in vista delle sfide che attendono i giovani azzurri nei prossimi anni. Il trasferimento al Padova confermava il percorso formativo che caratterizza tanti prospetti della cantera italiana.
+Per Cocchi si tratta di un'occasione rilevante per accumulare minutaggio e continuità competitiva, fattori cruciali nella formazione di un calciatore con ambizioni importanti. Il trasferimento in Serie B rappresenta un percorso naturale per una giovane promessa del calcio italiano che punta a costruire un progetto serio verso gli obiettivi nazionali del prossimo decennio.
 
 <!--EN-->
 
-Matteo Cocchi is set to begin a new chapter in Serie B. The young Inter prospect is transferring to Padova, with medical examinations now scheduled according to official sources. The operation between Inter and the Paduan club has been finalized, marking an important step in the Italian talent's career.
+The transfer of Matteo Cocchi from Inter to Padova is moving forward decisively. The young Nerazzurri prospect is set to embark on an important stint in Italy's second division, with medical tests now scheduled. The operation is entering its final phase, with the terms of the agreement being finalized.
 
-The choice of Serie B represents a growth opportunity for Cocchi, who will gain experience in Italy's second division ahead of future challenges for Italy's emerging players in the coming years. The move to Padova reflects the development pathway that characterizes many prospects from the Italian academy system.
+For Cocchi, this represents a significant opportunity to gain playing time and competitive experience—critical factors in developing a player with serious ambitions. The move to Serie B marks a natural progression for an Italian young talent aiming to build a solid foundation toward the national team's objectives in the coming decade.

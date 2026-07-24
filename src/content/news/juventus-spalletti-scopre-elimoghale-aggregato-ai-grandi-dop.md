@@ -1,10 +1,10 @@
 ---
 title: "Juventus, Spalletti “scopre” Elimoghale: aggregato ai grandi dopo l’infortunio di Ekhator - MondoPrimavera"
 titleEn: "Juventus, Spalletti Gives Elimoghale His Chance After Ekhator's Injury"
-excerpt: "Destiny Elimoghale è stato aggregato alla prima squadra bianconera dopo l'infortunio di Jeff Ekhator. Una opportunità importante per il giovane talento della Primavera."
-excerptEn: "Destiny Elimoghale has been called up to Juventus's senior squad following Jeff Ekhator's injury. A significant opportunity for the Primavera prospect."
-date: 2026-07-23
-publishedAt: 2026-07-23T13:00:00+02:00
+excerpt: "Destiny Elimoghale è stato aggregato alla prima squadra bianconera dopo l'infortunio di Jeff Ekhator. Un'opportunità importante per il giovane talento nella corsia difensiva."
+excerptEn: "Destiny Elimoghale has been promoted to Juventus's senior squad following Jeff Ekhator's injury. A significant opportunity for the young talent on the defensive flank."
+date: 2026-07-24
+publishedAt: 2026-07-24T16:40:00+02:00
 category: news
 players: ["Jeff Ekhator", "Destiny Elimoghale"]
 competitions: []
@@ -12,12 +12,12 @@ source: "MondoPrimavera"
 sourceUrl: "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSndPMFpjWEZOdVU1SGhrUHNHM1BQV0l4WUhTUDlQcnVBTVViVmpudWl2akRSVTcyUkxDbWpFYTk1NGw1d1hjNGN5NVNMdlI2Wjk1dW9CMHFjZVpqSlZiT0RIWHhVTG5rbm95N3hJbzVUNElMdlExWW83cFBIZTFyejNIN3B1WEZDaWZYVHdEMlRDdElRa1N4eUczWDQ3OU4zb0NucVF0TUFxdVF3NEc1WWpYd3M?oc=5"
 ---
 
-La Juventus sceglie di puntare su Destiny Elimoghale per affrontare l'emergenza in squadra. Il giovane calciatore della Primavera è stato aggregato al gruppo di Spalletti in seguito all'indisponibilità di Jeff Ekhator. Una promozione che rappresenta un riconoscimento del lavoro svolto nelle giovanili bianconere e che offre al talento una finestra preziosa per misurarsi con il calcio dei grandi.
+La Juventus ha deciso di aggregare Destiny Elimoghale alla rosa della prima squadra, sfruttando l'assenza di Jeff Ekhator dovuta a un infortunio. Una scelta che testimonia la fiducia di Spalletti nei confronti del giovane difensore, chiamato a colmare il vuoto lasciato dal compagno.
 
-Per Elimoghale si tratta di un'occasione rara per accorciare i tempi di maturazione e mettersi in mostra davanti allo staff della prima squadra. L'approdo nella rosa maggiore, seppur dovuto a una circostanza sfavorevole, rappresenta comunque un passo concreto nella progressione di un profilo su cui la Juve crede.
+Per Elimoghale si tratta di un momento cruciale della sua formazione. Lavorare a stretto contatto con i grandi rappresenta un'esperienza fondamentale per accelerare la crescita di un talento che potrebbe rivelarsi prezioso nel progetto bianconero. Nel calendario dei prossimi anni verso i Mondiali 2030, episodi come questi determineranno chi avrà le spalle abbastanza larghe per competere al massimo livello.
 
 <!--EN-->
 
-Juventus looks to Destiny Elimoghale to handle an emergency situation in the squad. The Primavera prospect has been promoted to Spalletti's senior group due to Jeff Ekhator's unavailability. A call-up that signals recognition of his work in the Bianconeri youth system and offers him a rare chance to test himself against top-level competition.
+Juventus has promoted Destiny Elimoghale to the senior squad following Jeff Ekhator's injury. The decision reflects Spalletti's confidence in the young defender, who has been called upon to fill the gap left by his teammate.
 
-For Elimoghale, this represents a critical opportunity to accelerate his development and prove himself in front of the first-team coaching staff. His inclusion in the senior ranks, though triggered by circumstance, is nonetheless a tangible step forward in the progression of a player the club has confidence in.
+For Elimoghale, this represents a critical moment in his development. Training alongside first-team players is a vital experience for accelerating the growth of a talent who could prove invaluable to Juventus's long-term project. As the road to the 2030 World Cup unfolds, decisions like this will prove decisive in determining which young Italians possess the maturity to compete at the highest level.
