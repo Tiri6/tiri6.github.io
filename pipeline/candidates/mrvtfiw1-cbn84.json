@@ -13,5 +13,14 @@
   ],
   "category": "news",
   "score": 6,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "title": "Fiorentina e Sassuolo studiano scambi: Comuzzo nel mirino",
+    "titleEn": "Fiorentina and Sassuolo explore swap deals: Comuzzo in focus",
+    "excerpt": "Tra i viola e i neroverdi circolano voci di possibili intrecci di mercato che coinvolgono giovani promesse. Al centro delle trattative figurano difensori e attaccanti di prospettiva.",
+    "excerptEn": "Transfer talks between Fiorentina and Sassuolo involve potential swaps featuring young talents. Defenders and forward prospects are at the heart of negotiations.",
+    "bodyIt": "La Fiorentina e il Sassuolo stanno valutando la possibilità di intrecci di mercato che potrebbero coinvolgere diversi giocatori. Secondo quanto emerso, in ballo ci sono nomi come Pietro Comuzzo, giovane difensore di prospettiva, insieme ad altri elementi del calibro di Thorstvedt, Pinamonti e Joao Mario.\n\nLe trattative tra i due club rimangono al vaglio, con le società che studiano formule di scambio in grado di accontentare entrambe le parti. Un movimento che potrebbe incidere sulla struttura della rosa di uno dei progetti giovanili più attenti della Serie A.\n\nPer Italian Next Gen, situazioni come questa rappresentano un'occasione di monitoraggio: gli assestamenti tra club sono cruciali per individuare quale dei giovani riuscirà a consolidarsi sul palcoscenico italiano, obiettivo imprescindibile in ottica Mondiali 2030.",
+    "bodyEn": "Fiorentina and Sassuolo are evaluating the possibility of squad swaps involving several players. According to reports, the potential deal includes names such as Pietro Comuzzo, a young defensive prospect, alongside other talents like Thorstvedt, Pinamonti, and Joao Mario.\n\nNegotiations between the two clubs remain under consideration, with both sides exploring exchange formulas that could work for everyone. A move that could reshape the squad structure of one of Serie A's most development-focused projects.\n\nFor Italian Next Gen, situations like this represent a crucial monitoring opportunity: adjustments between clubs are key to understanding which young talents will establish themselves on the Italian stage—an essential goal with an eye toward the 2030 World Cup.",
+    "_fromSource": true
+  }
 }

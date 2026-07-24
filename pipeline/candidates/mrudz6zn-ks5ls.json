@@ -13,5 +13,14 @@
   ],
   "category": "news",
   "score": 6,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "title": "Palermo, la rivoluzione tra i pali: Desplanches lascia, Fortin arriva",
+    "titleEn": "Palermo's goalkeeping reshuffle: Desplanches departs as Fortin arrives",
+    "excerpt": "Il Palermo rivoluziona la porta con l'addio di Sebastiano Desplanches e l'arrivo del nuovo estremo difensore. Nel frattempo, Bozzolan si avvicina sempre più ai rosanero mentre Kamate e Rao restano in pole position.",
+    "excerptEn": "Palermo overhauls its goalkeeping position with Desplanches' departure and Fortin's arrival. Meanwhile, Bozzolan edges closer to the Sicilian club while Kamate and Rao remain hot targets.",
+    "bodyIt": "Importante movimento in casa Palermo tra i pali: Sebastiano Desplanches saluta il club rosanero, aprendo così le porte a Fortin come nuovo estremo difensore. Una scelta che ridisegna la gerarchia tra i pali per la squadra siciliana.\n\nNon si ferma qui il mercato del Palermo. Sul fronte delle trattative resta molto caldo il nome di Emanuele Rao, con la pista che continua a rappresentare una priorità. Accanto al giovane talento italiano, anche Kamate rimane tra i principali obiettivi della dirigenza rosanero. Infine, Bozzolan si avvicina sensibilmente all'accordo, segnale di una campagna acquisizioni che mira a rinforzare più reparti.\n\nI movimenti di mercato del Palermo testimoniano un progetto ambizioso che guarda anche ai giovani talenti della prossima generazione azzurra, nella prospettiva di costruire una base solida per gli appuntamenti internazionali futuri.",
+    "bodyEn": "Palermo makes a significant change in goal: Sebastiano Desplanches leaves the Rosanero club, paving the way for Fortin to take over as the new goalkeeper. A decision that reshapes the hierarchy between the posts for the Sicilian side.\n\nPalermo's market activity doesn't stop there. On the transfer front, Emanuele Rao's name remains extremely hot, with the young Italian talent continuing to be a priority for the management. Alongside Rao, Kamate also stays among the club's main targets. Finally, Bozzolan is drawing noticeably closer to an agreement, a sign of an ambitious transfer campaign aimed at strengthening multiple departments.\n\nPalermo's market movements testify to an ambitious project that also looks to young talents of the next Italian generation, with an eye toward building a solid foundation for future international competitions.",
+    "_fromSource": true
+  }
 }

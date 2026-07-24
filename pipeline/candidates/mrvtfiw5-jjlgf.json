@@ -13,5 +13,14 @@
   ],
   "category": "news",
   "score": 6,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "title": "Casadei e Cacciamani con la nuova maglia del Torino",
+    "titleEn": "Casadei and Cacciamani debut Torino's new kit",
+    "excerpt": "I giovani talenti granata sono stati immortalati con la seconda divisa della stagione. Un momento simbolico per chi ambisce a rappresentare l'Italia nei prossimi anni.",
+    "excerptEn": "Young Torino prospects pose in the club's new secondary kit. A symbolic moment for those eyeing Italy's future.",
+    "bodyIt": "Cesare Casadei e Alessio Cacciamani hanno indossato per la prima volta la seconda maglia del Torino. Le immagini ufficiali segnano il loro inserimento nel progetto granata, con entrambi i giocatori pronti a misurarsi con le sfide della stagione.\n\nI due prospetti rappresentano il volto della generazione che la Federazione sta costruendo in vista dei grandi appuntamenti internazionali. Per Casadei e Cacciamani, il passaggio a Torino può costituire un'opportunità importante per accelerare la crescita e consolidare il proprio percorso nel calcio italiano.",
+    "bodyEn": "Cesare Casadei and Alessio Cacciamani have been pictured wearing Torino's new secondary kit for the first time. The official images mark their integration into the Granata project, with both players set to tackle the challenges of the upcoming season.\n\nThe two prospects embody the generation Italy's federation is cultivating ahead of major international tournaments. For Casadei and Cacciamani, the move to Turin represents a valuable opportunity to accelerate their development and consolidate their pathway in Italian football.",
+    "_fromSource": true
+  }
 }

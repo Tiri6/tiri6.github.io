@@ -13,5 +13,14 @@
   ],
   "category": "news",
   "score": 6,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "title": "Scuderi eredita la difesa della Juve Stabia",
+    "titleEn": "Scuderi takes over Juve Stabia's defensive legacy",
+    "excerpt": "Il difensore raccoglie il testimone di Fortini e Cacciamani. Un passaggio generazionale importante per i giallorossi campani.",
+    "excerptEn": "The defender inherits the mantle from Fortini and Cacciamani. A significant generational shift for the Campania club.",
+    "bodyIt": "Scuderi si assume le responsabilità difensive della Juve Stabia subentrando a due figure centrali del progetto giallorosso. Fortini e Cacciamani lasciano un vuoto importante nella retroguardia campana, e il giovane difensore avrà il compito di proseguire il lavoro costruito dai predecessori.\n\nUn'occasione significativa per dimostrare le proprie qualità in un ruolo di peso all'interno dell'organico stabiese, in una stagione che continua a rappresentare un trampolino fondamentale verso i palcoscenici più importanti del calcio italiano.",
+    "bodyEn": "Scuderi assumes defensive responsibilities at Juve Stabia, stepping into the shoes of Fortini and Cacciamani. The two players' departures leave a notable gap in the Campania side's backline, with the young defender tasked with carrying forward the foundations laid by his predecessors.\n\nIt represents a significant opportunity to prove his worth in a crucial role within Stabia's squad during a season that continues to serve as a launching pad toward the most important stages of Italian football.",
+    "_fromSource": true
+  }
 }

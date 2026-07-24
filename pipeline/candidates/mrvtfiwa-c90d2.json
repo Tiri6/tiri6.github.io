@@ -13,5 +13,14 @@
   ],
   "category": "news",
   "score": 6,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "title": "Fantacalcio, come sfruttare i giovani talenti italiani in rosa",
+    "titleEn": "Fantasy football: how to manage rising Italian talents",
+    "excerpt": "Guida pratica per gestire al meglio nella propria squadra fantacalcistica i nuovi prospetti azzurri, tra cui Liberali ed Ekhator.",
+    "excerptEn": "Practical guide to managing emerging Italian prospects in your fantasy squad, including Liberali and Ekhator.",
+    "bodyIt": "Con la stagione in corso, molti giovani talenti italiani si stanno facendo strada nelle rose dei club di Serie A, rappresentando un'opportunità interessante per chi gestisce squadre fantacalcistiche. Nomi come Mattia Liberali e Jeff Ekhator, insieme ad altri prospetti in ascesa, meritano attenzione particolare per chi vuole costruire una squadra competitiva.\n\nLa sfida per i gestori è individuare il momento giusto per inserire questi calciatori nelle formazioni, valutando con equilibrio il loro effettivo minutaggio e le loro possibilità di contribuire concretamente ai punti. Investire su profili giovani richiede pazienza e consapevolezza dei tempi di adattamento.\n\nPer chi guarda già al futuro dell'Italia, questi talenti rappresentano il vivvaio da cui potranno emergere le figure centrali del progetto azzurro verso il 2030. Il fantacalcio diventa così uno strumento per seguire da vicino l'evoluzione di chi potrebbe vestire la maglia nazionale nei prossimi anni.",
+    "bodyEn": "As the season progresses, numerous young Italian talents are making their way into Serie A club rosters, presenting an intriguing opportunity for fantasy football managers. Prospects such as Mattia Liberali and Jeff Ekhator, alongside other rising stars, deserve careful consideration for those building competitive squads.\n\nThe challenge for managers lies in identifying the right moment to integrate these players into their formations, balancing their actual playing time against their concrete point-scoring potential. Investing in young profiles demands patience and awareness of adaptation timelines.\n\nFor those already thinking ahead to Italy's future, these talents represent the talent pool from which key figures for the national project through 2030 could emerge. Fantasy football becomes a tool for closely monitoring the development of players who may wear the Azzurri shirt in the coming years.",
+    "_fromSource": true
+  }
 }

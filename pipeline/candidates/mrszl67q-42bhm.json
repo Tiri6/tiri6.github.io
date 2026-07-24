@@ -10,5 +10,14 @@
   "players": [],
   "category": "mercato",
   "score": 6,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "title": "Atalanta, Sarri inizia con vittoria: Levak decisivo nel 2-1",
+    "titleEn": "Atalanta, Sarri starts with a win: Levak decisive in 2-1 victory",
+    "excerpt": "Esordio positivo per gli uomini di Sarri che superano l'Atalanta U23 con una doppietta dell'attaccante.",
+    "excerptEn": "Positive debut for Sarri's side who beat Atalanta U23 with a brace from the striker.",
+    "bodyIt": "La gestione Sarri all'Atalanta inizia con il segno più. La squadra bergamasca ha battuto la formazione Primavera con il punteggio di 2-1, grazie ai due gol messi a segno da Levak, protagonista assoluto della gara nel ruolo di attaccante.\n\nUna prova che consente al nuovo tecnico di raccogliere segnali incoraggianti già alla prima uscita ufficiale, sebbene l'avversario fosse una rappresentativa delle giovanili. Il risultato positivo rappresenta comunque un buon punto di partenza per il lavoro che Sarri ha intrapreso con i nerazzurri.\n\nL'Atalanta prosegue così nella costruzione di una rosa competitiva in vista dei prossimi impegni stagionali, con l'obiettivo di rimanere tra le protagoniste del calcio italiano.",
+    "bodyEn": "Sarri's tenure at Atalanta gets off to a winning start. The Bergamo-based club defeated the Primavera side 2-1, with striker Levak scoring both goals and proving to be the standout performer of the match.\n\nThe positive result allows the new coach to gather encouraging signals in his first official outing, even though the opponents were from the youth ranks. Nevertheless, the victory represents a solid foundation for the work Sarri has undertaken with the Nerazzurri.\n\nAtalanta continues building a competitive squad for upcoming fixtures, aiming to remain among Italy's top contenders in the seasons ahead.",
+    "_fromSource": true
+  }
 }

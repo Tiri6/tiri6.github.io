@@ -13,5 +13,14 @@
   ],
   "category": "news",
   "score": 6,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "title": "Palermo, rivoluzione tra i pali: Desplanches lascia spazio a Fortin",
+    "titleEn": "Palermo overhaul in goal: Desplanches makes way for Fortin",
+    "excerpt": "Il portiere rosanero cambia volto con l'addio di Sebastiano Desplanches. Nel frattempo si intensificano le trattative per altri profili, con Rao e Kamate nel mirino.",
+    "excerptEn": "Palermo's goalkeeper position undergoes a change with Desplanches departing. Meanwhile, negotiations intensify for other targets, with Rao and Kamate in focus.",
+    "bodyIt": "Novità importanti in casa Palermo sulla linea difensiva. Sebastiano Desplanches, portiere seguito da Italian Next Gen per le sue prospettive nel panorama calcistico italiano, lascia la squadra rosanero. Al suo posto arriva Fortin, che rappresenta la nuova scelta tra i pali del club siciliano.\n\nSul fronte del mercato in entrata, il Palermo accelera su più fronti. Bozzolan si avvicina con decisione alla società, mentre Emanuele Rao e Kamate rimangono piste calde nel mirino della dirigenza. I movimenti rosanero testimoniano un'attenzione particolare al ringiovanimento della rosa, una strategia che potrebbe incidere sugli equilibri del progetto tecnico in vista dei prossimi obiettivi.",
+    "bodyEn": "Important news at Palermo regarding their defensive line. Sebastiano Desplanches, a goalkeeper followed by Italian Next Gen for his prospects in the Italian football landscape, is leaving the rosanero squad. Fortin arrives as the new choice between the posts for the Sicilian club.\n\nOn the incoming transfers front, Palermo is accelerating on multiple targets. Bozzolan is drawing closer to the club, while Emanuele Rao and Kamate remain hot prospects in the sights of the management. The rosanero movements demonstrate particular attention to squad rejuvenation, a strategy that could impact the technical project's balance in view of future objectives.",
+    "_fromSource": true
+  }
 }
