@@ -4,6 +4,7 @@ titleEn: "Ekhator's Juventus Dream Interrupted: Injury Halts Debut, Loan Move Lo
 excerpt: "Jeff Ekhator, promettente talento cresciuto nel Genoa, ha dovuto fare i conti con un infortunio durante la sua prima apparizione con la Juventus. Per il giovane attaccante si prospetta ora una soluzione in prestito."
 excerptEn: "Jeff Ekhator, promising talent developed at Genoa, has encountered an injury during his debut appearance with Juventus. A loan move now appears to be on the horizon for the young forward."
 date: 2026-07-24
+publishedAt: 2026-07-25T10:20:00+02:00
 category: mercato
 players: ["Jeff Ekhator"]
 competitions: []

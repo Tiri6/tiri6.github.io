@@ -4,6 +4,7 @@ titleEn: "Cocchi Heads to Padova: Inter Youngster's Serie B Move Takes Shape"
 excerpt: "Matteo Cocchi lascia l'Inter per trasferirsi al Padova in Serie B. Le visite mediche sono state fissate e l'accordo è in via di definizione."
 excerptEn: "Matteo Cocchi leaves Inter for a move to Padova in Serie B. Medical examinations have been scheduled as the deal takes shape."
 date: 2026-07-24
+publishedAt: 2026-07-25T10:40:00+02:00
 category: news
 players: ["Matteo Cocchi", "Diego Sia"]
 competitions: []

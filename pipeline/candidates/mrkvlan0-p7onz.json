@@ -12,5 +12,14 @@
   ],
   "category": "mercato",
   "score": 5,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "title": "Cremonese, rinforzo in difesa: Fellipe Jack arriva dal Como",
+    "titleEn": "Cremonese strengthen defence: Fellipe Jack arrives from Como",
+    "excerpt": "La Cremonese accoglie un nuovo difensore di qualità dal Como. L'operazione rappresenta un innesto significativo per il reparto arretrato dei grigiorossi.",
+    "excerptEn": "Cremonese welcome a quality defender from Como. The move represents a significant addition to the rearguard of the Grigiorossi.",
+    "bodyIt": "Colpo importante per la Cremonese sul fronte difensivo. Dal Como arriva Fellipe Jack, esterno di spessore che andrà a rinforzare la retroguardia della squadra di Serie B. Un innesto che testimonia l'ambizione della società nel costruire un organico competitivo.\n\nIl giocatore approda in Lombardia con l'obiettivo di contribuire al progetto della Cremonese. Nel panorama dei giovani talenti italiani monitorati in ottica futura, ogni movimento di qualità merita attenzione: i difensori che emergono nei campionati cadetti sono spesso protagonisti dei prossimi cicli nazionali.",
+    "bodyEn": "Cremonese secure an important defensive reinforcement. Fellipe Jack arrives from Como, a fullback of substance who will strengthen the backline of the Serie B side. A move that reflects the club's ambition in building a competitive squad.\n\nThe player moves to Lombardy with the goal of contributing to Cremonese's project. Within the panorama of young Italian talents monitored for future prospects, every quality addition warrants attention: defenders emerging in the second division are often protagonists in upcoming national cycles.",
+    "_fromSource": true
+  }
 }
