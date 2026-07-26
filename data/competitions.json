@@ -107,11 +107,13 @@
       "squad": ["Simone Pafundi", "Kevin Zeroli", "Marco Palestra", "Pietro Comuzzo", "Niccolò Pisilli", "Davide Bartesaghi", "Cher Ndour", "Niccolò Fortini"],
       "matches": [
         { "date": "2025-09-05", "stage": "Qualificazioni · Gruppo E", "stageEn": "Qualifiers · Group E", "home": "Italia", "away": "Montenegro", "result": "" },
-        { "date": "2026-09-25", "stage": "Qualificazioni · Gruppo E (data indicativa)", "stageEn": "Qualifiers · Group E (indicative)", "home": "Italia", "away": "Da definire", "result": "" },
-        { "date": "2026-10-06", "stage": "Qualificazioni · ultima giornata (data indicativa)", "stageEn": "Qualifiers · final matchday (indicative)", "home": "Da definire", "away": "Italia", "result": "" }
+        { "date": "2025-10-10", "stage": "Qualificazioni · Gruppo E · Cesena", "stageEn": "Qualifiers · Group E · Cesena", "home": "Italia", "away": "Svezia", "result": "" },
+        { "date": "2025-10-14", "stage": "Qualificazioni · Gruppo E · Cremona", "stageEn": "Qualifiers · Group E · Cremona", "home": "Italia", "away": "Armenia", "result": "" },
+        { "date": "2026-10-01", "stage": "Qualificazioni · Gruppo E", "stageEn": "Qualifiers · Group E", "home": "Armenia", "away": "Italia", "result": "" },
+        { "date": "2026-10-05", "stage": "Qualificazioni · Gruppo E · ultima giornata", "stageEn": "Qualifiers · Group E · final matchday", "home": "Italia", "away": "Polonia", "result": "" }
       ],
       "events": [
-        { "date": "2026-11-10", "label": "Eventuali spareggi", "labelEn": "Possible play-offs" },
+        { "date": "2026-11-12", "label": "Eventuali spareggi (finestra di novembre)", "labelEn": "Possible play-offs (November window)" },
         { "date": "2027-06-15", "label": "Fase finale in Albania e Serbia (data indicativa)", "labelEn": "Finals in Albania and Serbia (indicative)" }
       ],
       "newsKeywords": ["Under 21", "U21", "Europeo 2027"]
@@ -234,10 +236,10 @@
         { "edition": "2023", "winner": "ITALIA 🇮🇹", "winnerEn": "ITALY 🇮🇹" },
         { "edition": "2024", "winner": "Spagna", "winnerEn": "Spain" },
         { "edition": "2025", "winner": "Paesi Bassi (1-0 alla Spagna)", "winnerEn": "Netherlands (1-0 vs Spain)" },
-        { "edition": "2026", "winner": "Spagna", "winnerEn": "Spain" }
+        { "edition": "2026", "winner": "Spagna (2-0 alla Germania in finale, decimo titolo record)", "winnerEn": "Spain (2-0 vs Germany in the final, a record tenth title)" }
       ],
-      "italy": "Eliminazione beffa: dopo il 2-0 alla Serbia (Liberali e Iddrissou) e lo 0-0 con la Croazia, gli azzurrini cadono 1-0 con l'Ucraina (perla di Olychenko) e vengono scavalcati dalla Croazia, 3-0 alla Serbia, per differenza reti. Traversa di Marello sul punteggio di 0-0: a centimetri dalla semifinale e dal pass per il Mondiale U20.",
-      "italyEn": "A cruel exit: after beating Serbia 2-0 (Liberali, Iddrissou) and drawing 0-0 with Croatia, the Azzurrini fell 1-0 to Ukraine (an Olychenko gem) and were overtaken on goal difference by Croatia, 3-0 winners over Serbia. Marello hit the bar at 0-0: centimetres from the semis and a U20 World Cup ticket.",
+      "italy": "Eliminazione beffa: dopo il 2-0 alla Serbia (Liberali e Iddrissou) e lo 0-0 con la Croazia, gli azzurrini cadono 1-0 con l'Ucraina (perla di Olychenko) e vengono scavalcati dalla Croazia, 3-0 alla Serbia, per differenza reti. Traversa di Marello sul punteggio di 0-0: a centimetri dalla semifinale. Il torneo lo ha vinto la Spagna, 2-0 alla Germania: decimo titolo, record assoluto della categoria.",
+      "italyEn": "A cruel exit: after beating Serbia 2-0 (Liberali, Iddrissou) and drawing 0-0 with Croatia, the Azzurrini fell 1-0 to Ukraine (an Olychenko gem) and were overtaken on goal difference by Croatia, 3-0 winners over Serbia. Marello hit the bar at 0-0: centimetres from the semis. Spain won the tournament, 2-0 over Germany: a record tenth title.",
       "teams": ["Italia", "Serbia", "Ucraina", "Croazia", "Galles"],
       "squad": ["Federico Coletta", "Samuele Inacio", "Andrea Natali", "Mattia Liberali", "Jamal Iddrissou", "Mattia Mosconi", "Matteo Cocchi"],
       "matches": [
@@ -247,8 +249,7 @@
         { "date": "2026-07-02", "stage": "Gruppo B · 2ª giornata", "stageEn": "Group B · MD2", "home": "Serbia", "away": "Ucraina", "result": "1-2" },
         { "date": "2026-07-05", "stage": "Gruppo B · 3ª giornata", "stageEn": "Group B · MD3", "home": "Ucraina", "away": "Italia", "result": "1-0" },
         { "date": "2026-07-05", "stage": "Gruppo B · 3ª giornata", "stageEn": "Group B · MD3", "home": "Croazia", "away": "Serbia", "result": "3-0" },
-        { "date": "2026-07-08", "stage": "Semifinali", "stageEn": "Semi-finals", "home": "Da definire", "away": "Da definire", "result": "" },
-        { "date": "2026-07-11", "stage": "Finale", "stageEn": "Final", "home": "Da definire", "away": "Da definire", "result": "" }
+        { "date": "2026-07-11", "stage": "Finale · Galles", "stageEn": "Final · Wales", "home": "Spagna", "away": "Germania", "result": "2-0" }
       ],
       "events": [],
       "newsKeywords": ["Under 19", "U19"]
@@ -305,24 +306,25 @@
       "period": "19 nov – 13 dic 2026 · Qatar", "periodEn": "19 Nov – 13 Dec 2026 · Qatar",
       "short": "Mondiale U17", "shortEn": "U17 World Cup",
       "name": "Mondiale Under 17 — Qatar 2026", "nameEn": "FIFA U17 World Cup — Qatar 2026",
-      "format": "Dal 2025 si gioca ogni anno in Qatar con 48 squadre: 12 gironi da 4, poi eliminazione diretta dai sedicesimi. L'Italia è tra le qualificate europee.",
-      "formatEn": "Since 2025, played every year in Qatar with 48 teams: 12 groups of 4, then knockouts from the round of 32. Italy are among the European qualifiers.",
+      "format": "Dal 2025 si gioca ogni anno in Qatar con 48 squadre: 12 gironi da 4, poi eliminazione diretta dai sedicesimi (prime due di ogni girone più le migliori otto terze). Finale il 13 dicembre allo stadio Khalifa. L'Italia, campione d'Europa in carica, è nel Gruppo E con Uzbekistan, Costa d'Avorio e Giamaica.",
+      "formatEn": "Since 2025, played every year in Qatar with 48 teams: 12 groups of 4, then knockouts from the round of 32 (top two of each group plus the eight best third-placed sides). Final on 13 December at Khalifa Stadium. Italy, reigning European champions, are in Group E with Uzbekistan, Ivory Coast and Jamaica.",
       "honours5": [
-        { "edition": "2015", "winner": "Nigeria", "winnerEn": "Nigeria" },
         { "edition": "2017", "winner": "Inghilterra", "winnerEn": "England" },
         { "edition": "2019", "winner": "Brasile", "winnerEn": "Brazil" },
         { "edition": "2023", "winner": "Germania", "winnerEn": "Germany" },
-        { "edition": "2025", "winner": "Portogallo (1-0 all'Austria)", "winnerEn": "Portugal (1-0 vs Austria)" }
+        { "edition": "2025", "winner": "Portogallo (1-0 all'Austria)", "winnerEn": "Portugal (1-0 vs Austria)" },
+        { "edition": "2026", "winner": "in corso in Qatar", "winnerEn": "ongoing in Qatar" }
       ],
-      "italy": "Mai vinto — e mai arrivati da campioni d'Europa in carica come stavolta. Il gruppo di Tallinn può giocarsi davvero il titolo mondiale.",
-      "italyEn": "Never won it — and never arrived as reigning European champions before. The Tallinn group can genuinely go for the world title.",
-      "teams": ["Italia", "Belgio", "Croazia", "Francia", "Spagna", "Portogallo"],
+      "italy": "Mai vinto — e mai arrivati da campioni d'Europa in carica come stavolta. Sorteggiata nel Gruppo E con Uzbekistan, Costa d'Avorio e Giamaica, la squadra di Tallinn può giocarsi davvero il titolo mondiale.",
+      "italyEn": "Never won it — and never arrived as reigning European champions before. Drawn in Group E with Uzbekistan, Ivory Coast and Jamaica, the Tallinn side can genuinely go for the world title.",
+      "teams": ["Italia", "Uzbekistan", "Costa d'Avorio", "Giamaica"],
       "squad": ["Destiny Elimoghale", "Antonio Arena", "Luca Reggiani"],
       "matches": [
-        { "date": "2026-11-19", "stage": "Fase a gironi (sorteggio da effettuare)", "stageEn": "Group stage (draw TBC)", "home": "Italia", "away": "Da definire", "result": "" }
+        { "date": "2026-11-19", "stage": "Gruppo E · 1ª giornata", "stageEn": "Group E · MD1", "home": "Italia", "away": "Da definire", "result": "" }
       ],
       "events": [
-        { "date": "2026-12-13", "label": "Finale a Doha", "labelEn": "Final in Doha" }
+        { "date": "2026-11-30", "label": "Sedicesimi di finale (30 nov – 1 dic)", "labelEn": "Round of 32 (30 Nov – 1 Dec)" },
+        { "date": "2026-12-13", "label": "Finale allo stadio Khalifa, Doha", "labelEn": "Final at Khalifa Stadium, Doha" }
       ],
       "newsKeywords": ["Mondiale Under 17", "Mondiale U17", "Qatar"]
     },
