@@ -10,5 +10,14 @@
   "players": [],
   "category": "performance",
   "score": 5,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "title": "Under 18, l'Italia supera ancora la Croazia in amichevole",
+    "titleEn": "Italy U18 defeats Croatia again in friendly",
+    "excerpt": "Gli azzurrini confermano il loro stato di forma con una seconda vittoria consecutiva contro i croati. Prosegue il lavoro di preparazione del gruppo guidato verso gli impegni internazionali.",
+    "excerptEn": "The Italian youngsters confirm their positive form with a second consecutive victory over Croatia. The team continues its preparation for upcoming international fixtures.",
+    "bodyIt": "La Nazionale Under 18 azzurra ha ottenuto il bis contro la Croazia in una gara amichevole, bissando il risultato positivo già conseguito in precedenza. Una prestazione che testimonia la continuità del progetto tecnico della selezione italiana nelle categorie giovanili.\n\nIl successo consolida il percorso di crescita del gruppo, impegnato nella costruzione di una base solida per i prossimi impegni internazionali. Ogni match rappresenta un'occasione preziosa di sviluppo tattico e di integrazione tra i calciatori in vista dei prossimi cicli competitivi.",
+    "bodyEn": "Italy's Under 18 national team secured a second victory against Croatia in a friendly match, repeating the positive result from their previous encounter. The performance reflects the consistency of the Italian technical project in youth categories.\n\nThe win consolidates the team's growth process as it builds a solid foundation for upcoming international commitments. Each match provides a valuable opportunity for tactical development and player integration ahead of future competitive cycles.",
+    "_fromSource": true
+  }
 }

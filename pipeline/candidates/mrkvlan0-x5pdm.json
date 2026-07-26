@@ -12,5 +12,14 @@
   ],
   "category": "news",
   "score": 5,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "title": "Fellipe Jack alla Cremonese: ufficiale il trasferimento",
+    "titleEn": "Fellipe Jack joins Cremonese: Transfer confirmed",
+    "excerpt": "Il giovane talento è ufficialmente un nuovo giocatore della Cremonese. Un'opportunità importante per proseguire la crescita nel campionato cadetto.",
+    "excerptEn": "The young talent is officially a new Cremonese player. An important opportunity to continue developing in the second tier.",
+    "bodyIt": "Fellipe Jack è ufficialmente un nuovo giocatore della Cremonese. Il trasferimento è stato annunciato attraverso il comunicato ufficiale del club grigiorosso, sancendo così l'approdo del giovane calciatore in Serie B.\n\nPer il talento italiano, si tratta di un'occasione significativa per continuare il proprio percorso di crescita in una categoria competitiva come la Serie B. La Cremonese rappresenta una tappa importante nel progetto di sviluppo dei giovani promettenti del calcio italiano, settore su cui l'attenzione rimane alta in vista degli obiettivi nazionali dei prossimi anni.",
+    "bodyEn": "Fellipe Jack is now officially a Cremonese player. The transfer was announced through the Grigiorossi club's official statement, marking the young footballer's arrival in Serie B.\n\nFor the Italian talent, this represents a significant opportunity to continue his development path in a competitive category like Serie B. Cremonese stands as an important stage in the development project of promising young players in Italian football, a sector that remains under close attention given the national team's objectives for the coming years.",
+    "_fromSource": true
+  }
 }

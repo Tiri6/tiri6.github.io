@@ -13,5 +13,14 @@
   ],
   "category": "mercato",
   "score": 6,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "title": "Ekhator alla Juventus: Colombo esalta il salto di qualità del giovane talento",
+    "titleEn": "Ekhator joins Juventus: Colombo hails the young talent's step up",
+    "excerpt": "Leonardo Colombo commenta positivamente l'approdo di Jeff Ekhator in bianconero, sottolineando come il giocatore abbia raggiunto una grande squadra nonostante le perdite recenti della categoria.",
+    "excerptEn": "Leonardo Colombo speaks positively about Jeff Ekhator's move to Juventus, highlighting how the player has reached a top club despite recent departures from the youth ranks.",
+    "bodyIt": "Leonardo Colombo non nasconde soddisfazione per la destinazione raggiunta da Jeff Ekhator. Il giocatore ha completato il suo trasferimento alla Juventus, un approdo di assoluto prestigio nel panorama calcistico italiano. Colombo riconosce che l'ambiente ha perduto talenti di spessore, ma enfatizza come Ekhator sia riuscito a conquistare una big del nostro calcio.\n\nPer un prospetto del progetto Next Gen italiano, una simile sistemazione rappresenta un'opportunità concreta di crescita in un contesto di eccellenza. L'inserimento nelle strutture bianconere apre scenari interessanti in vista dei prossimi cicli competitivi nazionali e internazionali.",
+    "bodyEn": "Leonardo Colombo shows satisfaction with the destination reached by Jeff Ekhator. The player has completed his transfer to Juventus, a move of absolute prestige in the Italian football landscape. Colombo acknowledges that the youth scene has lost talented players, but emphasizes how Ekhator has managed to join one of Italy's biggest clubs.\n\nFor a prospect in the Italian Next Gen project, such a placement represents a concrete opportunity for growth in an excellence-oriented context. Integration into Juventus's structures opens interesting scenarios for upcoming national and international competitive cycles.",
+    "_fromSource": true
+  }
 }
