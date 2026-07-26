@@ -10,5 +10,14 @@
   "players": [],
   "category": "performance",
   "score": 5,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "title": "Hockey, il calendario europeo dei talenti azzurri in rampa di lancio",
+    "titleEn": "Hockey, European calendar set for Italy's rising talents",
+    "excerpt": "Hockey Italia 21 pubblica le date d'inizio dei principali campionati europei che coinvolgeranno i giovani della Nazionale italiana. Un'occasione per monitorare lo sviluppo dei prospetti tricolori.",
+    "excerptEn": "Hockey Italia 21 releases the start dates for major European competitions featuring Italy's national team prospects. An opportunity to track the progress of Italian talent on the continental stage.",
+    "bodyIt": "La federazione italiana ha ufficializzato il calendario dei campionati europei di hockey che vedranno impegnati i giocatori della Nazionale nei prossimi impegni. Un documento utile per seguire passo dopo passo l'evoluzione dei giovani talenti azzurri attraverso le competizioni continentali di rilievo.\n\nQueste date rappresentano appuntamenti cruciali per il monitoraggio dei prospetti italiani in vista degli obiettivi di lungo termine, come la preparazione verso i grandi appuntamenti internazionali del prossimo decennio. Il calendario europeo costituisce la base su cui costruire il percorso di crescita della prossima generazione.",
+    "bodyEn": "Italy's federation has unveiled the schedule for European hockey competitions that will feature national team prospects in the coming months. A valuable resource for tracking the development of young Italian talent through major continental tournaments.\n\nThese fixtures represent crucial opportunities to assess Italy's emerging prospects as part of the long-term vision for international success. The European calendar provides the foundation upon which the next generation's growth will be built.",
+    "_fromSource": true
+  }
 }

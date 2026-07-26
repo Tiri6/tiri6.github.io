@@ -12,5 +12,14 @@
   ],
   "category": "news",
   "score": 6,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "title": "Europeo Under 18, tutto pronto a Trento e Rovereto",
+    "titleEn": "U18 European Championship set to begin in Trento and Rovereto",
+    "excerpt": "La Federazione Italiana Pallacanestro ha ufficialmente presentato il torneo continentale giovanile. Le competizioni prenderanno il via sabato 25 luglio nelle due città del Trentino.",
+    "excerptEn": "The Italian Basketball Federation has officially presented the continental youth tournament. Competitions will begin on Saturday, July 25th in the two Trentino cities.",
+    "bodyIt": "La Federazione Italiana Pallacanestro ha presentato oggi l'Europeo Under 18, manifestazione di grande rilevanza per il movimento cestistico nazionale. L'evento si disputerà a Trento e Rovereto, sedi individuate per ospitare questa importante competizione continentale riservata alle categorie giovanili.\n\nLe gare avranno inizio sabato 25 luglio, quando le squadre partecipanti scenderanno in campo per contendersi il titolo europeo. Tra i talenti seguiti da Italian Next Gen figura Guido Della Rovere, prospetto monitorato in vista della crescita del basket italiano nei prossimi anni.\n\nL'appuntamento rappresenta un'occasione fondamentale per i giovani azzurri di mettersi in mostra a livello continentale, con uno sguardo già rivolto agli impegni internazionali che caratterizzeranno il cammino verso gli obiettivi delle prossime competizioni globali.",
+    "bodyEn": "The Italian Basketball Federation has officially presented the U18 European Championship, a significant tournament for the country's basketball movement. The event will take place in Trento and Rovereto, venues selected to host this prestigious continental competition for youth categories.\n\nMatches will begin on Saturday, July 25th, when participating teams will compete for the European title. Among the talents monitored by Italian Next Gen is Guido Della Rovere, a prospect being tracked as part of Italian basketball's development in the coming years.\n\nThe tournament represents a crucial opportunity for young Italian players to showcase their abilities at continental level, with an eye already on the international commitments that will mark the path toward future global competition goals.",
+    "_fromSource": true
+  }
 }

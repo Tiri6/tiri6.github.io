@@ -12,5 +12,14 @@
   ],
   "category": "news",
   "score": 6,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "title": "Europeo Under 18, tutto pronto a Trento e Rovereto",
+    "titleEn": "U18 European Championship set to begin in Trento and Rovereto",
+    "excerpt": "La Federazione Italiana Pallacanestro ha ufficializzato i dettagli della manifestazione continentale. Le competizioni avranno inizio sabato 25 luglio.",
+    "excerptEn": "The Italian Basketball Federation has confirmed the details of the continental tournament. Competitions will kick off on Saturday, July 25.",
+    "bodyIt": "È stata presentata oggi l'edizione dell'Europeo Under 18 che si disputerà tra Trento e Rovereto. La manifestazione, organizzata dalla Federazione Italiana Pallacanestro, rappresenta un appuntamento cruciale per il movimento cestistico giovanile italiano e avrà il via sabato 25 luglio.\n\nL'evento metterà in vetrina i migliori talenti del basket europeo della categoria, offrendo loro una piattaforma internazionale di primo livello. La scelta di due città del Nord Italia riflette l'impegno della Federazione nel consolidare la tradizione di eccellenza del basket tricolore.\n\nPer il movimento italiano, appuntamenti di questa rilevanza rappresentano un passo fondamentale nel percorso di sviluppo dei giovani talenti, con uno sguardo sempre rivolto ai grandi obiettivi del futuro.",
+    "bodyEn": "The Italian Basketball Federation has unveiled details of the U18 European Championship, which will take place in Trento and Rovereto. The tournament, organized by the Italian governing body, represents a crucial appointment for Italy's youth basketball movement and will commence on Saturday, July 25.\n\nThe event will showcase the finest talents in European basketball within the age category, providing them with a premium international platform. The selection of two northern Italian cities reflects the Federation's commitment to strengthening Italy's basketball tradition of excellence.\n\nFor the Italian movement, competitions of this caliber represent a fundamental step in developing young talent, with a constant focus on future major objectives.",
+    "_fromSource": true
+  }
 }

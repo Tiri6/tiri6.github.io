@@ -12,5 +12,14 @@
   ],
   "category": "mercato",
   "score": 5,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "title": "Terracciano verso l'addio al Milan: Monza e Udinese sulle tracce del giovane",
+    "titleEn": "Terracciano set to leave Milan: Monza and Udinese tracking the prospect",
+    "excerpt": "Il laterale rossonero finisce nel mirino di due club di Serie A. Il Milan ha fissato una valutazione precisa per il trasferimento.",
+    "excerptEn": "The Milan fullback attracts interest from two Serie A sides. The Rossoneri have set a asking price for any potential deal.",
+    "bodyIt": "Filippo Terracciano sta per lasciare il Milan. Il giovane terzino milanese è entrato nel radar di Monza e Udinese, due realtà della massima serie italiana interessate a valutare la possibilità di un trasferimento. I rossoneri hanno già comunicato il prezzo del cartellino, fissando una cifra specifica per eventuali trattative.\n\nLa situazione rappresenta un'occasione di crescita per il classe 2003, che potrebbe trovare più spazi e continuità competitiva in un nuovo progetto. Sia il club brianzolo che quello friulano stanno sondando la fattibilità dell'operazione, cercando di capire se i margini ci sono per portare a conclusione un affare che potrebbe sbloccarsi nei prossimi giorni.",
+    "bodyEn": "Filippo Terracciano is set to leave AC Milan. The young fullback has caught the attention of both Monza and Udinese, two Serie A clubs exploring the possibility of bringing him in. The Rossoneri have already communicated their asking price for any potential transfer.\n\nThe situation represents a growth opportunity for the 2003-born player, who could find more playing time and consistent competition in a new project. Both the Brianza club and the Friuli side are probing the feasibility of the operation, trying to understand whether a deal could be completed in the coming days.",
+    "_fromSource": true
+  }
 }

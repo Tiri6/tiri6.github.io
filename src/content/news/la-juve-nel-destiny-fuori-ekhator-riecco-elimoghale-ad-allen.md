@@ -1,10 +1,10 @@
 ---
 title: "La Juve nel Destiny: fuori Ekhator, riecco Elimoghale ad allenarsi in prima squadra - TUTTOmercatoWEB"
-titleEn: "Juventus Academy: Ekhator Steps Back, Elimoghale Returns to First-Team Training"
-excerpt: "Cambio di rotta nella Juventus Academy. Jeff Ekhator esce dal progetto della prima squadra, mentre Destiny Elimoghale torna a integrarsi negli allenamenti con i grandi."
-excerptEn: "Shifting priorities at Juventus Academy. Jeff Ekhator exits the first-team project, as Destiny Elimoghale returns to train alongside the senior squad."
-date: 2026-07-23
-publishedAt: 2026-07-23T13:20:00+02:00
+titleEn: "Juventus Academy: Elimoghale Returns to First Team Training as Ekhator Departs"
+excerpt: "Movimenti nella cantera bianconera. Destiny Elimoghale torna a lavorare con la prima squadra della Juventus, mentre Jeff Ekhator esce dalla rosa dell'Under."
+excerptEn: "Changes in Juventus youth setup. Destiny Elimoghale is back training with the Bianconeri's senior group, as Jeff Ekhator steps away from the youth ranks."
+date: 2026-07-24
+publishedAt: 2026-07-24T17:00:00+02:00
 category: mercato
 players: ["Jeff Ekhator", "Destiny Elimoghale"]
 competitions: []
@@ -12,16 +12,12 @@ source: "TUTTOmercatoWEB"
 sourceUrl: "https://news.google.com/rss/articles/CBMingFBVV95cUxOajVmUnRpamR5dnNNN3g2UnE0OXRTdkJyZm1IbkJBdmU1OXltb3NNSVQxZVl4bkN2eEtsTGlNdWc5LVhBNGVwVkRTam5naUF6WmxMRk12MlZqQV81dHMyUDhrSlRMaXhkVWZ6X202eGxZTkJqbVZ2ZEZJeHl5SDhJM1A5ZnJrVGF4WVg2V092ejh0WEozRTN6NEI3SFlwdw?oc=5"
 ---
 
-Movimento di assestamento interno in casa Juventus sul fronte dei giovani talenti. Jeff Ekhator non continuerà il suo percorso nella prima squadra bianconera, segnando un cambio di direzione nel suo sviluppo calcistico.
+La Juventus riorganizza il proprio settore giovanile con due movimenti opposti che riguardano due giovani seguiti nel progetto Next Gen. Destiny Elimoghale ha ottenuto la promozione agli allenamenti con la prima squadra, rappresentando un riconoscimento del suo percorso di crescita. Al contempo, Jeff Ekhator non fa più parte della rosa giovanile bianconera.
 
-A sorpresa positiva, Destiny Elimoghale ritrova spazio nella rosa principale torinese, reintegrando gli allenamenti di primo livello. Una nuova opportunità per il classe 2005 di farsi notare nell'orbita della Vecchia Signora.
-
-I movimenti nel vivaio juventino confermano come la società continui a vagliare profili giovani in prospettiva, con l'obiettivo di costruire una generazione competitiva per i prossimi appuntamenti internazionali.
+I cambiamenti rispecchiano la filosofia del club nel gestire i talenti emergenti, con lo sguardo rivolto alle sfide internazionali che attendono l'Italia nei prossimi anni. La progressione di Elimoghale nella gerarchia torinese rappresenta una chance concreta di misurarsi con standard professionistici d'élite.
 
 <!--EN-->
 
-An internal reshuffling at Juventus regarding young talent development. Jeff Ekhator will no longer pursue his pathway within the first-team setup, marking a strategic redirect for his career trajectory.
+Juventus reshuffles its youth academy with two contrasting moves involving young talents in the Next Gen circuit. Destiny Elimoghale has earned promotion to first-team training sessions, a clear sign of his progression through the club's development pathway. Meanwhile, Jeff Ekhator is no longer part of the Bianconeri's youth roster.
 
-Meanwhile, Destiny Elimoghale has earned his way back to senior squad training sessions. The comeback represents a fresh opportunity for the young prospect to prove himself among Juve's elite contingent.
-
-These academy moves underscore Juventus' ongoing commitment to identifying and nurturing prospects, with an eye toward building a competitive generation capable of competing at the highest levels in years to come.
+These adjustments reflect Juventus's approach to managing emerging prospects, with an eye toward the competitive demands facing Italy on the continental stage. Elimoghale's step up through the Turin hierarchy offers him a genuine opportunity to test himself against elite professional standards.

@@ -10,5 +10,14 @@
   "players": [],
   "category": "performance",
   "score": 5,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "title": "Italia-Giappone 2-3: gli azzurri sfiorano l'impresa in volley",
+    "titleEn": "Italy-Japan 2-3: Azzurri agonize in Nations League volleyball",
+    "excerpt": "La nazionale italiana di volley cede al tie break contro la capolista giapponese nella Nations League 2026. Una sconfitta che lascia comunque spunti positivi per gli azzurri.",
+    "excerptEn": "Italy's volleyball national team falls to Japan in a tie break during the 2026 Nations League. A defeat that nonetheless shows promise for the Azzurri.",
+    "bodyIt": "L'Italia ha sfiorato un risultato storico nella sfida di volley contro il Giappone, terminata 2-3 per i nipponici. Nel contesto della Nations League 2026, gli azzurri hanno messo in difficoltà la capolista, confermando di poter competere ai massimi livelli internazionali.\n\nLa partita si è decisa al tie break, testimonianza di un match equilibrato dove entrambe le squadre si sono giocate le loro carte fino alla fine. Sebbene la vittoria sia sfuggita di mano, la prestazione italiana rappresenta comunque un segnale incoraggiante per il percorso della nazionale.",
+    "bodyEn": "Italy came agonizingly close to a historic result in their volleyball clash against Japan, which ended 2-3 in favor of the Japanese side. In the context of the 2026 Nations League, the Azzurri tested the league leaders, confirming their ability to compete at the highest international level.\n\nThe match was decided at tie break, a testament to a balanced encounter where both teams fought until the final point. While victory slipped away, the Italian performance nonetheless represents an encouraging signal for the national team's trajectory.",
+    "_fromSource": true
+  }
 }

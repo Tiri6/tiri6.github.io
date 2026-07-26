@@ -10,5 +10,14 @@
   "players": [],
   "category": "performance",
   "score": 5,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "title": "Hockey, il calendario dei campionati europei con atleti azzurri",
+    "titleEn": "Hockey, European leagues schedule features Italian national team players",
+    "excerpt": "La Federazione italiana comunica le date di inizio dei principali tornei continentali che vedranno impegnati i giocatori della Nazionale.",
+    "excerptEn": "Italian Hockey Federation announces the start dates of major European competitions featuring national team athletes.",
+    "bodyIt": "La Federazione Italiana Hockey ha reso noto il calendario dei principali campionati europei che coinvolgeranno i giocatori della Nazionale italiana. Un'informazione utile per seguire l'attività agonistica degli azzurri sulle scene internazionali.\n\nLe competizioni rappresentano un'importante vetrina per monitorare lo sviluppo dei talenti del movimento italiano, contribuendo a costruire il percorso verso gli obiettivi futuri della selezione tricolore.",
+    "bodyEn": "The Italian Hockey Federation has released the schedule for major European leagues featuring players from the Italian national team. Important dates for following the blue shirts' competitive activity on the international stage.\n\nThese competitions represent a significant platform for monitoring the development of Italian hockey talent, contributing to building the national team's path toward future objectives.",
+    "_fromSource": true
+  }
 }
