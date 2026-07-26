@@ -69,9 +69,11 @@ const totAssists = perfData.performances.reduce((s, p) => s + (p.assists ?? 0), 
               />
             </a>
             <div>
-              <span class="badge" style={`background:${CATEGORY_LABELS[post.data.category].color}`}>
-                {post.data.category === 'editoriale' ? "The week's editorial" : 'The daily notebook'}
-              </span>
+              {post.data.category === 'editoriale' ? (
+                <a href="/en/editorials/" class="badge" style={`background:${CATEGORY_LABELS[post.data.category].color}; text-decoration:none`}>The week's editorial →</a>
+              ) : (
+                <span class="badge" style={`background:${CATEGORY_LABELS[post.data.category].color}`}>The daily notebook</span>
+              )}
               <span class="meta" style="margin-left:.6rem">{formatDate(post.data.date, 'en')}</span>
             </div>
             <h2><a href={`/en/news/${post.id}/`}>{post.data.titleEn}</a></h2>

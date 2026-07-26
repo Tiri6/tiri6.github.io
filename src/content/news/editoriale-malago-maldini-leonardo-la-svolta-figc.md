@@ -10,7 +10,7 @@ competitions: ["road-to-2030"]
 html: true
 ---
 
-<p><em>Di redazione — Italian Next Gen</em></p>
+<p><em>Di Marco Tirinato — Italian Next Gen</em></p>
 
 <p>C'è un momento, dopo ogni fallimento, in cui bisogna decidere se limitarsi a cambiare l'insegna o rifondare l'azienda. Il calcio italiano, dopo tre Mondiali mancati di fila e la ferita ancora aperta di Zenica, è esattamente a quel bivio. E la scelta di <strong>Giovanni Malagò come nuovo presidente della FIGC</strong> sembra voler dire, almeno nelle intenzioni, che stavolta si prova a rifondare.</p>
 
@@ -54,7 +54,7 @@ html: true
 
 <!--EN-->
 
-<p><em>By the editorial team — Italian Next Gen</em></p>
+<p><em>By Marco Tirinato — Italian Next Gen</em></p>
 
 <p>There is a moment, after every failure, when you have to decide whether to simply change the sign above the door or rebuild the whole business. After three consecutive missed World Cups and the still-open wound of Zenica, Italian football sits exactly at that crossroads. And the choice of <strong>Giovanni Malagò as the new FIGC president</strong> seems to suggest that, this time, the plan is to rebuild.</p>
 

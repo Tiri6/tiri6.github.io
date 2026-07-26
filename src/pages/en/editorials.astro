@@ -1,0 +1,63 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Cover from '../../components/Cover.astro';
+import { formatDate } from '../../lib/utils';
+import { filterPublished, sortByPublished } from '../../lib/articles';
+
+const posts = sortByPublished(filterPublished(await getCollection('news')))
+  .filter((p) => p.data.category === 'editoriale');
+const [ultimo, ...archivio] = posts;
+---
+
+<Base
+  title="Editorials — Italian Next Gen"
+  description="All Italian Next Gen editorials: opinions and analysis on the future of Italian football on the road to the 2030 World Cup."
+  lang="en"
+  altPath="/editoriali/"
+>
+  <div class="hero">
+    <div class="kicker">The editor's column</div>
+    <h1>The <span class="gold">Editorials</span></h1>
+    <p>
+      Opinions, analysis and visions on the future of Italian football and its golden
+      generation. Every editorial lives here, so no reflection gets lost.
+    </p>
+  </div>
+
+  {posts.length === 0 && <p class="meta">No editorials published yet — soon.</p>}
+
+  {ultimo && (
+    <>
+      <div class="section-title">✦ Latest editorial</div>
+      <a class="card ed-featured" href={`/en/news/${ultimo.id}/`}>
+        <Cover seed={ultimo.id} players={ultimo.data.players} category="editoriale" image={ultimo.data.image} alt={ultimo.data.titleEn} compact />
+        <div class="meta">{formatDate(ultimo.data.publishedAt || ultimo.data.date, 'en')}</div>
+        <h2>{ultimo.data.titleEn}</h2>
+        <p class="excerpt">{ultimo.data.excerptEn}</p>
+      </a>
+    </>
+  )}
+
+  {archivio.length > 0 && (
+    <>
+      <div class="section-title">◉ Archive</div>
+      <div class="grid">
+        {archivio.map((post) => (
+          <a class="card" href={`/en/news/${post.id}/`} style="text-decoration:none">
+            <Cover seed={post.id} players={post.data.players} category="editoriale" image={post.data.image} alt={post.data.titleEn} compact />
+            <div class="meta">{formatDate(post.data.publishedAt || post.data.date, 'en')}</div>
+            <h3>{post.data.titleEn}</h3>
+            <p class="excerpt">{post.data.excerptEn}</p>
+          </a>
+        ))}
+      </div>
+    </>
+  )}
+
+  <style>
+    .card h2, .card h3 { margin: .2rem 0 0; font-family: var(--font-display); line-height: 1.3; }
+    .card h2 { font-size: 1.3rem; } .card h2, .card h3 { color: var(--ink); }
+    .ed-featured { max-width: 640px; }
+  </style>
+</Base>
