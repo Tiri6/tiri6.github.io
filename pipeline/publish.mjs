@@ -26,6 +26,38 @@ function slugify(s) {
 }
 function y(s) { return `"${String(s ?? '').replace(/\\/g, '\\\\').replace(/"/g, '\\"')}"`; }
 
+// --- Anti-duplicati: confronta le "parole significative" di titolo+sommario ---
+const STOP = new Set(['il','lo','la','i','gli','le','un','uno','una','di','a','da','in','con','su','per','tra','fra','del','della','dei','delle','dello','al','alla','ai','alle','allo','e','ed','che','non','si','ha','hanno','più','dopo','ecco','cosa','come','anche','ma','nel','nella','sul','sulla','the','of','and','to','for','an','is','are']);
+function sigWords(s) {
+  return new Set(
+    String(s ?? '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '')
+      .replace(/[^a-z0-9 ]/g, ' ').split(/\s+/)
+      .filter((w) => w.length > 2 && !STOP.has(w))
+  );
+}
+function overlap(a, b) {
+  const inter = [...a].filter((w) => b.has(w)).length;
+  return inter / (Math.min(a.size, b.size) || 1);
+}
+const SIM_THRESHOLD = 0.62; // sopra questa soglia = notizia praticamente uguale
+
+// Impronte degli articoli PUBBLICATI negli ultimi 4 giorni (per non ripubblicare)
+const recentPrints = [];
+try {
+  const now = Date.now();
+  for (const nf of (await readdir(NEWS)).filter((x) => x.endsWith('.md'))) {
+    const t = await readFile(path.join(NEWS, nf), 'utf8');
+    const fm = t.match(/^---\n([\s\S]*?)\n---/)?.[1] ?? '';
+    const dstr = fm.match(/^date:\s*["']?(\d{4}-\d{2}-\d{2})/m)?.[1];
+    if (dstr && (now - new Date(dstr)) / 86400000 > 4) continue;
+    const title = fm.match(/^title:\s*"(.*)"/m)?.[1] ?? '';
+    const exc = fm.match(/^excerpt:\s*"(.*)"/m)?.[1] ?? '';
+    const cat = fm.match(/^category:\s*["']?(\w+)/m)?.[1] ?? 'news';
+    const pls = [...(fm.match(/^players:\s*\[(.*)\]/m)?.[1] ?? '').matchAll(/"([^"]+)"/g)].map((m) => m[1]);
+    recentPrints.push({ w: sigWords(title + ' ' + exc), cat, players: new Set(pls) });
+  }
+} catch {}
+
 let files = [];
 try { files = (await readdir(CANDIDATES)).filter((f) => f.endsWith('.json')); } catch {}
 
@@ -53,12 +85,33 @@ if (!eligible.length) {
 await mkdir(NEWS, { recursive: true });
 await mkdir(APPROVED, { recursive: true });
 const date = new Date().toISOString().slice(0, 10);
-let done = 0;
+let done = 0, skippedDup = 0;
+
+// Impronte pubblicate in QUESTO giro (evita due doppioni di fila nello stesso batch)
+const publishedNow = [];
 
 for (const { f, c } of eligible) {
   const d = c.draft;
   // Titolo pulito scritto dal redattore; il titolo grezzo della fonte è solo un ripiego
   const cleanTitle = (d.title && d.title.trim().length > 5) ? d.title.trim() : c.title;
+
+  // --- Salta se è una notizia quasi identica a una già uscita o appena pubblicata ---
+  if (c.category !== 'taccuino') {
+    const w = sigWords(cleanTitle + ' ' + (d.excerpt ?? ''));
+    const pls = new Set(c.players ?? []);
+    const samePlayer = (o) => [...pls].some((p) => o.players.has(p));
+    const isDup = [...recentPrints, ...publishedNow].some(
+      (o) => o.cat !== 'taccuino' && overlap(w, o.w) >= SIM_THRESHOLD && (o.cat === c.category || samePlayer(o) || pls.size === 0)
+    );
+    if (isDup) {
+      await rename(path.join(CANDIDATES, f), path.join(APPROVED, f));
+      skippedDup++;
+      console.log(`  ⤫ doppione saltato: ${cleanTitle.slice(0, 60)}`);
+      continue;
+    }
+    publishedNow.push({ w, cat: c.category, players: pls });
+  }
+
   const slug = slugify(cleanTitle);
   const md = `---
 title: ${y(cleanTitle)}
@@ -84,5 +137,5 @@ ${(d.bodyEn || d.bodyIt).trim()}
   done++;
 }
 
-console.log(`✅ Pubblicati ${done} articoli (filtro qualità: ${ALL ? 'DISATTIVATO (--all)' : 'solo bozze dalla fonte'}).`);
+console.log(`✅ Pubblicati ${done} articoli${skippedDup ? ` · ${skippedDup} doppioni saltati` : ''} (filtro qualità: ${ALL ? 'DISATTIVATO (--all)' : 'solo bozze dalla fonte'}).`);
 console.log('   Controlla il sito con npm run dev — sei sempre in tempo a cancellare un file da src/content/news/.');

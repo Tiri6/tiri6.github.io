@@ -299,7 +299,7 @@
     },
     {
       "name": "Francesco Camarda",
-      "club": "Milan (rientro dal prestito al Lecce)",
+      "club": "Milan",
       "role": "Punta centrale",
       "born": 2008,
       "status": "serie-a",
@@ -413,10 +413,10 @@
     },
     {
       "name": "Mattia Liberali",
-      "club": "Catanzaro",
+      "club": "Como",
       "role": "Trequartista",
       "born": 2007,
-      "status": "serie-b",
+      "status": "serie-a",
       "value": 8.5,
       "valueHistory": [
         {
@@ -555,7 +555,7 @@
     },
     {
       "name": "Simone Pafundi",
-      "club": "Sampdoria (prestito Udinese)",
+      "club": "Catanzaro (prestito Udinese)",
       "role": "Trequartista",
       "born": 2006,
       "status": "serie-b",
