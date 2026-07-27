@@ -4,6 +4,7 @@ titleEn: "Malagò, Maldini and Leonardo: the FIGC tries to reinvent itself (but 
 excerpt: "Il nuovo presidente federale ha chiamato due bandiere del Milan a guidare la rinascita azzurra. Dalla panchina alle strutture, dagli Europei 2032 al Mondiale femminile: perché il vero cantiere è molto più profondo di un nome sulla panchina."
 excerptEn: "The new federation president has called two Milan legends to lead the Azzurri's revival. From the bench to the infrastructure, from Euro 2032 to a Women's World Cup bid: why the real work goes far deeper than the name on the touchline."
 date: 2026-07-24
+publishedAt: 2026-07-27T19:20:00+02:00
 category: editoriale
 players: []
 competitions: ["road-to-2030"]
