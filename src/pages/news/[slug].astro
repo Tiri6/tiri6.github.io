@@ -61,8 +61,9 @@ const ogImage = fs.existsSync(`public/social/${post.id}.jpg`)
       </p>
     )}
 
-    <div class="share-bar" data-title={post.data.title}>
+    <div class="share-bar" data-title={post.data.title} data-image={ogImage ?? ''}>
       <a class="share-btn wa" data-wa href="#" target="_blank" rel="noopener">🟢 WhatsApp</a>
+      <button class="share-btn ig" data-ig>📸 Instagram</button>
       <button class="share-btn" data-share>📤 Condividi</button>
       <button class="share-btn" data-copy>🔗 Copia link</button>
     </div>
@@ -70,21 +71,70 @@ const ogImage = fs.existsSync(`public/social/${post.id}.jpg`)
       (function () {
         var bar = document.querySelector('.share-bar');
         var title = bar.dataset.title;
+        var image = bar.dataset.image;
         var url = location.href;
+
         bar.querySelector('[data-wa]').href =
           'https://wa.me/?text=' + encodeURIComponent(title + ' — ' + url);
+
         var shareBtn = bar.querySelector('[data-share]');
         if (navigator.share) {
           shareBtn.onclick = function () { navigator.share({ title: title, url: url }); };
         } else {
           shareBtn.style.display = 'none';
         }
+
         bar.querySelector('[data-copy]').onclick = function (e) {
           navigator.clipboard.writeText(url).then(function () {
             e.target.textContent = '✅ Copiato!';
             setTimeout(function () { e.target.textContent = '🔗 Copia link'; }, 2000);
           });
         };
+
+        // Instagram: prepara immagine + link e apre una guida rapida (post o storia)
+        var igBtn = bar.querySelector('[data-ig]');
+        if (!image) { igBtn.style.display = 'none'; }
+        else {
+          igBtn.onclick = function () {
+            // copia il link per bio/sticker storia
+            if (navigator.clipboard) navigator.clipboard.writeText(url).catch(function(){});
+            var mobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+            var overlay = document.createElement('div');
+            overlay.className = 'ig-overlay';
+            overlay.innerHTML =
+              '<div class="ig-modal">' +
+              '<button class="ig-close" aria-label="Chiudi">✕</button>' +
+              '<h3>📸 Condividi su Instagram</h3>' +
+              '<img class="ig-preview" src="' + image + '" alt="Anteprima post" />' +
+              '<p class="ig-hint">🔗 Link copiato — usalo nella bio o nello sticker della storia.</p>' +
+              '<div class="ig-actions">' +
+              '<a class="ig-dl" href="' + image + '" download target="_blank" rel="noopener">⬇️ Salva immagine</a>' +
+              (mobile ? '<button class="ig-nat">📲 Condividi immagine</button>' : '') +
+              '</div>' +
+              '<ol class="ig-steps">' +
+              '<li>Salva l’immagine qui sopra.</li>' +
+              '<li>Aprila su Instagram come <b>post</b> o <b>storia</b>.</li>' +
+              '<li>Nella storia aggiungi lo sticker <b>Link</b> e incolla l’indirizzo (già copiato).</li>' +
+              '</ol>' +
+              '</div>';
+            document.body.appendChild(overlay);
+            var close = function () { overlay.remove(); };
+            overlay.querySelector('.ig-close').onclick = close;
+            overlay.onclick = function (e) { if (e.target === overlay) close(); };
+            var nat = overlay.querySelector('.ig-nat');
+            if (nat) nat.onclick = function () {
+              // Su mobile prova a condividere direttamente il file immagine
+              fetch(image).then(function (r) { return r.blob(); }).then(function (blob) {
+                var file = new File([blob], 'italiannextgen.jpg', { type: 'image/jpeg' });
+                if (navigator.canShare && navigator.canShare({ files: [file] })) {
+                  navigator.share({ files: [file], title: title, text: title + ' — ' + url });
+                } else {
+                  navigator.share({ title: title, url: url });
+                }
+              }).catch(function () { navigator.share({ title: title, url: url }); });
+            };
+          };
+        }
       })();
     </script>
   </article>

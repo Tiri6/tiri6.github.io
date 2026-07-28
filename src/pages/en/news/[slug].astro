@@ -15,6 +15,12 @@ export async function getStaticPaths() {
 const { post } = Astro.props;
 const body = splitBody(post.body ?? '');
 const cat = CATEGORY_LABELS[post.data.category];
+
+// Immagine social per le anteprime (og:image), se generata
+import fs from 'node:fs';
+const ogImage = fs.existsSync(`public/social/${post.id}.jpg`)
+  ? `https://italiannextgen.it/social/${post.id}.jpg`
+  : undefined;
 ---
 
 <Base
@@ -22,6 +28,7 @@ const cat = CATEGORY_LABELS[post.data.category];
   description={post.data.excerptEn}
   lang="en"
   altPath={`/news/${post.id}/`}
+  ogImage={ogImage}
 >
   <article class="article">
     <div class="article-cover">
@@ -54,8 +61,9 @@ const cat = CATEGORY_LABELS[post.data.category];
       </p>
     )}
 
-    <div class="share-bar" data-title={post.data.titleEn}>
+    <div class="share-bar" data-title={post.data.titleEn} data-image={ogImage ?? ''}>
       <a class="share-btn wa" data-wa href="#" target="_blank" rel="noopener">🟢 WhatsApp</a>
+      <button class="share-btn ig" data-ig>📸 Instagram</button>
       <button class="share-btn" data-share>📤 Share</button>
       <button class="share-btn" data-copy>🔗 Copy link</button>
     </div>
@@ -63,21 +71,68 @@ const cat = CATEGORY_LABELS[post.data.category];
       (function () {
         var bar = document.querySelector('.share-bar');
         var title = bar.dataset.title;
+        var image = bar.dataset.image;
         var url = location.href;
+
         bar.querySelector('[data-wa]').href =
           'https://wa.me/?text=' + encodeURIComponent(title + ' — ' + url);
+
         var shareBtn = bar.querySelector('[data-share]');
         if (navigator.share) {
           shareBtn.onclick = function () { navigator.share({ title: title, url: url }); };
         } else {
           shareBtn.style.display = 'none';
         }
+
         bar.querySelector('[data-copy]').onclick = function (e) {
           navigator.clipboard.writeText(url).then(function () {
             e.target.textContent = '✅ Copied!';
             setTimeout(function () { e.target.textContent = '🔗 Copy link'; }, 2000);
           });
         };
+
+        // Instagram: prepare image + link and open a quick guide (post or story)
+        var igBtn = bar.querySelector('[data-ig]');
+        if (!image) { igBtn.style.display = 'none'; }
+        else {
+          igBtn.onclick = function () {
+            if (navigator.clipboard) navigator.clipboard.writeText(url).catch(function(){});
+            var mobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+            var overlay = document.createElement('div');
+            overlay.className = 'ig-overlay';
+            overlay.innerHTML =
+              '<div class="ig-modal">' +
+              '<button class="ig-close" aria-label="Close">✕</button>' +
+              '<h3>📸 Share on Instagram</h3>' +
+              '<img class="ig-preview" src="' + image + '" alt="Post preview" />' +
+              '<p class="ig-hint">🔗 Link copied — use it in your bio or story sticker.</p>' +
+              '<div class="ig-actions">' +
+              '<a class="ig-dl" href="' + image + '" download target="_blank" rel="noopener">⬇️ Save image</a>' +
+              (mobile ? '<button class="ig-nat">📲 Share image</button>' : '') +
+              '</div>' +
+              '<ol class="ig-steps">' +
+              '<li>Save the image above.</li>' +
+              '<li>Open it on Instagram as a <b>post</b> or <b>story</b>.</li>' +
+              '<li>On a story add the <b>Link</b> sticker and paste the address (already copied).</li>' +
+              '</ol>' +
+              '</div>';
+            document.body.appendChild(overlay);
+            var close = function () { overlay.remove(); };
+            overlay.querySelector('.ig-close').onclick = close;
+            overlay.onclick = function (e) { if (e.target === overlay) close(); };
+            var nat = overlay.querySelector('.ig-nat');
+            if (nat) nat.onclick = function () {
+              fetch(image).then(function (r) { return r.blob(); }).then(function (blob) {
+                var file = new File([blob], 'italiannextgen.jpg', { type: 'image/jpeg' });
+                if (navigator.canShare && navigator.canShare({ files: [file] })) {
+                  navigator.share({ files: [file], title: title, text: title + ' — ' + url });
+                } else {
+                  navigator.share({ title: title, url: url });
+                }
+              }).catch(function () { navigator.share({ title: title, url: url }); });
+            };
+          };
+        }
       })();
     </script>
   </article>
