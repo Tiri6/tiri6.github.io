@@ -41,22 +41,38 @@ function overlap(a, b) {
 }
 const SIM_THRESHOLD = 0.62; // sopra questa soglia = notizia praticamente uguale
 
-// Impronte degli articoli PUBBLICATI negli ultimi 4 giorni (per non ripubblicare)
+// Analisi degli articoli PUBBLICATI di recente:
+//  - recentPrints: impronte testuali ultimi 4 giorni (anti-ripubblicazione)
+//  - usedToday: giocatori di cui si è già parlato OGGI (max 1 articolo/giorno per giocatore)
+//  - weekCount: quante volte ogni giocatore è apparso negli ultimi 7 giorni (per la rotazione)
 const recentPrints = [];
+const usedToday = new Set();
+const weekCount = {};
+const today = new Date().toISOString().slice(0, 10);
 try {
   const now = Date.now();
   for (const nf of (await readdir(NEWS)).filter((x) => x.endsWith('.md'))) {
     const t = await readFile(path.join(NEWS, nf), 'utf8');
     const fm = t.match(/^---\n([\s\S]*?)\n---/)?.[1] ?? '';
     const dstr = fm.match(/^date:\s*["']?(\d{4}-\d{2}-\d{2})/m)?.[1];
-    if (dstr && (now - new Date(dstr)) / 86400000 > 4) continue;
+    const ageDays = dstr ? (now - new Date(dstr)) / 86400000 : 999;
     const title = fm.match(/^title:\s*"(.*)"/m)?.[1] ?? '';
     const exc = fm.match(/^excerpt:\s*"(.*)"/m)?.[1] ?? '';
     const cat = fm.match(/^category:\s*["']?(\w+)/m)?.[1] ?? 'news';
     const pls = [...(fm.match(/^players:\s*\[(.*)\]/m)?.[1] ?? '').matchAll(/"([^"]+)"/g)].map((m) => m[1]);
-    recentPrints.push({ w: sigWords(title + ' ' + exc), cat, players: new Set(pls) });
+    if (ageDays <= 4) recentPrints.push({ w: sigWords(title + ' ' + exc), cat, players: new Set(pls) });
+    if (cat !== 'taccuino' && ageDays <= 7) for (const p of pls) weekCount[p] = (weekCount[p] ?? 0) + 1;
+    if (cat !== 'taccuino' && dstr === today) for (const p of pls) usedToday.add(p);
   }
 } catch {}
+
+// "Peso rotazione" di una candidata = quanto sono già coperti i suoi giocatori nella settimana.
+// Più basso = giocatori poco raccontati di recente → priorità in pubblicazione.
+function rotationWeight(c) {
+  const pls = c.players ?? [];
+  if (!pls.length) return 3; // notizie generiche: priorità media
+  return Math.min(...pls.map((p) => weekCount[p] ?? 0));
+}
 
 let files = [];
 try { files = (await readdir(CANDIDATES)).filter((f) => f.endsWith('.json')); } catch {}
@@ -72,7 +88,9 @@ const eligible = queue
     if (!d || !d.bodyIt || d.bodyIt.trim().length < 40) return false; // mai senza testo
     return ALL || d._fromSource || c.isDigest;
   })
-  .sort((a, b) => b.c.score - a.c.score)
+  // Ordina per ROTAZIONE (giocatori meno coperti nella settimana prima),
+  // poi per punteggio di rilevanza. Così a rotazione tutti i talenti appaiono.
+  .sort((a, b) => rotationWeight(a.c) - rotationWeight(b.c) || b.c.score - a.c.score)
   .slice(0, MAX);
 
 if (!eligible.length) {
@@ -85,7 +103,7 @@ if (!eligible.length) {
 await mkdir(NEWS, { recursive: true });
 await mkdir(APPROVED, { recursive: true });
 const date = new Date().toISOString().slice(0, 10);
-let done = 0, skippedDup = 0;
+let done = 0, skippedDup = 0, skippedSameDay = 0;
 
 // Impronte pubblicate in QUESTO giro (evita due doppioni di fila nello stesso batch)
 const publishedNow = [];
@@ -95,13 +113,26 @@ for (const { f, c } of eligible) {
   // Titolo pulito scritto dal redattore; il titolo grezzo della fonte è solo un ripiego
   const cleanTitle = (d.title && d.title.trim().length > 5) ? d.title.trim() : c.title;
 
-  // --- Salta se è una notizia quasi identica a una già uscita o appena pubblicata ---
   if (c.category !== 'taccuino') {
     const w = sigWords(cleanTitle + ' ' + (d.excerpt ?? ''));
-    const pls = new Set(c.players ?? []);
-    const samePlayer = (o) => [...pls].some((p) => o.players.has(p));
+    const pls = c.players ?? [];
+    const plsSet = new Set(pls);
+
+    // --- REGOLA 1: max un articolo al giorno per giocatore ---
+    // La candidata esce solo se ha ALMENO un giocatore di cui non si è ancora
+    // parlato oggi. Se tutti i suoi giocatori sono già "usati", si salta:
+    // così due pezzi sullo stesso rinnovo Camarda-Comotto non escono di fila.
+    if (pls.length > 0 && pls.every((p) => usedToday.has(p))) {
+      await rename(path.join(CANDIDATES, f), path.join(APPROVED, f));
+      skippedSameDay++;
+      console.log(`  ⤫ già trattato oggi: ${cleanTitle.slice(0, 55)} [${pls.join(', ')}]`);
+      continue;
+    }
+
+    // --- REGOLA 2: salta se quasi identica a una già uscita o appena pubblicata ---
+    const samePlayer = (o) => [...plsSet].some((p) => o.players.has(p));
     const isDup = [...recentPrints, ...publishedNow].some(
-      (o) => o.cat !== 'taccuino' && overlap(w, o.w) >= SIM_THRESHOLD && (o.cat === c.category || samePlayer(o) || pls.size === 0)
+      (o) => o.cat !== 'taccuino' && overlap(w, o.w) >= SIM_THRESHOLD && (o.cat === c.category || samePlayer(o) || plsSet.size === 0)
     );
     if (isDup) {
       await rename(path.join(CANDIDATES, f), path.join(APPROVED, f));
@@ -109,7 +140,10 @@ for (const { f, c } of eligible) {
       console.log(`  ⤫ doppione saltato: ${cleanTitle.slice(0, 60)}`);
       continue;
     }
-    publishedNow.push({ w, cat: c.category, players: pls });
+
+    // Pubblicata: segna i suoi giocatori come già trattati oggi
+    pls.forEach((p) => usedToday.add(p));
+    publishedNow.push({ w, cat: c.category, players: plsSet });
   }
 
   const slug = slugify(cleanTitle);
@@ -137,5 +171,6 @@ ${(d.bodyEn || d.bodyIt).trim()}
   done++;
 }
 
-console.log(`✅ Pubblicati ${done} articoli${skippedDup ? ` · ${skippedDup} doppioni saltati` : ''} (filtro qualità: ${ALL ? 'DISATTIVATO (--all)' : 'solo bozze dalla fonte'}).`);
+const extra = [skippedDup ? `${skippedDup} doppioni` : '', skippedSameDay ? `${skippedSameDay} già trattati oggi` : ''].filter(Boolean).join(' · ');
+console.log(`✅ Pubblicati ${done} articoli${extra ? ` · ${extra} saltati` : ''} (filtro qualità: ${ALL ? 'DISATTIVATO (--all)' : 'solo bozze dalla fonte'}).`);
 console.log('   Controlla il sito con npm run dev — sei sempre in tempo a cancellare un file da src/content/news/.');
