@@ -12,5 +12,14 @@
   ],
   "category": "mercato",
   "score": 6,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "title": "Vannucchi alla prova dell'Arzignano: la Fiorentina lo manda in prestito",
+    "titleEn": "Vannucchi on loan at Arzignano from Fiorentina",
+    "excerpt": "Il giovane talento viola si trasferisce in Serie C per trovare continuità di gioco e maturare in una categoria competitiva.",
+    "excerptEn": "The young Fiorentina prospect moves to Serie C on loan to gain playing time and develop in a competitive environment.",
+    "bodyIt": "Tommaso Vannucchi prosegue il suo percorso formativo lontano da Firenze. La Fiorentina ha deciso di mandarlo in prestito all'Arzignano Valchiampo, scelta che rappresenta un'opportunità importante per il giovane calciatore di accumulare esperienza in Serie C.\n\nIl trasferimento temporaneo mira a garantire a Vannucchi una maggior continuità di impiego, elemento cruciale per lo sviluppo di un talento della sua fascia d'età. La categoria rappresenta un banco di prova significativo, dove intensità tattica e competitività richiedono una crescita accelerata.\n\nLa Fiorentina continua così a gestire con criterio il suo vivaio, affidando ai prestiti una funzione chiave nella formazione dei giovani destinati a rappresentare il calcio italiano nei prossimi anni.",
+    "bodyEn": "Tommaso Vannucchi continues his development away from Florence. Fiorentina has decided to send him on loan to Arzignano Valchiampo, a move that represents an important opportunity for the young player to gain experience in Serie C.\n\nThe temporary transfer aims to guarantee Vannucchi greater playing time, a crucial element for the development of a talent at his stage. The third-tier category represents a significant test, where tactical intensity and competitiveness demand accelerated growth.\n\nFiorentina continues to manage its academy wisely, using loans as a key function in developing young players destined to represent Italian football in the coming years.",
+    "_fromSource": true
+  }
 }
