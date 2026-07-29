@@ -2,6 +2,68 @@
   "_note": "REGOLA: solo prestazioni verificate, ogni voce deve avere una fonte. Campi opzionali: minutes, rating, goals, assists (ometti ciò che non è verificato). Aggiorna dopo ogni giornata.",
   "performances": [
     {
+      "date": "2026-07-29",
+      "player": "Mattia Marello",
+      "club": "Inter",
+      "opponent": "Karlsruher",
+      "competition": "Primavera",
+      "result": "",
+      "note": "Si è dimostrato uno degli elementi di spicco, contribuendo attivamente alla vittoria della squadra",
+      "noteEn": "Proved to be one of the standout players, actively contributing to the team's victory",
+      "source": "MondoPrimavera",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRWVFcUNacVQ1VDBGNGFsSkkxU1NEWk9GZ1Rod3djaDl6eGlFNXR1NWxPSXM0V3dkTEhQOUk2WFFQYzZoMTYtQTlaeVF1cFBJRzJrdUMtVXBxYlp6bXkwWnE1cldJdlBQcmptZWVleWpqb2ZsYjhkMTctWEZNcGE1cFVKeTZvUnNkTzVCU2lqeUhwRExTcmFiQ2JVMWxDQQ?oc=5"
+    },
+    {
+      "date": "2026-07-28",
+      "player": "Cher Ndour",
+      "club": "Fiorentina",
+      "opponent": "Juventus",
+      "competition": "",
+      "result": "",
+      "goals": 1,
+      "note": "ha segnato un gol che ha lasciato il segno nella memoria",
+      "noteEn": "scored a goal that left a mark in memory",
+      "source": "FiorentinaNews.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOQVJ6RmxMQ0Fxci0yZWxDRmJzcHpFdm10ajZYcjIwUUVxRTgxMlJieW5VaXl2QV9veXJCWVFkY2tpcGduWUxOaGs3LUJnbGE5ZlUtbUVkWW9zTzlnZkR1Tndvb3c1cVRHbW5VbUszNFNvLURNeUZ6TXVGWXFtUnh0SDVsRUk5bGFfeDJUNHNDRFFJOUpwVHhkZmhjWU5Jb0V1VzNvWGdoS19waUlURU1mbGdHOHdfcFpkamZadVgzTVdsWEZSSGdwNFdBY0pocHlxTEFfUVliYkJDNGZxV3NTSzRUa0NqTzJmS1JhcjFZMEM0dGk4SHpTNWo0Wlg0TFl3?oc=5"
+    },
+    {
+      "date": "2026-07-27",
+      "player": "Mattia Mosconi",
+      "club": "Inter",
+      "opponent": "Aasen",
+      "competition": "",
+      "result": "16-0",
+      "note": "A referto nel roboante successo con prestazione caratterizzata da qualità del vivaio interista",
+      "noteEn": "A referto nel roboante successo con prestazione caratterizzata da qualità del vivaio interista",
+      "source": "La Casa di C",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMVlqUXdWOTdFbm00ZXFYY0l6V2pRczFpaFB3MXBPWTlHYmFXTENnR3hXRDM1NjJYeW5PWTlYMTh2S1N0bjlmemV1V1JWMG9zU21wMGhqS2VJTHFuRGVMcVF3UE5IZGlFWGZ2SDNfUExiV1dIVWtNclB4T1NoenlNTHRNU20zY2NCRnVtVW9EMl91Y2lhcVJV?oc=5"
+    },
+    {
+      "date": "2026-07-27",
+      "player": "Jamal Iddrissou",
+      "club": "Inter",
+      "opponent": "Aasen",
+      "competition": "",
+      "result": "16-0",
+      "note": "A referto nel roboante successo con prestazione caratterizzata da qualità del vivaio interista",
+      "noteEn": "A referto nel roboante successo con prestazione caratterizzata da qualità del vivaio interista",
+      "source": "La Casa di C",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMVlqUXdWOTdFbm00ZXFYY0l6V2pRczFpaFB3MXBPWTlHYmFXTENnR3hXRDM1NjJYeW5PWTlYMTh2S1N0bjlmemV1V1JWMG9zU21wMGhqS2VJTHFuRGVMcVF3UE5IZGlFWGZ2SDNfUExiV1dIVWtNclB4T1NoenlNTHRNU20zY2NCRnVtVW9EMl91Y2lhcVJV?oc=5"
+    },
+    {
+      "date": "2026-07-27",
+      "player": "Cher Ndour",
+      "club": "Fiorentina",
+      "opponent": "Fiorentina Primavera",
+      "competition": "",
+      "result": "",
+      "goals": 1,
+      "note": "ha siglato il proprio nome nel tabellino dei marcatori",
+      "noteEn": "scored and appeared on the scoresheet",
+      "source": "MSN",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbmhFZ21nME1JdU1lR2pfOEhLbjNObncyWlJmUkk2Q1FxWGFLWDZCY2NCcVZBbFEzNDJKejN6eFhVNTJwYjZ4WlVJclVSaXZtZ0xsektHRUtLTjRjWnJyV2xMRHNlZGp4ZFBTak9NUy1GMzAyMW5PVm11MjBXSHVfWXVhN09IWHIyd2ZzZmlWRUM1Z3NmSnlBRTRPbEEzVWhNMS1hdzdvaDZPWF83WEpmOElMRlNROXpfRDVDQmowbmVIRE9jVnl3?oc=5"
+    },
+    {
       "date": "2026-07-24",
       "player": "Francesco Pio Esposito",
       "club": "Inter",
