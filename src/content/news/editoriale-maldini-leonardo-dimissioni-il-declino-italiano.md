@@ -4,6 +4,7 @@ titleEn: "Maldini and Leonardo walk away: when a country prefers nostalgia to id
 excerpt: "Le dimissioni dei due dirigenti, travolti dalle polemiche sulla scelta di Pirlo, chiudono nel modo peggiore un sogno durato poche settimane. E raccontano un'Italia che, di fronte al bivio tra innovare e rifugiarsi nella vecchia guardia, sceglie ancora una volta il passato."
 excerptEn: "The resignation of the two executives, swept away by the row over the Pirlo choice, ends a weeks-long dream in the worst way. And it tells of an Italy that, at the crossroads between innovating and retreating to the old guard, once again chooses the past."
 date: 2026-07-28
+publishedAt: 2026-07-29T18:20:00+02:00
 category: editoriale
 players: []
 competitions: ["road-to-2030"]
