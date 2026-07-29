@@ -12,5 +12,14 @@
   ],
   "category": "news",
   "score": 5,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "title": "Rubino torna alla Carrarese: nuovo prestito in Serie B per il talento viola",
+    "titleEn": "Rubino returns to Carrarese on loan: fresh Serie B chapter for Fiorentina prospect",
+    "excerpt": "Tommaso Rubino prosegue il suo percorso di crescita in cadetteria. Il giovane della Fiorentina è stato ceduto nuovamente alla squadra toscana.",
+    "excerptEn": "Tommaso Rubino continues his development path in the second tier. The Fiorentina prospect returns to the Tuscan club on loan.",
+    "bodyIt": "Tommaso Rubino vive una nuova opportunità nella sua carriera. Il centrocampista della Fiorentina torna alla Carrarese, società dove potrà accumulare ulteriore esperienza in Serie B e proseguire nel suo sviluppo tattico e tecnico.\n\nL'operazione si configura come un prestito che consente al giocatore di continuare il suo apprendistato in cadetteria, categoria sempre più cruciale nel percorso formativo dei giovani talenti del panorama calcistico italiano. Per Rubino si tratta di una chance per migliorare e mettersi in mostra, con lo sguardo rivolto agli obiettivi di lungo termine della Nazionale.",
+    "bodyEn": "Tommaso Rubino embarks on a new chapter in his development. The Fiorentina midfielder returns to Carrarese, where he will gain further experience in Serie B and continue his tactical and technical growth.\n\nThe move represents a loan deal that allows the player to pursue his education at the second tier, a category increasingly vital in the formation of Italy's emerging football talents. For Rubino, this represents an opportunity to improve and showcase his qualities, with an eye toward the national team's long-term ambitions.",
+    "_fromSource": true
+  }
 }
