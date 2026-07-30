@@ -14,5 +14,14 @@
   ],
   "category": "mercato",
   "score": 8,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "title": "Fiorentina, Comuzzo verso l'addio: spunta Valdepenas per la difesa",
+    "titleEn": "Fiorentina, Comuzzo set to leave: Valdepenas emerges as defensive option",
+    "excerpt": "Il difensore centrale potrebbe lasciare Firenze. La società viola guarda al mercato per rinforzare il reparto arretrato con nuovi profili.",
+    "excerptEn": "The central defender could leave Florence. The Viola are eyeing the market to strengthen their backline with fresh talent.",
+    "bodyIt": "La Fiorentina prepara una rivoluzione in difesa. Con Pietro Comuzzo in uscita, la dirigenza viola ha già individuato i profili per sostituirlo: Valdepenas e Joao Mario rappresentano i principali candidati per rinforzare il reparto centrale. Una mossa che testimonia la volontà del club di mantenere competitività nel prossimo futuro.\n\nNella corsa ai giovani talenti, occhio anche su Niccolò Fortini, che rappresenta un'altra opzione in fase di valutazione per il percorso difensivo della squadra. Questi movimenti rientrano nella strategia più ampia della Fiorentina di costruire una rosa competitiva in vista dei prossimi impegni stagionali.",
+    "bodyEn": "Fiorentina are preparing a defensive overhaul. With Pietro Comuzzo set to depart, the Viola management has already identified potential replacements: Valdepenas and Joao Mario are the main candidates to strengthen the central defense. A move that reflects the club's commitment to maintaining competitiveness in the near future.\n\nAlso on the radar is Niccolò Fortini, who represents another option being evaluated for the team's defensive strategy. These movements fit into Fiorentina's broader approach of building a competitive squad for upcoming challenges.",
+    "_fromSource": true
+  }
 }
