@@ -1,0 +1,27 @@
+---
+title: "Como, la rotta di Fabregas verso l'italianità: Cassano e Rispoli nel progetto"
+titleEn: "Como's Italian Turn: Fabregas Backs Cassano and Rispoli Project"
+excerpt: "Il tecnico del Como accelera sulla valorizzazione dei talenti azzurri. Oltre a Liberali, anche Cassano e Rispoli rientrano nella strategia del club lariano per costruire un nucleo italiano competitivo."
+excerptEn: "Como's manager pushes forward with Italian talent development. Beyond Liberali, both Cassano and Rispoli fit into the club's strategy to build a competitive core of homegrown players."
+date: 2026-07-30
+publishedAt: 2026-07-30T09:40:00+02:00
+category: mercato
+players: ["Mattia Liberali", "Fabio Rispoli"]
+competitions: []
+source: "Calciomercato"
+sourceUrl: "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQmZOY2xNWndlX1hKQ19iOThOSmp4MGNyNWhKVmxLUE1xVXZMcldZblBxRjE1cFd0ci1kWXRrRm5RdUNTVmZLLWZ5OEhhMGNpdmFHRDBfdGZGZW90Y2loOFVITzItM2I4N19peF8zcTA5ejgzSkh3RGYySXNQd2dkMmFqal9EdnVKdmVYb3FzSzJlOHFzODdCbGJPNHFvUG9JQV90LUd4NFpVQ2wyODZyQkhsYmtJdw?oc=5"
+---
+
+Il Como di Cesc Fabregas continua a puntare sulla qualità italiana. Dopo gli investimenti su Mattia Liberali, il tecnico catalano amplia lo sguardo verso altri prospetti del calcio nostrano: in questa prospettiva rientra la fiducia accordata tanto a Cassano quanto a Fabio Rispoli.
+
+La scelta riflette una precisa filosofia gestionale del club lariano, orientata a costruire un progetto sostenibile basato su giovani talenti del territorio italiano. Un approccio che, nel medio termine, potrebbe generare una base solida di giocatori in grado di rappresentare il calcio italiano sui palcoscenici internazionali.
+
+Per la generazione che punta ai Mondiali 2030, iniziative di questo tipo rappresentano un'occasione concreta: la permanenza in ambienti stabili e la fiducia tecnica sono elementi cruciali nella crescita di giovani promesse.
+
+<!--EN-->
+
+Cesc Fabregas's Como continues to invest in Italian talent. After backing Mattia Liberali, the Catalan coach expands his vision to include other domestic prospects: both Cassano and Fabio Rispoli benefit from this strategic confidence.
+
+The choice reflects a clear management philosophy at the Lombard club, aimed at building a sustainable project rooted in young Italian talent. An approach that, over time, could establish a solid foundation of players capable of representing Italian football on the international stage.
+
+For the generation targeting the 2030 World Cup, such initiatives represent a concrete opportunity: stability in professional environments and coaching trust are crucial elements in the development of young prospects.
