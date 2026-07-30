@@ -1,0 +1,23 @@
+---
+title: "Rubino torna alla Carrarese: nuovo prestito in Serie B per il talento viola"
+titleEn: "Rubino returns to Carrarese on loan: fresh Serie B chapter for Fiorentina prospect"
+excerpt: "Tommaso Rubino prosegue il suo percorso di crescita in cadetteria. Il giovane della Fiorentina è stato ceduto nuovamente alla squadra toscana."
+excerptEn: "Tommaso Rubino continues his development path in the second tier. The Fiorentina prospect returns to the Tuscan club on loan."
+date: 2026-07-30
+publishedAt: 2026-07-30T13:40:00+02:00
+category: news
+players: ["Tommaso Rubino"]
+competitions: []
+source: "Labaro Viola"
+sourceUrl: "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRklWX0pON2sxU0J4aG9fakQyNEVFNzdHNVFCMDItYk5nMWo1c2hpUWFsQXBZenBybENIQ2xfZy1rdHFVSWZNR1ZoaGJ0QTItd3o2LXlYWE1yQnllNlg3dy05YzNhd2lRWjBsWnVKdFZOMjNqWUZkUDdyYkJJVkZvS05WZUVxTjNrb2E5MGJhUnlWRGFpMU5VbUFZdlk5aG9Fd3ZDMkRpSEE3eTNlb2VzcXRXWW4yVWc?oc=5"
+---
+
+Tommaso Rubino vive una nuova opportunità nella sua carriera. Il centrocampista della Fiorentina torna alla Carrarese, società dove potrà accumulare ulteriore esperienza in Serie B e proseguire nel suo sviluppo tattico e tecnico.
+
+L'operazione si configura come un prestito che consente al giocatore di continuare il suo apprendistato in cadetteria, categoria sempre più cruciale nel percorso formativo dei giovani talenti del panorama calcistico italiano. Per Rubino si tratta di una chance per migliorare e mettersi in mostra, con lo sguardo rivolto agli obiettivi di lungo termine della Nazionale.
+
+<!--EN-->
+
+Tommaso Rubino embarks on a new chapter in his development. The Fiorentina midfielder returns to Carrarese, where he will gain further experience in Serie B and continue his tactical and technical growth.
+
+The move represents a loan deal that allows the player to pursue his education at the second tier, a category increasingly vital in the formation of Italy's emerging football talents. For Rubino, this represents an opportunity to improve and showcase his qualities, with an eye toward the national team's long-term ambitions.
