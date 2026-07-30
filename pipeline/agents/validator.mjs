@@ -15,6 +15,19 @@ const FOOTBALL_CTX = /calcio|calciatore|gol|goal|assist|partita|match|gara|serie
 // Fuori tema palese: arte, cronaca, gossip, musica, ecc. Scarta a prescindere.
 const OFFTOPIC_KW = /galleria|mostra|museo|pittore|artist|cantante|musica|concerto|film|cinema|attore|attrice|moda|fashion|ricetta|cucina|meteo|oroscopo|politica|elezion|processo|tribunale|matrimonio|fidanzat|gossip|reality|tv show/i;
 
+// ALTRI SPORT: SOLO calcio. Questi termini fanno scartare la notizia a prescindere,
+// anche se contiene "azzurri" o "nazionale" (che valgono per pallavolo, basket, ecc.).
+const OTHER_SPORTS_KW = /volley|pallavolo|basket|pallacanestro|nba|tennis|atp|wta|rugby|nuoto|pallanuoto|atletica|ciclismo|ciclista|giro d'italia|motogp|moto ?gp|formula ?1|\bf1\b|gran premio|scherma|ginnastic|pugilato|\bboxe\b|golf|vela|canottaggio|\bsci\b|snowboard|hockey|softball|baseball|cricket|padel|beach volley|waterpolo|maratona/i;
+
+// NAZIONALI ITALIANE (maggiore + giovanili): riconosce che la notizia parla di
+// una selezione azzurra, anche se non cita un giocatore della watchlist.
+const NAZIONALE_CTX = /\bnazionale\b|azzurr|italia\s*(under|u)\s?\d{1,2}|\bitalia\s+u\d{1,2}|italian(a|e)?\s*(under|u\d{1,2})|ct azzurr|commissario tecnico|italia\s+(femminile|maggiore)/i;
+
+// FATTO CONCRETO: una vera notizia ha un evento (risultato, convocazione, esordio,
+// titolo, gol, sorteggio, amichevole…). Serve a scartare i "pezzi vuoti" senza
+// contenuto reale, tipo "I talenti Under-21 del progetto azzurro verso il 2030".
+const NEWS_HOOK = /\d\s*[-–]\s*\d|convoca|esordi|debutt|campion|vittori|sconfitt|paregg|finale|semifinal|quarti|qualificazion|amichevol|gol\b|goal|doppiett|triplett|raduno|sorteggi|eliminat|trionf|\bko\b|batte|supera|cede|rimonta|titolare|espuls|infortun|conferenza|ritiro|stage|nuovo ct|panchina/i;
+
 // Mappa parole chiave → id competizione (vedi data/competitions.json)
 const COMP_MAP = [
   [/under ?21|u21/i, 'euro-u21-2027'],
@@ -52,6 +65,8 @@ export function validate(items, players, seen) {
 
     // Scarta subito le notizie palesemente fuori tema (arte, cronaca, gossip, musica…)
     if (OFFTOPIC_KW.test(item.title)) continue;
+    // Scarta gli altri sport: qui si parla SOLO di calcio.
+    if (OTHER_SPORTS_KW.test(item.title)) continue;
 
     // Abbina i giocatori: il NOME COMPLETO conta di più; il solo cognome vale
     // solo se il titolo ha anche un contesto calcistico (evita omonimie tipo
@@ -63,12 +78,24 @@ export function validate(items, players, seen) {
       return hasFootballCtx && normTitle.includes(ln); // solo cognome: serve contesto calcio
     });
 
+    // REGOLA CONTENUTO — la notizia deve rientrare in UNO di questi casi:
+    //  (a) parla di almeno un talento seguito (watchlist), oppure
+    //  (b) parla di una NAZIONALE italiana (maggiore o giovanile) E ha un fatto
+    //      concreto (risultato, convocazione, titolo, esordio…).
+    // Un pezzo generico senza né giocatori né un evento reale viene scartato:
+    // così spariscono i "roundup" vuoti tipo "…progetto azzurro verso il 2030".
+    const isNazionale = NAZIONALE_CTX.test(item.title) && hasFootballCtx;
+    const hasHook = NEWS_HOOK.test(item.title);
+    if (matched.length === 0 && !(isNazionale && hasHook)) continue;
+
     // Punteggio di rilevanza
     let score = 0;
     // Il match sul nome completo pesa di più di quello sul solo cognome
     for (const p of matched) {
       score += normTitle.includes(p.name.toLowerCase()) ? 4 : 2;
     }
+    // Notizia di nazionale senza giocatori in watchlist: comunque rilevante
+    if (matched.length === 0 && isNazionale) score += 4;
     if (PERFORMANCE_KW.test(item.title)) score += 2;
     if (MERCATO_KW.test(item.title)) score += 2;
     if (/under ?\d{2}|u\d{2}|nazionale|azzurr|primavera|giovanil|next ?gen|futuro|allievi|giovanissimi|youth league|academy|serie [bc]/i.test(item.title)) score += 2;
