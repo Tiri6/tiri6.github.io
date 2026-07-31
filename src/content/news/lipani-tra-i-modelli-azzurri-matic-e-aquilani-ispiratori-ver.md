@@ -1,0 +1,23 @@
+---
+title: "Lipani tra i modelli azzurri: Matic e Aquilani ispiratori verso il 2030"
+titleEn: "Lipani follows Italian midfielders' path: Matic and Aquilani as role models"
+excerpt: "Il giovane centrocampista italiano guarda ai maestri del passato per costruire il suo percorso verso la nazionale di Mancini. Un progetto ambizioso in vista dei Mondiali 2030."
+excerptEn: "The young Italian midfielder looks to past masters to build his pathway to Mancini's squad. An ambitious project ahead of the 2030 World Cup."
+date: 2026-07-31
+publishedAt: 2026-07-31T14:00:00+02:00
+category: mercato
+players: ["Luca Lipani"]
+competitions: []
+source: "TUTTOmercatoWEB"
+sourceUrl: "https://news.google.com/rss/articles/CBMixgFBVV95cUxOaXl5b2swdHNSU0k1a2ZQQ0VhUU9YVjlTUmVnNkpvTXJrcWoyTFQzdVlPV3g3MVVaSVBrZnVUeWdNTGk4N1hPcnZDclNVT2d6UUs3WWhyc1ZPeGI2TlYyTVRPenYyR0x5cENVNU8waVNCbEFWOUlZX01SckNtOHhmd0U4R0J3d2RJb211MDNjSmJ1YXhLZFhQTWF6X2lWem5xbTdmVG9ULWVqVGI0bGpFam5rTVFtNG0wYk5JcDJ6VmhzVW1yYkE?oc=5"
+---
+
+Luca Lipani costruisce il proprio sviluppo calcistico seguendo l'esempio di giocatori che hanno lasciato un segno nella storia azzurra. Le figure di Nemanja Matic e Alberto Aquilani rappresentano per il centrocampista italiano un modello di riferimento, così come la carriera internazionale di Steven Gerrard.
+
+Il giovane talento punta a conquistare uno spazio nella nazionale di Luciano Mancini, con l'obiettivo dichiarato di far parte del progetto calcistico italiano verso l'appuntamento mondiale del 2030. Un percorso che richiede continuità, crescita tecnica e capacità di adattamento ai massimi livelli.
+
+<!--EN-->
+
+Luca Lipani is building his football development by following the example of players who have marked Italian football history. The figures of Nemanja Matic and Alberto Aquilani represent role models for the Italian midfielder, along with Steven Gerrard's international career.
+
+The young talent aims to earn a place in Luciano Mancini's national squad, with the declared objective of being part of the Italian football project towards the 2030 World Cup. A path that requires consistency, technical growth and the ability to adapt at the highest levels.
