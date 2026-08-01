@@ -12,5 +12,14 @@
   ],
   "category": "performance",
   "score": 6,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "title": "Camarda, il segnale di speranza per l'Italia del futuro",
+    "titleEn": "Camarda, a glimmer of hope for Italy's future",
+    "excerpt": "Agresti riconosce nel giovane talento azzurro un motivo di incoraggiamento per la rinascita del calcio italiano, pur mantenendo realismo sulle sfide che attendono.",
+    "excerptEn": "Agresti sees in the young Italian talent a reason for encouragement for the rebirth of Italian football, while maintaining realism about the challenges ahead.",
+    "bodyIt": "Francesco Camarda rappresenta un segnale positivo per il progetto di rilancio dell'Italia calcistica. L'analisi dell'esperto coglie nel giovane atleta una fonte di speranza, anche se contenuta e ponderata, per il cammino azzurro verso i prossimi obiettivi internazionali.\n\nSi tratta di un riconoscimento sobrio ma significativo: il talento giovanile italiano merita attenzione, pur nella consapevolezza che il percorso di ricostruzione è ancora lungo. Camarda incarna quella generazione su cui il calcio italiano conta per tornare competitivo nei grandi appuntamenti mondiali, a partire dai Mondiali 2030.",
+    "bodyEn": "Francesco Camarda represents a positive signal for Italy's football revival project. The expert's analysis recognizes in the young athlete a source of hope, though measured and thoughtful, for the Azzurri's path toward future international objectives.\n\nIt is a sober yet significant acknowledgment: Italian youth talent deserves attention, even as there is awareness that the path to reconstruction remains long. Camarda embodies that generation upon which Italian football relies to regain competitiveness in major world tournaments, starting with the 2030 World Cup.",
+    "_fromSource": true
+  }
 }

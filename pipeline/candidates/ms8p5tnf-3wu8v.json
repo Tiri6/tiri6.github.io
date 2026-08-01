@@ -12,5 +12,14 @@
   ],
   "category": "news",
   "score": 6,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "title": "Kofler al Cagliari: il difensore italiano firma per tre milioni",
+    "titleEn": "Kofler joins Cagliari: Italian defender signs for three million euros",
+    "excerpt": "Raphael Kofler passa alla squadra sarda in Serie B. Un'operazione da tre milioni di euro per il difensore italiano.",
+    "excerptEn": "Raphael Kofler moves to Cagliari in Serie B. A three-million-euro deal for the Italian defender.",
+    "bodyIt": "Raphael Kofler si trasferisce al Cagliari. Il difensore italiano approda in Serie B con un'operazione economica fissata a tre milioni di euro, confermando l'interesse della squadra rossoblù verso i giovani talenti della difesa nazionale.\n\nL'acquisizione rappresenta una mossa significativa nel mercato dei difensori italiani, inserendosi nel contesto di una generazione che guarda già al ciclo dei Mondiali 2030. Kofler avrà l'opportunità di sviluppare le sue qualità nel campionato cadetto, un trampolino tradizionale per i giovani talenti del calcio italiano.",
+    "bodyEn": "Raphael Kofler joins Cagliari. The Italian defender moves to Serie B through a deal worth three million euros, confirming the Rossoblu's interest in young national defensive talents.\n\nThe acquisition marks a significant move in the Italian defender market, reflecting a generation already focused on the 2030 World Cup cycle. Kofler will have the opportunity to develop his qualities in the second tier, a traditional springboard for Italy's emerging talents.",
+    "_fromSource": true
+  }
 }

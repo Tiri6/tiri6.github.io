@@ -12,5 +12,14 @@
   ],
   "category": "mercato",
   "score": 6,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "title": "Cocchi sceglie il Padova: «La strada giusta per crescere»",
+    "titleEn": "Cocchi chooses Padua: «The right path for my development»",
+    "excerpt": "Il giovane talento italiano spiega la scelta del club veneto e racconta l'emozione dell'esordio a San Siro.",
+    "excerptEn": "The young Italian prospect explains his choice of the Venetian club and recalls the thrill of his debut at San Siro.",
+    "bodyIt": "Matteo Cocchi ha confermato la sua scelta del Padova come destinazione ideale per il proseguo della sua carriera. Il giocatore ripone fiducia nel progetto della società veneta, convinto che rappresenti l'ambiente più favorevole al suo sviluppo calcistico nei prossimi mesi.\n\nTra i ricordi che accompagnano questa fase della sua crescita spicca l'emozione dell'esordio a San Siro, un palcoscenico che ha lasciato traccia indelebile nel giovane talento italiano. Un'esperienza prestigiosa che testimonia il percorso già intrapreso verso l'alto livello.",
+    "bodyEn": "Matteo Cocchi has confirmed Padua as the ideal destination for the next stage of his career. The player has faith in the Venetian club's project, convinced that it represents the most favorable environment for his football development in the coming months.\n\nAmong the memories marking this phase of his growth stands out the emotion of his debut at San Siro, a prestigious stage that has left an indelible mark on the young Italian prospect. An experience that bears witness to the path already undertaken toward the highest levels of the game.",
+    "_fromSource": true
+  }
 }
