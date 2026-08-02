@@ -12,5 +12,14 @@
   ],
   "category": "mercato",
   "score": 6,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "title": "Kofler al Cagliari: il difensore lascia il Südtirol",
+    "titleEn": "Kofler joins Cagliari: defender departs Südtirol",
+    "excerpt": "Ufficiale il trasferimento di Raphael Kofler dal club altoatesino alla squadra sarda. Veroli arriva in Serie B per sostituirlo.",
+    "excerptEn": "Raphael Kofler's transfer from Südtirol to Cagliari is now official. Veroli arrives in Serie B as his replacement.",
+    "bodyIt": "La trattativa è conclusa: Raphael Kofler è ufficialmente un giocatore del Cagliari. Il difensore abbandona il Südtirol per approdare in Sardegna, chiudendo così una pagina importante con il club altoatesino dove aveva accumulato importanti presenze.\n\nA completare l'operazione, il Südtirol ha provveduto al reintegro della rosa con l'arrivo di Veroli, che andrà a colmare lo spazio lasciato libero dall'esterno austriaco. Un cambio che caratterizza il mercato della Serie B, dove le squadre cercano continuità pur rimodulando i propri effettivi.",
+    "bodyEn": "The deal is done: Raphael Kofler is now officially a Cagliari player. The defender leaves Südtirol and heads to Sardinia, closing an important chapter with the Alpine club where he had earned considerable playing time.\n\nTo complete the operation, Südtirol secured a replacement with the arrival of Veroli, who will fill the space left vacant by the Austrian defender. A transfer that characterizes the Serie B market, where clubs seek stability while adjusting their rosters.",
+    "_fromSource": true
+  }
 }

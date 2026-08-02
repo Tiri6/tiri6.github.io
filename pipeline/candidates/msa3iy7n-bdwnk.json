@@ -13,5 +13,14 @@
   ],
   "category": "mercato",
   "score": 6,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "title": "Zeroli nel mirino di due club di Serie A: si valuta prestito o cessione",
+    "titleEn": "Zeroli targeted by two Serie A clubs: loan or permanent move under consideration",
+    "excerpt": "Il centrocampista rossonero attira l'interesse di altre società della massima serie italiana. Sul tavolo diverse formula di trasferimento.",
+    "excerptEn": "The Rossoneri midfielder attracts interest from other top-flight clubs. Multiple transfer options being evaluated.",
+    "bodyIt": "Kevin Zeroli continua a essere un profilo monitorato nel mercato di Serie A. Due club della massima serie hanno manifestato interesse concreto per il centrocampista del Milan, aprendo una riflessione sul suo futuro tra i rossoneri.\n\nSecondo le indiscrezioni circolanti, le società interessate stanno valutando sia la possibilità di un prestito che di un trasferimento a titolo definitivo. Una scelta che dipenderà dalle valutazioni tecniche e dalle esigenze di entrambe le parti in causa.",
+    "bodyEn": "Kevin Zeroli continues to attract attention in the Serie A transfer market. Two top-flight clubs have shown concrete interest in the Milan midfielder, prompting reflection on his future with the Rossoneri.\n\nAccording to reports, the interested clubs are evaluating both a loan deal and a permanent transfer. The choice will depend on technical assessments and the needs of all parties involved.",
+    "_fromSource": true
+  }
 }
