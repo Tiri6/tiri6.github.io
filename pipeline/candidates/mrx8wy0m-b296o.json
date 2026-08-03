@@ -12,5 +12,14 @@
   ],
   "category": "mercato",
   "score": 5,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "title": "Mascardi in città: il Torino accelera per il giovane talento",
+    "titleEn": "Mascardi in Turin: Granata push forward for young prospect",
+    "excerpt": "Diego Mascardi è arrivato a Torino per sottoporsi alle visite mediche. Un ulteriore passo verso la conclusione dell'operazione di mercato.",
+    "excerptEn": "Diego Mascardi arrived in Turin for medical examinations. Another step closer to finalizing the transfer deal.",
+    "bodyIt": "Diego Mascardi è sbarcato nel capoluogo piemontese nelle ultime ore per svolgere i controlli medici di rito. La trattativa tra il Torino e la società di provenienza del giovane calciatore procede secondo i piani, con la visita biomedica che rappresenta una tappa cruciale verso la definizione dell'affare.\n\nL'operazione continua a seguire i binari corretti, confermando l'interesse concreto del club granata nei confronti del talento italiano. Ora occorrerà attendere l'esito degli esami per conoscere i tempi della possibile ufficializzazione.\n\nMascardi si inserisce nel progetto di rinnovamento che il Torino sta portando avanti anche in ottica della crescita di giovani prospetti interessanti per il calcio italiano dei prossimi anni.",
+    "bodyEn": "Diego Mascardi has landed in Turin in recent hours to undergo standard medical examinations. The negotiation between Torino and the player's current club is proceeding according to plan, with the medical visit representing a crucial step toward finalizing the deal.\n\nThe operation continues on the right track, confirming Torino's concrete interest in the Italian talent. Now it remains to see the results of the examinations to understand the timing of a possible official announcement.\n\nMascardi fits into Torino's project of renewal and the development of promising young prospects for Italian football in the coming years.",
+    "_fromSource": true
+  }
 }

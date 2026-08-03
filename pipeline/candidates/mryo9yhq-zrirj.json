@@ -12,5 +12,14 @@
   ],
   "category": "mercato",
   "score": 4,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "title": "Atalanta-Mantova, Bellanova e Krstovic titolari. Scamacca e Ahanor assenti",
+    "titleEn": "Atalanta-Mantova, Bellanova and Krstovic start. Scamacca and Ahanor sidelined",
+    "excerpt": "La formazione bergamasca si presenta con due giovani talenti dal primo minuto, mentre restano fuori due elementi importanti della rosa.",
+    "excerptEn": "The Bergamo side takes the field with two young talents from the start, while two important squad members remain on the sidelines.",
+    "bodyIt": "L'Atalanta sceglie la coppia Bellanova-Krstovic per affrontare il Mantova. Una scelta che punta sui due calciatori per guidare la squadra dal primo minuto di gioco.\n\nAusenti dalla formazione iniziale invece Scamacca e Ahanor, due elementi che non saranno a disposizione della squadra per questa partita. Una situazione che incide sulla composizione dell'undici bergamasco in vista della sfida.",
+    "bodyEn": "Atalanta opts for the Bellanova-Krstovic pairing to face Mantova. A choice that relies on the two players to lead the team from the opening minute.\n\nMissing from the starting lineup are Scamacca and Ahanor, two squad members who will not be available for this match. A situation that affects the composition of Atalanta's starting eleven ahead of the challenge.",
+    "_fromSource": true
+  }
 }

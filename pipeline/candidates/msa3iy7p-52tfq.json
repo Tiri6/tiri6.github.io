@@ -12,5 +12,14 @@
   ],
   "category": "mercato",
   "score": 5,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "title": "Della Rovere al Bayern: il talento italiano che cresce in Baviera",
+    "titleEn": "Della Rovere at Bayern: Italian talent flourishing in Bavaria",
+    "excerpt": "Guido Della Rovere si sta affermando come una delle giovani promesse del calcio italiano in forza al Bayern Monaco.",
+    "excerptEn": "Guido Della Rovere is establishing himself as one of Italian football's brightest young talents at Bayern Munich.",
+    "bodyIt": "Guido Della Rovere continua il suo percorso di crescita al Bayern Monaco, confermandosi tra le prospettive più interessanti del panorama calcistico italiano. Il talento giovanile sta trovando spazi importanti in uno dei club più prestigiosi d'Europa, ambiente ideale per perfezionare le proprie qualità tecniche e competitive.\n\nLa militanza nel campionato tedesco rappresenta un'occasione significativa per un progetto di sviluppo personale che guarda oltre la stagione in corso. Per l'Italia, la disponibilità di giovani elementi che maturano nelle migliori piazze europee costituisce un patrimonio importante in ottica della preparazione dei prossimi impegni internazionali, a partire dalla prospettiva dei Mondiali 2030.",
+    "bodyEn": "Guido Della Rovere continues his development at Bayern Munich, confirming his position among the most promising Italian talent in European football. The young player is gaining meaningful opportunities at one of the continent's most prestigious clubs, providing an ideal environment to refine his technical and competitive abilities.\n\nHis experience in German football represents a significant opportunity for personal development that extends beyond the current season. For Italy's national team perspective, the availability of young talents maturing at Europe's top clubs represents valuable capital in preparing for future international commitments, particularly with an eye toward the 2030 World Cup.",
+    "_fromSource": true
+  }
 }
