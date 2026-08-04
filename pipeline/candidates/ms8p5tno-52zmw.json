@@ -12,5 +12,14 @@
   ],
   "category": "news",
   "score": 4,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "title": "Cremonese, Grassi continua a convincere in difesa",
+    "titleEn": "Cremona, Grassi keeps impressing at the back",
+    "excerpt": "Il difensore grigiorosso mantiene elevati standard nella retroguardia. Fellipe Jack invece non è stato al meglio della concentrazione.",
+    "excerptEn": "The Cremona defender continues to show solid performances in the backline. Fellipe Jack, however, struggled with focus during the match.",
+    "bodyIt": "Ancora una prestazione positiva per Grassi con la maglia della Cremonese. Il difensore conferma di essere un elemento affidabile nella costruzione della difesa grigiorossa, continuando il trend positivo che lo caratterizza in questa stagione.\n\nMeno brillante la prova di Fellipe Jack, che non ha trovato il giusto livello di concentrazione durante la partita. Per il giovane talento, che continua a essere monitorato in ottica futura, sarà importante ritrovare la lucidità e l'attenzione che contraddistinguono le sue migliori prestazioni.",
+    "bodyEn": "Grassi delivered yet another solid display in Cremona's rearguard. The defender continues to prove himself a reliable presence in building the team's defensive structure, maintaining the consistent form that has characterized his season.\n\nFellipe Jack's performance was less impressive, as the youngster failed to maintain the required level of focus during the match. For the talent being monitored with an eye toward future prospects, regaining the sharpness and concentration typical of his best performances will be essential.",
+    "_fromSource": true
+  }
 }

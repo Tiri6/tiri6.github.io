@@ -12,5 +12,14 @@
   ],
   "category": "news",
   "score": 4,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "title": "Cremonese, Grassi continua a convincere in difesa",
+    "titleEn": "Cremonese, Grassi keeps impressing at the back",
+    "excerpt": "Il difensore grigiorosso mantiene buoni standard difensivi. Invece Fellipe Jack desta qualche preoccupazione per concentrazione.",
+    "excerptEn": "The Cremonese defender maintains solid defensive standards. Meanwhile, Fellipe Jack raises some concerns about his focus.",
+    "bodyIt": "La Cremonese continua a contare su Grassi come punto fermo della propria linea difensiva. Il centrale grigiorosso conferma prestazioni solide e costanti, rappresentando un elemento di stabilità per la squadra.\n\nMeno positivi gli segnali arrivano da Fellipe Jack, il quale ha mostrato durante la gara una concentrazione non sempre ottimale. Il giovane talento dovrà lavorare soprattutto sulla continuità e sulla gestione dell'attenzione per raggiungere i livelli richiesti.",
+    "bodyEn": "Cremonese continues to rely on Grassi as a cornerstone of its defensive line. The grigiorossi centre-back confirms solid and consistent performances, representing a key element of stability for the squad.\n\nLess encouraging signals come from Fellipe Jack, who showed a lack of focus during the match. The young talent will need to work particularly on consistency and mental management to reach the required standards for his development pathway toward 2030.",
+    "_fromSource": true
+  }
 }

@@ -12,5 +12,14 @@
   ],
   "category": "news",
   "score": 4,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "title": "Roma, Gasperini convoca 23 giocatori per il test di Cannes",
+    "titleEn": "Roma, Gasperini names 23-man squad for Cannes friendly",
+    "excerpt": "Il tecnico giallorosso ha scelto i convocati per la prima amichevole internazionale della stagione. Fuori Pisilli e Cherubini.",
+    "excerptEn": "The Roma manager has selected his squad for the season's opening friendly match. Pisilli and Cherubini miss out.",
+    "bodyIt": "Giallorossi in ritiro con uno sguardo già rivolto ai test amichevoli: Gasperini ha ufficializzato i 23 convocati per la sfida contro il Cannes, primo impegno internazionale della preparazione estiva. Una scelta che esclude alcuni giovani profili come Niccolò Pisilli e Cherubini, ancora fuori dalla considerazione tecnica in questa fase.\n\nLa lista rappresenta dunque le priorità del progetto tattico in vista della nuova stagione, con l'allenatore che prosegue il processo di valutazione del gruppo a disposizione. L'amichevole sulla Costa Azzurra servirà a testare la condizione e le automatismi della squadra, in un percorso che guarda già verso obiettivi di medio-lungo termine.",
+    "bodyEn": "Roma's squad is undergoing summer training with the first friendly already on the horizon. Gasperini has confirmed his 23-man selection for the Cannes encounter, marking the opening international test of pre-season preparations. The decision notably excludes several young prospects including Niccolò Pisilli and Cherubini, who remain outside the manager's current plans.\n\nThe list therefore reflects the tactical priorities shaping the project ahead of the new campaign, as the coach continues to assess the available resources. The French Riviera friendly will provide an opportunity to evaluate fitness and team cohesion in what is already a calculated step toward medium-term competitive goals.",
+    "_fromSource": true
+  }
 }

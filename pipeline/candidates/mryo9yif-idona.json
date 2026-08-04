@@ -12,5 +12,14 @@
   ],
   "category": "news",
   "score": 4,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "title": "Carboni e Daffara brillano a Giocampus: giovani talenti del Parma in crescita",
+    "titleEn": "Carboni and Daffara impress at Giocampus: Parma's young talents on the rise",
+    "excerpt": "I due calciatori dei crociati hanno mostrato prestazioni di rilievo nella struttura piacentina. Entusiasmo anche da parte dell'allenatore Elio Volta.",
+    "excerptEn": "The two Parma players delivered notable performances at the Piacenza facility. Positive impressions also from coach Elio Volta.",
+    "bodyIt": "Franco Carboni e Giovanni Daffara hanno acceso gli animi a Giocampus con prestazioni che hanno catturato l'attenzione dell'ambiente gialloblù. I due prospetti del Parma continuano a confermare le qualità che li contraddistinguono nel panorama dei talenti italiani in via di sviluppo.\n\nL'allenatore Elio Volta ha commentato con soddisfazione quanto visto dai suoi ragazzi, testimonianza di un percorso che prosegue con risultati incoraggianti. Per Daffara e compagni, la crescente consapevolezza tattica e tecnica rappresenta un passo importante verso obiettivi di respiro nazionale.\n\nIn una prospettiva che guarda ai Mondiali 2030, performance così rappresentano mattoni fondamentali per costruire una generazione competitiva a livello internazionale.",
+    "bodyEn": "Franco Carboni and Giovanni Daffara made an impact at Giocampus with displays that caught the attention of the Parma environment. The two prospects of the Emilian club continue to demonstrate the qualities that distinguish them among developing Italian talents.\n\nCoach Elio Volta commented with satisfaction on what he saw from his squad, testament to a path proceeding with encouraging results. For Daffara and his teammates, the growing tactical and technical awareness represents an important step toward goals of national significance.\n\nWith an eye toward the 2030 World Cup, such performances represent building blocks for constructing a generation capable of competing at international level.",
+    "_fromSource": true
+  }
 }
