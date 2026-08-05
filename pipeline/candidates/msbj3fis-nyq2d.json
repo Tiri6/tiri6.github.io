@@ -12,5 +12,14 @@
   ],
   "category": "news",
   "score": 4,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "title": "Dellavalle, il Torino dice no: la Serie B bussa alla porta",
+    "titleEn": "Dellavalle exits Torino: Serie B clubs interested in young defender",
+    "excerpt": "Alessandro Dellavalle non rientra nei piani granata e cerca una nuova destinazione. La cadetteria italiana segue con interesse il giovane talento.",
+    "excerptEn": "Alessandro Dellavalle is not in Torino's plans and is looking for a new club. Several Serie B sides are monitoring the prospect.",
+    "bodyIt": "Alessandro Dellavalle lascia il Torino. Il club granata ha deciso di non puntare sul difensore, aprendo così le porte a una sua partenza. La decisione riapre il mercato per il giovane talento italiano, con diverse squadre di Serie B già interessate al profilo.\n\nUna mossa che potrebbe rivelarsi decisiva per il prosieguo della carriera di Dellavalle, che avrà modo di accumulare esperienza in cadetteria. Gli anni che dividono dal 2030 rappresentano un orizzonte temporale significativo per consolidare la propria crescita calcistica.",
+    "bodyEn": "Alessandro Dellavalle is leaving Torino after the club decided not to pursue the young defender further. The exit opens new opportunities for the Italian prospect, with several Serie B clubs already showing concrete interest in acquiring him.\n\nA move that could prove crucial for Dellavalle's development, offering him the chance to gain valuable experience in Italy's second tier. With the 2030 World Cup still on the horizon, the upcoming years represent a vital window for him to establish himself as a serious talent.",
+    "_fromSource": true
+  }
 }
