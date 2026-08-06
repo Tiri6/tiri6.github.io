@@ -12,5 +12,14 @@
   ],
   "category": "mercato",
   "score": 4,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "title": "Mascardi non si lascia intimorire: le prestazioni faranno il verdetto",
+    "titleEn": "Mascardi unbothered by competition: performances will speak for themselves",
+    "excerpt": "Il giovane talento italiano respinge la pressione della concorrenza e dedica elogi a Simeone, confermando la solidità del nostro vivaio.",
+    "excerptEn": "The young Italian prospect dismisses competitive pressure and praises Simeone, further confirming the strength of Italy's talent pool.",
+    "bodyIt": "Diego Mascardi affronta con serenità il tema della concorrenza nel panorama calcistico italiano. Il giocatore ha scelto di non alimentare polemiche, preferendo lasciar parlare i risultati sul campo come risposta più eloquente a ogni dubbio.\n\nSulla qualità dei colleghi, Mascardi ha riservato parole di stima nei confronti di Simeone, riconoscendone le qualità tecniche e atletiche. Un atteggiamento che testimonia la consapevolezza di trovarsi in un contesto ricco di talenti, dove la competizione sana rappresenta uno stimolo verso l'eccellenza.\n\nIn una prospettiva di crescita verso i Mondiali 2030, questo tipo di mentalità – focalizzata sul lavoro piuttosto che sulle rivalità – costituisce il presupposto ideale per lo sviluppo di una generazione capace di competere ai massimi livelli.",
+    "bodyEn": "Diego Mascardi faces competition in the Italian football landscape with composure. The player has chosen not to fuel controversy, preferring to let his performances on the pitch serve as the most eloquent response to any doubts.\n\nRegarding the quality of his peers, Mascardi has expressed genuine admiration for Simeone, acknowledging his technical and athletic abilities. An attitude that reflects awareness of operating within a talent-rich environment, where healthy competition drives excellence.\n\nLooking ahead to the 2030 World Cup, this mentality – focused on work rather than rivalry – represents the ideal foundation for developing a generation capable of competing at the highest levels.",
+    "_fromSource": true
+  }
 }

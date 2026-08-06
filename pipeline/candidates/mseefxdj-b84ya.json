@@ -12,5 +12,14 @@
   ],
   "category": "news",
   "score": 4,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "title": "Mosconi protagonista: l'Inter batte il Manchester City",
+    "titleEn": "Mosconi shines as Inter defeats Manchester City",
+    "excerpt": "Il giovane talento italiano firma il successo nerazzurro in una sfida di prestigio internazionale.",
+    "excerptEn": "The promising Italian talent plays a key role in Inter's victory over the English giants.",
+    "bodyIt": "Mattia Mosconi ha lasciato il segno nella vittoria dell'Inter contro il Manchester City, confermando le sue qualità tecniche in una partita di alto livello. La prestazione del giocatore originario di Grosio testimonia la crescita dei giovani italiani nel panorama calcistico europeo.\n\nUn risultato significativo che premia il lavoro del club nerazzurro e rappresenta un segnale positivo per il settore giovanile azzurro. Mosconi continua il suo percorso di formazione in un ambiente competitivo, alimentando le ambizioni del movimento calcistico italiano verso i grandi appuntamenti internazionali.\n\nPartite come questa rappresentano occasioni cruciali per i prospetti azzurri di misurarsi con i migliori club europei, uno step fondamentale nella costruzione del progetto Italia verso l'orizzonte 2030.",
+    "bodyEn": "Mattia Mosconi made his mark in Inter's victory over Manchester City, demonstrating his technical abilities in a high-level match. The performance of the player from Grosio highlights the growth of young Italian talents in the European football landscape.\n\nA meaningful result that rewards Inter's work and sends a positive signal for Italy's youth development. Mosconi continues his path in a competitive environment, fueling the ambitions of Italian football toward major international appointments.\n\nMatches like this represent crucial opportunities for Italian prospects to test themselves against Europe's finest clubs, an essential step in building the Italian project toward the 2030 horizon.",
+    "_fromSource": true
+  }
 }
