@@ -1,0 +1,32 @@
+---
+title: "Taccuino del giorno · 12 agosto 2026"
+titleEn: "Daily Notebook · August 12, 2026"
+excerpt: "Arena decisivo in Coppa Italia, Nunziante convince al debutto con l'Arezzo. Due giovani talenti che continuano a costruire il loro futuro verso il grande obiettivo."
+excerptEn: "Arena decisive in Coppa Italia, Nunziante impresses on debut with Arezzo. Two young talents building their future toward the big goal."
+date: 2026-08-12
+publishedAt: 2026-08-12T15:00:00+02:00
+featured: true
+category: taccuino
+players: ["Antonio Arena", "Alessandro Nunziante"]
+competitions: []
+source: "Taccuino da 2 fonti"
+sourceUrl: ""
+---
+
+Che settimana per i nostri giovani in rampa di lancio verso il 2030!
+
+**Antonio Arena**
+L'esterno dell'Arezzo ha spianato la strada nel match di Coppa Italia contro il Brescia, regalando una prestazione che sottolinea ancora una volta le sue qualità offensive. Passi avanti importanti nella costruzione del progetto tricolore. [fonte](https://news.google.com/rss/articles/CBMi2AFBVV95cUxPb0FHXzJ0eWF3YlUyWnY3dmlodWpQWTVxaUlZMW1GWkJtcWs3RDhFczFQV0NtY2JvYjJOcHdEMWR3M2dUZGdQZUxIUFdOTUlTbVhWdUR3VUxjREFxWE8xeFllLUVnOWl4Um1qWVJIVnQ5c1dMWmNNTjZ3TWFib1NpN2ZCNWNKNk4zS0ltWllfUVc4NF93bXJnU0lpNzRnSndzYmptSVFKZHhSeHJYWms0SW4xZWd2dXJzRGdObFh3ajJEa0NEU3ZmcHJNVXp1WXBjNlA0enV6VEPSAd4BQVVfeXFMTXhtOUFRTzE4NXROTmNadWhqRHNyV2tHd2M1QURpRGdhU05Tb2EyV2w5dmRkSnRLdFdSNlVtMEJqdEpEbUU1dkdqVWtpZkZJRE8zc3dTUExKcmRhbFIyYWFud0lWMHF1WFBFbGNlSk5mNGVQX0ZhaE54akM1djB1eENjMzlHQ0dLZVdVVkpxU1lLZXlFem1HTXotdUtWRGJzallsTHlmUFQ4XzZCVktsNWNMUi12S3EzekRZYTFNcHdDSUs5eVNiY2YwcXNvd1NaOUFuTUkyQzNVbzMyZVFn?oc=5)
+
+**Alessandro Nunziante**
+L'Arezzo accoglie il giovane difensore con un esordio perfetto in Coppa Italia, all'insegna della solidità difensiva. Un clean sheet al primo impegno ufficiale è il segnale che i giovani azzurri hanno le carte in regola per ambire in alto. [fonte](https://news.google.com/rss/articles/CBMiogFBVV95cUxQREQxNmpRa3Bialotd1h6enhFaXd6WXlwT05oVlQtT0NLVEFtOFVWZVJIc0gtdkk0VlY0OWl1eXpMdUx3a3duRDhqRjBtZjZleUk0Z3pSUDdCNEpnU3phZXVWWGRmSEtXQlBHSFpiSkhYemhKLW0tT2FWOHh2WHJjNi1TY3ZLUmxvTHVBRDNSWkZmSW9uVlMyX1czQ0xFWU4xVWc?oc=5)
+
+<!--EN-->
+
+What a week for our young prospects building toward 2030!
+
+**Antonio Arena**
+The Arezzo winger paved the way in the Coppa Italia match against Brescia, showcasing his offensive qualities once again. Important steps forward in building the Italian project. [source](https://news.google.com/rss/articles/CBMi2AFBVV95cUxPb0FHXzJ0eWF3YlUyWnY3dmlodWpQWTVxaUlZMW1GWkJtcWs3RDhFczFQV0NtY2JvYjJOcHdEMWR3M2dUZGdQZUxIUFdOTUlTbVhWdUR3VUxjREFxWE8xeFllLUVnOWl4Um1qWVJIVnQ5c1dMWmNNTjZ3TWFib1NpN2ZCNWNKNk4zS0ltWllfUVc4NF93bXJnU0lpNzRnSndzYmptSVFKZHhSeHJYWms0SW4xZWd2dXJzRGdObFh3ajJEa0NEU3ZmcHJNVXp1WXBjNlA0enV6VEPSAd4BQVVfeXFMTXhtOUFRTzE4NXROTmNadWhqRHNyV2tHd2M1QURpRGdhU05Tb2EyV2w5dmRkSnRLdFdSNlVtMEJqdEpEbUU1dkdqVWtpZkZJRE8zc3dTUExKcmRhbFIyYWFud0lWMHF1WFBFbGNlSk5mNGVQX0ZhaE54akM1djB1eENjMzlHQ0dLZVdVVkpxU1lLZXlFem1HTXotdUtWRGJzallsTHlmUFQ4XzZCVktsNWNMUi12S3EzekRZYTFNcHdDSUs5eVNiY2YwcXNvd1NaOUFuTUkyQzNVbzMyZVFn?oc=5)
+
+**Alessandro Nunziante**
+Arezzo welcomes the young defender with a perfect debut in the Coppa Italia, marked by defensive solidity. A clean sheet on his first official appearance shows Italian youth have what it takes to aim high. [source](https://news.google.com/rss/articles/CBMiogFBVV95cUxQREQxNmpRa3Bialotd1h6enhFaXd6WXlwT05oVlQtT0NLVEFtOFVWZVJIc0gtdkk0VlY0OWl1eXpMdUx3a3duRDhqRjBtZjZleUk0Z3pSUDdCNEpnU3phZXVWWGRmSEtXQlBHSFpiSkhYemhKLW0tT2FWOHh2WHJjNi1TY3ZLUmxvTHVBRDNSWkZmSW9uVlMyX1czQ0xFWU4xVWc?oc=5)

@@ -1,0 +1,54 @@
+---
+title: "Taccuino del giorno · 7 agosto 2026"
+titleEn: "Daily Notebook · August 7, 2026"
+excerpt: "Movimenti di mercato per i talenti azzurri: Zeroli verso Frosinone, Ambrosino torna al Modena, Kouadio in biancorosso e altri giovani in uscita."
+excerptEn: "Market movements for Italian talents: Zeroli heading to Frosinone, Ambrosino returns to Modena, Kouadio joins Monza and other youngsters on the move."
+date: 2026-08-12
+publishedAt: 2026-08-12T16:20:00+02:00
+featured: true
+category: taccuino
+players: ["Kevin Zeroli", "Giuseppe Ambrosino", "Fabio Rispoli", "Eddy Kouadio", "Federico Steffanoni"]
+competitions: ["under-15-16"]
+source: "Taccuino da 5 fonti"
+sourceUrl: ""
+---
+
+Le giovani promesse italiane continuano a cercare la giusta collocazione per crescere in vista dei Mondiali 2030.
+
+**Eddy Kouadio**
+Il talento approda in biancorosso: Kouadio è ufficialmente un giocatore dell'Ac Monza, pronto a mettersi in mostra nel campionato cadetto. [fonte](https://news.google.com/rss/articles/CBMia0FVX3lxTE5xSEVXTnZjcGFJRTFRSUlqYVUxTHZKaGV2TlhjX2tnTHl2YlpvdVYxQkV5czhZeU1ObkxxcFJCQjEtbS1aR2E1dnkxaUlIRUlzNFhjVkJrX3NldXRvQU4zVFhDU0VsQjAteGE4)
+
+**Giuseppe Ambrosino**
+Il giovane attaccante torna al Modena con entusiasmo e promette di dare il massimo per la maglia gialloblù, cercando continuità dopo l'esperienza precedente. [fonte](https://news.google.com/rss/articles/CBMi3gFBVV95cUxOSTFRMGJxa0RhLXdhVW9TN3VGcl9FWkFydktkVllaQ3pSNUlpaXR0alU1RFc5Q2dpTDVKQ0ZkbjBOV3ZrUWRmQjJ4eTN6ZmM5emtEcFdDWHFuWFBMU2ZaNXZVM1RIbXd6cktqZDlJT0FVNjU4Zi0xOU9fLXltYU5LOW14ejZTTFVBdUxwdkozWEpHWTBkaVFQNFQ1eDU5OS1qYTdXQmx6bW9ZMVBtdVNpWG9LbHVHM1NaS20zUmxLYTB3eTF6ekFGeDhtUUpCSWI0ZUk3bm41WW9iejBxdEE)
+
+**Kevin Zeroli**
+Il Milan attende la risposta dei ciociari: Zeroli è nel mirino del Frosinone, che spera di chiudere l'operazione in via definitiva nei prossimi giorni. [fonte](https://news.google.com/rss/articles/CBMicEFVX3lxTE1wNTdubXlvOXh4WElCeDBzSHphdVlJRGFndEd1MmlXbVV4bVBrS2wzZXZORzkxUWtualpfQmFZa1B4Vm0xOEUzdVhuRUFEZkFWYkpWU18xV1VVeHRnUFZxU1RkVzlVbWZKbXlFZk53RFI)
+
+**Fabio Rispoli**
+Il Padova guarda agli under per rinforzare il centrocampo: nella lista dei giovani spunta il nome di Rispoli, tra le opzioni per completare la mediana. [fonte](https://news.google.com/rss/articles/CBMiywFBVV95cUxNblM3b3NzYV81MkplLWFmdWRkcGVIbWMxMldEUmRGSmg4WjYwQ1g2dWxZcVZxNUQ0T1ZhZ3ZpdVJudElKanIxN1R6dU5KaUpDWkxZaUVRVTQtc1l5dlVvVDRyS0U5bFFMd0JZYmFiUWZWNWZ6dW4taUhYU2U4b3pjVjVoWlF3WnhicThpTVZnTm9fcExpVndIQ2hfV3FFOUpqbDFPWml5TVB1NUVvV0VHdHBIU215ZU9keFNVX3VNb1lQU2l0QXdMeldn)
+
+**Federico Steffanoni**
+L'Atalanta punta sulle future stelline: Steffanoni e gli altri giovanissimi della cantera nerazzurra rappresentano le speranze per il progetto tecnico a medio termine. [fonte](https://news.google.com/rss/articles/CBMiqgFBVV95cUxPU2JKd0Z6SnRCYlpZU3JXTEczRFZpTHBKSVRtdEFvOWhLZzFHMjBLTkhYLUJELUhteDVWazBta0dERVJLQUVuMTMxUTZQdC1IYjhrRks5OFMzSmU5NTVWbHJHN2RpbHRKSHNNMXVXaHZqdnNoc3M5d3ZKeHVOSUNETmJtZDFDLVZsY2w3b21fQTJtWjFGS05tVmQybkFpd1lYVVFOZzZtVkw4dw)
+
+La stagione prende forma: i giovani talenti italiani si preparano a scrivere i prossimi capitoli della loro storia, con la Nazionale 2030 già sullo sfondo.
+
+<!--EN-->
+
+Young Italian prospects continue to seek the right placement to grow with an eye on the 2030 World Cup.
+
+**Eddy Kouadio**
+The talent joins the Monza ranks: Kouadio is officially an Ac Monza player, ready to prove himself in the second division. [source](https://news.google.com/rss/articles/CBMia0FVX3lxTE5xSEVXTnZjcGFJRTFRSUlqYVUxTHZKaGV2TlhjX2tnTHl2YlpvdVYxQkV5czhZeU1ObkxxcFJCQjEtbS1aR2E1dnkxaUlIRUlzNFhjVkJrX3NldXRvQU4zVFhDU0VsQjAteGE4)
+
+**Giuseppe Ambrosino**
+The young striker returns to Modena with enthusiasm and promises to give his best for the yellow-red shirt, seeking consistency after his previous experience. [source](https://news.google.com/rss/articles/CBMi3gFBVV95cUxOSTFRMGJxa0RhLXdhVW9TN3VGcl9FWkFydktkVllaQ3pSNUlpaXR0alU1RFc5Q2dpTDVKQ0ZkbjBOV3ZrUWRmQjJ4eTN6ZmM5emtEcFdDWHFuWFBMU2ZaNXZVM1RIbXd6cktqZDlJT0FVNjU4Zi0xOU9fLXltYU5LOW14ejZTTFVBdUxwdkozWEpHWTBkaVFQNFQ1eDU5OS1qYTdXQmx6bW9ZMVBtdVNpWG9LbHVHM1NaS20zUmxLYTB3eTF6ekFGeDhtUUpCSWI0ZUk3bm41WW9iejBxdEE)
+
+**Kevin Zeroli**
+Milan awaits the Frosinone reply: Zeroli is in the Ciociari's sights, with hopes to close the deal in the coming days. [source](https://news.google.com/rss/articles/CBMicEFVX3lxTE1wNTdubXlvOXh4WElCeDBzSHphdVlJRGFndEd1MmlXbVV4bVBrS2wzZXZORzkxUWtualpfQmFZa1B4Vm0xOEUzdVhuRUFEZkFWYkpWU18xV1VVeHRnUFZxU1RkVzlVbWZKbXlFZk53RFI)
+
+**Fabio Rispoli**
+Padova looks to young talents to boost midfield: Rispoli's name is among the under-23 options being considered to complete the engine room. [source](https://news.google.com/rss/articles/CBMiywFBVV95cUxNblM3b3NzYV81MkplLWFmdWRkcGVIbWMxMldEUmRGSmg4WjYwQ1g2dWxZcVZxNUQ0T1ZhZ3ZpdVJudElKanIxN1R6dU5KaUpDWkxZaUVRVTQtc1l5dlVvVDRyS0U5bFFMd0JZYmFiUWZWNWZ6dW4taUhYU2U4b3pjVjVoWlF3WnhicThpTVZnTm9fcExpVndIQ2hfV3FFOUpqbDFPWml5TVB1NUVvV0VHdHBIU215ZU9keFNVX3VNb1lQU2l0QXdMeldn)
+
+**Federico Steffanoni**
+Atalanta bets on future stars: Steffanoni and other young prospects from the Nerazzurri academy represent hopes for the medium-term technical project. [source](https://news.google.com/rss/articles/CBMiqgFBVV95cUxPU2JKd0Z6SnRCYlpZU3JXTEczRFZpTHBKSVRtdEFvOWhLZzFHMjBLTkhYLUJELUhteDVWazBta0dERVJLQUVuMTMxUTZQdC1IYjhrRks5OFMzSmU5NTVWbHJHN2RpbHRKSHNNMXVXaHZqdnNoc3M5d3ZKeHVOSUNETmJtZDFDLVZsY2w3b21fQTJtWjFGS05tVmQybkFpd1lYVVFOZzZtVkw4dw)
+
+The season takes shape: young Italian talents prepare to write the next chapters of their story, with the 2030 National Team already on the horizon.

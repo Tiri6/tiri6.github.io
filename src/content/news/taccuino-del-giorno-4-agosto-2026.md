@@ -1,0 +1,50 @@
+---
+title: "Taccuino del giorno · 4 agosto 2026"
+titleEn: "Daily Notebook · August 4, 2026"
+excerpt: "Giovani talenti italiani sotto i riflettori: dal mercato juventino alle parole dal ritiro, ecco cosa muove la Next Gen verso il 2030."
+excerptEn: "Young Italian talents in the spotlight: from Juve's market moves to words from training camp, here's what's driving the Next Gen toward 2030."
+date: 2026-08-12
+publishedAt: 2026-08-12T15:40:00+02:00
+featured: true
+category: taccuino
+players: ["Jeff Ekhator", "Niccolò Fortini", "Stefano Di Mario", "Tommaso Baldanzi", "Samuel Wiafe"]
+competitions: []
+source: "Taccuino da 5 fonti"
+sourceUrl: ""
+---
+
+La strada verso il Mondiale 2030 passa anche dalle piccole mosse estive. Ecco cosa succede nei corridoi delle nostre società.
+
+**Jeff Ekhator**
+La Juventus valuta il futuro del centrocampista mentre il Parma monitora un eventuale prestito: un classico mercato estivo dove i giovani cercano spazio. Il destino di Ekhator dipenderà dalle scelte dei bianconeri nei prossimi giorni. [fonte](https://news.google.com/rss/articles/CBMilAFBVV95cUxPUHRHNE1yT1M5OC1wQlJNVUJheXRDNjJSZnBrTWhMOHBjSFMybS1kNGQzWWZQaDFqa2RBRkljc3RYZ2l3S01NdDdrOXRaSFoxeS1VS200VzZINDVBXzZYR0t4MXlRWXNwSTVYanYzcFlGRDR6VUkzMHVIZ2p4QS1XSlo4VzhaZllzZndhNG80TlU1VHhF?oc=5)
+
+**Niccolò Fortini e Stefano Di Mario**
+Pruzzo fa luce sulle scelte della Fiorentina: perplessità sull'acquisto di Joao Mario e interrogativi su Fortini, cui viene dedicata un'attenzione particolare. Le valutazioni di esperti come Pruzzo pesano nelle valutazioni su giovani in transizione. [fonte](https://news.google.com/rss/articles/CBMi6AFBVV95cUxNejZSWmNDTFFIRXA0TUpubkk0QzVjaWFraDk4YVhYZlpMTDlJSnViTDBWTmVqUm13NC1yVVRHdlJBRjNlUkJfb1FRV2dXQmU0VU81ZnRROXI3R09neHR3blZvekdJemgtUnlrdjVldTk0NjYtZW5XSTJMWE9QSktBcENBYVVpdWhFVmxXNGVZM3g3NUFMT3l5cnlyNWpoUkZKTmJlT2R2UjVNTnhmWElBbTlaZWZhWkNScHdDTmhINGs1SlpGRTdBWDI3VWQ4MEFZeXNteVlFb3pmM1Rwd3g1ZmFrU1k3SnNJ?oc=5)
+
+**Tommaso Baldanzi**
+Dal ritiro del Genoa a Moena arrivano le parole del giovane talento: ogni sessione di preparazione è un'occasione per mettersi in mostra verso le competizioni nazionali. Baldanzi continua il suo percorso di crescita con lo sguardo fisso ai prossimi impegni. [fonte](https://news.google.com/rss/articles/CBMikAFBVV95cUxQUDR1QkphaDJRVmp6a1VTa3pPUEtxMXItTy03N2VWQnNZaEZQdy02bG1YVGhaWHRXUlphbEJJajVidHFsQkFfRlYtTmtZTDJQcDBKanQ1RGJlRFZHWmJmbkdXY05Xa3g0aHlwRDRvM0JtWnB6dFJTZ3YtaUluWFYzbzlOT3BzWWozdE1RWHF2bVY?oc=5)
+
+**Samuel Wiafe**
+Il profilo del giovane giocatore emerge da una schedatura completa di Sky Sport: statistiche e caratteristiche under da tenere d'occhio nel panorama italiano. Wiafe rappresenta un nome da monitorare nel percorso di sviluppo del calcio italiano. [fonte](https://news.google.com/rss/articles/CBMiZEFVX3lxTE5JZlZVem5SMnA4YXY3R3hJLWhyVTZtRDJaY182SDU0dkRINXozelBKU1BVOFRra3B6YVJRWDY3X0FvMzhpMFMwcXpjSkhFTFZKbG1KZDhSNF91N1Y2TWVHSS1ROVQ?oc=5)
+
+**Juve-Parma, intreccio di mercato**
+Scambio di prestiti in vista tra i due club: Ekhator verso il Parma e Pellegrino verso la Juventus. Gli scambi di giovani talenti alimentano il mercato estivo e offrono opportunità di crescita in ambienti diversi. [fonte](https://news.google.com/rss/articles/CBMimwFBVV95cUxPNkUwM0NMNF92djd6SFJWZzg4UHliUTkxY0RwV3E3RDlaOXhzRVRxa1dKWktwLUV6NEdzT0ZFMGZvQzFUcUN2OFhoNXRKYXRySVFpX2JKQnVFelFpQlpxOVMxZU9UeXhCeFF1WEtzVk5tZkV6VFNMNC1fVWxSSmdRSFNHMUlPMkNBc1JtaUxBTnpyWHd6ZVdsTE5jdw?oc=5)
+
+<!--EN-->
+
+The road to the 2030 World Cup also passes through small summer moves. Here's what's happening in the corridors of our clubs.
+
+**Jeff Ekhator**
+Juventus is evaluating the midfielder's future while Parma keeps tabs on a potential loan: a classic summer market where young talent seeks playing time. Ekhator's destiny will depend on the Bianconeri's choices in the coming days. [source](https://news.google.com/rss/articles/CBMilAFBVV95cUxPUHRHNE1yT1M5OC1wQlJNVUJheXRDNjJSZnBrTWhMOHBjSFMybS1kNGQzWWZQaDFqa2RBRkljc3RYZ2l3S01NdDdrOXRaSFoxeS1VS200VzZINDVBXzZYR0t4MXlRWXNwSTVYanYzcFlGRDR6VUkzMHVIZ2p4QS1XSlo4VzhaZllzZndhNG80TlU1VHhF?oc=5)
+
+**Niccolò Fortini and Stefano Di Mario**
+Pruzzo sheds light on Fiorentina's choices: concerns about the Joao Mario acquisition and questions about Fortini, who receives particular attention. Expert assessments carry weight in evaluating young players in transition. [source](https://news.google.com/rss/articles/CBMi6AFBVV95cUxNejZSWmNDTFFIRXA0TUpubkk0QzVjaWFraDk4YVhYZlpMTDlJSnViTDBWTmVqUm13NC1yVVRHdlJBRjNlUkJfb1FRV2dXQmU0VU81ZnRROXI3R09neHR3blZvekdJemgtUnlrdjVldTk0NjYtZW5XSTJMWE9QSktBcENBYVVpdWhFVmxXNGVZM3g3NUFMT3l5cnlyNWpoUkZKTmJlT2R2UjVNTnhmWElBbTlaZWZhWkNScHdDTmhINGs1SlpGRTdBWDI3VWQ4MEFZeXNteVlFb3pmM1Rwd3g1ZmFrU1k3SnNJ?oc=5)
+
+**Tommaso Baldanzi**
+Words from Genoa's training camp at Moena reveal the young talent's progress: every preparation session is a chance to stand out ahead of national competitions. Baldanzi continues his growth path with eyes set on upcoming challenges. [source](https://news.google.com/rss/articles/CBMikAFBVV95cUxQUDR1QkphaDJRVmp6a1VTa3pPUEtxMXItTy03N2VWQnNZaEZQdy02bG1YVGhaWHRXUlphbEJJajVidHFsQkFfRlYtTmtZTDJQcDBKanQ1RGJlRFZHWmJmbkdXY05Xa3g0aHlwRDRvM0JtWnB6dFJTZ3YtaUluWFYzbzlOT3BzWWozdE1RWHF2bVY?oc=5)
+
+**Samuel Wiafe**
+The young player's profile emerges from comprehensive coverage by Sky Sport: statistics and under-age characteristics to watch in the Italian panorama. Wiafe is a name to monitor in the development path of Italian football. [source](https://news.google.com/rss/articles/CBMiZEFVX3lxTE5JZlZVem5SMnA4YXY3R3hJLWhyVTZtRDJaY182SDU0dkRINXozelBKU1BVOFRra3B6YVJRWDY3X0FvMzhpMFMwcXpjSkhFTFZKbG1KZDhSNF91N1Y2TWVHSS1ROVQ?oc=5)
+
+**Juve-Parma, transfer entanglement**
+A loan swap looms between the two clubs: Ekhator heading to Parma and Pellegrino to Juventus. Exchanges of young talent fuel the summer market and offer growth opportunities in different environments. [source](https://news.google.com/rss/articles/CBMimwFBVV95cUxPNkUwM0NMNF92djd6SFJWZzg4UHliUTkxY0RwV3E3RDlaOXhzRVRxa1dKWktwLUV6NEdzT0ZFMGZvQzFUcUN2OFhoNXRKYXRySVFpX2JKQnVFelFpQlpxOVMxZU9UeXhCeFF1WEtzVk5tZkV6VFNMNC1fVWxSSmdRSFNHMUlPMkNBc1JtaUxBTnpyWHd6ZVdsTE5jdw?oc=5)
