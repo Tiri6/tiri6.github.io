@@ -1,0 +1,23 @@
+---
+title: "Liberali brilla nell'amichevole Como-Villarreal: Fabregas nota un nuovo talento"
+titleEn: "Liberali shines in Como's friendly: Fabregas spots a rising talent"
+excerpt: "Mattia Liberali ha impressionato nell'amichevole del Como contro il Villarreal con una prestazione convincente e un gol di rilievo. L'allenatore Fabregas inizia a valutare nuove soluzioni tattiche per il giovane talento italiano."
+excerptEn: "Mattia Liberali impressed in Como's friendly against Villarreal with a strong performance and a notable goal. Coach Fabregas is beginning to explore new tactical options for the young Italian talent."
+date: 2026-08-16
+publishedAt: 2026-08-16T11:00:00+02:00
+category: mercato
+players: ["Mattia Liberali"]
+competitions: []
+source: "Calciomercato"
+sourceUrl: "https://news.google.com/rss/articles/CBMiqwJBVV95cUxQVXRmUFkyNEE4TkZRSFQ1N1RQcXFNSHJfQ1B0Z1kwV0QtRFdnUUJWUzNrY3J3NEJsZ2RjbEpQUlRCUWtkajNyM2oyanM5ZVZPSW1qSlBEcmpwcEdaX1RuUWdTRl8wNG9VRXVtQWpZWGltY1F0anhTY0dOdVQtcVJaZ0xtQ1ZRc0Nzd09GOUpJdlFyeFc4U05SWXNLQ2J0clhIOWdWUFVlcFNBbHZGeDVXeXdITURsTzRKR3pmMmNsTFJtVjdvYTJ2WEpQOTNIVnozOFMyR2RUWWdqQlNVRzI3b3lRNThxX0ZPOHVzYjNKYlRqaC1pSnhNRmowZjdkNkpNRnpVVzF5ODBIOWxmWDQxV0VETnM2QWxTYWg2YmI5V1hwRkRlVGxwQTZ6OA?oc=5"
+---
+
+Mattia Liberali ha acceso gli entusiasmi nella sfida amichevole tra il Como e il Villarreal. Il giovane calciatore italiano ha messo in mostra buone qualità tecniche, culminate in una rete che non è passata inosservata. La prestazione ha attirato l'attenzione di Fabregas, che dal panchina ha riconosciuto il valore mostrato dal talento azzurro con gli applausi.
+
+L'allenatore comasco, dopo quanto visto in campo, sta considerando di impiegare Liberali in una soluzione tattica diversa rispetto al consueto. Una valutazione che testimonia come il giovane prosegua il suo percorso di crescita all'interno del progetto del Como. Per un talento italiano che punta alla ribalta internazionale, il 2030 rimane un orizzonte affascinante in cui maturare esperienza e qualità.
+
+<!--EN-->
+
+Mattia Liberali caught the eye during Como's friendly match against Villarreal. The young Italian player displayed solid technical qualities, highlighted by a noteworthy goal that earned recognition from the bench. His performance drew the attention of Fabregas, who acknowledged the talent's display with a round of applause.
+
+Following what he witnessed on the pitch, the Como coach is considering deploying Liberali in a different tactical role than usual. An assessment that shows how the youngster continues his development path within Como's project. For an Italian talent aiming at international prominence, 2030 remains an appealing horizon to gain experience and refine his abilities.
