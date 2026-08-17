@@ -67,7 +67,7 @@ REGOLE FERREE:
 - Ogni pillola: 1-2 frasi CON PAROLE TUE basate SOLO sul titolo. VIETATO inventare dettagli (niente minuti, punteggi o nomi non presenti nei titoli).
 - Inizia ogni pillola con il nome in grassetto: **Nome Cognome** (o **il tema**, es. **Under 19**).
 - Chiudi ogni pillola con il link markdown alla fonte: [fonte](link).
-- Pillole separate da riga vuota. Apertura di 1 frase, chiusura di 1 frase in chiave 2030.
+- Pillole separate da riga vuota. Apertura di 1 frase che introduce la giornata e chiusura di 1 frase, SENZA riferimenti ai "Mondiali 2030" o proiezioni al futuro (sarebbe ripetitivo): resta sui fatti del giorno.
 - Poi la versione inglese completa con le stesse regole.
 
 Rispondi SOLO con JSON valido:
