@@ -1091,6 +1091,208 @@
       "queries": [
         "Edoardo Motta Lazio"
       ]
+    },
+    {
+      "name": "Christian Lupo",
+      "club": "Lecce",
+      "role": "Portiere",
+      "born": 2009,
+      "status": "primavera",
+      "queries": [
+        "Christian Lupo Lecce",
+        "Christian Lupo Under 17"
+      ]
+    },
+    {
+      "name": "Diego Perillo",
+      "club": "Atalanta",
+      "role": "Punta",
+      "born": 2009,
+      "status": "primavera",
+      "queries": [
+        "Diego Perillo Atalanta",
+        "Diego Perillo Under 17"
+      ]
+    },
+    {
+      "name": "Davide Sorino",
+      "club": "Inter",
+      "role": "Esterno offensivo",
+      "born": 2008,
+      "status": "primavera",
+      "queries": [
+        "Davide Sorino Inter"
+      ]
+    },
+    {
+      "name": "Dennis Beldenti",
+      "club": "Fiorentina",
+      "role": "Trequartista",
+      "born": 2010,
+      "status": "giovanili",
+      "queries": [
+        "Dennis Beldenti Fiorentina"
+      ]
+    },
+    {
+      "name": "Federico Croci",
+      "club": "Fiorentina",
+      "role": "Trequartista",
+      "born": 2010,
+      "status": "giovanili",
+      "queries": [
+        "Federico Croci Fiorentina"
+      ]
+    },
+    {
+      "name": "Mattia Angelicchio",
+      "club": "Milan",
+      "role": "Centrocampista",
+      "born": 2009,
+      "status": "primavera",
+      "queries": [
+        "Mattia Angelicchio Milan"
+      ]
+    },
+    {
+      "name": "Mattia Guaglianone",
+      "club": "Roma",
+      "role": "Trequartista",
+      "born": 2010,
+      "status": "giovanili",
+      "queries": [
+        "Mattia Guaglianone Roma"
+      ]
+    },
+    {
+      "name": "Gabriel Kulla",
+      "club": "Sassuolo",
+      "role": "Attaccante",
+      "born": 2008,
+      "status": "primavera",
+      "queries": [
+        "Gabriel Kulla Sassuolo"
+      ]
+    },
+    {
+      "name": "Vincenzo Prisco",
+      "club": "Napoli",
+      "role": "Regista",
+      "born": 2008,
+      "status": "primavera",
+      "queries": [
+        "Vincenzo Prisco Napoli"
+      ]
+    },
+    {
+      "name": "Leonardo Noah Bovio",
+      "club": "Inter",
+      "role": "Difensore",
+      "born": 2008,
+      "status": "primavera",
+      "queries": [
+        "Leonardo Bovio Inter"
+      ]
+    },
+    {
+      "name": "Andrea Ballanti",
+      "club": "Torino",
+      "role": "Centrocampista",
+      "born": 2008,
+      "status": "primavera",
+      "queries": [
+        "Andrea Ballanti Torino"
+      ]
+    },
+    {
+      "name": "Valerio Maccaroni",
+      "club": "Roma",
+      "role": "Centrocampista",
+      "born": 2008,
+      "status": "primavera",
+      "queries": [
+        "Valerio Maccaroni Roma"
+      ]
+    },
+    {
+      "name": "Thomas Campaniello",
+      "club": "Empoli",
+      "role": "Attaccante",
+      "born": 2008,
+      "status": "primavera",
+      "queries": [
+        "Thomas Campaniello Empoli"
+      ]
+    },
+    {
+      "name": "Christian Fogliaro",
+      "club": "Monza",
+      "role": "Attaccante",
+      "born": 2008,
+      "status": "primavera",
+      "queries": [
+        "Christian Fogliaro Monza"
+      ]
+    },
+    {
+      "name": "Alessandro Longoni",
+      "club": "Milan",
+      "role": "Portiere",
+      "born": 2008,
+      "status": "primavera",
+      "queries": [
+        "Alessandro Longoni Milan"
+      ]
+    },
+    {
+      "name": "Francesco Cereser",
+      "club": "Torino",
+      "role": "Portiere",
+      "born": 2008,
+      "status": "primavera",
+      "queries": [
+        "Francesco Cereser Torino"
+      ]
+    },
+    {
+      "name": "Cristiano De Paoli",
+      "club": "Como",
+      "role": "Difensore",
+      "born": 2008,
+      "status": "primavera",
+      "queries": [
+        "Cristiano De Paoli Como"
+      ]
+    },
+    {
+      "name": "Vincenzo Damiano",
+      "club": "Venezia",
+      "role": "Centrocampista",
+      "born": 2008,
+      "status": "primavera",
+      "queries": [
+        "Vincenzo Damiano Venezia"
+      ]
+    },
+    {
+      "name": "Christian Dottori",
+      "club": "Perugia",
+      "role": "Centrocampista",
+      "born": 2008,
+      "status": "primavera",
+      "queries": [
+        "Christian Dottori Perugia"
+      ]
+    },
+    {
+      "name": "David Bonacina",
+      "club": "Torino",
+      "role": "Attaccante",
+      "born": 2008,
+      "status": "primavera",
+      "queries": [
+        "David Bonacina Torino"
+      ]
     }
   ],
   "extraQueries": [
