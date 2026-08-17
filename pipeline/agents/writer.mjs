@@ -78,7 +78,8 @@ REGOLE FERREE:
 - Riscrivi TUTTO con parole tue: mai copiare frasi dalla fonte.
 - Solo fatti presenti nella fonte o nel titolo. VIETATO inventare dettagli.
 - 2-3 paragrafi brevi per lingua, separati da riga vuota.
-- Se pertinente, chiudi collegando alla prospettiva 2030.
+- NON menzionare i "Mondiali 2030", "obiettivo 2030" o simili proiezioni al futuro: sarebbe ripetitivo e stucchevole. Resta sul fatto di cronaca. (Un riferimento al 2030 è ammesso SOLO nel raro caso in cui la fonte stessa parli esplicitamente della corsa alla nazionale o al Mondiale.)
+- VARIA ogni articolo: cambia l'attacco (a volte il fatto, a volte una statistica, a volte una dichiarazione), la struttura e il ritmo. Evita formule ricorrenti e frasi-cliché ("classe 20xx", "predestinato", "gioiello", "obiettivo 2030", "nel giro della nazionale"). Ogni pezzo deve leggersi diverso dagli altri.
 
 Rispondi SOLO con JSON valido:
 {"title":"titolo italiano pulito","titleEn":"titolo inglese pulito","excerpt":"sommario italiano di 1-2 frasi","excerptEn":"sommario inglese","bodyIt":"articolo italiano","bodyEn":"articolo inglese"}`;
