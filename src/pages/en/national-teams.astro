@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import { formatDate } from '../../lib/utils';
 import compData from '../../../data/competitions.json';
+import ranking from '../../../data/ranking.json';
 
 const posts = await getCollection('news');
 const today = new Date().toISOString().slice(0, 10);
@@ -60,6 +61,29 @@ const PHASES = [
       </div>
     </div>
   </div>
+
+  <a class="fifa-rank" href={ranking.sourceUrl} target="_blank" rel="noopener">
+    <div class="fr-badge">
+      <div class="fr-label">FIFA Ranking 🇮🇹</div>
+      <div class="fr-pos"><span class="fr-hash">#</span>{ranking.italy.rank}</div>
+      <div class="fr-pts">{ranking.italy.points.toLocaleString('en-US')} pts</div>
+      <div class={`fr-trend ${ranking.italy.trend < 0 ? 'down' : ranking.italy.trend > 0 ? 'up' : ''}`}>
+        {ranking.italy.trend < 0 ? `▼ ${Math.abs(ranking.italy.trend)}` : ranking.italy.trend > 0 ? `▲ ${ranking.italy.trend}` : '='}
+      </div>
+    </div>
+    <div class="fr-body">
+      <p class="fr-note">{ranking.italy.noteEn}</p>
+      <div class="fr-table">
+        <div class="fr-row fr-top"><span>{ranking.top[0].rank}. {ranking.top[0].teamEn}</span><b>{ranking.top[0].points.toLocaleString('en-US')}</b></div>
+        <div class="fr-row fr-top"><span>{ranking.top[1].rank}. {ranking.top[1].teamEn}</span><b>{ranking.top[1].points.toLocaleString('en-US')}</b></div>
+        <div class="fr-gap">···</div>
+        {ranking.around.map((r) => (
+          <div class={`fr-row ${r.italy ? 'fr-italy' : ''}`}><span>{r.rank}. {r.teamEn}</span><b>{r.points.toLocaleString('en-US')}</b></div>
+        ))}
+      </div>
+      <div class="fr-src">Updated: {ranking.updatedLabelEn} · {ranking.source} →</div>
+    </div>
+  </a>
 
   <div class="team-tabs" id="team-tabs">
     {compData.teams.map((t, i) => (
@@ -124,6 +148,42 @@ const PHASES = [
   </script>
 
   <style>
+    /* ── FIFA Ranking panel ────────────────── */
+    .fifa-rank {
+      display: flex; gap: 1.3rem; align-items: stretch; text-decoration: none;
+      background: linear-gradient(135deg, rgba(23,58,102,.75), rgba(14,46,82,.55));
+      border: 1px solid var(--border-gold); border-radius: 16px;
+      padding: 1.1rem 1.3rem; margin: 1.6rem 0 1.9rem;
+      box-shadow: 0 10px 30px rgba(0,0,0,.25); transition: border-color .15s ease, transform .15s ease;
+    }
+    .fifa-rank:hover { border-color: var(--gold); transform: translateY(-2px); }
+    .fr-badge {
+      flex: 0 0 auto; text-align: center; padding-right: 1.3rem;
+      border-right: 1px solid var(--border); display: flex; flex-direction: column; justify-content: center; gap: .1rem;
+    }
+    .fr-label { font-family: var(--font-display); font-size: .64rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+    .fr-pos { font-family: var(--font-display); font-weight: 800; font-size: 3.1rem; line-height: 1; color: var(--gold); }
+    .fr-hash { font-size: 1.5rem; vertical-align: super; opacity: .7; }
+    .fr-pts { font-size: .74rem; color: #cfe2f4; margin-top: .15rem; }
+    .fr-trend { font-family: var(--font-display); font-size: .82rem; font-weight: 700; margin-top: .3rem; color: var(--muted); }
+    .fr-trend.down { color: #ff6b6b; }
+    .fr-trend.up { color: #4ade80; }
+    .fr-body { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: .5rem; min-width: 0; }
+    .fr-note { font-size: .86rem; color: #cfe2f4; margin: 0; }
+    .fr-table { display: flex; flex-direction: column; gap: .12rem; }
+    .fr-row { display: flex; justify-content: space-between; gap: 1rem; font-size: .8rem; color: var(--muted); padding: .12rem 0; }
+    .fr-row b { color: #cfe2f4; font-family: var(--font-display); font-weight: 600; }
+    .fr-row.fr-top span { color: #cfe2f4; }
+    .fr-row.fr-italy { color: var(--gold); font-weight: 700; border-top: 1px dashed var(--border-gold); border-bottom: 1px dashed var(--border-gold); padding: .28rem 0; }
+    .fr-row.fr-italy b { color: var(--gold); }
+    .fr-gap { color: var(--muted); font-size: .7rem; letter-spacing: .3em; text-align: center; opacity: .6; }
+    .fr-src { font-family: var(--font-display); font-size: .66rem; letter-spacing: .06em; color: var(--gold); margin-top: .2rem; }
+    @media (max-width: 620px) {
+      .fifa-rank { flex-direction: column; gap: .9rem; }
+      .fr-badge { border-right: none; border-bottom: 1px solid var(--border); padding-right: 0; padding-bottom: .8rem; flex-direction: row; justify-content: center; align-items: baseline; gap: .6rem; }
+      .fr-pos { font-size: 2.4rem; }
+    }
+
     .team-tabs { display: flex; gap: .6rem; flex-wrap: wrap; margin-bottom: .6rem; }
     .team-tab {
       font-family: var(--font-display); font-size: .82rem; font-weight: 700; letter-spacing: .08em;
