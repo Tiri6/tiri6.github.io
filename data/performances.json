@@ -2,6 +2,19 @@
   "_note": "REGOLA: solo prestazioni verificate, ogni voce deve avere una fonte. Campi opzionali: minutes, rating, goals, assists (ometti ciò che non è verificato). Aggiorna dopo ogni giornata.",
   "performances": [
     {
+      "date": "2026-08-17",
+      "player": "Mattia Liberali",
+      "club": "Como",
+      "opponent": "Como",
+      "competition": "Serie A",
+      "result": "",
+      "goals": 1,
+      "note": "Ha segnato un gol di buona qualità mostrando le proprie qualità tecniche",
+      "noteEn": "Scored a good quality goal demonstrating his technical qualities",
+      "source": "milanistichannel.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbWtTcFdEUmU1QXlhWUNnazQwSTdYbVphaWZLVmxKaW1VQWJWLXkyOXNZWHkxMzRkTlVpZmRVd2Z2d2ttV3E1cVVCX3JZVzRFeWRDV2pTc3ZoLWx1SzAwNnl1MGtGZlNHSFZ6S2NpMmd6VUJ6bUFmMFBKOWFhS2d3ckdyMDFselVKbHJLbDdCc21sWUxUMWdPcDRFM25HbDRtQk5zLdIBqgFBVV95cUxNclpqYnhOeEp0N3pQV09RT3NLYmI2ZGc5aHNyNE5SVDhnVEo2VW9NOTU0TUtubXEwZVlodXA3MWZwLWdqTHoydjJlTXRwdFpzY21GZE04Nkk4WEs0S3o2MlNFOWttVlBpY3FibC1YRng1TTluT1N2azk2QU5CWHQwMVZMcWU4WGFJTEV1Yy1QN3BCNkw4Z0E5YUZCeDJfZE5keVExblZ5WS1PUQ?oc=5"
+    },
+    {
       "date": "2026-07-29",
       "player": "Mattia Marello",
       "club": "Inter",
