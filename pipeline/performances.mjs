@@ -99,6 +99,14 @@ Rispondi SOLO con JSON valido: {"performances":[...]}. Se nessuno ha giocato, {"
       if (existing.has(`${perf.player}|${c.date}`)) continue;
       // richiede almeno avversario o risultato: senza, non è una prestazione utile
       if (!perf.opponent && !perf.result) continue;
+      // scarta le estrazioni sballate in cui l'"avversario" è la squadra stessa
+      // (capita con articoli vaghi: "gol nella sfida del Como" → opponent=Como)
+      const opp = (perf.opponent ?? '').trim().toLowerCase();
+      const own = (perf.club ?? '').trim().toLowerCase();
+      if (opp && own && (opp === own || opp.includes(own) || own.includes(opp))) {
+        if (!perf.result) continue; // senza un risultato reale non è affidabile
+        perf.opponent = ''; // teniamo la prestazione ma senza avversario errato
+      }
       db.performances.push({
         date: c.date,
         player: perf.player,
