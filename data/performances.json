@@ -2,6 +2,55 @@
   "_note": "REGOLA: solo prestazioni verificate, ogni voce deve avere una fonte. Campi opzionali: minutes, rating, goals, assists (ometti ciò che non è verificato). Aggiorna dopo ogni giornata.",
   "performances": [
     {
+      "date": "2026-08-19",
+      "player": "Matteo Cichella",
+      "club": "Frosinone",
+      "opponent": "Juve Stabia",
+      "competition": "Coppa Italia",
+      "result": "",
+      "goals": 1,
+      "note": "Ha segnato un gol di grande bellezza con precisione, dilatando il vantaggio della squadra di casa",
+      "noteEn": "Scored a beautiful goal with precision, extending the home team's advantage",
+      "source": "Mediaset Infinity",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPYUhiUW5Od1dIYW1xeXdLVkw1NXBWUXhqNkVaX2p3MjBXZE9MUzk5bGpkbXhybkVxLWZVY3l6b1RRTi1PY0RqSWZXcG82RU1lMG1UeVlia0ZEWDNFTXJvX3d3NG4ySDQybUpFVjNGaEMtQVdRd25SOXREbTJoS3hVS2l0ZHcxcGZna1NERHViUWlaRkxHby1jZTNjU0FoSzBfQ05nMjlrNF9SX0E5RkMxZUZMRWw0VHVVcVFNTExzNzdjZ0FVdk1sSEZadkxOckxIYmhBclp0QWs5QQ?oc=5"
+    },
+    {
+      "date": "2026-08-19",
+      "player": "Tommaso Baldanzi",
+      "club": "",
+      "opponent": "Marassi",
+      "competition": "",
+      "result": "",
+      "note": "Ha confermato di saper gestire il ritmo della gara con lucidità e personalità.",
+      "noteEn": "Confirmed ability to manage the pace of the match with lucidity and personality.",
+      "source": "Calcio Genoa",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUGZjNXQ1ekdETUdpUy01eUFUaHdWYk1aX2lzZnRJYk03V1lyWFJmalpDSkw2TnFuTF9KNnNnNEQ4clh5Wkh6VG83S3pZZFN5MkItWVBNTFN0TGtaT0ZuUDlIczNkdlpxTTVkSXJZcjB3MHJmcTZpdUhZT3AtQWM2b2lLQ0NwMHdQamVKMEl3Y2g1R1FqTWFSYXduTFJoYnRJcjFHY1dkZTktYkgtOWhTNWlaS21TUQ?oc=5"
+    },
+    {
+      "date": "2026-08-19",
+      "player": "Leonardo Colombo",
+      "club": "",
+      "opponent": "Marassi",
+      "competition": "",
+      "result": "",
+      "note": "Ha confermato di saper gestire il ritmo della gara con lucidità e personalità.",
+      "noteEn": "Confirmed ability to manage the pace of the match with lucidity and personality.",
+      "source": "Calcio Genoa",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUGZjNXQ1ekdETUdpUy01eUFUaHdWYk1aX2lzZnRJYk03V1lyWFJmalpDSkw2TnFuTF9KNnNnNEQ4clh5Wkh6VG83S3pZZFN5MkItWVBNTFN0TGtaT0ZuUDlIczNkdlpxTTVkSXJZcjB3MHJmcTZpdUhZT3AtQWM2b2lLQ0NwMHdQamVKMEl3Y2g1R1FqTWFSYXduTFJoYnRJcjFHY1dkZTktYkgtOWhTNWlaS21TUQ?oc=5"
+    },
+    {
+      "date": "2026-08-19",
+      "player": "Samuel Wiafe",
+      "club": "",
+      "opponent": "Marassi",
+      "competition": "",
+      "result": "",
+      "note": "Ha dimostrato che l'arrivo di nuovi elementi non comporta una fase di rodaggio estenuante, con contributo tangibile.",
+      "noteEn": "Demonstrated that the arrival of new elements does not necessarily entail an exhausting settling-in phase, with tangible contribution.",
+      "source": "Calcio Genoa",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUGZjNXQ1ekdETUdpUy01eUFUaHdWYk1aX2lzZnRJYk03V1lyWFJmalpDSkw2TnFuTF9KNnNnNEQ4clh5Wkh6VG83S3pZZFN5MkItWVBNTFN0TGtaT0ZuUDlIczNkdlpxTTVkSXJZcjB3MHJmcTZpdUhZT3AtQWM2b2lLQ0NwMHdQamVKMEl3Y2g1R1FqTWFSYXduTFJoYnRJcjFHY1dkZTktYkgtOWhTNWlaS21TUQ?oc=5"
+    },
+    {
       "date": "2026-08-09",
       "player": "Samuele Inacio",
       "club": "Borussia Dortmund",
