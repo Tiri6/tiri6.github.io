@@ -2,6 +2,18 @@
   "_note": "REGOLA: solo prestazioni verificate, ogni voce deve avere una fonte. Campi opzionali: minutes, rating, goals, assists (ometti ciò che non è verificato). Aggiorna dopo ogni giornata.",
   "performances": [
     {
+      "date": "2026-08-28",
+      "player": "Diego Mascardi",
+      "club": "Torino",
+      "opponent": "Milan",
+      "competition": "",
+      "result": "1-2",
+      "note": "La prestazione del difensore granata si è distinta nella partita",
+      "noteEn": "La prestazione del difensore granata si è distinta nella partita",
+      "source": "Torino Granata",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxObmpRU19Qc0p4QzRKNDdoT3RVUWY3emllMmtQelMzTXplYnJCUVBPWGNQVFE2SUgzaVlkR2dKOHhBRzhrVE5ORkNWaHNwX2lyVTBTR1FEX3FLcVB2M1pObDhyajNoTno4WkdwUkd1di1vWWozX05mT2FxSVMyYTloVmJVUUZCTUo4X0xrUVlFYm5HVVFKSFl3cDRPc0I1MXZ5VHEzYTJtdlF5a1hPbmRVbE9kbTdkUHRGcUhzU19YLW9xUDFLNk90ZHFYWGJadzVUUkZKYW9hR1AwQzRmczY1dTF3?oc=5"
+    },
+    {
       "date": "2026-08-25",
       "player": "Marco Palestra",
       "club": "Chelsea",
@@ -236,20 +248,6 @@
       "rating": 7,
       "note": "Sblocca la partita con freddezza dal dischetto all'11'.",
       "noteEn": "Coolly opened the scoring from the spot on 11 minutes.",
-      "source": "Virgilio Sport",
-      "sourceUrl": "https://sport.virgilio.it/europei-u19-pagelle-italia-serbia-961601"
-    },
-    {
-      "date": "2026-06-29",
-      "player": "Jamal Iddrissou",
-      "club": "Italia U19",
-      "opponent": "Serbia",
-      "competition": "Europeo U19 · Gruppo B",
-      "result": "2-0",
-      "goals": 1,
-      "rating": 7,
-      "note": "Cresce alla distanza e firma il 2-0 nella ripresa su assist di Idele.",
-      "noteEn": "Grew into the game and sealed the 2-0 in the second half from Idele's assist.",
       "source": "Virgilio Sport",
       "sourceUrl": "https://sport.virgilio.it/europei-u19-pagelle-italia-serbia-961601"
     }
