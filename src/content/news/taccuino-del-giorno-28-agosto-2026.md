@@ -1,0 +1,50 @@
+---
+title: "Taccuino del giorno · 28 agosto 2026"
+titleEn: "Daily Notebook · August 28, 2026"
+excerpt: "Movimenti di mercato e trattative per i talenti della prossima generazione azzurra: dal Napoli al Parma, passando per Inter e Genoa."
+excerptEn: "Market moves and negotiations for the talents of Italy's next generation: from Napoli to Parma, passing through Inter and Genoa."
+date: 2026-09-01
+publishedAt: 2026-09-01T11:40:00+02:00
+featured: true
+category: taccuino
+players: ["Vincenzo Prisco", "Giovanni Fabbian", "Christian Comotto", "Diego Mascardi", "Jamal Iddrissou"]
+competitions: []
+source: "Taccuino da 5 fonti"
+sourceUrl: ""
+---
+
+**Vincenzo Prisco**
+Il talento del Napoli potrebbe trasferirsi al Bari con la formula del prestito, un'occasione per accumulare esperienza in continuità. [fonte](https://news.google.com/rss/articles/CBMi0AFBVV95cUxNUWY0UkNLWFdWLVg0d2paR21ONUoxRzFNMnJzT21DbWVIRTNVbFNZQTNCdzcwRHdaNG9BNFc4b05DZ1JfdGRTeUpjOEp2WGYwU0tqLVBBSHZoR1lXd3ZrRkg4aEVnQ2dYZ3ljODFMMW1wQ0FnUUJNZGJsaVA2VzRpU3hmckE0dGx5V0t0OTE0MmdxTU9YTVBoVHh6cjkxaEVuVjNiS1REMjNCX1U0QUpfVTRwV1hyR3psbHZ3Q19OYzJUTTB2Tm1oVEZFUXNzYU9o?oc=5)
+
+**Giovanni Fabbian**
+Il centrocampista resta nel mirino del Parma come rinforzo di mercato, mentre il Napoli continua a seguire altri obiettivi come Zeballos. [fonte](https://news.google.com/rss/articles/CBMisgFBVV95cUxPaGxib3lkZkNSVzNTejNYaGtEbXJ0QzRjSFlKSm95bllkQk5ianRkOXBQTFVreFM2TlhQT1Ntd2JLbnNwbWg4d2dVT2tlaThOLVdsYVpHcnFrT0huUTNBa1B0WGRuN05ZV2x0cF9GWjFpUURUVkVsbF9sbEpMUVBkZC1Sb0FkaFExbkwzRk44OW9YM0ZUUTNDMHc1dDN4R09lUWpZQms1U3Z4b3Brc0dEcnh3?oc=5)
+
+**Christian Comotto**
+DZN dedica uno speciale al difensore, tracciando il profilo di un giovane promettente nel panorama italiano. [fonte](https://news.google.com/rss/articles/CBMi7gFBVV95cUxOMFNwUGVSUHVCNk9iei1naillxU3ExREFJem50YnNydGhhWl90YjBTRlVKOGFHVGk3TGlzQTJEb3VpWWxCYUxjUnRxYjJTaWM5SnF2ejVfdWZZUTZWWF8xdjlWMHpRWHpDTXJ6YU05OVlHZU5yZTdJdWdoWEU1Z2RYQ3hIWjROQThwaUFDMTV0SURVb2xyUFpBUUg2Nnh5UjVMTEd3TW9oQXd2ekFieXdnZ3RVRF9oRmhrd0hub3cyRXdqVXVKTEszc3NTTExlekdfcldmaUk2Q3BMZ3V4R2hsRFUwN3VVaV81U1V0UUJB?oc=5)
+
+**Diego Mascardi**
+La trattativa del Torino per Perri rimane bloccata: il club granata ha chiesto uno sconto, mentre Mascardi complica il quadro del mercato difensivo. [fonte](https://news.google.com/rss/articles/CBMitAFBVV95cUxPUGVUdXhCeEpTQWxhZnpQdVhnNWhoUC0zWHpoOWcxVS1lZFBJUlZRTnhPX3p4UnQyaVo4Y2pmeUttazhfbWVNMmFLU0Vzald5QjNZMUQ2c2RubElaVGhOTmswaDlwTlJUcUROOWZPWmFYdVN1NTBzZzM4amJsazI0MzJJZnpLZU1CSXNTT3psSjJxN1NDYkVGMmVfVy14Q0FzUzhQLVEwTkZLUmxVampQVmNUT1Q?oc=5)
+
+**Jamal Iddrissou**
+L'Inter ha respinto il tentativo del Genoa di acquisire il giovane attaccante nerazzurro, confermando la volontà di trattenere il talento. [fonte](https://news.google.com/rss/articles/CBMipgFBVV95cUxPbGpZZ01qOFNsN1hRd29RRWFNY01pdGxma0tranlhaDBvcU9RZzhoMkd2SkI5eHptZVBOT3RJMllKTEZ3bWxWYTFxVS1qSkpzRW5xd0k2X1RFZ3l2bmZSRk1hYnNuV1o5d0FuNkhKVlQtemFsYmhRS0JtS0RtLTRkeHloNEl1ZjVyRkZtYjlWSk56WmJiOFlKZlBRS3hNVW02WDd4Vjhn?oc=5)
+
+Una giornata ricca di movimenti in giro per la Serie A e non solo, con diversi giovani talenti al centro dell'attenzione del mercato estivo.
+
+<!--EN-->
+
+**Vincenzo Prisco**
+The Napoli talent could move to Bari on loan, an opportunity to accumulate experience in a steady role. [fonte](https://news.google.com/rss/articles/CBMi0AFBVV95cUxNUWY0UkNLWFdWLVg0d2paR21ONUoxRzFNMnJzT21DbWVIRTNVbFNZQTNCdzcwRHdaNG9BNFc4b05DZ1JfdGRTeUpjOEp2WGYwU0tqLVBBSHZoR1lXd3ZrRkg4aEVnQ2dYZ3ljODFMMW1wQ0FnUUJNZGJsaVA2VzRpU3hmckE0dGx5V0t0OTE0MmdxTU9YTVBoVHh6cjkxaEVuVjNiS1REMjNCX1U0QUpfVTRwV1hyR3psbHZ3Q19OYzJUTTB2Tm1oVEZFUXNzYU9o?oc=5)
+
+**Giovanni Fabbian**
+The midfielder remains in Parma's sights as a market reinforcement, while Napoli continues to pursue other targets like Zeballos. [fonte](https://news.google.com/rss/articles/CBMisgFBVV95cUxPaGxib3lkZkNSVzNTejNYaGtEbXJ0QzRjSFlKSm95bllkQk5ianRkOXBQTFVreFM2TlhQT1Ntd2JLbnNwbWg4d2dVT2tlaThOLVdsYVpHcnFrT0huUTNBa1B0WGRuN05ZV2x0cF9GWjFpUURUVkVsbF9sbEpMUVBkZC1Sb0FkaFExbkwzRk44OW9YM0ZUUTNDMHc1dDN4R09lUWpZQms1U3Z4b3Brc0dEcnh3?oc=5)
+
+**Christian Comotto**
+DAZN dedicates a special to the defender, profiling a young prospect in the Italian football landscape. [fonte](https://news.google.com/rss/articles/CBMi7gFBVV95cUxOMFNwUGVSUHVCNk9iei1naillxU3ExREFJem50YnNydGhhWl90YjBTRlVKOGFHVGk3TGlzQTJEb3VpWWxCYUxjUnRxYjJTaWM5SnF2ejVfdWZZUTZWWF8xdjlWMHpRWHpDTXJ6YU05OVlHZU5yZTdJdWdoWEU1Z2RYQ3hIWjROQThwaUFDMTV0SURVb2xyUFpBUUg2Nnh5UjVMTEd3TW9oQXd2ekFieXdnZ3RVRF9oRmhrd0hub3cyRXdqVXVKTEszc3NTTExlekdfcldmaUk2Q3BMZ3V4R2hsRFUwN3VVaV81U1V0UUJB?oc=5)
+
+**Diego Mascardi**
+Torino's deal for Perri remains at a standstill: the Granata club has requested a discount, while Mascardi complicates the defensive market picture. [fonte](https://news.google.com/rss/articles/CBMitAFBVV95cUxPUGVUdXhCeEpTQWxhZnpQdVhnNWhoUC0zWHpoOWcxVS1lZFBJUlZRTnhPX3p4UnQyaVo4Y2pmeUttazhfbWVNMmFLU0Vzald5QjNZMUQ2c2RubElaVGhOTmswaDlwTlJUcUROOWZPWmFYdVN1NTBzZzM4amJsazI0MzJJZnpLZU1CSXNTT3psSjJxN1NDYkVGMmVfVy14Q0FzUzhQLVEwTkZLUmxVampQVmNUT1Q?oc=5)
+
+**Jamal Iddrissou**
+Inter has rejected Genoa's attempt to acquire the young Inter striker, reaffirming the club's intent to retain the talent. [fonte](https://news.google.com/rss/articles/CBMipgFBVV95cUxPbGpZZ01qOFNsN1hRd29RRWFNY01pdGxma0tranlhaDBvcU9RZzhoMkd2SkI5eHptZVBOT3RJMllKTEZ3bWxWYTFxVS1qSkpzRW5xd0k2X1RFZ3l2bmZSRk1hYnNuV1o5d0FuNkhKVlQtemFsYmhRS0JtS0RtLTRkeHloNEl1ZjVyRkZtYjlWSk56WmJiOFlKZlBRS3hNVW02WDd4Vjhn?oc=5)
+
+A busy day across Serie A and beyond, with several young talents at the center of summer transfer market attention.
