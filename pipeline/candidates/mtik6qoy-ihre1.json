@@ -12,5 +12,14 @@
   ],
   "category": "news",
   "score": 4,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "title": "Bonacina, il Torino blocca la porta: Como serve 2 milioni",
+    "titleEn": "Bonacina, Torino holds firm: Como must pay 2 million",
+    "excerpt": "Il Como punta al difensore granata, ma il club piemontese fissa un prezzo preciso per lasciarlo partire.",
+    "excerptEn": "Como target the Torino defender, but the Piedmont club sets a firm price for his departure.",
+    "bodyIt": "David Bonacina continua a stuzzicare l'interesse di altre società, ma il Torino non intende facilitare un'eventuale cessione. Il club granata, di fronte alle avances del Como, ha alzato le barricate fissando una valutazione di due milioni di euro per il giovane difensore.\n\nUna posizione netta quella di Cairo e soci: Bonacina rientra nei piani tattici della squadra e non rappresenta una merce facilmente trasferibile a cifre di saldo. Il Como, che segue il profilo con attenzione, sa dunque a cosa andrà incontro qualora decidesse di formalizzare l'interesse in maniera concreta.",
+    "bodyEn": "David Bonacina continues to attract attention from other clubs, but Torino has no intention of making his departure an easy affair. Facing Como's interest, the Piedmont side has made their stance clear, placing a two-million-euro price tag on the young defender.\n\nIt is a firm position from the Torino hierarchy: Bonacina fits into the club's tactical plans and is not viewed as expendable merchandise. Como, monitoring the situation closely, now understands the financial hurdle that would need to be cleared should they decide to push forward with a concrete approach.",
+    "_fromSource": true
+  }
 }
