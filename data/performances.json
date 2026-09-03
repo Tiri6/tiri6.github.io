@@ -2,6 +2,30 @@
   "_note": "REGOLA: solo prestazioni verificate, ogni voce deve avere una fonte. Campi opzionali: minutes, rating, goals, assists (ometti ciò che non è verificato). Aggiorna dopo ogni giornata.",
   "performances": [
     {
+      "date": "2026-09-02",
+      "player": "Tommaso Baldanzi",
+      "club": "Genoa",
+      "opponent": "Ascoli",
+      "competition": "Coppa Italia",
+      "result": "",
+      "note": "ha dimostrato di saper incidere quando chiamato in causa",
+      "noteEn": "showed the ability to make an impact when called upon",
+      "source": "SOS Fanta",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVUxpeS1HdnRwRWxOaXFwM05UUnhyTlFQYkpGQ3JfLWlwNEM0MzlMYUJVZjdEVEh3Q2gzTEdpVC1PWG4tbHV6UnRBVks0TkE1aXhyNlhvWFFYeUtQVmM3N1huenVEUlkzcVc1dTZYY0FYMkNaYUZaUDFpTklrRElhdjFZYlZkb3EyQjNuODJVR1VHQWZDcVRmOGM4Q0ROU2lkM3pScG1ZVjhac0t3RVRPcHpiVHhWcDAtR04wNlp5cVbSAcYBQVVfeXFMT0VydVNqcmJyZkxWSnVoV3l4N3NTclhTU0wyRWlOMExvLTJJaHJlYXdsQy12czhiYUE0NHlQSWZ2SWxXYXVDc3NVSC1rRTRQc292VXNTVGlTQXQzdUJZdElBX25rcHA5c0RBVGlaZWdzZnJQTVBNYTJOb3pQbGhuYTNwOXl5M2c0WEV6WnFBSWhjVjdnVWQwNVlzQ1JEc3RnblM1V3N2YTVXRG1ta0dQMm85R1lzYmNTWkJBMnBHY3Yzb2ctNHB3?oc=5"
+    },
+    {
+      "date": "2026-09-02",
+      "player": "Leonardo Colombo",
+      "club": "Genoa",
+      "opponent": "Ascoli",
+      "competition": "Coppa Italia",
+      "result": "",
+      "note": "ha dimostrato di saper incidere quando chiamato in causa",
+      "noteEn": "showed the ability to make an impact when called upon",
+      "source": "SOS Fanta",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVUxpeS1HdnRwRWxOaXFwM05UUnhyTlFQYkpGQ3JfLWlwNEM0MzlMYUJVZjdEVEh3Q2gzTEdpVC1PWG4tbHV6UnRBVks0TkE1aXhyNlhvWFFYeUtQVmM3N1huenVEUlkzcVc1dTZYY0FYMkNaYUZaUDFpTklrRElhdjFZYlZkb3EyQjNuODJVR1VHQWZDcVRmOGM4Q0ROU2lkM3pScG1ZVjhac0t3RVRPcHpiVHhWcDAtR04wNlp5cVbSAcYBQVVfeXFMT0VydVNqcmJyZkxWSnVoV3l4N3NTclhTU0wyRWlOMExvLTJJaHJlYXdsQy12czhiYUE0NHlQSWZ2SWxXYXVDc3NVSC1rRTRQc292VXNTVGlTQXQzdUJZdElBX25rcHA5c0RBVGlaZWdzZnJQTVBNYTJOb3pQbGhuYTNwOXl5M2c0WEV6WnFBSWhjVjdnVWQwNVlzQ1JEc3RnblM1V3N2YTVXRG1ta0dQMm85R1lzYmNTWkJBMnBHY3Yzb2ctNHB3?oc=5"
+    },
+    {
       "date": "2026-08-28",
       "player": "Diego Mascardi",
       "club": "Torino",
@@ -224,32 +248,6 @@
       "noteEn": "Among Italy's best in the goalless draw at Caernarfon.",
       "source": "Virgilio Sport",
       "sourceUrl": "https://sport.virgilio.it/europei-u19-top-e-flop-di-croazia-italia-liberali-flop-962095"
-    },
-    {
-      "date": "2026-07-02",
-      "player": "Mattia Liberali",
-      "club": "Italia U19",
-      "opponent": "Croazia",
-      "competition": "Europeo U19 · Gruppo B",
-      "result": "0-0",
-      "note": "Serata opaca dopo la grande prova con la Serbia: succede, a 19 anni.",
-      "noteEn": "A quiet night after his big Serbia display: it happens at 19.",
-      "source": "Virgilio Sport",
-      "sourceUrl": "https://sport.virgilio.it/europei-u19-top-e-flop-di-croazia-italia-liberali-flop-962095"
-    },
-    {
-      "date": "2026-06-29",
-      "player": "Mattia Liberali",
-      "club": "Italia U19",
-      "opponent": "Serbia",
-      "competition": "Europeo U19 · Gruppo B",
-      "result": "2-0",
-      "goals": 1,
-      "rating": 7,
-      "note": "Sblocca la partita con freddezza dal dischetto all'11'.",
-      "noteEn": "Coolly opened the scoring from the spot on 11 minutes.",
-      "source": "Virgilio Sport",
-      "sourceUrl": "https://sport.virgilio.it/europei-u19-pagelle-italia-serbia-961601"
     }
   ]
 }
