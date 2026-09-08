@@ -1,0 +1,50 @@
+---
+title: "Taccuino del giorno · 5 settembre 2026"
+titleEn: "Daily Notebook · September 5, 2026"
+excerpt: "Movimenti interessanti nel calcio giovanile italiano: dalla Serie B al salto in A, dai rientri in Primavera alle prestazioni in cadetteria."
+excerptEn: "Interesting movements in Italian youth football: from Serie B to the leap to Serie A, from Primavera returns to performances in the second tier."
+date: 2026-09-08
+publishedAt: 2026-09-08T11:00:00+02:00
+featured: true
+category: taccuino
+players: ["Samuel Wiafe", "Federico Croci", "Tommaso Baldanzi", "Diego Sia", "Dominic Vavassori", "Tommaso Rubino"]
+competitions: []
+source: "Taccuino da 5 fonti"
+sourceUrl: ""
+---
+
+**Samuel Wiafe**
+Dopo un'ottima stagione in Serie B con il Modena, il giovane talento sbarca al Genoa pronto a mettersi in mostra nel calcio dei grandi. [fonte](https://news.google.com/rss/articles/CBMipgFBVV95cUxPeWdqN3M1RWdPRmVZbXdiTUsxYmRRMEJvRFAtakdyc04xMjFQTUdIdjR6NG0tcDBhSmVtNThYd1UtdUdKTXZkaEN0a0E5MDlNQ2pzWjVaZ01mNXdpQWY4eWRxMlh3Q0NCUkFTWmZEWnVnellHZjJ2Q0ctX29KaEtGTWozdGZmMkxqNHdYdFpxSGVZSDBaMzROSmNKc3JhLWoydzRIUzZ3?oc=5)
+
+**Federico Croci**
+Andreazzoli ritrova Croci in formazione con la Fiorentina Primavera, che si prepara all'esordio assoluto davanti al pubblico. [fonte](https://news.google.com/rss/articles/CBMi6AFBVV95cUxQRENzRTIwNTViVFM2V0VtMWQyUXJVaEhjRWk5VjRVdVVBVHFzR2ItY0JGWlNNTVRWZDJiNzE1NXhuYU5sanNaQTF0Q0tsQWVSbkdCYlhtdlFxTXpmWFlyNko5TFJrUkVXOWVYN01MajRodllvVU4yNGNNa2VWU1JBMF9PN1pzVjdNOGtzZ25vZFI5Z0hLNmNOVjFnUnk4c2hSSC1ZMTk0QzBaQlFXWHJIR0RjTThnMjMyanozTThDX3NGNlRKNzhNUmNPdWVXVE9FTjhVX0c3WWh2eGZacTJZWW14QXVlajRO?oc=5)
+
+**Tommaso Baldanzi**
+De Rossi accende i riflettori sul Como come squadra di riferimento, citando anche i giovani in rosa e le loro qualità tecniche. [fonte](https://news.google.com/rss/articles/CBMiywFBVV95cUxQbmg2eFgtNkllSmI4UGVFd1VXTVFCWU5zVWJ1SEd0LTlnSHZPMG5WZzZLNzM2c1l2Z2pQY3FwM0ZhUGY5R3ZVM3FPOG4tN3FGTXhMWllIQVoxclFzcjdCdUt3a25ncnc4eUlNTnd0VHlOUzBZdTQ4UjZ5MG1iT2g3LW1BTTBWZEF3SFc3VGpjT1A1a0lLX0U5Nl9EM011M2loX3Y4V1VDQWRVRUR3SUF1c0o5SDZKdno2QnZjbGlJMHNjb0QwSVpZZEVB0gHKAUFVX3lxTFBuaDZ4WC02SWVKYjhQZUV3VVdNUUJZTnNVYnVIR3QtOWdIdk8wblZnNks3MzZzWXZnalBjcXAzRmFQZjlHdlUzcU84bi03cUZNeExaWUhBWjFyUXNyN0J1S3drbmdydzh5SU1Od3RUeU5TMFl1NDhSNnkwbWJPaDctbUFNMFZkQXdIVzdUamNPUDVrSUtfRTk2X0QzTXUzaWhfdjhXVUNBZFVFRHdJQXVzSjlINkp2ejZCdmNsaUkwc2NvRDBJWllkRUE?oc=5)
+
+**Dominic Vavassori**
+Il Palermo esibisce la propria qualità offensiva in trasferta al Mantova, con Strefezza e il giovane Vavassori protagonisti della cinquina. [fonte](https://news.google.com/rss/articles/CBMirgFBVV95cUxQMVpLM25SaV9INFVrRENnQ25iVU5Yc1doRnRuRUdkemlmdjZJRE9rSjhOZzZqOVhobmVSNGZPWUJySDRHYjVNNmJ2SW9OZ21yai15UXhrNjlBdF9UMDNEbnpZS3FxOEJjTGRpRllBb3Y2eTFyR2tNemstUTF0TUxDdG1SLS1wY2tvLUlxV3pNN21kRnJQV0dHZ2pFNWh4XzBsVkJvUk9nOTB5MlU4bGfSAa4BQVVfeXFMUDFaSzNuUmlfSDRVa0RDZ0NuYlVOWHNXaEZ0bkVHZHppZnY2SURPa0o4Tmc2ajlYaG5lUjRmT1lCckg0R2I1TTZidklvTmdtcmoteVF4azY5QXRfVDAzRG56WUtxcThCY0xkaUZZQW92NnkxckdrTXprLVExdE1MQ3RtUi0tcGNrby1JcVd6TTdtZEZyUFdHR2dqRTVoeF8wbFZCb1JPZzkweTJVOGxn?oc=5)
+
+**Tommaso Rubino**
+Il giovane viola in prestito affronta un ostacolo nelle prime settimane di stagione, ma Cioffi rassicura sul carattere passeggero dell'infortunio. [fonte](https://news.google.com/rss/articles/CBMi6gFBVV95cUxPSlVjQXlJalhhb1REdU83eno2dDhSX21yUWNTSy1DYTRUTnBKN1hWR0hNMml4R1V0RmFCcWFZdU16YnBoeDdOSm0wS0FKaThkbkoyNHlfNHNJYWctS1VCeGJCX3Nfa0FvOFh1WUZIQlpKbXBtbzlVbDNuVXpyY2pMekVHdm82VDZEVXBPZ0hEU2Y1YUEwYlpBUXh4S3hkZFdzNXZTOVd5NVo0LTFtc01zdFhNM2VPTGtTTnNMdGgwWnVGMk8xZXVXS3ZSTWZfeXhFZkEzZUV6dDAmaXl6X19YSWlOdzZNOXQ2ZUE?oc=5)
+
+Una giornata che racconta l'effervescenza del vivaio nazionale e i suoi spostamenti nei diversi livelli del professionismo.
+
+<!--EN-->
+
+**Samuel Wiafe**
+After an excellent season in Serie B with Modena, the young talent joins Genoa ready to make his mark in top-flight football. [source](https://news.google.com/rss/articles/CBMipgFBVV95cUxPeWdqN3M1RWdPRmVZbXdiTUsxYmRRMEJvRFAtakdyc04xMjFQTUdIdjR6NG0tcDBhSmVtNThYd1UtdUdKTXZkaEN0a0E5MDlNQ2pzWjVaZ01mNXdpQWY4eWRxMlh3Q0NCUkFTWmZEWnVnellHZjJ2Q0ctX29KaEtGTWozdGZmMkxqNHdYdFpxSGVZSDBaMzROSmNKc3JhLWoydzRIUzZ3?oc=5)
+
+**Federico Croci**
+Andreazzoli reunites with Croci in Fiorentina Primavera's lineup, preparing for an absolute debut in front of the crowd. [source](https://news.google.com/rss/articles/CBMi6AFBVV95cUxQRENzRTIwNTViVFM2V0VtMWQyUXJVaEhjRWk5VjRVdVVBVHFzR2ItY0JGWlNNTVRWZDJiNzE1NXhuYU5sanNaQTF0Q0tsQWVSbkdCYlhtdlFxTXpmWFlyNko5TFJrUkVXOWVYN01MajRodllvVU4yNGNNa2VWU1JBMF9PN1pzVjdNOGtzZ25vZFI5Z0hLNmNOVjFnUnk4c2hSSC1ZMTk0QzBaQlFXWHJIR0RjTThnMjMyanozTThDX3NGNlRKNzhNUmNPdWVXVE9FTjhVX0c3WWh2eGZacTJZWW14QXVlajRO?oc=5)
+
+**Tommaso Baldanzi**
+De Rossi shines a spotlight on Como as a benchmark squad, also citing the young talent on the roster and their technical qualities. [source](https://news.google.com/rss/articles/CBMiywFBVV95cUxQbmg2eFgtNkllSmI4UGVFd1VXTVFCWU5zVWJ1SEd0LTlnSHZPMG5WZzZLNzM2c1l2Z2pQY3FwM0ZhUGY5R3ZVM3FPOG4tN3FGTXhMWllIQVoxclFzcjdCdUt3a25ncnc4eUlNTnd0VHlOUzBZdTQ4UjZ5MG1iT2g3LW1BTTBWZEF3SFc3VGpjT1A1a0lLX0U5Nl9EM011M2loX3Y4V1VDQWRVRUR3SUF1c0o5SDZKdno2QnZjbGlJMHNjb0QwSVpZZEVB0gHKAUFVX3lxTFBuaDZ4WC02SWVKYjhQZUV3VVdNUUJZTnNVYnVIR3QtOWdIdk8wblZnNks3MzZzWXZnalBjcXAzRmFQZjlHdlUzcU84bi03cUZNeExaWUhBWjFyUXNyN0J1S3drbmdydzh5SU1Od3RUeU5TMFl1NDhSNnkwbWJPaDctbUFNMFZkQXdIVzdUamNPUDVrSUtfRTk2X0QzTXUzaWhfdjhXVUNBZFVFRHdJQXVzSjlINkp2ejZCdmNsaUkwc2NvRDBJWllkRUE?oc=5)
+
+**Dominic Vavassori**
+Palermo displays its offensive quality away to Mantova, with Strefezza and young Vavassori protagonists in a five-goal haul. [source](https://news.google.com/rss/articles/CBMirgFBVV95cUxQMVpLM25SaV9INFVrRENnQ25iVU5Yc1doRnRuRUdkemlmdjZJRE9rSjhOZzZqOVhobmVSNGZPWUJySDRHYjVNNmJ2SW9OZ21yai15UXhrNjlBdF9UMDNEbnpZS3FxOEJjTGRpRllBb3Y2eTFyR2tNemstUTF0TUxDdG1SLS1wY2tvLUlxV3pNN21kRnJQV0dHZ2pFNWh4XzBsVkJvUk9nOTB5MlU4bGfSAa4BQVVfeXFMUDFaSzNuUmlfSDRVa0RDZ0NuYlVOWHNXaEZ0bkVHZHppZnY2SURPa0o4Tmc2ajlYaG5lUjRmT1lCckg0R2I1TTZidklvTmdtcmoteVF4azY5QXRfVDAzRG56WUtxcThCY0xkaUZZQW92NnkxckdrTXprLVExdE1MQ3RtUi0tcGNrby1JcVd6TTdtZEZyUFdHR2dqRTVoeF8wbFZCb1JPZzkweTJVOGxn?oc=5)
+
+**Tommaso Rubino**
+The young Viola player on loan faces an obstacle in his opening weeks, but Cioffi reassures fans about the temporary nature of the injury. [source](https://news.google.com/rss/articles/CBMi6gFBVV95cUxPSlVjQXlJalhhb1REdU83eno2dDhSX21yUWNTSy1DYTRUTnBKN1hWR0hNMml4R1V0RmFCcWFZdU16YnBoeDdOSm0wS0FKaThkbkoyNHlfNHNJYWctS1VCeGJCX3Nfa0FvOFh1WUZIQlpKbXBtbzlVbDNuVXpyY2pMekVHdm82VDZEVXBPZ0hEU2Y1YUEwYlpBUXh4S3hkZFdzNXZTOVd5NVo0LTFtc01zdFhNM2VPTGtTTnNMdGgwWnVGMk8xZXVXS3ZSTWZfeXhFZkEzZUV6dDAmiXl6X19YSWlOdzZNOXQ2ZUE?oc=5)
+
+A day that tells the story of the effervescence of the national youth system and its movements across the various levels of professionalism.

@@ -1,0 +1,23 @@
+---
+title: "Prisco firma con i biancorossi: affare concluso in Serie C"
+titleEn: "Prisco completes move to Serie C club"
+excerpt: "Vincenzo Prisco è ufficialmente un nuovo giocatore della squadra biancrossa. Il trasferimento nel campionato di terza serie è stato ufficializzato."
+excerptEn: "Vincenzo Prisco is now officially a new player for the red and white club. The transfer to the third tier has been confirmed."
+date: 2026-09-08
+publishedAt: 2026-09-08T12:40:00+02:00
+category: mercato
+players: ["Vincenzo Prisco"]
+competitions: []
+source: "Tuttocampo"
+sourceUrl: "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQODZvQmZkOTg3TTZTb3d6ZkJHQXZPOGNEMDdNNW16Z3BhYm82dGdLT0lrZ0R1ZWJMSWdpNlNQbzVMNnNCLVkxTTFDXzFFTTZHTnhRTVptdGtSc1dUcjZuLXRiTXhqRVJVbzFzRkg1SnFPRndQRUpMZGp2cmt4QTh3ZlBBSmJDcm53eGE4NjBQT0N3dm1iNnBBLW5iZVF1eUFGTk8xZXREVlBsSGp3dmpnR3dKdVhCYnBG0gG8AUFVX3lxTFBzV2RydmhLSENZQkFuY2JqZngwQWVKdm9MWUktM0RNVklRaGJBTzJqYXFObXZZbzVBSi00NDhwSGxWNG9kYV96Zll2cFJ4alBPX3hHWlJ1MjhXQS1qb1lxYnZLaWpFc3NDS3pOdzBuNDc4OFh5YUlpV1JLLU5vczdBV0tDUW1rTThRaklxdjdnbDZma0FtMkExYW5FVkNsT2JBeTNRNk9xZTMyb3pTcnZ1TW4zeU8xQnVKTzND?oc=5"
+---
+
+Chiuso l'affare tra il giocatore e la società biancrossa: Vincenzo Prisco veste da oggi i colori di una delle squadre della Serie C. L'operazione di mercato rappresenta un nuovo capitolo nella carriera del calciatore.
+
+Prisco continua così il suo percorso nel campionato di terza livello, dove avrà l'opportunità di accumulare esperienza e maturare ulteriormente. Il club biancorosso punta su di lui per la stagione in corso.
+
+<!--EN-->
+
+The deal is complete: Vincenzo Prisco has joined the red and white club on an official basis. The transfer to Serie C marks a new stage in the player's career development.
+
+Prisco continues his journey in the third tier, where he will have the chance to gain valuable experience and develop further. The club is banking on him for the upcoming campaign.
