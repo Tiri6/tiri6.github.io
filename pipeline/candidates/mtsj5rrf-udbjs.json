@@ -12,5 +12,14 @@
   ],
   "category": "mercato",
   "score": 6,
-  "status": "pending"
+  "status": "pending",
+  "draft": {
+    "title": "Cissè, il colpo del Milan che accende i riflettori della Nazionale",
+    "titleEn": "Cissè, Milan's signing that captures the attention of Italy's national team",
+    "excerpt": "Alphadjo Cissè emerge come uno degli acquisti più significativi del mercato rossonero sotto la gestione Amorim. La Federazione non può restare passiva: blindare il giovane talento in Nazionale diventa prioritario.",
+    "excerptEn": "Alphadjo Cissè stands out as one of Milan's most significant signings under Amorim's management. The national team cannot afford to wait: securing the young talent for Italy becomes urgent.",
+    "bodyIt": "Il Milan ha piazzato un colpo di mercato che va oltre la semplice operazione estiva: l'arrivo di Alphadjo Cissè rappresenta un investimento nel presente e, soprattutto, nel futuro della rosa rossonera. Con Amorim alla guida, il club ha mostrato capacità di visione nel preferire il giovane talento a soluzioni più consolidate.\n\nPer la Federazione Italiana la situazione impone scelte rapide. Cissè è il tipo di profilo che le grandi nazionali rivendicano con tempestività, proprio quando emerge dalla nebbia delle valutazioni preliminari. Blindarlo in azzurro diventa questione di prontezza strategica, non di semplice opportunità.",
+    "bodyEn": "Milan's signing of Alphadjo Cissè represents far more than a routine summer transfer—it's an investment in both the club's present and its tomorrow. Under Amorim's direction, the Rossoneri have shown strategic vision in backing a rising talent over more established alternatives.\n\nFor Italy's federation, the moment calls for swift action. Cissè embodies the profile that top national teams typically pursue with determination, precisely when a young prospect emerges from preliminary assessment and becomes undeniable. Committing him to the Azzurri's future becomes a matter of strategic timing rather than mere opportunity.",
+    "_fromSource": true
+  }
 }
